@@ -103,7 +103,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("image", nargs="?", help="Source image path")
     ap.add_argument("--title", default="")
-    ap.add_argument("--category", default="scene", choices=["sheet", "scene", "identity", "bunny"])
+    ap.add_argument("--category", default="scene", choices=["sheet", "scene", "identity", "bunny", "video"])
     ap.add_argument("--model", default="Seedream 5 Pro")
     ap.add_argument("--note", default="")
     ap.add_argument("--cdn", default="", help="optional CDN url (not shown in UI)")
@@ -143,9 +143,17 @@ def main() -> int:
         iid = f"{base}-{n}"
         n += 1
 
-    out_name = f"{iid}.jpg"
-    out_path = IMG / out_name
-    size = to_web_jpeg(src, out_path)
+    if src.suffix.lower() == ".mp4":
+        out_name = f"{iid}.mp4"
+        out_path = IMG / out_name
+        import shutil
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(src, out_path)
+        size = (0, 0)
+    else:
+        out_name = f"{iid}.jpg"
+        out_path = IMG / out_name
+        size = to_web_jpeg(src, out_path)
 
     item = {
         "id": iid,

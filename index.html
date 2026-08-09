@@ -79,6 +79,7 @@
     nav button[data-cat="scene"].active { border-color: var(--scene); color: var(--scene); }
     nav button[data-cat="bunny"].active { border-color: var(--bunny); color: var(--bunny); }
     nav button[data-cat="identity"].active { border-color: var(--identity); color: var(--identity); }
+    nav button[data-cat="video"].active { border-color: #ff5252; color: #ff5252; }
     main {
       max-width: 1280px;
       margin: 0 auto;
@@ -229,6 +230,7 @@
     <button type="button" data-cat="scene">Scenes</button>
     <button type="button" data-cat="identity">Identity</button>
     <button type="button" data-cat="bunny">Bunny</button>
+    <button type="button" data-cat="video">Video</button>
     <button type="button" data-cat="best">Best</button>
   </nav>
 
@@ -251,6 +253,7 @@
       { id: "scene", title: "Scenes (sex poses)" },
       { id: "identity", title: "Identity crops" },
       { id: "bunny", title: "Bunny" },
+      { id: "video", title: "Videos" }
     ];
     let DATA = null;
     let filter = "all";
@@ -283,10 +286,17 @@
       const mode = viewState.get(item.id) || "tigress";
       const src = mode === "pose" && hasPose ? item.pose : item.file;
       const badge = mode === "pose" ? "Поза (реф)" : "Тигрица";
+      
+      const isVideo = src.endsWith('.mp4');
+      const mediaHtml = isVideo 
+        ? `<video class="card-img" src="${escapeHtml(src)}" controls preload="metadata" loop style="object-fit:cover;"></video>`
+        : `<img class="card-img" src="${escapeHtml(src)}" alt="${escapeHtml(item.title)}" loading="lazy" />`;
+      const clickAction = isVideo ? "" : `data-src="${escapeHtml(src)}" title="Open full size"`;
+      
       return `
         <article class="card ${best ? "best" : ""}" data-id="${escapeHtml(item.id)}" data-file="${escapeHtml(item.file)}" data-pose="${escapeHtml(item.pose || "")}">
-          <div class="thumb" data-src="${escapeHtml(src)}" title="Open full size">
-            <img class="card-img" src="${escapeHtml(src)}" alt="${escapeHtml(item.title)}" loading="lazy" />
+          <div class="thumb" ${clickAction}>
+            ${mediaHtml}
             <span class="view-badge">${badge}</span>
           </div>
           <div class="toggle" role="tablist" aria-label="Тигрица или поза">
@@ -312,12 +322,38 @@
       if (mode === "pose" && !pose) return;
       viewState.set(id, mode);
       const src = mode === "pose" ? pose : file;
-      const img = card.querySelector(".card-img");
+      const isVideo = src.endsWith('.mp4');
       const thumb = card.querySelector(".thumb");
+      
+      const mediaHtml = isVideo 
+        ? `<video class="card-img" src="${escapeHtml(src)}" controls preload="metadata" loop style="object-fit:cover; width:100%; height:100%; display:block;"></video>`
+        : `<img class="card-img" src="${escapeHtml(src)}" alt="Media" loading="lazy" />`;
+      
+      // We need to keep the badge when replacing innerHTML or just replace the media tag.
+      let mediaEl = card.querySelector(".card-img");
+      if (mediaEl) {
+        if ((isVideo && mediaEl.tagName === 'IMG') || (!isVideo && mediaEl.tagName === 'VIDEO')) {
+            mediaEl.outerHTML = mediaHtml;
+        } else {
+            mediaEl.src = src;
+        }
+      }
+
       const badge = card.querySelector(".view-badge");
       const open = card.querySelector(".open-link");
-      if (img) img.src = src;
-      if (thumb) thumb.dataset.src = src;
+      
+      if (thumb) {
+        if (isVideo) {
+            thumb.removeAttribute("data-src");
+            thumb.removeAttribute("title");
+            thumb.style.cursor = "default";
+        } else {
+            thumb.dataset.src = src;
+            thumb.title = "Open full size";
+            thumb.style.cursor = "zoom-in";
+        }
+      }
+      
       if (badge) badge.textContent = mode === "pose" ? "Поза (реф)" : "Тигрица";
       if (open) open.href = src;
       card.querySelectorAll(".toggle button").forEach(b => {
@@ -347,8 +383,10 @@
         <div class="grid">${group.map(cardHtml).join("")}</div>`;
       main.appendChild(sec);
 
-      main.querySelectorAll(".thumb").forEach(el => {
-        el.addEventListener("click", () => openLb(el.dataset.src));
+      main.querySelectorAll(".thumb[data-src]").forEach(el => {
+        el.addEventListener("click", () => {
+          if (el.dataset.src) openLb(el.dataset.src);
+        });
       });
       main.querySelectorAll(".toggle button").forEach(btn => {
         btn.addEventListener("click", (e) => {

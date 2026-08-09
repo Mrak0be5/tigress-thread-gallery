@@ -92,14 +92,9 @@
       align-items: center;
       gap: 0.5rem;
     }
-    .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
-    .dot.sheet { background: var(--sheet); }
-    .dot.scene { background: var(--scene); }
-    .dot.bunny { background: var(--bunny); }
-    .dot.identity { background: var(--identity); }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 1rem;
     }
     .card {
@@ -118,12 +113,53 @@
       background: #0a0c10;
       cursor: zoom-in;
       overflow: hidden;
+      position: relative;
     }
     .thumb img {
       width: 100%;
       height: 100%;
       object-fit: cover;
       display: block;
+    }
+    .view-badge {
+      position: absolute;
+      top: 0.5rem;
+      left: 0.5rem;
+      font-size: 0.7rem;
+      padding: 0.15rem 0.45rem;
+      border-radius: 999px;
+      background: rgba(0,0,0,0.65);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #fff;
+      pointer-events: none;
+    }
+    .toggle {
+      display: flex;
+      gap: 0;
+      margin: 0;
+      padding: 0;
+      border-bottom: 1px solid var(--border);
+      background: #12161c;
+    }
+    .toggle button {
+      flex: 1;
+      border: none;
+      background: transparent;
+      color: var(--muted);
+      padding: 0.55rem 0.4rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+    }
+    .toggle button:hover { color: var(--text); }
+    .toggle button.active {
+      color: #fff;
+      border-bottom-color: var(--accent);
+      background: rgba(124, 156, 255, 0.08);
+    }
+    .toggle button:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
     }
     .meta { padding: 0.85rem 0.95rem 1rem; display: flex; flex-direction: column; gap: 0.3rem; flex: 1; }
     .meta h3 { margin: 0; font-size: 0.95rem; font-weight: 600; }
@@ -173,14 +209,13 @@
       border-radius: 999px; width: 2.2rem; height: 2.2rem;
       font-size: 1.2rem; cursor: pointer;
     }
-    .hidden { display: none !important; }
   </style>
 </head>
 <body>
   <header>
     <h1>Tigress thread gallery</h1>
-    <p>Все генерации из треда: identity sheets, 3-view, cowgirl / doggystyle / pool-table anal, bunny side quest.</p>
-    <p>Сортировка: <strong>новые сверху</strong> (по дате и времени). Новая генерация всегда первая.</p>
+    <p>Генерации тигрицы + оригинальные референсы поз. Под карточкой: переключатель <strong>Тигрица / Поза</strong>.</p>
+    <p>Сортировка: <strong>новые сверху</strong>.</p>
     <div class="badges">
       <span class="badge" id="count-badge">loading…</span>
       <span class="badge" id="updated-badge"></span>
@@ -201,7 +236,7 @@
 
   <footer>
     Local: <code>C:\Users\hebp\galleries\tigress-thread-gallery</code>
-    · push: <code>scripts/publish-add.py</code>
+    · push: <code>scripts/publish-add.py --pose path</code>
     · noindex
   </footer>
 
@@ -219,6 +254,8 @@
     ];
     let DATA = null;
     let filter = "all";
+    /** per-card view: "tigress" | "pose" */
+    const viewState = new Map();
 
     function escapeHtml(s) {
       return String(s)
@@ -228,7 +265,6 @@
         .replace(/"/g, "&quot;");
     }
 
-    /** Parse "YYYY-MM-DD HH:MM" or ISO → ms for sorting (newest first). */
     function itemTime(it) {
       const raw = it.date || it.created || "";
       const t = Date.parse(String(raw).replace(" ", "T"));
@@ -243,10 +279,19 @@
       const best = item.flag === "best";
       const noteClass = best || /лучш|best|final|correct|identity lock/i.test(item.note || "") ? "ok" : "";
       const when = item.date ? `<div class="note" style="opacity:.85">${escapeHtml(item.date)}</div>` : "";
+      const hasPose = Boolean(item.pose);
+      const mode = viewState.get(item.id) || "tigress";
+      const src = mode === "pose" && hasPose ? item.pose : item.file;
+      const badge = mode === "pose" ? "Поза (реф)" : "Тигрица";
       return `
-        <article class="card ${best ? "best" : ""}" data-cat="${escapeHtml(item.category || "")}" data-best="${best}">
-          <div class="thumb" data-src="${escapeHtml(item.file)}" title="Open full size">
-            <img src="${escapeHtml(item.file)}" alt="${escapeHtml(item.title)}" loading="lazy" />
+        <article class="card ${best ? "best" : ""}" data-id="${escapeHtml(item.id)}" data-file="${escapeHtml(item.file)}" data-pose="${escapeHtml(item.pose || "")}">
+          <div class="thumb" data-src="${escapeHtml(src)}" title="Open full size">
+            <img class="card-img" src="${escapeHtml(src)}" alt="${escapeHtml(item.title)}" loading="lazy" />
+            <span class="view-badge">${badge}</span>
+          </div>
+          <div class="toggle" role="tablist" aria-label="Тигрица или поза">
+            <button type="button" data-mode="tigress" class="${mode === "tigress" ? "active" : ""}">Тигрица</button>
+            <button type="button" data-mode="pose" class="${mode === "pose" ? "active" : ""}" ${hasPose ? "" : "disabled"} title="${hasPose ? "Оригинал позы" : "Реф позы нет"}">Поза</button>
           </div>
           <div class="meta">
             <h3>${escapeHtml(item.title)}</h3>
@@ -254,11 +299,30 @@
             ${when}
             <div class="note ${noteClass}">${escapeHtml(item.note || "")}</div>
             <div class="row">
-              <a class="btn" href="${escapeHtml(item.file)}" target="_blank" rel="noopener">Open</a>
-              ${item.cdn ? `<a class="btn" href="${escapeHtml(item.cdn)}" target="_blank" rel="noopener">CDN</a>` : ""}
+              <a class="btn open-link" href="${escapeHtml(src)}" target="_blank" rel="noopener">Open</a>
             </div>
           </div>
         </article>`;
+    }
+
+    function setCardMode(card, mode) {
+      const id = card.dataset.id;
+      const file = card.dataset.file;
+      const pose = card.dataset.pose;
+      if (mode === "pose" && !pose) return;
+      viewState.set(id, mode);
+      const src = mode === "pose" ? pose : file;
+      const img = card.querySelector(".card-img");
+      const thumb = card.querySelector(".thumb");
+      const badge = card.querySelector(".view-badge");
+      const open = card.querySelector(".open-link");
+      if (img) img.src = src;
+      if (thumb) thumb.dataset.src = src;
+      if (badge) badge.textContent = mode === "pose" ? "Поза (реф)" : "Тигрица";
+      if (open) open.href = src;
+      card.querySelectorAll(".toggle button").forEach(b => {
+        b.classList.toggle("active", b.dataset.mode === mode);
+      });
     }
 
     function render() {
@@ -272,26 +336,35 @@
         return (it.category || "") === filter;
       };
 
-      // Flat chronological grid (newest first). Category filter only narrows the set.
       const group = items.filter(match);
+      const withPose = group.filter(it => it.pose).length;
       const sec = document.createElement("section");
       const title =
         filter === "all" ? "По дате (новые сверху)"
         : filter === "best" ? "Best of thread"
         : (CATS.find(c => c.id === filter)?.title || filter);
-      sec.innerHTML = `<h2>${escapeHtml(title)} <span style="color:var(--muted);font-weight:400;font-size:0.9rem">(${group.length})</span></h2>
+      sec.innerHTML = `<h2>${escapeHtml(title)} <span style="color:var(--muted);font-weight:400;font-size:0.9rem">(${group.length}, с рефом позы: ${withPose})</span></h2>
         <div class="grid">${group.map(cardHtml).join("")}</div>`;
       main.appendChild(sec);
 
       main.querySelectorAll(".thumb").forEach(el => {
         el.addEventListener("click", () => openLb(el.dataset.src));
       });
+      main.querySelectorAll(".toggle button").forEach(btn => {
+        btn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          if (btn.disabled) return;
+          const card = btn.closest(".card");
+          setCardMode(card, btn.dataset.mode);
+        });
+      });
     }
 
     async function load() {
       const res = await fetch("manifest.json?ts=" + Date.now());
       DATA = await res.json();
-      document.getElementById("count-badge").textContent = DATA.items.length + " images";
+      const nPose = (DATA.items || []).filter(it => it.pose).length;
+      document.getElementById("count-badge").textContent = DATA.items.length + " images · " + nPose + " with pose ref";
       document.getElementById("updated-badge").textContent = "updated " + (DATA.updated || DATA.created || "");
       document.title = DATA.title || "Tigress thread gallery";
       render();

@@ -2,10 +2,10 @@
 """Add a new generation to the tigress thread gallery and optionally push to GitHub Pages.
 
 Usage:
-  python publish-add.py path/to/image.png --title "Pool v6" --category scene --model "Seedream 5 Pro" --note "fix notes" --cdn "https://..."
-  python publish-add.py path/to/image.png --title "..." --push
-  python publish-add.py --rebuild-only   # just regenerate index from manifest (noop)
-  python publish-add.py --push-only      # git add/commit/push existing tree
+  python publish-add.py path/to/image.png --title "Pool v6" --category scene --model "Seedream 5 Pro" --note "fix notes"
+  python publish-add.py path/to/image.png --pose path/to/pose_ref.png --title "..." --push
+  python publish-add.py --rebuild-only
+  python publish-add.py --push-only
 
 Defaults:
   GAL = C:\\Users\\hebp\\galleries\\tigress-thread-gallery
@@ -13,6 +13,7 @@ Defaults:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import subprocess
@@ -24,6 +25,7 @@ from PIL import Image
 
 GAL = Path(r"C:\Users\hebp\galleries\tigress-thread-gallery")
 IMG = GAL / "images"
+POSE_DIR = IMG / "poses"
 MANIFEST = GAL / "manifest.json"
 MAX_SIDE = 1800
 QUALITY = 86
@@ -104,7 +106,8 @@ def main() -> int:
     ap.add_argument("--category", default="scene", choices=["sheet", "scene", "identity", "bunny"])
     ap.add_argument("--model", default="Seedream 5 Pro")
     ap.add_argument("--note", default="")
-    ap.add_argument("--cdn", default="")
+    ap.add_argument("--cdn", default="", help="optional CDN url (not shown in UI)")
+    ap.add_argument("--pose", default="", help="original pose reference image path")
     ap.add_argument("--id", default="")
     ap.add_argument("--best", action="store_true")
     ap.add_argument("--push", action="store_true", help="git commit + push after add")
@@ -159,6 +162,17 @@ def main() -> int:
         item["cdn"] = args.cdn
     if args.best:
         item["flag"] = "best"
+    if args.pose:
+        pose_src = Path(args.pose)
+        if not pose_src.is_file():
+            print("Pose not found:", pose_src, file=sys.stderr)
+            return 1
+        h = hashlib.sha1(pose_src.read_bytes()).hexdigest()[:12]
+        pose_name = f"pose-{slugify(pose_src.stem)}-{h}.jpg"
+        pose_path = POSE_DIR / pose_name
+        to_web_jpeg(pose_src, pose_path)
+        item["pose"] = f"images/poses/{pose_name}"
+        print("Pose", pose_name, "->", pose_path)
 
     # Newest always on top
     data["items"].insert(0, item)

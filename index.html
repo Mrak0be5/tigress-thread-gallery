@@ -180,7 +180,7 @@
   <header>
     <h1>Tigress thread gallery</h1>
     <p>Все генерации из треда: identity sheets, 3-view, cowgirl / doggystyle / pool-table anal, bunny side quest.</p>
-    <p>Новые генерации из этой сессии добавляются сюда (publish-add).</p>
+    <p>Сортировка: <strong>новые сверху</strong> (по дате и времени). Новая генерация всегда первая.</p>
     <div class="badges">
       <span class="badge" id="count-badge">loading…</span>
       <span class="badge" id="updated-badge"></span>
@@ -228,9 +228,21 @@
         .replace(/"/g, "&quot;");
     }
 
+    /** Parse "YYYY-MM-DD HH:MM" or ISO → ms for sorting (newest first). */
+    function itemTime(it) {
+      const raw = it.date || it.created || "";
+      const t = Date.parse(String(raw).replace(" ", "T"));
+      return Number.isFinite(t) ? t : 0;
+    }
+
+    function sortNewestFirst(list) {
+      return list.slice().sort((a, b) => itemTime(b) - itemTime(a));
+    }
+
     function cardHtml(item) {
       const best = item.flag === "best";
       const noteClass = best || /лучш|best|final|correct|identity lock/i.test(item.note || "") ? "ok" : "";
+      const when = item.date ? `<div class="note" style="opacity:.85">${escapeHtml(item.date)}</div>` : "";
       return `
         <article class="card ${best ? "best" : ""}" data-cat="${escapeHtml(item.category || "")}" data-best="${best}">
           <div class="thumb" data-src="${escapeHtml(item.file)}" title="Open full size">
@@ -239,6 +251,7 @@
           <div class="meta">
             <h3>${escapeHtml(item.title)}</h3>
             <div class="model">${escapeHtml(item.model || "")}</div>
+            ${when}
             <div class="note ${noteClass}">${escapeHtml(item.note || "")}</div>
             <div class="row">
               <a class="btn" href="${escapeHtml(item.file)}" target="_blank" rel="noopener">Open</a>
@@ -250,7 +263,7 @@
 
     function render() {
       const main = document.getElementById("main");
-      const items = DATA.items || [];
+      const items = sortNewestFirst(DATA.items || []);
       main.innerHTML = "";
 
       const match = (it) => {
@@ -259,23 +272,16 @@
         return (it.category || "") === filter;
       };
 
-      if (filter === "all") {
-        for (const cat of CATS) {
-          const group = items.filter(it => it.category === cat.id);
-          if (!group.length) continue;
-          const sec = document.createElement("section");
-          sec.innerHTML = `<h2><span class="dot ${cat.id}"></span>${escapeHtml(cat.title)} <span style="color:var(--muted);font-weight:400;font-size:0.9rem">(${group.length})</span></h2>
-            <div class="grid">${group.map(cardHtml).join("")}</div>`;
-          main.appendChild(sec);
-        }
-      } else {
-        const group = items.filter(match);
-        const sec = document.createElement("section");
-        const title = filter === "best" ? "Best of thread" : (CATS.find(c => c.id === filter)?.title || filter);
-        sec.innerHTML = `<h2>${escapeHtml(title)} <span style="color:var(--muted);font-weight:400;font-size:0.9rem">(${group.length})</span></h2>
-          <div class="grid">${group.map(cardHtml).join("")}</div>`;
-        main.appendChild(sec);
-      }
+      // Flat chronological grid (newest first). Category filter only narrows the set.
+      const group = items.filter(match);
+      const sec = document.createElement("section");
+      const title =
+        filter === "all" ? "По дате (новые сверху)"
+        : filter === "best" ? "Best of thread"
+        : (CATS.find(c => c.id === filter)?.title || filter);
+      sec.innerHTML = `<h2>${escapeHtml(title)} <span style="color:var(--muted);font-weight:400;font-size:0.9rem">(${group.length})</span></h2>
+        <div class="grid">${group.map(cardHtml).join("")}</div>`;
+      main.appendChild(sec);
 
       main.querySelectorAll(".thumb").forEach(el => {
         el.addEventListener("click", () => openLb(el.dataset.src));

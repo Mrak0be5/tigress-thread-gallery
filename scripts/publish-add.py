@@ -66,7 +66,21 @@ def load_manifest() -> dict:
     }
 
 
+def item_sort_key(it: dict) -> str:
+    """Sort key for newest-first: higher date string first (YYYY-MM-DD HH:MM sorts lexicographically)."""
+    return str(it.get("date") or it.get("created") or "")
+
+
+def sort_items_newest_first(data: dict) -> None:
+    data["items"] = sorted(
+        data.get("items") or [],
+        key=item_sort_key,
+        reverse=True,
+    )
+
+
 def save_manifest(data: dict) -> None:
+    sort_items_newest_first(data)
     data["updated"] = datetime.now(timezone.utc).astimezone().isoformat(timespec="minutes")
     data["local_path"] = str(GAL)
     MANIFEST.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -146,7 +160,8 @@ def main() -> int:
     if args.best:
         item["flag"] = "best"
 
-    data["items"].append(item)
+    # Newest always on top
+    data["items"].insert(0, item)
     save_manifest(data)
     print("Added", out_name, size, "->", out_path)
     print("Total items:", len(data["items"]))

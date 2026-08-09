@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Tigress thread gallery</title>
+  <style>
+    :root {
+      --bg: #0d0f12;
+      --panel: #161a20;
+      --border: #2a313c;
+      --text: #e8ecf1;
+      --muted: #9aa3b2;
+      --accent: #7c9cff;
+      --ok: #3ecf8e;
+      --sheet: #e8c547;
+      --scene: #ff8a65;
+      --bunny: #c77dff;
+      --identity: #64b5f6;
+      --radius: 14px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #1a2233 0%, var(--bg) 55%);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.45;
+    }
+    header {
+      padding: 2rem 1.25rem 0.75rem;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+    header h1 {
+      margin: 0 0 0.35rem;
+      font-size: clamp(1.4rem, 2.5vw, 1.95rem);
+      font-weight: 650;
+      letter-spacing: -0.02em;
+    }
+    header p { margin: 0.25rem 0; color: var(--muted); font-size: 0.95rem; }
+    .badges { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 0.85rem; }
+    .badge {
+      display: inline-block;
+      padding: 0.2rem 0.55rem;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      font-size: 0.75rem;
+      color: var(--muted);
+      background: rgba(255,255,255,0.03);
+    }
+    nav {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0.75rem 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(13,15,18,0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+    }
+    nav button {
+      color: var(--text);
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.4rem 0.85rem;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+    nav button:hover, nav button.active { border-color: var(--accent); color: #fff; }
+    nav button[data-cat="sheet"].active { border-color: var(--sheet); color: var(--sheet); }
+    nav button[data-cat="scene"].active { border-color: var(--scene); color: var(--scene); }
+    nav button[data-cat="bunny"].active { border-color: var(--bunny); color: var(--bunny); }
+    nav button[data-cat="identity"].active { border-color: var(--identity); color: var(--identity); }
+    main {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1rem 1.25rem 3rem;
+    }
+    section { margin-top: 1.5rem; }
+    section h2 {
+      margin: 0 0 0.9rem;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+    .dot.sheet { background: var(--sheet); }
+    .dot.scene { background: var(--scene); }
+    .dot.bunny { background: var(--bunny); }
+    .dot.identity { background: var(--identity); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+    .card:hover { border-color: #3d4a60; transform: translateY(-2px); }
+    .card.best { border-color: color-mix(in srgb, var(--ok) 55%, var(--border)); }
+    .thumb {
+      aspect-ratio: 1 / 1;
+      background: #0a0c10;
+      cursor: zoom-in;
+      overflow: hidden;
+    }
+    .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .meta { padding: 0.85rem 0.95rem 1rem; display: flex; flex-direction: column; gap: 0.3rem; flex: 1; }
+    .meta h3 { margin: 0; font-size: 0.95rem; font-weight: 600; }
+    .model {
+      font-size: 0.78rem;
+      color: var(--accent);
+      font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+    }
+    .note { font-size: 0.82rem; color: var(--muted); }
+    .note.ok { color: var(--ok); }
+    .row { display: flex; gap: 0.45rem; flex-wrap: wrap; margin-top: 0.35rem; }
+    a.btn {
+      text-decoration: none;
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.76rem;
+      background: rgba(255,255,255,0.03);
+    }
+    a.btn:hover { border-color: var(--accent); color: #fff; }
+    footer {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 1.25rem 2.5rem;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+    .lb {
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.92);
+      display: none; align-items: center; justify-content: center;
+      z-index: 50; padding: 1rem; cursor: zoom-out;
+    }
+    .lb.open { display: flex; }
+    .lb img {
+      max-width: min(96vw, 1400px);
+      max-height: 92vh;
+      object-fit: contain;
+      border-radius: 8px;
+      box-shadow: 0 20px 80px rgba(0,0,0,0.6);
+      cursor: default;
+    }
+    .lb .close {
+      position: fixed; top: 1rem; right: 1rem;
+      color: #fff; border: 1px solid #444; background: #111;
+      border-radius: 999px; width: 2.2rem; height: 2.2rem;
+      font-size: 1.2rem; cursor: pointer;
+    }
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tigress thread gallery</h1>
+    <p>Все генерации из треда: identity sheets, 3-view, cowgirl / doggystyle / pool-table anal, bunny side quest.</p>
+    <p>Новые генерации из этой сессии добавляются сюда (publish-add).</p>
+    <div class="badges">
+      <span class="badge" id="count-badge">loading…</span>
+      <span class="badge" id="updated-badge"></span>
+      <span class="badge">NSFW 18+</span>
+    </div>
+  </header>
+
+  <nav id="nav">
+    <button type="button" data-cat="all" class="active">Все</button>
+    <button type="button" data-cat="sheet">Sheets</button>
+    <button type="button" data-cat="scene">Scenes</button>
+    <button type="button" data-cat="identity">Identity</button>
+    <button type="button" data-cat="bunny">Bunny</button>
+    <button type="button" data-cat="best">Best</button>
+  </nav>
+
+  <main id="main"></main>
+
+  <footer>
+    Local: <code>C:\Users\hebp\galleries\tigress-thread-gallery</code>
+    · push: <code>scripts/publish-add.py</code>
+    · noindex
+  </footer>
+
+  <div class="lb" id="lb" aria-hidden="true">
+    <button class="close" id="lb-close" type="button" aria-label="Close">×</button>
+    <img id="lb-img" alt="" />
+  </div>
+
+  <script>
+    const CATS = [
+      { id: "sheet", title: "Character sheets / 3-view" },
+      { id: "scene", title: "Scenes (sex poses)" },
+      { id: "identity", title: "Identity crops" },
+      { id: "bunny", title: "Bunny" },
+    ];
+    let DATA = null;
+    let filter = "all";
+
+    function escapeHtml(s) {
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function cardHtml(item) {
+      const best = item.flag === "best";
+      const noteClass = best || /лучш|best|final|correct|identity lock/i.test(item.note || "") ? "ok" : "";
+      return `
+        <article class="card ${best ? "best" : ""}" data-cat="${escapeHtml(item.category || "")}" data-best="${best}">
+          <div class="thumb" data-src="${escapeHtml(item.file)}" title="Open full size">
+            <img src="${escapeHtml(item.file)}" alt="${escapeHtml(item.title)}" loading="lazy" />
+          </div>
+          <div class="meta">
+            <h3>${escapeHtml(item.title)}</h3>
+            <div class="model">${escapeHtml(item.model || "")}</div>
+            <div class="note ${noteClass}">${escapeHtml(item.note || "")}</div>
+            <div class="row">
+              <a class="btn" href="${escapeHtml(item.file)}" target="_blank" rel="noopener">Open</a>
+              ${item.cdn ? `<a class="btn" href="${escapeHtml(item.cdn)}" target="_blank" rel="noopener">CDN</a>` : ""}
+            </div>
+          </div>
+        </article>`;
+    }
+
+    function render() {
+      const main = document.getElementById("main");
+      const items = DATA.items || [];
+      main.innerHTML = "";
+
+      const match = (it) => {
+        if (filter === "all") return true;
+        if (filter === "best") return it.flag === "best";
+        return (it.category || "") === filter;
+      };
+
+      if (filter === "all") {
+        for (const cat of CATS) {
+          const group = items.filter(it => it.category === cat.id);
+          if (!group.length) continue;
+          const sec = document.createElement("section");
+          sec.innerHTML = `<h2><span class="dot ${cat.id}"></span>${escapeHtml(cat.title)} <span style="color:var(--muted);font-weight:400;font-size:0.9rem">(${group.length})</span></h2>
+            <div class="grid">${group.map(cardHtml).join("")}</div>`;
+          main.appendChild(sec);
+        }
+      } else {
+        const group = items.filter(match);
+        const sec = document.createElement("section");
+        const title = filter === "best" ? "Best of thread" : (CATS.find(c => c.id === filter)?.title || filter);
+        sec.innerHTML = `<h2>${escapeHtml(title)} <span style="color:var(--muted);font-weight:400;font-size:0.9rem">(${group.length})</span></h2>
+          <div class="grid">${group.map(cardHtml).join("")}</div>`;
+        main.appendChild(sec);
+      }
+
+      main.querySelectorAll(".thumb").forEach(el => {
+        el.addEventListener("click", () => openLb(el.dataset.src));
+      });
+    }
+
+    async function load() {
+      const res = await fetch("manifest.json?ts=" + Date.now());
+      DATA = await res.json();
+      document.getElementById("count-badge").textContent = DATA.items.length + " images";
+      document.getElementById("updated-badge").textContent = "updated " + (DATA.updated || DATA.created || "");
+      document.title = DATA.title || "Tigress thread gallery";
+      render();
+    }
+
+    document.getElementById("nav").addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-cat]");
+      if (!btn) return;
+      filter = btn.dataset.cat;
+      document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("active", b === btn));
+      render();
+    });
+
+    const lb = document.getElementById("lb");
+    const lbImg = document.getElementById("lb-img");
+    function openLb(src) {
+      lbImg.src = src;
+      lb.classList.add("open");
+      lb.setAttribute("aria-hidden", "false");
+    }
+    function closeLb() {
+      lb.classList.remove("open");
+      lb.setAttribute("aria-hidden", "true");
+      lbImg.removeAttribute("src");
+    }
+    document.getElementById("lb-close").addEventListener("click", (e) => { e.stopPropagation(); closeLb(); });
+    lb.addEventListener("click", closeLb);
+    lbImg.addEventListener("click", (e) => e.stopPropagation());
+    window.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLb(); });
+
+    load().catch(err => {
+      document.getElementById("main").innerHTML = "<p style='color:#ff6b7a'>Failed to load manifest.json: " + escapeHtml(err.message) + "</p>";
+    });
+  </script>
+</body>
+</html>

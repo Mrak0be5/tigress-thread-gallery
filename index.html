@@ -116,11 +116,25 @@
       overflow: hidden;
       position: relative;
     }
-    .thumb img {
+    .video-card .thumb {
+      aspect-ratio: auto;
+      cursor: default;
+    }
+    .thumb img, .thumb video {
       width: 100%;
       height: 100%;
       object-fit: cover;
       display: block;
+    }
+    .video-card .thumb video, .video-card .thumb img {
+      height: auto;
+      object-fit: contain;
+      max-height: 80vh;
+    }
+    @media (min-width: 640px) {
+      .video-card {
+        grid-column: span 2;
+      }
     }
     .view-badge {
       position: absolute;
@@ -289,7 +303,7 @@
       
       const isVideo = src.endsWith('.mp4');
       const mediaHtml = isVideo 
-        ? `<video class="card-img" src="${escapeHtml(src)}" controls preload="metadata" loop style="object-fit:cover;"></video>`
+        ? `<video class="card-img" src="${escapeHtml(src)}" controls preload="metadata" loop></video>`
         : `<img class="card-img" src="${escapeHtml(src)}" alt="${escapeHtml(item.title)}" loading="lazy" />`;
       const clickAction = isVideo ? "" : `data-src="${escapeHtml(src)}" title="Open full size"`;
       
@@ -326,7 +340,7 @@
       const thumb = card.querySelector(".thumb");
       
       const mediaHtml = isVideo 
-        ? `<video class="card-img" src="${escapeHtml(src)}" controls preload="metadata" loop style="object-fit:cover; width:100%; height:100%; display:block;"></video>`
+        ? `<video class="card-img" src="${escapeHtml(src)}" controls preload="metadata" loop></video>`
         : `<img class="card-img" src="${escapeHtml(src)}" alt="Media" loading="lazy" />`;
       
       // We need to keep the badge when replacing innerHTML or just replace the media tag.

@@ -6,6 +6,17 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "transition-frame-1-2-v2",
+      "file": "images/transition-frame-1-2-v2.jpg",
+      "source": "tigra_transition_frame_v2.jpg",
+      "title": "Transition Frame 1->2 (V2)",
+      "category": "scene",
+      "model": "Seedream 5 Pro",
+      "note": "",
+      "date": "2026-08-11 03:35",
+      "pixels": "1344x768"
+    },
+    {
       "id": "part-1-bored-coffee-ref2va-v2-10s",
       "file": "images/part-1-bored-coffee-ref2va-v2-10s.mp4",
       "source": "tigra_part1_10s_ref2va_nonturbo_00001_.mp4",

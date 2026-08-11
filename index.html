@@ -303,7 +303,7 @@
       
       const isVideo = src.endsWith('.mp4');
       const mediaHtml = isVideo 
-        ? `<video class="card-img" src="${escapeHtml(src)}" controls preload="metadata" loop></video>`
+        ? `<video class="card-img" src="${escapeHtml(src)}" controls preload="metadata" loop style="object-fit:cover;"></video>`
         : `<img class="card-img" src="${escapeHtml(src)}" alt="${escapeHtml(item.title)}" loading="lazy" />`;
       const clickAction = isVideo ? "" : `data-src="${escapeHtml(src)}" title="Open full size"`;
       
@@ -340,7 +340,7 @@
       const thumb = card.querySelector(".thumb");
       
       const mediaHtml = isVideo 
-        ? `<video class="card-img" src="${escapeHtml(src)}" controls preload="metadata" loop></video>`
+        ? `<video class="card-img" src="${escapeHtml(src)}" controls preload="metadata" loop style="object-fit:cover; width:100%; height:100%; display:block;"></video>`
         : `<img class="card-img" src="${escapeHtml(src)}" alt="Media" loading="lazy" />`;
       
       // We need to keep the badge when replacing innerHTML or just replace the media tag.

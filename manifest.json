@@ -2,9 +2,152 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T07:30+04:00",
+  "updated": "2026-08-13T07:32+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "tigra-preset-oral-sit",
+      "file": "images/tigra-preset-oral-sit.jpg",
+      "source": "pl03_oral_sit_00001_.png",
+      "title": "TIGRA_BEST_2026 gym oral sit",
+      "category": "scene",
+      "model": "boleromixPony v210",
+      "note": "Preset identity + light oral LoRAs. Neg has no oral ban.",
+      "date": "2026-08-13 07:32",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-preset-lock/1786591892751-689ll9qt3ub.png",
+      "prompt": "in a gym, sitting on gym bench, leaning forward, fellatio, deepthroat, profile, human male standing, black sports bra, black crop top, black choker, bottomless,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy\n\nNEGATIVE:\nwalls, blue eyes, blur, glow, white glove, glove, bad anatomy, low quality, ai, watermark, text, white tail, white legs, human face, men face, two character, text, white ass, white butt, anal tail, cheerleader, 2girls, vaginal sex, anal sex, doggystyle, from behind, closed mouth, just posing, licking tip only, male tiger, anthro male, furry male",
+      "prompt_file": "prompts/tigra-preset-oral-sit.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/tigra-preset-oral-sit/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "local",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.15
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "tigra-preset-oral-kneel",
+      "file": "images/tigra-preset-oral-kneel.jpg",
+      "source": "pl02_oral_kneel_00001_.png",
+      "title": "TIGRA_BEST_2026 gym oral kneel",
+      "category": "scene",
+      "model": "boleromixPony v210",
+      "note": "Preset identity + light oral LoRAs. Neg has no oral ban.",
+      "date": "2026-08-13 07:32",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-preset-lock/1786591889288-y9h27shk3za.png",
+      "prompt": "in a gym, fitness center, kneeling, fellatio, deepthroat, human male standing, black sports bra, black crop top, black choker, bottomless,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy\n\nNEGATIVE:\nwalls, blue eyes, blur, glow, white glove, glove, bad anatomy, low quality, ai, watermark, text, white tail, white legs, human face, men face, two character, text, white ass, white butt, anal tail, cheerleader, 2girls, vaginal sex, anal sex, doggystyle, from behind, closed mouth, just posing, licking tip only, male tiger, anthro male, furry male",
+      "prompt_file": "prompts/tigra-preset-oral-kneel.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/tigra-preset-oral-kneel/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "local",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.15
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "tigra-preset-id-stand",
+      "file": "images/tigra-preset-id-stand.jpg",
+      "source": "pl01_id_stand_00001_.png",
+      "title": "TIGRA_BEST_2026 gym identity stand",
+      "category": "identity",
+      "model": "boleromixPony v210",
+      "note": "Exact TIGRA_BEST_2026 identity: WtP 0.25 CLIP 1.0, Anthro 0.5 CLIP 1.0, CFG 7, CHAR verbatim.",
+      "date": "2026-08-13 07:32",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-preset-lock/1786591887191-fjnoy1h8mbq.png",
+      "prompt": "in a gym, fitness center, standing, three-quarter view, black sports bra, black crop top, black choker, bottomless, athletic tigress,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy\n\nNEGATIVE:\nwalls, blue eyes, blur, glow, white glove, glove, bad anatomy, low quality, ai, watermark, text, white tail, white legs, human face, men face, two character, text, white ass, white butt, anal tail, cheerleader, 2girls, vaginal sex, oral sex, penis on mouth, minet, anal sex",
+      "prompt_file": "prompts/tigra-preset-id-stand.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/tigra-preset-id-stand/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "story-gym-night-shift",
       "file": "stories/STORY-gym-4acts-v8.13.md",

@@ -2,9 +2,147 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T08:17+04:00",
+  "updated": "2026-08-13T08:19+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "tigra-furry-dt85-close",
+      "file": "images/tigra-furry-dt85-close.jpg",
+      "source": "fd03_close_profile_00001_.png",
+      "title": "Furry DT 0.85 close",
+      "category": "scene",
+      "model": "boleromixPony v210",
+      "note": "Furry Deep Throat 0.85, trigger furry_deepthroat, preset CHAR, CFG 7.",
+      "date": "2026-08-13 08:19",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-furry-dt-strong/1786594772694-pm4mykjz3zm.png",
+      "prompt": "furry_deepthroat, fellatio, deepthroat, muzzle wrapped around penis, human male standing, 1girl, 1boy, in a gym, fitness center, gym equipment, close-up profile, kneeling, muzzle at base of penis, side view of face, black sports bra, black crop top, black choker, bottomless,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy\n\nNEGATIVE:\nwalls, blue eyes, blur, glow, white glove, glove, bad anatomy, low quality, ai, watermark, text, white tail, white legs, human face, men face, two character, text, white ass, white butt, anal tail, cheerleader, 2girls, character sheet, multiple views, collage, T-pose, vaginal sex, anal sex, doggystyle, from behind, closed mouth, just posing, licking tip only, male tiger, anthro male, furry male, (human lips:1.8), (plump lips:1.8), (pink lips:1.7), lipstick, lip gloss",
+      "prompt_file": "prompts/tigra-furry-dt85-close.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/tigra-furry-dt85-close/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.55
+        },
+        {
+          "name": "Furry_Deep_Throat",
+          "url": "local",
+          "strength": 0.85
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "tigra-furry-dt85-sitting",
+      "file": "images/tigra-furry-dt85-sitting.jpg",
+      "source": "fd02_sitting_profile_00001_.png",
+      "title": "Furry DT 0.85 sitting",
+      "category": "scene",
+      "model": "boleromixPony v210",
+      "note": "Furry Deep Throat 0.85, trigger furry_deepthroat, preset CHAR, CFG 7.",
+      "date": "2026-08-13 08:19",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-furry-dt-strong/1786594771025-ybh5yo0cobl.png",
+      "prompt": "furry_deepthroat, fellatio, deepthroat, muzzle wrapped around penis, human male standing, 1girl, 1boy, in a gym, fitness center, gym equipment, sitting on gym bench, leaning forward, profile view of face, side view, black sports bra, black crop top, black choker, bottomless,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy\n\nNEGATIVE:\nwalls, blue eyes, blur, glow, white glove, glove, bad anatomy, low quality, ai, watermark, text, white tail, white legs, human face, men face, two character, text, white ass, white butt, anal tail, cheerleader, 2girls, character sheet, multiple views, collage, T-pose, vaginal sex, anal sex, doggystyle, from behind, closed mouth, just posing, licking tip only, male tiger, anthro male, furry male, (human lips:1.8), (plump lips:1.8), (pink lips:1.7), lipstick, lip gloss",
+      "prompt_file": "prompts/tigra-furry-dt85-sitting.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/tigra-furry-dt85-sitting/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.55
+        },
+        {
+          "name": "Furry_Deep_Throat",
+          "url": "local",
+          "strength": 0.85
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "tigra-furry-dt85-kneeling",
+      "file": "images/tigra-furry-dt85-kneeling.jpg",
+      "source": "fd01_kneeling_profile_00001_.png",
+      "title": "Furry DT 0.85 kneeling",
+      "category": "scene",
+      "model": "boleromixPony v210",
+      "note": "Furry Deep Throat 0.85, trigger furry_deepthroat, preset CHAR, CFG 7.",
+      "date": "2026-08-13 08:19",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-furry-dt-strong/1786594768856-kswi08ewmlp.png",
+      "prompt": "furry_deepthroat, fellatio, deepthroat, muzzle wrapped around penis, human male standing, 1girl, 1boy, in a gym, fitness center, gym equipment, kneeling on gym floor, looking up, hands on his thighs, profile view of face, side view, black sports bra, black crop top, black choker, bottomless,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy\n\nNEGATIVE:\nwalls, blue eyes, blur, glow, white glove, glove, bad anatomy, low quality, ai, watermark, text, white tail, white legs, human face, men face, two character, text, white ass, white butt, anal tail, cheerleader, 2girls, character sheet, multiple views, collage, T-pose, vaginal sex, anal sex, doggystyle, from behind, closed mouth, just posing, licking tip only, male tiger, anthro male, furry male, (human lips:1.8), (plump lips:1.8), (pink lips:1.7), lipstick, lip gloss",
+      "prompt_file": "prompts/tigra-furry-dt85-kneeling.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/tigra-furry-dt85-kneeling/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.55
+        },
+        {
+          "name": "Furry_Deep_Throat",
+          "url": "local",
+          "strength": 0.85
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "tigra-jacko-plug-b",
       "file": "images/tigra-jacko-plug-b.jpg",

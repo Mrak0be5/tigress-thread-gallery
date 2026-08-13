@@ -408,6 +408,56 @@ def upsert_gallery_service(data: dict, args: argparse.Namespace) -> None:
     services[sid] = entry
 
 
+def infer_characters(it: dict) -> list[str]:
+    blob = " ".join(
+        [
+            str(it.get("id") or ""),
+            str(it.get("title") or ""),
+            str(it.get("note") or ""),
+            str(it.get("category") or ""),
+            str(it.get("source") or ""),
+        ]
+    ).lower()
+    chars: list[str] = []
+    if "bunny" in blob or it.get("category") == "bunny":
+        chars.append("Bunny")
+    if "terry" in blob:
+        chars.append("Terry Crews")
+    if re.search(r"black[\s-]?man|\bbbc\b", blob):
+        chars.append("Black man")
+    iid = str(it.get("id") or "")
+    if iid.startswith("male-character") or "male character sheet" in blob:
+        chars.append("Male")
+    partner_sheet = (
+        iid.startswith("male-character")
+        or iid.startswith("image3-")
+        or "male character sheet" in blob
+    )
+    if not partner_sheet:
+        chars.append("Tigra")
+    seen: set[str] = set()
+    out: list[str] = []
+    for c in chars:
+        if c not in seen:
+            seen.add(c)
+            out.append(c)
+    return out
+
+
+def apply_characters(item: dict, names: list[str], infer: bool = True) -> None:
+    chars: list[str] = []
+    seen: set[str] = set()
+    for n in names or []:
+        n = str(n).strip()
+        if n and n not in seen:
+            seen.add(n)
+            chars.append(n)
+    if not chars and infer:
+        chars = infer_characters(item)
+    if chars:
+        item["characters"] = chars
+
+
 def collect_prompt(args: argparse.Namespace) -> str:
     if args.prompt_file:
         return Path(args.prompt_file).read_text(encoding="utf-8").strip()
@@ -459,6 +509,7 @@ def main() -> int:
     ap.add_argument("--api-key", default="", help="API key used for this generation")
     ap.add_argument("--key-name", default="", help="key label in the provider dashboard")
     ap.add_argument("--set-gallery-service", action="store_true", help="also store service+key at gallery root")
+    ap.add_argument("--character", action="append", default=[], help="repeatable character name, e.g. Tigra")
     args = ap.parse_args()
 
     if args.push_only:
@@ -492,6 +543,7 @@ def main() -> int:
         apply_prompt_and_refs(item, prompt, ref_specs)
         apply_loras(item, args.lora or [])
         apply_service(item, args)
+        apply_characters(item, args.character or [])
         if args.set_gallery_service:
             upsert_gallery_service(data, args)
         if args.note:
@@ -569,6 +621,7 @@ def main() -> int:
     apply_prompt_and_refs(item, prompt, ref_specs)
     apply_loras(item, args.lora or [])
     apply_service(item, args)
+    apply_characters(item, args.character or [])
     if args.set_gallery_service:
         upsert_gallery_service(data, args)
 

@@ -2,7 +2,7 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T06:21+04:00",
+  "updated": "2026-08-13T06:26+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
@@ -16,7 +16,10 @@
       "note": "v8.9: 10$ новенькой, внутренние чакры, 4+5 срывов, долг 3200.",
       "version": "8.9",
       "date": "2026-08-13 06:21",
-      "latest": true
+      "latest": true,
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "wan30-tigra-r2v-10s-bbc-oneshot",
@@ -52,6 +55,10 @@
           "source": "https://d1q70pf5vjeyhc.cloudfront.net/media/9f96f7f6668d4eb1a1d630ecd0ffc736/images/1786417120588044617_UMW5eoxG.jpg",
           "file": "images/refs/wan30-tigra-r2v-10s-bbc-oneshot/04-penis.jpg"
         }
+      ],
+      "characters": [
+        "Black man",
+        "Tigra"
       ]
     },
     {
@@ -102,7 +109,10 @@
         }
       ],
       "service": "ComfyUI local",
-      "service_url": "http://127.0.0.1:8188"
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "tigra-furry-dt-standing",
@@ -152,7 +162,10 @@
         }
       ],
       "service": "ComfyUI local",
-      "service_url": "http://127.0.0.1:8188"
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "tigra-furry-dt-lying-back",
@@ -202,7 +215,10 @@
         }
       ],
       "service": "ComfyUI local",
-      "service_url": "http://127.0.0.1:8188"
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "tigra-furry-dt-sitting-bench",
@@ -252,7 +268,10 @@
         }
       ],
       "service": "ComfyUI local",
-      "service_url": "http://127.0.0.1:8188"
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "tigra-furry-dt-kneeling",
@@ -302,7 +321,10 @@
         }
       ],
       "service": "ComfyUI local",
-      "service_url": "http://127.0.0.1:8188"
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "minimax-ref2va-10s-wan-bbc-switch-pull-out-walk-r-bbc-enters",
@@ -335,7 +357,11 @@
       ],
       "loras": [],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Black man",
+        "Tigra"
+      ]
     },
     {
       "id": "image3-terry-sheet-b",
@@ -356,7 +382,10 @@
         }
       ],
       "service": "Seedream 5 Pro",
-      "service_url": "https://kie.ai"
+      "service_url": "https://kie.ai",
+      "characters": [
+        "Terry Crews"
+      ]
     },
     {
       "id": "image3-terry-sheet-a",
@@ -377,7 +406,10 @@
         }
       ],
       "service": "Seedream 5 Pro",
-      "service_url": "https://kie.ai"
+      "service_url": "https://kie.ai",
+      "characters": [
+        "Terry Crews"
+      ]
     },
     {
       "id": "image3-black-man-sheet-b",
@@ -398,7 +430,10 @@
         }
       ],
       "service": "Seedream 5 Pro",
-      "service_url": "https://kie.ai"
+      "service_url": "https://kie.ai",
+      "characters": [
+        "Black man"
+      ]
     },
     {
       "id": "image3-black-man-sheet-a",
@@ -419,7 +454,10 @@
         }
       ],
       "service": "Seedream 5 Pro",
-      "service_url": "https://kie.ai"
+      "service_url": "https://kie.ai",
+      "characters": [
+        "Black man"
+      ]
     },
     {
       "id": "handstand-straddle-10s",
@@ -442,7 +480,10 @@
           "file": "images/refs/handstand-straddle-10s/01-first-frame.jpg"
         }
       ],
-      "loras": []
+      "loras": [],
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "handstand-straddle-10s-exact",
@@ -465,7 +506,10 @@
           "file": "images/refs/handstand-straddle-10s-exact/01-first-frame.jpg"
         }
       ],
-      "loras": []
+      "loras": [],
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "handstand-split-h3-10s",
@@ -488,7 +532,10 @@
           "file": "images/refs/handstand-split-h3-10s/01-first-frame.jpg"
         }
       ],
-      "loras": []
+      "loras": [],
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "handstand-split-h3-exact-10s",
@@ -511,7 +558,10 @@
           "file": "images/refs/handstand-split-h3-exact-10s/01-first-frame.jpg"
         }
       ],
-      "loras": []
+      "loras": [],
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "city-blogger-handstand-5s",
@@ -534,7 +584,10 @@
           "file": "images/refs/city-blogger-handstand-5s/01-first-frame.jpg"
         }
       ],
-      "loras": []
+      "loras": [],
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "sheet-city-blogger-handstand-10s",
@@ -557,7 +610,10 @@
           "file": "images/refs/sheet-city-blogger-handstand-10s/01-sheet-first-frame.jpg"
         }
       ],
-      "loras": []
+      "loras": [],
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "city-allfours-anal-15s",
@@ -580,7 +636,10 @@
           "file": "images/refs/city-allfours-anal-15s/01-first-frame.jpg"
         }
       ],
-      "loras": []
+      "loras": [],
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "fl2va-turbo-q4-test",
@@ -609,6 +668,9 @@
           "url": "https://huggingface.co/Comfy-Org/MiniMax-H3_ComfyUI",
           "strength": 1.0
         }
+      ],
+      "characters": [
+        "Tigra"
       ]
     },
     {
@@ -643,6 +705,9 @@
           "url": "https://civitai.com/models/2836176?modelVersionId=3200994",
           "strength": 0.45
         }
+      ],
+      "characters": [
+        "Tigra"
       ]
     },
     {
@@ -677,6 +742,9 @@
           "url": "https://civitai.com/models/2446218?modelVersionId=3203205",
           "strength": 0.5
         }
+      ],
+      "characters": [
+        "Tigra"
       ]
     },
     {
@@ -700,7 +768,10 @@
           "file": "images/refs/bored-anal-baseline-15s/01-first-frame.jpg"
         }
       ],
-      "loras": []
+      "loras": [],
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "handstand-8s",
@@ -723,7 +794,10 @@
           "file": "images/refs/handstand-8s/01-first-frame.jpg"
         }
       ],
-      "loras": []
+      "loras": [],
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "table-anal-3thrust-10s",
@@ -746,7 +820,10 @@
           "file": "images/refs/table-anal-3thrust-10s/01-first-frame.jpg"
         }
       ],
-      "loras": []
+      "loras": [],
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "anal-hmnsfw-aio-v2",
@@ -775,6 +852,9 @@
           "url": "https://civitai.com/models/2834417?modelVersionId=3206518",
           "strength": 0.5
         }
+      ],
+      "characters": [
+        "Tigra"
       ]
     },
     {
@@ -809,6 +889,9 @@
           "url": "https://civitai.com/models/2834417?modelVersionId=3206518",
           "strength": 0.5
         }
+      ],
+      "characters": [
+        "Tigra"
       ]
     },
     {
@@ -838,6 +921,9 @@
           "url": "https://civitai.com/models/2834417?modelVersionId=3206518",
           "strength": 0.5
         }
+      ],
+      "characters": [
+        "Tigra"
       ]
     },
     {
@@ -861,7 +947,10 @@
           "file": "images/refs/pool-anal-fl2va-orbit-ball/01-first-frame.jpg"
         }
       ],
-      "loras": []
+      "loras": [],
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "naughtytimes-fl2va-turbo",
@@ -895,6 +984,9 @@
           "url": "https://civitai.com/models/2836176?modelVersionId=3200994",
           "strength": 0.45
         }
+      ],
+      "characters": [
+        "Tigra"
       ]
     },
     {
@@ -918,7 +1010,10 @@
           "file": "images/refs/part-2-deep-hold-pullout-fl2va-10s-2/01-picture-1-last-frame.jpg"
         }
       ],
-      "loras": []
+      "loras": [],
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "wan30-tigra-i2v-3s-ab-nsfw",
@@ -944,7 +1039,10 @@
       "service_url": "https://wavespeed.ai",
       "api": "https://api.wavespeed.ai/api/v3",
       "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok"
+      "key_name": "Grok",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "part-1-bored-coffee-ref2va-v4-10s-2",
@@ -972,7 +1070,10 @@
       ],
       "loras": [],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "part-1-bored-coffee-ref2va-v4-10s",
@@ -1000,7 +1101,10 @@
       ],
       "loras": [],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "part-1-bored-coffee-ref2va-v3-10s",
@@ -1033,7 +1137,10 @@
       ],
       "loras": [],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-close-v5",
@@ -1045,7 +1152,10 @@
       "note": "Hands at sides of head area minimized",
       "date": "2026-08-12 04:52",
       "pixels": "1350x1800",
-      "pose": "images/poses/pose-image-a89d292f-f586-4bfe-b531-fd7b153f4f1e-7e363805f83e.jpg"
+      "pose": "images/poses/pose-image-a89d292f-f586-4bfe-b531-fd7b153f4f1e-7e363805f83e.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-ranch-v5",
@@ -1057,7 +1167,10 @@
       "note": "Arms under body, palms hidden",
       "date": "2026-08-12 04:52",
       "pixels": "1800x1012",
-      "pose": "images/poses/pose-image-be994efc-60ab-4f98-8e71-0c92ce932a5e-a4669a39fbd1.jpg"
+      "pose": "images/poses/pose-image-be994efc-60ab-4f98-8e71-0c92ce932a5e-a4669a39fbd1.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-table-v5",
@@ -1069,7 +1182,10 @@
       "note": "Arms along body, no palms on table",
       "date": "2026-08-12 04:52",
       "pixels": "1350x1800",
-      "pose": "images/poses/pose-image-0fb1cd38-bc2f-4b73-8df6-06ea13f66275-6304adc51eff.jpg"
+      "pose": "images/poses/pose-image-0fb1cd38-bc2f-4b73-8df6-06ea13f66275-6304adc51eff.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-boat-v5",
@@ -1081,7 +1197,10 @@
       "note": "Arms along body, no palms gripping",
       "date": "2026-08-12 04:52",
       "pixels": "1800x1012",
-      "pose": "images/poses/pose-image-6c03b846-bf88-4ddd-8a2e-626ec62a990a-c42ff0007128.jpg"
+      "pose": "images/poses/pose-image-6c03b846-bf88-4ddd-8a2e-626ec62a990a-c42ff0007128.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "wan30-tigra-r2v-10s-bbc-switch",
@@ -1123,7 +1242,11 @@
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
       "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok"
+      "key_name": "Grok",
+      "characters": [
+        "Black man",
+        "Tigra"
+      ]
     },
     {
       "id": "wan30-tigra-r2v-15s-coffee-tiktok",
@@ -1141,7 +1264,10 @@
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
       "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok"
+      "key_name": "Grok",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "wan30-tigra-r2v-7s-selfie-line",
@@ -1159,7 +1285,10 @@
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
       "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok"
+      "key_name": "Grok",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "wan30-tigra-r2v-15s-orbit-phone",
@@ -1177,7 +1306,10 @@
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
       "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok"
+      "key_name": "Grok",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "wan30-tigra-i2v-15s-cabin",
@@ -1195,7 +1327,10 @@
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
       "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok"
+      "key_name": "Grok",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "wan30-tigra-r2v-phone-v3",
@@ -1213,7 +1348,10 @@
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
       "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok"
+      "key_name": "Grok",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "wan30-tigra-r2v-phone-v2",
@@ -1231,7 +1369,10 @@
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
       "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok"
+      "key_name": "Grok",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "wan30-tigra-i2v-table-anal",
@@ -1249,7 +1390,10 @@
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
       "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok"
+      "key_name": "Grok",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "wan30-tigra-r2v-table-anal",
@@ -1267,7 +1411,10 @@
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
       "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok"
+      "key_name": "Grok",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "wan30-tigra-r2v-extra",
@@ -1285,7 +1432,10 @@
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
       "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok"
+      "key_name": "Grok",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "transition-frame-1-2-v2",
@@ -1296,7 +1446,10 @@
       "model": "Seedream 5 Pro",
       "note": "",
       "date": "2026-08-11 03:35",
-      "pixels": "1344x768"
+      "pixels": "1344x768",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "part-1-bored-coffee-ref2va-v2-10s",
@@ -1329,7 +1482,10 @@
       ],
       "loras": [],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-table-v4",
@@ -1341,7 +1497,10 @@
       "note": "Palm flat on table, anime, identity lock",
       "date": "2026-08-11 03:02",
       "pixels": "1350x1800",
-      "pose": "images/poses/pose-image-0fb1cd38-bc2f-4b73-8df6-06ea13f66275-6304adc51eff.jpg"
+      "pose": "images/poses/pose-image-0fb1cd38-bc2f-4b73-8df6-06ea13f66275-6304adc51eff.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-boat-v4",
@@ -1353,7 +1512,10 @@
       "note": "Palm-down grip on bench, anime, identity lock",
       "date": "2026-08-11 03:02",
       "pixels": "1800x1012",
-      "pose": "images/poses/pose-image-6c03b846-bf88-4ddd-8a2e-626ec62a990a-c42ff0007128.jpg"
+      "pose": "images/poses/pose-image-6c03b846-bf88-4ddd-8a2e-626ec62a990a-c42ff0007128.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-close-v3",
@@ -1365,7 +1527,10 @@
       "note": "Pure anime style, new identity",
       "date": "2026-08-11 02:15",
       "pixels": "1350x1800",
-      "pose": "images/poses/pose-image-a89d292f-f586-4bfe-b531-fd7b153f4f1e-7e363805f83e.jpg"
+      "pose": "images/poses/pose-image-a89d292f-f586-4bfe-b531-fd7b153f4f1e-7e363805f83e.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-table-v3",
@@ -1377,7 +1542,10 @@
       "note": "Fixed inverted palms, pure anime style",
       "date": "2026-08-11 02:15",
       "pixels": "1350x1800",
-      "pose": "images/poses/pose-image-0fb1cd38-bc2f-4b73-8df6-06ea13f66275-6304adc51eff.jpg"
+      "pose": "images/poses/pose-image-0fb1cd38-bc2f-4b73-8df6-06ea13f66275-6304adc51eff.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-boat-v3",
@@ -1389,7 +1557,10 @@
       "note": "Fixed inverted palms, pure anime style",
       "date": "2026-08-11 02:15",
       "pixels": "1800x1012",
-      "pose": "images/poses/pose-image-6c03b846-bf88-4ddd-8a2e-626ec62a990a-c42ff0007128.jpg"
+      "pose": "images/poses/pose-image-6c03b846-bf88-4ddd-8a2e-626ec62a990a-c42ff0007128.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-ranch-v2",
@@ -1401,7 +1572,10 @@
       "note": "Regen with authoritative identity lock",
       "date": "2026-08-11 01:26",
       "pixels": "1800x1012",
-      "pose": "images/poses/pose-image-be994efc-60ab-4f98-8e71-0c92ce932a5e-a4669a39fbd1.jpg"
+      "pose": "images/poses/pose-image-be994efc-60ab-4f98-8e71-0c92ce932a5e-a4669a39fbd1.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-boat-v2",
@@ -1413,7 +1587,10 @@
       "note": "Regen with authoritative identity lock",
       "date": "2026-08-11 01:26",
       "pixels": "1800x1012",
-      "pose": "images/poses/pose-image-6c03b846-bf88-4ddd-8a2e-626ec62a990a-c42ff0007128.jpg"
+      "pose": "images/poses/pose-image-6c03b846-bf88-4ddd-8a2e-626ec62a990a-c42ff0007128.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-table-v2",
@@ -1425,7 +1602,10 @@
       "note": "Regen with authoritative identity lock",
       "date": "2026-08-11 01:26",
       "pixels": "1350x1800",
-      "pose": "images/poses/pose-image-0fb1cd38-bc2f-4b73-8df6-06ea13f66275-6304adc51eff.jpg"
+      "pose": "images/poses/pose-image-0fb1cd38-bc2f-4b73-8df6-06ea13f66275-6304adc51eff.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-close-v2",
@@ -1437,7 +1617,10 @@
       "note": "Regen with authoritative identity lock",
       "date": "2026-08-11 01:26",
       "pixels": "1350x1800",
-      "pose": "images/poses/pose-image-a89d292f-f586-4bfe-b531-fd7b153f4f1e-7e363805f83e.jpg"
+      "pose": "images/poses/pose-image-a89d292f-f586-4bfe-b531-fd7b153f4f1e-7e363805f83e.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "male-character-sheet-reference-style-matched",
@@ -1448,7 +1631,10 @@
       "model": "Seedream 5 Pro",
       "note": "",
       "date": "2026-08-11 00:01",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Male"
+      ]
     },
     {
       "id": "male-character-sheet-reference",
@@ -1459,7 +1645,10 @@
       "model": "Seedream 5 Pro",
       "note": "",
       "date": "2026-08-10 23:30",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Male"
+      ]
     },
     {
       "id": "transition-frame-2-3-black-man-edited",
@@ -1470,7 +1659,11 @@
       "model": "Seedream 5 Pro",
       "note": "",
       "date": "2026-08-10 20:13",
-      "pixels": "1350x1800"
+      "pixels": "1350x1800",
+      "characters": [
+        "Black man",
+        "Tigra"
+      ]
     },
     {
       "id": "part-2-deep-hold-pullout-fl2va-10s",
@@ -1493,7 +1686,10 @@
       ],
       "loras": [],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "transition-frame-2-3-needs-black-man",
@@ -1504,7 +1700,11 @@
       "model": "Seedream 5 Pro",
       "note": "",
       "date": "2026-08-10 20:09",
-      "pixels": "1344x768"
+      "pixels": "1344x768",
+      "characters": [
+        "Black man",
+        "Tigra"
+      ]
     },
     {
       "id": "part-1-bored-coffee-fl2va-10s",
@@ -1527,7 +1727,10 @@
       ],
       "loras": [],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "transition-frame-1-2",
@@ -1538,7 +1741,10 @@
       "model": "Seedream 5 Pro",
       "note": "",
       "date": "2026-08-10 19:40",
-      "pixels": "1344x768"
+      "pixels": "1344x768",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "black-man-continuation-fl2va-non-turbo-15s",
@@ -1561,7 +1767,11 @@
       ],
       "loras": [],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Black man",
+        "Tigra"
+      ]
     },
     {
       "id": "bored-coffee-anal-ref2va-non-turbo-15s",
@@ -1589,7 +1799,10 @@
       ],
       "loras": [],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "crowd-blogger-dilator-hh11-7s",
@@ -1600,7 +1813,10 @@
       "model": "HappyHorse 1.1 I2V",
       "note": "Street crowd · remove panties · arch · plug pull-out · 7s · Kie happyhorse-1-1/image-to-video",
       "date": "2026-08-10 06:44",
-      "pixels": "video"
+      "pixels": "video",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "table-anal-hole-fl2va-non-turbo-5s",
@@ -1623,7 +1839,10 @@
       ],
       "loras": [],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "table-anal-hole-ref2va-non-turbo",
@@ -1651,7 +1870,10 @@
       ],
       "loras": [],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "table-anal-hole-ref2va-patched",
@@ -1685,7 +1907,10 @@
         }
       ],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "id-sheet-final",
@@ -1697,7 +1922,10 @@
       "note": "User-mandated identity base for all future gens",
       "date": "2026-08-10 01:53",
       "pixels": "1800x1012",
-      "flag": "best"
+      "flag": "best",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-ranch-v1",
@@ -1709,7 +1937,10 @@
       "note": "Prairie bench cowboy jeans",
       "date": "2026-08-10 01:44",
       "pixels": "1800x1012",
-      "pose": "images/poses/pose-image-be994efc-60ab-4f98-8e71-0c92ce932a5e-a4669a39fbd1.jpg"
+      "pose": "images/poses/pose-image-be994efc-60ab-4f98-8e71-0c92ce932a5e-a4669a39fbd1.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-boat-v1",
@@ -1721,7 +1952,10 @@
       "note": "Boat bench, legs straddle",
       "date": "2026-08-10 01:44",
       "pixels": "1800x1012",
-      "pose": "images/poses/pose-image-6c03b846-bf88-4ddd-8a2e-626ec62a990a-c42ff0007128.jpg"
+      "pose": "images/poses/pose-image-6c03b846-bf88-4ddd-8a2e-626ec62a990a-c42ff0007128.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-table-v1",
@@ -1733,7 +1967,10 @@
       "note": "Kitchen table head off edge",
       "date": "2026-08-10 01:44",
       "pixels": "1350x1800",
-      "pose": "images/poses/pose-image-0fb1cd38-bc2f-4b73-8df6-06ea13f66275-6304adc51eff.jpg"
+      "pose": "images/poses/pose-image-0fb1cd38-bc2f-4b73-8df6-06ea13f66275-6304adc51eff.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "dt-close-v1",
@@ -1745,7 +1982,10 @@
       "note": "Extreme close face, balls at lips",
       "date": "2026-08-10 01:44",
       "pixels": "1350x1800",
-      "pose": "images/poses/pose-image-a89d292f-f586-4bfe-b531-fd7b153f4f1e-7e363805f83e.jpg"
+      "pose": "images/poses/pose-image-a89d292f-f586-4bfe-b531-fd7b153f4f1e-7e363805f83e.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "oral-stand-v2",
@@ -1757,7 +1997,10 @@
       "note": "Standing over oral, female only no herm",
       "date": "2026-08-10 01:33",
       "pixels": "1200x1800",
-      "pose": "images/poses/pose-image-bd105683-215d-453d-b917-1259f41d92b2-38850a8f1c0c.jpg"
+      "pose": "images/poses/pose-image-bd105683-215d-453d-b917-1259f41d92b2-38850a8f1c0c.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "oral-fold-v1",
@@ -1769,7 +2012,10 @@
       "note": "Folded pose, oral",
       "date": "2026-08-10 01:31",
       "pixels": "1200x1800",
-      "pose": "images/poses/pose-image-481aa586-4544-486a-a65b-4e74c12749b9-08f433c2d180.jpg"
+      "pose": "images/poses/pose-image-481aa586-4544-486a-a65b-4e74c12749b9-08f433c2d180.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "oral-topdown-v1",
@@ -1781,7 +2027,10 @@
       "note": "Top-down face oral",
       "date": "2026-08-10 01:31",
       "pixels": "1200x1800",
-      "pose": "images/poses/pose-image-dda4c4a6-9924-4eba-82bc-60aadf9e9be0-b7e6dfb63c8a.jpg"
+      "pose": "images/poses/pose-image-dda4c4a6-9924-4eba-82bc-60aadf9e9be0-b7e6dfb63c8a.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "oral-hang-neck-v1",
@@ -1793,7 +2042,10 @@
       "note": "Head off bed, hand on neck, oral",
       "date": "2026-08-10 01:31",
       "pixels": "1200x1800",
-      "pose": "images/poses/pose-image-79a6dde8-50ed-445c-a5b4-d6cc7d34c843-bbc12b50a6d8.jpg"
+      "pose": "images/poses/pose-image-79a6dde8-50ed-445c-a5b4-d6cc7d34c843-bbc12b50a6d8.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "oral-hang-bed-v1",
@@ -1805,7 +2057,10 @@
       "note": "Head off bed edge, oral",
       "date": "2026-08-10 01:31",
       "pixels": "1350x1800",
-      "pose": "images/poses/pose-image-8d7c4bf9-a0bd-4c08-8e57-9ad441542cbf-fafd8c05082d.jpg"
+      "pose": "images/poses/pose-image-8d7c4bf9-a0bd-4c08-8e57-9ad441542cbf-fafd8c05082d.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "pool-anal-hole-ref2va-patched",
@@ -1839,7 +2094,10 @@
         }
       ],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "game-kneel-v2",
@@ -1851,7 +2109,10 @@
       "note": "Fix: female only, no hanging balls on tigress; penis in anus",
       "date": "2026-08-10 01:18",
       "pixels": "1800x1012",
-      "pose": "images/poses/pose-image-34912a42-f6c3-41b9-8b79-2032e8b2f5c5-143ff949aa31.jpg"
+      "pose": "images/poses/pose-image-34912a42-f6c3-41b9-8b79-2032e8b2f5c5-143ff949aa31.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "game-kneel-v1",
@@ -1863,7 +2124,10 @@
       "note": "Kneeling at TV, hoodie, penis in anus",
       "date": "2026-08-10 00:58",
       "pixels": "1800x1012",
-      "pose": "images/poses/pose-image-34912a42-f6c3-41b9-8b79-2032e8b2f5c5-143ff949aa31.jpg"
+      "pose": "images/poses/pose-image-34912a42-f6c3-41b9-8b79-2032e8b2f5c5-143ff949aa31.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "game-stack-v1",
@@ -1875,7 +2139,10 @@
       "note": "Ass-up dual pads, balls-deep anal, blue hoodie",
       "date": "2026-08-10 00:58",
       "pixels": "1800x1012",
-      "pose": "images/poses/pose-image-b40e5cef-27c6-411b-9bfa-334a586593bf-d1ce80ceb1c4.jpg"
+      "pose": "images/poses/pose-image-b40e5cef-27c6-411b-9bfa-334a586593bf-d1ce80ceb1c4.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "game-side-v1",
@@ -1887,7 +2154,10 @@
       "note": "Side pose gamepad, penis in anus",
       "date": "2026-08-10 00:58",
       "pixels": "1800x1012",
-      "pose": "images/poses/pose-image-1dc61e8e-b4ba-4a29-b48f-0c8ff14ead1c-7164ab8be41b.jpg"
+      "pose": "images/poses/pose-image-1dc61e8e-b4ba-4a29-b48f-0c8ff14ead1c-7164ab8be41b.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "pool-anal-ref2va-turbo-v1",
@@ -1916,7 +2186,10 @@
         }
       ],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "pool-anal-fl2va-non-turbo",
@@ -1939,7 +2212,10 @@
       ],
       "loras": [],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "pool-anal-hole-ref2va",
@@ -1973,7 +2249,10 @@
         }
       ],
       "service": "Local ComfyUI MiniMax-H3 (this PC)",
-      "service_url": "pc-video.html"
+      "service_url": "pc-video.html",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "switch-anal-v1",
@@ -1986,7 +2265,10 @@
       "date": "2026-08-09 23:11",
       "pixels": "1800x1012",
       "cdn": "https://tempfile.aiquickdraw.com/seedream5pro/1786302674645-8xzkxkb7eej.png",
-      "pose": "images/poses/pose-image-8f01e70d-3485-44a0-9165-46a559e1a748.jpg"
+      "pose": "images/poses/pose-image-8f01e70d-3485-44a0-9165-46a559e1a748.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "game-anal-v2",
@@ -2000,7 +2282,10 @@
       "pixels": "1800x1012",
       "cdn": "https://tempfile.aiquickdraw.com/seedream5pro/1786300451469-hgvnsdium4p.png",
       "flag": "best",
-      "pose": "images/poses/pose-image-0c74c207-c4f2-45e3-aa87-d91ab3628cc5.jpg"
+      "pose": "images/poses/pose-image-0c74c207-c4f2-45e3-aa87-d91ab3628cc5.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "game-anal-v1",
@@ -2013,7 +2298,10 @@
       "date": "2026-08-09 22:26",
       "pixels": "1800x1012",
       "cdn": "https://tempfile.aiquickdraw.com/seedream5pro/1786299992271-oxcnzesa1ze.png",
-      "pose": "images/poses/pose-image-0c74c207-c4f2-45e3-aa87-d91ab3628cc5.jpg"
+      "pose": "images/poses/pose-image-0c74c207-c4f2-45e3-aa87-d91ab3628cc5.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "alley-gape-v1",
@@ -2026,7 +2314,10 @@
       "date": "2026-08-09 22:26",
       "pixels": "1800x1012",
       "cdn": "https://tempfile.aiquickdraw.com/seedream5pro/1786299866342-m2x4unp564.png",
-      "pose": "images/poses/pose-image-9737523e-4029-41bd-b7d9-c6fc9bb4d8b5.jpg"
+      "pose": "images/poses/pose-image-9737523e-4029-41bd-b7d9-c6fc9bb4d8b5.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "doorway-gape-v1",
@@ -2039,7 +2330,10 @@
       "date": "2026-08-09 22:21",
       "pixels": "1800x1800",
       "cdn": "https://tempfile.aiquickdraw.com/seedream5pro/1786299650306-mtfwdeth5mo.png",
-      "pose": "images/poses/pose-image-948026cf-bb60-4698-85a5-0f404cb59b98.jpg"
+      "pose": "images/poses/pose-image-948026cf-bb60-4698-85a5-0f404cb59b98.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "gape-rear-v1",
@@ -2052,7 +2346,10 @@
       "date": "2026-08-09 19:16",
       "pixels": "1350x1800",
       "cdn": "https://tempfile.aiquickdraw.com/seedream5pro/1786288566138-wsgffz64jd.png",
-      "pose": "images/poses/pose-image-78c56772-63ea-467a-a447-3e67569a8ead.jpg"
+      "pose": "images/poses/pose-image-78c56772-63ea-467a-a447-3e67569a8ead.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "pool-v5",
@@ -2066,7 +2363,10 @@
       "pixels": "1800x1800",
       "cdn": "https://tempfile.aiquickdraw.com/seedream5pro/1786276802572-41bre5pjf1e.png",
       "flag": "best",
-      "pose": "images/poses/pose-image-b34e2aba-7d0d-4084-a968-402ac0a0f876.jpg"
+      "pose": "images/poses/pose-image-b34e2aba-7d0d-4084-a968-402ac0a0f876.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "pool-v4",
@@ -2079,7 +2379,10 @@
       "date": "2026-08-09 15:57",
       "pixels": "1800x1800",
       "cdn": "https://tempfile.aiquickdraw.com/seedream5pro/1786276670134-h4elhn8gvy.png",
-      "pose": "images/poses/pose-image-b34e2aba-7d0d-4084-a968-402ac0a0f876.jpg"
+      "pose": "images/poses/pose-image-b34e2aba-7d0d-4084-a968-402ac0a0f876.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "pool-v3",
@@ -2092,7 +2395,10 @@
       "date": "2026-08-09 15:55",
       "pixels": "1800x1800",
       "cdn": "https://tempfile.aiquickdraw.com/seedream5pro/1786276528591-e1dserndzz9.png",
-      "pose": "images/poses/pose-image-b34e2aba-7d0d-4084-a968-402ac0a0f876.jpg"
+      "pose": "images/poses/pose-image-b34e2aba-7d0d-4084-a968-402ac0a0f876.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "pool-v2",
@@ -2105,7 +2411,10 @@
       "date": "2026-08-09 15:53",
       "pixels": "1800x1800",
       "cdn": "https://tempfile.aiquickdraw.com/seedream5pro/1786276407177-m6i7zfcv3jd.png",
-      "pose": "images/poses/pose-image-b34e2aba-7d0d-4084-a968-402ac0a0f876.jpg"
+      "pose": "images/poses/pose-image-b34e2aba-7d0d-4084-a968-402ac0a0f876.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "pool-v1",
@@ -2118,7 +2427,10 @@
       "date": "2026-08-09 15:10",
       "pixels": "1800x1800",
       "cdn": "https://tempfile.aiquickdraw.com/seedream5pro/1786273800639-stdu3mcsuf.png",
-      "pose": "images/poses/pose-image-b34e2aba-7d0d-4084-a968-402ac0a0f876.jpg"
+      "pose": "images/poses/pose-image-b34e2aba-7d0d-4084-a968-402ac0a0f876.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "doggy",
@@ -2132,7 +2444,10 @@
       "pixels": "1800x1800",
       "cdn": "https://tempfile.aiquickdraw.com/seedream5pro/1786263638968-fudo0z4tc65.png",
       "flag": "best",
-      "pose": "images/poses/pose-image-a202ff7c-f793-4597-b9d2-d5ce960f6816.jpg"
+      "pose": "images/poses/pose-image-a202ff7c-f793-4597-b9d2-d5ce960f6816.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "cowgirl-bt-08",
@@ -2146,7 +2461,10 @@
       "pixels": "1800x1800",
       "cdn": "https://tempfile.aiquickdraw.com/seedream5pro/1786215471268-07iii22i9yp.png",
       "flag": "best",
-      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg"
+      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "cowgirl-bt-07",
@@ -2158,7 +2476,10 @@
       "note": "Displeased expression",
       "date": "2026-08-09 12:15",
       "pixels": "1800x1800",
-      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg"
+      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "cowgirl-bt-06",
@@ -2170,7 +2491,10 @@
       "note": "Further color",
       "date": "2026-08-08 22:58",
       "pixels": "1800x1800",
-      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg"
+      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "cowgirl-bt-05",
@@ -2182,7 +2506,10 @@
       "note": "Fur map fix",
       "date": "2026-08-08 22:35",
       "pixels": "1800x1800",
-      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg"
+      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "cowgirl-bt-04",
@@ -2194,7 +2521,10 @@
       "note": "Seedream version",
       "date": "2026-08-08 21:37",
       "pixels": "1800x1800",
-      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg"
+      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "cowgirl-bt-03",
@@ -2206,7 +2536,10 @@
       "note": "Clean pass",
       "date": "2026-08-08 21:34",
       "pixels": "1800x1800",
-      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg"
+      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "cowgirl-bt-02",
@@ -2218,7 +2551,10 @@
       "note": "Max quality",
       "date": "2026-08-08 20:51",
       "pixels": "1800x1800",
-      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg"
+      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "cowgirl-bt-01",
@@ -2230,7 +2566,10 @@
       "note": "Black top",
       "date": "2026-08-08 20:49",
       "pixels": "1800x1800",
-      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg"
+      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "cowgirl-nude",
@@ -2242,7 +2581,10 @@
       "note": "Nude cowgirl",
       "date": "2026-08-08 20:42",
       "pixels": "1800x1800",
-      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg"
+      "pose": "images/poses/pose-image-e5e7ef76-8701-4f49-b317-c6d51787c667.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "cowboy-03",
@@ -2254,7 +2596,10 @@
       "note": "Pose lock",
       "date": "2026-08-08 20:17",
       "pixels": "1800x1800",
-      "pose": "images/poses/pose-image-e5a430ad-d2d6-4f03-a2f2-b9721d2da0e4.jpg"
+      "pose": "images/poses/pose-image-e5a430ad-d2d6-4f03-a2f2-b9721d2da0e4.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "cowboy-02",
@@ -2266,7 +2611,10 @@
       "note": "Tail fix",
       "date": "2026-08-08 19:34",
       "pixels": "1800x1800",
-      "pose": "images/poses/pose-image-e5a430ad-d2d6-4f03-a2f2-b9721d2da0e4.jpg"
+      "pose": "images/poses/pose-image-e5a430ad-d2d6-4f03-a2f2-b9721d2da0e4.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "cowboy-01",
@@ -2278,7 +2626,10 @@
       "note": "Bar scene",
       "date": "2026-08-08 19:12",
       "pixels": "1800x1800",
-      "pose": "images/poses/pose-image-e5a430ad-d2d6-4f03-a2f2-b9721d2da0e4.jpg"
+      "pose": "images/poses/pose-image-e5a430ad-d2d6-4f03-a2f2-b9721d2da0e4.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "table-anal",
@@ -2290,7 +2641,10 @@
       "note": "Pool/table early",
       "date": "2026-08-08 19:00",
       "pixels": "1799x1028",
-      "pose": "images/poses/pose-image-f429fab0-84fa-4a61-a784-07394ad08952.jpg"
+      "pose": "images/poses/pose-image-f429fab0-84fa-4a61-a784-07394ad08952.jpg",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "bunny-back",
@@ -2301,7 +2655,11 @@
       "model": "Qwen 3 Pro",
       "note": "Back view",
       "date": "2026-08-08 17:05",
-      "pixels": "1350x1800"
+      "pixels": "1350x1800",
+      "characters": [
+        "Bunny",
+        "Tigra"
+      ]
     },
     {
       "id": "bunny-front",
@@ -2312,7 +2670,11 @@
       "model": "Qwen 3 Pro",
       "note": "Bunny side quest",
       "date": "2026-08-08 17:00",
-      "pixels": "1350x1800"
+      "pixels": "1350x1800",
+      "characters": [
+        "Bunny",
+        "Tigra"
+      ]
     },
     {
       "id": "3view-05",
@@ -2324,7 +2686,10 @@
       "note": "Correct genitals placement — identity sheet",
       "date": "2026-08-08 16:27",
       "pixels": "1800x1012",
-      "flag": "best"
+      "flag": "best",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "3view-04",
@@ -2335,7 +2700,10 @@
       "model": "Seedream 5 Pro",
       "note": "Scratch 2k",
       "date": "2026-08-08 16:08",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "3view-03",
@@ -2346,7 +2714,10 @@
       "model": "Qwen 3 Pro",
       "note": "Anatomy labels",
       "date": "2026-08-08 14:21",
-      "pixels": "1799x1028"
+      "pixels": "1799x1028",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "3view-02",
@@ -2357,7 +2728,10 @@
       "model": "Qwen 3 Pro",
       "note": "Qwen 3-view",
       "date": "2026-08-08 14:17",
-      "pixels": "1799x1028"
+      "pixels": "1799x1028",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "3view-01",
@@ -2368,7 +2742,10 @@
       "model": "Seedream 5 Pro",
       "note": "3-view base",
       "date": "2026-08-08 05:35",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "tech-11",
@@ -2379,7 +2756,10 @@
       "model": "Seedream 5 Pro",
       "note": "v4",
       "date": "2026-08-08 05:24",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "tech-10",
@@ -2390,7 +2770,10 @@
       "model": "Seedream 5 Pro",
       "note": "v3b",
       "date": "2026-08-08 05:15",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "tech-09",
@@ -2401,7 +2784,10 @@
       "model": "Seedream 5 Pro",
       "note": "From scratch",
       "date": "2026-08-08 05:12",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "tech-08",
@@ -2412,7 +2798,10 @@
       "model": "Seedream 5 Pro",
       "note": "Anatomy v2",
       "date": "2026-08-08 05:07",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "tech-07",
@@ -2423,7 +2812,10 @@
       "model": "Seedream 5 Pro",
       "note": "4k anatomy",
       "date": "2026-08-08 04:36",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "tech-06",
@@ -2434,7 +2826,10 @@
       "model": "Seedream 5 Pro",
       "note": "Anatomy pass",
       "date": "2026-08-08 04:34",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "tech-05",
@@ -2445,7 +2840,10 @@
       "model": "Seedream 5 Pro",
       "note": "4k arms",
       "date": "2026-08-08 04:21",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "tech-04",
@@ -2456,7 +2854,10 @@
       "model": "Seedream 5 Pro",
       "note": "Arms fix",
       "date": "2026-08-08 04:19",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "tech-03",
@@ -2467,7 +2868,10 @@
       "model": "Seedream 5 Pro",
       "note": "4k clean",
       "date": "2026-08-08 04:12",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "tech-02",
@@ -2478,7 +2882,10 @@
       "model": "Seedream 5 Pro",
       "note": "No plug",
       "date": "2026-08-08 03:59",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "tech-01",
@@ -2489,7 +2896,10 @@
       "model": "Seedream 5 Pro",
       "note": "First tech sheet",
       "date": "2026-08-08 03:52",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "sheet-s50",
@@ -2500,7 +2910,10 @@
       "model": "Seedream 5.0 / MuAPI",
       "note": "Early sheet",
       "date": "2026-08-08 03:43",
-      "pixels": "1800x1012"
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "cucumber",
@@ -2511,7 +2924,10 @@
       "model": "Qwen 3 Pro",
       "note": "Early spicy still",
       "date": "2026-08-08 03:21",
-      "pixels": "1024x1024"
+      "pixels": "1024x1024",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "id-head",
@@ -2522,7 +2938,10 @@
       "model": "MuAPI crop",
       "note": "Face lock",
       "date": "2026-08-08 03:01",
-      "pixels": "512x512"
+      "pixels": "512x512",
+      "characters": [
+        "Tigra"
+      ]
     },
     {
       "id": "id-front",
@@ -2533,7 +2952,10 @@
       "model": "MuAPI crop",
       "note": "Identity front for i2v",
       "date": "2026-08-08 03:00",
-      "pixels": "329x370"
+      "pixels": "329x370",
+      "characters": [
+        "Tigra"
+      ]
     }
   ],
   "services": {

@@ -106,47 +106,36 @@
       align-items: center;
     }
     nav a.howto-nav:hover { color: #fff; }
-    .net-bar {
+    .filter-bar {
       max-width: 1280px;
       margin: 0 auto;
-      padding: 0.55rem 1.25rem 0.75rem;
+      padding: 0.4rem 1.25rem 0.15rem;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      gap: 0.5rem;
+      gap: 0.4rem;
     }
-    .net-bar .lbl { color: var(--muted); font-size: 0.8rem; margin-right: 0.15rem; }
-    .net-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
+    .filter-bar:last-of-type { padding-bottom: 0.75rem; }
+    .filter-bar .lbl {
+      color: var(--muted);
+      font-size: 0.8rem;
+      width: 6.2rem;
+      flex-shrink: 0;
+    }
+    .filter-bar button {
       color: var(--text);
-      background: rgba(62, 207, 142, 0.08);
-      border: 1px solid var(--ok);
+      background: transparent;
+      border: 1px solid var(--border);
       border-radius: 999px;
-      padding: 0.32rem 0.75rem;
-      font-size: 0.82rem;
+      padding: 0.28rem 0.7rem;
+      font-size: 0.78rem;
       cursor: pointer;
     }
-    .net-btn .mark {
-      width: 1.05rem;
-      height: 1.05rem;
-      border-radius: 4px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.78rem;
-      font-weight: 700;
-      line-height: 1;
+    .filter-bar button:hover, .filter-bar button.active {
+      border-color: var(--accent);
+      color: #fff;
     }
-    .net-btn.on .mark { background: var(--ok); color: #0d0f12; }
-    .net-btn.off {
-      background: rgba(255, 82, 82, 0.08);
-      border-color: #ff5252;
-      color: var(--muted);
-      text-decoration: line-through;
-    }
-    .net-btn.off .mark { background: #ff5252; color: #fff; }
+    .filter-bar button .n { color: var(--muted); font-size: 0.72rem; }
     .like-btn {
       border: 1px solid var(--border);
       background: rgba(255,255,255,0.03);
@@ -439,12 +428,8 @@
     <button type="button" data-cat="liked">Лайки</button>
     <button type="button" data-cat="best">Best</button>
   </nav>
-  <div class="net-bar" id="net-bar">
-    <span class="lbl">Нейросети:</span>
-    <button type="button" class="net-btn on" data-net="wan" aria-pressed="true"><span class="mark">✓</span> Wan</button>
-    <button type="button" class="net-btn on" data-net="seedream" aria-pressed="true"><span class="mark">✓</span> Seedream</button>
-    <button type="button" class="net-btn on" data-net="minimax" aria-pressed="true"><span class="mark">✓</span> MiniMax</button>
-  </div>
+  <div class="filter-bar" id="model-bar"></div>
+  <div class="filter-bar" id="char-bar"></div>
 
   <main id="main"></main>
 
@@ -473,10 +458,19 @@
     /** per-card view: "tigress" | "pose" */
     const viewState = new Map();
     const LIKES_KEY = "tigress-gallery-likes";
-    const NET_KEY = "tigress-gallery-nets";
-    const NETS = ["wan", "seedream", "minimax"];
+    const MODEL_KEY = "tigress-gallery-model";
+    const CHAR_KEY = "tigress-gallery-char";
+    const CHAR_LABEL = {
+      "Tigra": "Тигрица",
+      "Bunny": "Bunny",
+      "Male": "Мужчина",
+      "Terry Crews": "Terry Crews",
+      "Black man": "Black man"
+    };
+    const CHAR_ORDER = ["Tigra", "Bunny", "Male", "Terry Crews", "Black man"];
     let likes = new Set();
-    let netsOn = { wan: true, seedream: true, minimax: true };
+    let modelFilter = "";
+    let charFilter = "";
 
     function loadLikes() {
       try {
@@ -491,25 +485,63 @@
     }
     function loadNets() {
       try {
-        const raw = JSON.parse(localStorage.getItem(NET_KEY) || "null");
-        if (raw && typeof raw === "object") {
-          NETS.forEach((k) => { if (typeof raw[k] === "boolean") netsOn[k] = raw[k]; });
-        }
-      } catch (e) {}
+        modelFilter = String(localStorage.getItem(MODEL_KEY) || "");
+        charFilter = String(localStorage.getItem(CHAR_KEY) || "");
+      } catch (e) {
+        modelFilter = "";
+        charFilter = "";
+      }
     }
     function saveNets() {
-      localStorage.setItem(NET_KEY, JSON.stringify(netsOn));
+      localStorage.setItem(MODEL_KEY, modelFilter);
+      localStorage.setItem(CHAR_KEY, charFilter);
     }
-    function syncNetButtons() {
-      document.querySelectorAll("#net-bar .net-btn").forEach((btn) => {
-        const k = btn.dataset.net;
-        const on = netsOn[k] !== false;
-        btn.classList.toggle("on", on);
-        btn.classList.toggle("off", !on);
-        btn.setAttribute("aria-pressed", on ? "true" : "false");
-        const mark = btn.querySelector(".mark");
-        if (mark) mark.textContent = on ? "✓" : "✕";
-      });
+    function itemModel(it) {
+      return String(it.model || "").trim() || "без модели";
+    }
+    function itemCharacters(it) {
+      if (Array.isArray(it.characters) && it.characters.length) {
+        return it.characters.map(String);
+      }
+      const blob = [it.id, it.title, it.note, it.category, it.source].map((x) => String(x || "").toLowerCase()).join(" ");
+      const chars = [];
+      if (/bunny/.test(blob) || it.category === "bunny") chars.push("Bunny");
+      if (/terry/.test(blob)) chars.push("Terry Crews");
+      if (/black[\s-]?man|\bbbc\b/.test(blob)) chars.push("Black man");
+      const id = String(it.id || "");
+      if (id.startsWith("male-character") || /male character sheet/.test(blob)) chars.push("Male");
+      const partnerSheet = id.startsWith("male-character") || id.startsWith("image3-") || /male character sheet/.test(blob);
+      if (!partnerSheet) chars.push("Tigra");
+      const seen = new Set();
+      return chars.filter((c) => { if (seen.has(c)) return false; seen.add(c); return true; });
+    }
+    function charLabel(id) {
+      return CHAR_LABEL[id] || id;
+    }
+    function modelAllowed(it) {
+      if (!modelFilter) return true;
+      return itemModel(it) === modelFilter;
+    }
+    function charAllowed(it) {
+      if (!charFilter) return true;
+      return itemCharacters(it).includes(charFilter);
+    }
+    function extraAllowed(it) {
+      return modelAllowed(it) && charAllowed(it);
+    }
+    function fileExt(path) {
+      const clean = String(path || "").split("?")[0];
+      const i = clean.lastIndexOf(".");
+      return i >= 0 ? clean.slice(i) : "";
+    }
+    function downloadName(item, src) {
+      const ext = fileExt(src) || fileExt(item.file) || "";
+      return (item.id || "file") + ext;
+    }
+    function downloadBtnHtml(item, src) {
+      const href = item.file || src || "";
+      if (!href) return "";
+      return `<a class="btn dl-link" href="${escapeHtml(href)}" download="${escapeHtml(downloadName(item, href))}">Скачать</a>`;
     }
     function isLiked(id) {
       return likes.has(String(id));
@@ -519,21 +551,6 @@
       if (likes.has(id)) likes.delete(id);
       else likes.add(id);
       saveLikes();
-    }
-    function netFamily(it) {
-      const modelSvc = [it.model, it.service].map((x) => String(x || "").toLowerCase()).join(" ");
-      const blob = [
-        it.model, it.service, it.service_url, it.id, it.note, it.category
-      ].map((x) => String(x || "").toLowerCase()).join(" ");
-      if (/minimax|fl2va|ref2va|\bh3\b/.test(modelSvc) || /minimax|fl2va|ref2va/.test(blob)) return "minimax";
-      if (/\bwan\b|wavespeed|alibaba\/wan/.test(blob)) return "wan";
-      if (/seedream|kie\.ai|kieai/.test(blob)) return "seedream";
-      return "other";
-    }
-    function netAllowed(it) {
-      const fam = netFamily(it);
-      if (fam === "other") return true;
-      return netsOn[fam] !== false;
     }
     function plural(n, one, few, many) {
       const n10 = Math.abs(n) % 10;
@@ -603,6 +620,7 @@
             <div class="row">
               <a class="btn" href="${escapeHtml(href)}">Читать</a>
               <a class="btn" href="${escapeHtml(item.file)}" target="_blank" rel="noopener">MD</a>
+              ${downloadBtnHtml(item, item.file)}
               ${likeBtnHtml(item.id)}
             </div>
           </div>
@@ -680,6 +698,7 @@
             ${svcHtml}
             <div class="row">
               <a class="btn open-link" href="${escapeHtml(src)}" target="_blank" rel="noopener">Open</a>
+              ${downloadBtnHtml(item, src)}
               ${likeBtnHtml(item.id)}
             </div>
           </div>
@@ -736,8 +755,8 @@
       const main = document.getElementById("main");
       const items = sortNewestFirst(DATA.items || []);
       main.innerHTML = "";
-      const stories = items.filter(isStory).filter(netAllowed);
-      const media = items.filter(it => !isStory(it)).filter(netAllowed);
+      const stories = items.filter(isStory).filter(extraAllowed);
+      const media = items.filter(it => !isStory(it)).filter(extraAllowed);
 
       if (filter === "story") {
         const sec = document.createElement("section");
@@ -746,6 +765,7 @@
           <div class="stories-grid">${stories.map(storyCardHtml).join("")}</div>`;
         main.appendChild(sec);
         bindLikeButtons(main);
+        bindDownloadButtons(main);
         return;
       }
 
@@ -808,6 +828,7 @@
         });
       });
       bindLikeButtons(main);
+      bindDownloadButtons(main);
     }
 
     function bindLikeButtons(root) {
@@ -827,10 +848,67 @@
       });
     }
 
+    function bindDownloadButtons(root) {
+      root.querySelectorAll("a.dl-link").forEach((a) => {
+        a.addEventListener("click", async (e) => {
+          const url = a.getAttribute("href");
+          const name = a.getAttribute("download") || "file";
+          if (!url) return;
+          e.preventDefault();
+          try {
+            const res = await fetch(url);
+            const blob = await res.blob();
+            const obj = URL.createObjectURL(blob);
+            const tmp = document.createElement("a");
+            tmp.href = obj;
+            tmp.download = name;
+            document.body.appendChild(tmp);
+            tmp.click();
+            tmp.remove();
+            setTimeout(() => URL.revokeObjectURL(obj), 2000);
+          } catch (err) {
+            window.open(url, "_blank", "noopener");
+          }
+        });
+      });
+    }
+
+    function pill(active, attrs, label, count) {
+      const n = count != null ? ` <span class="n">${count}</span>` : "";
+      return `<button type="button" class="${active ? "active" : ""}" ${attrs}>${escapeHtml(label)}${n}</button>`;
+    }
+
+    function renderFilterBars() {
+      const items = DATA.items || [];
+      const modelCounts = new Map();
+      const charCounts = new Map();
+      items.forEach((it) => {
+        const m = itemModel(it);
+        modelCounts.set(m, (modelCounts.get(m) || 0) + 1);
+        itemCharacters(it).forEach((c) => charCounts.set(c, (charCounts.get(c) || 0) + 1));
+      });
+      if (modelFilter && !modelCounts.has(modelFilter)) modelFilter = "";
+      if (charFilter && !charCounts.has(charFilter)) charFilter = "";
+
+      const models = [...modelCounts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ru"));
+      const modelBar = document.getElementById("model-bar");
+      modelBar.innerHTML = `<span class="lbl">Модели</span>` +
+        pill(!modelFilter, `data-model=""`, "Все", items.length) +
+        models.map(([m, n]) => pill(modelFilter === m, `data-model="${escapeHtml(m)}"`, m, n)).join("");
+
+      const chars = [
+        ...CHAR_ORDER.filter((c) => charCounts.has(c)),
+        ...[...charCounts.keys()].filter((c) => !CHAR_ORDER.includes(c)).sort((a, b) => a.localeCompare(b, "ru"))
+      ];
+      const charBar = document.getElementById("char-bar");
+      charBar.innerHTML = `<span class="lbl">Персонажи</span>` +
+        pill(!charFilter, `data-char=""`, "Все", items.length) +
+        chars.map((c) => pill(charFilter === c, `data-char="${escapeHtml(c)}"`, charLabel(c), charCounts.get(c))).join("");
+    }
+
     async function load() {
       loadLikes();
       loadNets();
-      syncNetButtons();
       const res = await fetch("manifest.json?ts=" + Date.now());
       DATA = await res.json();
       const all = DATA.items || [];
@@ -842,6 +920,7 @@
       document.title = DATA.title || "Tigress thread gallery";
       document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("active", b.dataset.cat === filter));
       renderServices(DATA);
+      renderFilterBars();
       render();
     }
 
@@ -879,14 +958,20 @@
       render();
     });
 
-    document.getElementById("net-bar").addEventListener("click", (e) => {
-      const btn = e.target.closest("button[data-net]");
+    document.getElementById("model-bar").addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-model]");
       if (!btn) return;
-      const k = btn.dataset.net;
-      if (!NETS.includes(k)) return;
-      netsOn[k] = !netsOn[k];
+      modelFilter = btn.dataset.model || "";
       saveNets();
-      syncNetButtons();
+      renderFilterBars();
+      render();
+    });
+    document.getElementById("char-bar").addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-char]");
+      if (!btn) return;
+      charFilter = btn.dataset.char || "";
+      saveNets();
+      renderFilterBars();
       render();
     });
 

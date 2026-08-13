@@ -2,8 +2,36 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T20:44+04:00",
+  "updated": "2026-08-13T20:46+04:00",
   "items": [
+    {
+      "id": "seedream-vinna-cowboy-noshirt-noskirt",
+      "file": "images/seedream-vinna-cowboy-noshirt-noskirt.jpg",
+      "source": "vinna-cowboy-noshirt-noskirt-c.png",
+      "title": "Seedream 5 Pro — Vinna cowboy, no shirt no skirt, scarf on",
+      "category": "scene",
+      "model": "Seedream 5 Pro",
+      "note": "i2i strength 0.46, cowboy photo only. task 7c293a59",
+      "date": "2026-08-13 20:46",
+      "pixels": "1800x1012",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786639582634-e3skx7i3skb.png",
+      "prompt": "Use the SAME anthropomorphic female BEAR from the reference photo. Do not redesign her. She is a BEAR, not a cat, not a lioness, not a feline.\nPreserve: black bear nose, rounded bear ears, bear muzzle, golden-tan fur, long wavy blonde hair, amber eyes, thick curvy body, wide hips, heavy thighs, large breasts.\nPreserve camera, cabin, lighting, and pose: right gloved hand on the wooden table, left hand holding a silver revolver upright, cocky smirk.\nKEEP: tan cowboy hat with gold badge, green-and-yellow striped scarf around the neck, dark brown cropped leather vest, brown leather fingerless gloves, thick brown belt with large round gold buckle, brown leather chaps open at the front, thigh holster, silver revolver.\nREMOVE the white shirt completely. Vest over bare furred torso. Both breasts and nipples clearly visible.\nREMOVE the black miniskirt completely. No panties. Bare pussy clearly visible between the chaps.\nScarf stays on. Same 16:9 illustration. No text, no watermark.",
+      "prompt_file": "prompts/seedream-vinna-cowboy-noshirt-noskirt.txt",
+      "refs": [
+        {
+          "label": "cowboy_photo",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786638962234-j992byeckyb.png",
+          "file": "images/refs/seedream-vinna-cowboy-noshirt-noskirt/01-cowboy-photo.jpg"
+        }
+      ],
+      "service": "Kie.ai",
+      "service_url": "https://kie.ai",
+      "service_model_url": "https://kie.ai",
+      "api": "https://api.kie.ai",
+      "characters": [
+        "Vinna"
+      ]
+    },
     {
       "id": "gym-act1-locker-plug-b",
       "file": "images/gym-act1-locker-plug-b.jpg",

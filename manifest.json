@@ -2,9 +2,285 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T21:58+04:00",
+  "updated": "2026-08-13T22:43+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "oral-pose-lying-stomach",
+      "file": "images/oral-pose-lying-stomach.jpg",
+      "source": "op06_lying_stomach_00001_.png",
+      "title": "Oral pose lying stomach",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pose test T2I 50 steps, no inpaint, no TPDT.",
+      "date": "2026-08-13 22:43",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, lying on her stomach, prone on gym mat, head at the end of the mat, fellatio, deepthroat, human male standing at her head, profile, black sports bra, black crop top, black choker, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-pose-lying-stomach.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/oral-pose-lying-stomach/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-pose-lying-side",
+      "file": "images/oral-pose-lying-side.jpg",
+      "source": "op05_lying_side_00001_.png",
+      "title": "Oral pose lying side",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pose test T2I 50 steps, no inpaint, no TPDT.",
+      "date": "2026-08-13 22:43",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, lying on side on gym mat, recumbent, side-lying, profile view, fellatio, deepthroat, human male kneeling beside her, black sports bra, black crop top, black choker, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-pose-lying-side.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/oral-pose-lying-side/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-pose-upside-down",
+      "file": "images/oral-pose-upside-down.jpg",
+      "source": "op04_upside_down_00001_.png",
+      "title": "Oral pose upside down",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pose test T2I 50 steps, no inpaint, no TPDT.",
+      "date": "2026-08-13 22:43",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, lying on a weight bench, head hanging off the edge of the bench, upside-down, inverted, head down, throat from above, fellatio, deepthroat, human male standing at the head of the bench, black sports bra, black crop top, black choker, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-pose-upside-down.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/oral-pose-upside-down/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-pose-sitting",
+      "file": "images/oral-pose-sitting.jpg",
+      "source": "op03_sitting_00001_.png",
+      "title": "Oral pose sitting",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pose test T2I 50 steps, no inpaint, no TPDT.",
+      "date": "2026-08-13 22:43",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, sitting on gym bench, seated, buttocks on the bench, sitting pose, not kneeling, leaning forward from a seated position, fellatio, deepthroat, human male standing in front of the bench, side view, black sports bra, black crop top, black choker, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-pose-sitting.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/oral-pose-sitting/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-pose-standing",
+      "file": "images/oral-pose-standing.jpg",
+      "source": "op02_standing_00001_.png",
+      "title": "Oral pose standing",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pose test T2I 50 steps, no inpaint, no TPDT.",
+      "date": "2026-08-13 22:43",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, fitness center, standing, both standing, standing fellatio, tigress standing with knees slightly bent, leaning forward a little, human male standing, fellatio, deepthroat, full body, black sports bra, black crop top, black choker, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-pose-standing.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/oral-pose-standing/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-pose-lying-back",
+      "file": "images/oral-pose-lying-back.jpg",
+      "source": "op01_lying_back_00001_.png",
+      "title": "Oral pose lying back",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pose test T2I 50 steps, no inpaint, no TPDT.",
+      "date": "2026-08-13 22:43",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, fitness center, lying on back, supine on gym mat, on her back, human male kneeling over her face, fellatio, deepthroat, looking up, black sports bra, black crop top, black choker, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-pose-lying-back.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/oral-pose-lying-back/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "tpdt5-sit-side",
       "file": "images/tpdt5-sit-side.jpg",

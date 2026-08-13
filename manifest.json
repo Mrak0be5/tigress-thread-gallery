@@ -2,9 +2,44 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-14T01:23+04:00",
+  "updated": "2026-08-14T01:24+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "seedream-vinna-cowboy-src-longer",
+      "file": "images/seedream-vinna-cowboy-src-longer.jpg",
+      "source": "vinna-cowboy-src-longer-a.png",
+      "title": "Seedream 5 Pro — Vinna cowboy source, skirt a bit longer",
+      "category": "scene",
+      "model": "Seedream 5 Pro",
+      "note": "i2i 1:1 strength 0.26 on painted hem of original cowboy photo. task 2dea1ccc. short mini, crotch covered.",
+      "date": "2026-08-14 01:23",
+      "pixels": "1800x1800",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786656192810-ujniexxjeud.png",
+      "prompt": "Use this exact cowboy bear woman and cabin. Do not redesign her. BEAR, not a cat. Keep hat, scarf, white shirt, vest, gloves, belt, chaps, holster, revolver, pose, 1:1 framing.\nThe extra glossy black on her hips is the SKIRT, not a patch. Blend it into one continuous black leather mini-skirt whose hem is a little longer than a micro-skirt. Hem sits just below the crotch, covering genitals, still a short mini, not mid-calf, not knee-length. Do NOT shorten back to micro. Clean leather shine. No text.",
+      "prompt_file": "prompts/seedream-vinna-cowboy-src-longer.txt",
+      "refs": [
+        {
+          "label": "cowboy_photo",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786631843352-snquqoz6o4m.png",
+          "file": "images/refs/seedream-vinna-cowboy-src-longer/01-cowboy-photo.jpg"
+        },
+        {
+          "label": "painted_hem",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786655864222-l40pccpa6u.png",
+          "file": "images/refs/seedream-vinna-cowboy-src-longer/02-painted-hem.jpg"
+        }
+      ],
+      "service": "Kie.ai",
+      "service_url": "https://kie.ai",
+      "service_model_url": "https://kie.ai",
+      "api": "https://api.kie.ai",
+      "api_key": "f267669997d0cfbb669b6882b8fdc5e4",
+      "key_name": "KIE_API_KEY",
+      "characters": [
+        "Vinna"
+      ]
+    },
     {
       "id": "minimax-v7-r1-10s-1024x576-coffee-deep-wince-cum-contempt",
       "file": "images/minimax-v7-r1-10s-1024x576-coffee-deep-wince-cum-contempt.mp4",

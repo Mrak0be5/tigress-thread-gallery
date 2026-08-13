@@ -237,6 +237,27 @@
       overflow: auto;
       font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
     }
+    .services {
+      margin-top: 0.9rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+    }
+    .service {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--panel);
+      padding: 0.65rem 0.8rem;
+      font-size: 0.82rem;
+    }
+    .service a { color: var(--accent); }
+    .api-key {
+      margin-top: 0.35rem;
+      font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+      font-size: 0.72rem;
+      word-break: break-all;
+      color: var(--text);
+    }
     .row { display: flex; gap: 0.45rem; flex-wrap: wrap; margin-top: 0.35rem; }
     a.btn {
       text-decoration: none;
@@ -288,6 +309,7 @@
       <span class="badge" id="updated-badge"></span>
       <span class="badge">NSFW 18+</span>
     </div>
+    <div id="services" class="services"></div>
   </header>
 
   <nav id="nav">
@@ -369,6 +391,15 @@
       const promptHtml = item.prompt
         ? `<details class="prompt-box"><summary>Промпт</summary><pre>${escapeHtml(item.prompt)}</pre></details>`
         : "";
+      const svcName = item.service || "";
+      const svcUrl = item.service_url || "";
+      const svcModel = item.service_model_url || "";
+      const apiUrl = item.api || "";
+      const apiKey = item.api_key || "";
+      const keyName = item.key_name || "";
+      const svcHtml = (svcName || svcUrl || apiKey)
+        ? `<div class="note">Сервис: ${svcUrl ? `<a class="btn" href="${escapeHtml(svcUrl)}" target="_blank" rel="noopener">${escapeHtml(svcName || "link")}</a>` : escapeHtml(svcName)}${svcModel ? ` <a class="btn" href="${escapeHtml(svcModel)}" target="_blank" rel="noopener">модель</a>` : ""}${apiUrl ? ` <a class="btn" href="${escapeHtml(apiUrl)}" target="_blank" rel="noopener">API</a>` : ""}</div>${apiKey ? `<details class="prompt-box"><summary>API key${keyName ? " · " + escapeHtml(keyName) : ""}</summary><pre>${escapeHtml(apiKey)}</pre></details>` : ""}`
+        : "";
       
       return `
         <article class="card ${best ? "best" : ""} ${isVideo ? "video-card" : ""}" data-id="${escapeHtml(item.id)}" data-file="${escapeHtml(item.file)}" data-pose="${escapeHtml(item.pose || "")}">
@@ -387,6 +418,7 @@
             <div class="note ${noteClass}">${escapeHtml(item.note || "")}</div>
             ${refsHtml}
             ${promptHtml}
+            ${svcHtml}
             <div class="row">
               <a class="btn open-link" href="${escapeHtml(src)}" target="_blank" rel="noopener">Open</a>
             </div>
@@ -490,7 +522,32 @@
       document.getElementById("count-badge").textContent = DATA.items.length + " images · " + nPose + " with pose ref";
       document.getElementById("updated-badge").textContent = "updated " + (DATA.updated || DATA.created || "");
       document.title = DATA.title || "Tigress thread gallery";
+      renderServices(DATA);
       render();
+    }
+
+    function renderServices(data) {
+      const box = document.getElementById("services");
+      if (!box) return;
+      const raw = data.services;
+      const list = Array.isArray(raw) ? raw : (raw && typeof raw === "object" ? Object.values(raw) : []);
+      if (!list.length) {
+        box.innerHTML = "";
+        return;
+      }
+      box.innerHTML = list.map((s) => {
+        const name = s.name || "service";
+        const links = [
+          s.url ? `<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(name)}</a>` : escapeHtml(name),
+          s.model_url ? `<a href="${escapeHtml(s.model_url)}" target="_blank" rel="noopener">модель</a>` : "",
+          s.api ? `<a href="${escapeHtml(s.api)}" target="_blank" rel="noopener">API</a>` : "",
+          s.docs ? `<a href="${escapeHtml(s.docs)}" target="_blank" rel="noopener">docs</a>` : ""
+        ].filter(Boolean).join(" · ");
+        const key = s.api_key
+          ? `<div class="api-key">${s.key_name ? escapeHtml(s.key_name) + ": " : ""}<code>${escapeHtml(s.api_key)}</code></div>`
+          : "";
+        return `<div class="service">${links}${key}</div>`;
+      }).join("");
     }
 
     document.getElementById("nav").addEventListener("click", (e) => {

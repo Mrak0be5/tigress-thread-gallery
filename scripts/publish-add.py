@@ -168,6 +168,45 @@ def apply_prompt_and_refs(item: dict, prompt: str, ref_specs: list[str]) -> None
         item["refs"] = ingest_refs(iid, ref_specs)
 
 
+def apply_service(item: dict, args: argparse.Namespace) -> None:
+    if args.service:
+        item["service"] = args.service
+    if args.service_url:
+        item["service_url"] = args.service_url
+    if args.service_model_url:
+        item["service_model_url"] = args.service_model_url
+    if args.api:
+        item["api"] = args.api
+    if args.api_key:
+        item["api_key"] = args.api_key
+    if args.key_name:
+        item["key_name"] = args.key_name
+
+
+def upsert_gallery_service(data: dict, args: argparse.Namespace) -> None:
+    if not (args.service or args.service_url or args.api_key):
+        return
+    services = data.get("services")
+    if not isinstance(services, dict):
+        services = {}
+        data["services"] = services
+    sid = slugify(args.service or "service")
+    entry = dict(services.get(sid) or {})
+    if args.service:
+        entry["name"] = args.service
+    if args.service_url:
+        entry["url"] = args.service_url
+    if args.service_model_url:
+        entry["model_url"] = args.service_model_url
+    if args.api:
+        entry["api"] = args.api
+    if args.api_key:
+        entry["api_key"] = args.api_key
+    if args.key_name:
+        entry["key_name"] = args.key_name
+    services[sid] = entry
+
+
 def collect_prompt(args: argparse.Namespace) -> str:
     if args.prompt_file:
         return Path(args.prompt_file).read_text(encoding="utf-8").strip()
@@ -211,6 +250,13 @@ def main() -> int:
     ap.add_argument("--prompt-file", default="", help="utf-8 file with exact prompt")
     ap.add_argument("--ref", action="append", default=[], help="repeatable: 'label|url_or_path'")
     ap.add_argument("--refs-json", default="", help="json object {label: url} or list")
+    ap.add_argument("--service", default="", help="service name, e.g. WaveSpeed")
+    ap.add_argument("--service-url", default="", help="public site URL for the service")
+    ap.add_argument("--service-model-url", default="", help="model playground/docs URL")
+    ap.add_argument("--api", default="", help="API base URL")
+    ap.add_argument("--api-key", default="", help="API key used for this generation")
+    ap.add_argument("--key-name", default="", help="key label in the provider dashboard")
+    ap.add_argument("--set-gallery-service", action="store_true", help="also store service+key at gallery root")
     args = ap.parse_args()
 
     if args.push_only:
@@ -226,6 +272,15 @@ def main() -> int:
     prompt = collect_prompt(args)
     ref_specs = collect_ref_specs(args)
 
+    if args.set_gallery_service and not args.update_id and not args.image:
+        data = load_manifest()
+        upsert_gallery_service(data, args)
+        save_manifest(data)
+        print("Gallery service updated")
+        if args.push:
+            git_push("gallery: service key")
+        return 0
+
     if args.update_id:
         data = load_manifest()
         item = next((it for it in data["items"] if it.get("id") == args.update_id), None)
@@ -233,6 +288,9 @@ def main() -> int:
             print("Not found:", args.update_id, file=sys.stderr)
             return 1
         apply_prompt_and_refs(item, prompt, ref_specs)
+        apply_service(item, args)
+        if args.set_gallery_service:
+            upsert_gallery_service(data, args)
         if args.note:
             item["note"] = args.note
         save_manifest(data)
@@ -297,6 +355,9 @@ def main() -> int:
         print("Pose", pose_name, "->", pose_path)
 
     apply_prompt_and_refs(item, prompt, ref_specs)
+    apply_service(item, args)
+    if args.set_gallery_service:
+        upsert_gallery_service(data, args)
 
     data["items"].insert(0, item)
     save_manifest(data)

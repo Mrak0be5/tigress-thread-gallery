@@ -2,9 +2,44 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T11:59+04:00",
+  "updated": "2026-08-13T12:00+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "wan30-bear-cowboy-flash-10s-2",
+      "file": "images/wan30-bear-cowboy-flash-10s-2.mp4",
+      "source": "wan3_done_bear_cowboy_flash_1063a572.mp4",
+      "title": "Wan 3.0 R2V 10s — cowboy bear drops gun, opens shirt, lifts skirt",
+      "category": "video",
+      "model": "Wan 3.0",
+      "note": "bear identity + cowboy first-frame (skirt down). id 1063a572",
+      "date": "2026-08-13 12:00",
+      "pixels": "0x0",
+      "cdn": "https://d1q70pf5vjeyhc.cloudfront.net/predictions/1063a572cf2b418f877cc1cacbe73305/1.mp4",
+      "prompt": "10 seconds, 16:9, 480p, explicit adult animation.\nONE UNBROKEN CONTINUOUS SHOT for the entire 10 seconds. Single locked camera, single take, one composition, one frame.\nNo cuts, no splices, no edits, no hard cuts, no jump cuts, no smash cuts, no match cuts, no dissolve, no fade, no wipe, no morph-cut, no scene change, no shot change, no montage, no multi-camera, no multi-shot sequence, no abrupt visual transitions.\nReference roles (strict):\nImage 1 = anthropomorphic female bear identity ONLY (golden-tan fur, long wavy blonde hair, rounded bear ears, amber eyes, black bear nose and muzzle, athletic toned body, small fluffy bear tail, paw hands with black claws). Do not copy the T-pose or front/back sheet layout. Do not copy the Russian labels.\nImage 2 = pose, cowboy outfit, and cabin environment ONLY (rustic sunlit wooden cabin, tan cowboy hat, green-yellow striped scarf, white short-sleeve button shirt fully buttoned at start, dark brown cropped leather vest, leather gloves, SHORT black leather miniskirt worn DOWN covering hips, brown leather chaps, brass buckle belt, silver revolver in her right hand, left hand on wooden table, frightened tense face).\nCompose: same cabin and cowboy outfit as Image 2; bear identity locked from Image 1.\nCamera: STATIC locked-off medium-wide full-body shot for the whole 10 seconds. No dolly, no zoom, no orbit, no pan, no tilt, no reframing. Keep her full body, hands, gun, shirt, breasts, miniskirt, and crotch readable in frame the entire time.\nStart state: shirt fully buttoned, breasts covered, miniskirt DOWN covering hips and upper thighs, revolver held in her right hand.\nAction timeline (strict order, all in-camera in the same take):\n0-3s: she looks frightened, then fearfully throws the silver revolver down onto the wooden floor; the gun lands and stays on the floor. She does not fire it.\n3-6s: she unbuttons the white shirt with both hands, pulls the shirt open, and shows her bare furred breasts and nipples clearly to camera. Vest stays on, pushed aside. Hat, scarf, gloves, chaps stay on.\n6-10s: she lifts the black leather miniskirt up with both hands, spreads her legs wide, and presents her fully exposed bare pussy to camera so it is clearly visible, detailed vulva, no underwear. Skirt stays lifted. She holds this pose until the end.\nKeep bear identity locked from Image 1, set and outfit from Image 2. Same 2D illustration style as the references. Soft cabin window sunlight. No text, no watermark, no identity morph, no extra limbs, no extra people, no jump cuts, no hard cuts, no splices, no abrupt transitions.",
+      "prompt_file": "prompts/wan30-bear-cowboy-flash-10s-2.txt",
+      "refs": [
+        {
+          "label": "bear_identity",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786589073794-06kwf53mfurn.png",
+          "file": "images/refs/wan30-bear-cowboy-flash-10s-2/01-bear-identity.jpg"
+        },
+        {
+          "label": "first_frame_cowboy",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786589375614-3skl4djenbf.png",
+          "file": "images/refs/wan30-bear-cowboy-flash-10s-2/02-first-frame-cowboy.jpg"
+        }
+      ],
+      "service": "WaveSpeed",
+      "service_url": "https://wavespeed.ai",
+      "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
+      "api": "https://api.wavespeed.ai/api/v3",
+      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
+      "key_name": "Grok",
+      "characters": [
+        "Bear"
+      ]
+    },
     {
       "id": "wan30-tigra-r2v-15s-bbc-faces",
       "file": "images/wan30-tigra-r2v-15s-bbc-faces.mp4",

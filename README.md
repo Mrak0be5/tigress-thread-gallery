@@ -25,7 +25,20 @@ python scripts\publish-add.py "C:\path\to\new.png" `
   --push
 ```
 
-Categories: `sheet` | `scene` | `identity` | `bunny`
+Categories: `sheet` | `scene` | `identity` | `bunny` | `video` | `story`
+
+Story (latest version, separate gallery section):
+
+```powershell
+python scripts\publish-add.py "C:\Users\hebp\OneDrive\Desktop\TigraDeepComix\STORY-gym-4acts-v8.7.md" `
+  --category story `
+  --title "Ночная смена" `
+  --id story-gym-night-shift `
+  --note "Тигра и Винна. Ночной зал." `
+  --push
+```
+
+Reader: `story.html` · nav: `#story`
 
 ## Update flow (agent)
 

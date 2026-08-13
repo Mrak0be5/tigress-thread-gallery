@@ -2,9 +2,22 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T04:52+04:00",
+  "updated": "2026-08-13T04:55+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "story-gym-night-shift",
+      "file": "stories/STORY-gym-4acts-v8.7.md",
+      "html": "story.html",
+      "source": "STORY-gym-4acts-v8.7.md",
+      "title": "Ночная смена",
+      "category": "story",
+      "model": "проза",
+      "note": "Тигра и Винна. Ночной зал. Пролог + 4 акта.",
+      "version": "8.7",
+      "date": "2026-08-13 04:55",
+      "latest": true
+    },
     {
       "id": "part-1-bored-coffee-ref2va-v4-10s-2",
       "file": "images/part-1-bored-coffee-ref2va-v4-10s-2.mp4",

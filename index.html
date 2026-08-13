@@ -18,6 +18,7 @@
       --scene: #ff8a65;
       --bunny: #c77dff;
       --identity: #64b5f6;
+      --story: #f4d35e;
       --radius: 14px;
     }
     * { box-sizing: border-box; }
@@ -80,6 +81,22 @@
     nav button[data-cat="bunny"].active { border-color: var(--bunny); color: var(--bunny); }
     nav button[data-cat="identity"].active { border-color: var(--identity); color: var(--identity); }
     nav button[data-cat="video"].active { border-color: #ff5252; color: #ff5252; }
+    nav button[data-cat="story"].active { border-color: var(--story); color: var(--story); }
+    .stories-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .story-card {
+      max-width: 640px;
+      flex-direction: row;
+      align-items: stretch;
+    }
+    .story-card .story-mark {
+      width: 6px;
+      background: var(--story);
+      flex-shrink: 0;
+    }
     main {
       max-width: 1280px;
       margin: 0 auto;
@@ -319,6 +336,7 @@
     <button type="button" data-cat="identity">Identity</button>
     <button type="button" data-cat="bunny">Bunny</button>
     <button type="button" data-cat="video">Video</button>
+    <button type="button" data-cat="story">Рассказы</button>
     <button type="button" data-cat="best">Best</button>
   </nav>
 
@@ -341,10 +359,11 @@
       { id: "scene", title: "Scenes (sex poses)" },
       { id: "identity", title: "Identity crops" },
       { id: "bunny", title: "Bunny" },
-      { id: "video", title: "Videos" }
+      { id: "video", title: "Videos" },
+      { id: "story", title: "Рассказы" }
     ];
     let DATA = null;
-    let filter = "all";
+    let filter = (location.hash === "#story" || location.hash === "#stories") ? "story" : "all";
     /** per-card view: "tigress" | "pose" */
     const viewState = new Map();
 
@@ -364,6 +383,30 @@
 
     function sortNewestFirst(list) {
       return list.slice().sort((a, b) => itemTime(b) - itemTime(a));
+    }
+
+    function isStory(it) {
+      return (it.category || "") === "story";
+    }
+
+    function storyCardHtml(item) {
+      const ver = item.version ? "v" + item.version : "рассказ";
+      const when = item.date ? `<div class="note" style="opacity:.85">${escapeHtml(item.date)}</div>` : "";
+      const href = item.html || "story.html";
+      return `
+        <article class="card story-card">
+          <div class="story-mark"></div>
+          <div class="meta">
+            <h3>${escapeHtml(item.title || "Рассказ")}</h3>
+            <div class="model">${escapeHtml(ver)} · ${escapeHtml(item.model || "проза")}</div>
+            ${when}
+            <div class="note">${escapeHtml(item.note || "")}</div>
+            <div class="row">
+              <a class="btn" href="${escapeHtml(href)}">Читать</a>
+              <a class="btn" href="${escapeHtml(item.file)}" target="_blank" rel="noopener">MD</a>
+            </div>
+          </div>
+        </article>`;
     }
 
     function cardHtml(item) {
@@ -476,6 +519,26 @@
       const main = document.getElementById("main");
       const items = sortNewestFirst(DATA.items || []);
       main.innerHTML = "";
+      const stories = items.filter(isStory);
+      const media = items.filter(it => !isStory(it));
+
+      if (filter === "story") {
+        const sec = document.createElement("section");
+        sec.id = "stories";
+        sec.innerHTML = `<h2>Рассказы <span style="color:var(--muted);font-weight:400;font-size:0.9rem">(${stories.length})</span></h2>
+          <div class="stories-grid">${stories.map(storyCardHtml).join("")}</div>`;
+        main.appendChild(sec);
+        return;
+      }
+
+      if (filter === "all" && stories.length) {
+        const latest = stories.find(it => it.latest) || stories[0];
+        const sec = document.createElement("section");
+        sec.id = "stories";
+        sec.innerHTML = `<h2>Рассказы <span style="color:var(--muted);font-weight:400;font-size:0.9rem">(последняя версия)</span></h2>
+          <div class="stories-grid">${storyCardHtml(latest)}</div>`;
+        main.appendChild(sec);
+      }
 
       const match = (it) => {
         if (filter === "all") return true;
@@ -483,7 +546,7 @@
         return (it.category || "") === filter;
       };
 
-      const group = items.filter(match);
+      const group = media.filter(match);
       const withPose = group.filter(it => it.pose).length;
       const sec = document.createElement("section");
       const title =
@@ -518,10 +581,14 @@
     async function load() {
       const res = await fetch("manifest.json?ts=" + Date.now());
       DATA = await res.json();
-      const nPose = (DATA.items || []).filter(it => it.pose).length;
-      document.getElementById("count-badge").textContent = DATA.items.length + " images · " + nPose + " with pose ref";
+      const all = DATA.items || [];
+      const nStory = all.filter(isStory).length;
+      const nMedia = all.length - nStory;
+      const nPose = all.filter(it => it.pose).length;
+      document.getElementById("count-badge").textContent = nMedia + " images · " + nPose + " with pose ref" + (nStory ? " · " + nStory + " story" : "");
       document.getElementById("updated-badge").textContent = "updated " + (DATA.updated || DATA.created || "");
       document.title = DATA.title || "Tigress thread gallery";
+      document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("active", b.dataset.cat === filter));
       renderServices(DATA);
       render();
     }
@@ -555,6 +622,8 @@
       if (!btn) return;
       filter = btn.dataset.cat;
       document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("active", b === btn));
+      if (filter === "story") history.replaceState(null, "", "#story");
+      else if (location.hash === "#story" || location.hash === "#stories") history.replaceState(null, "", location.pathname);
       render();
     });
 

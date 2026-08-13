@@ -7,6 +7,7 @@ Usage:
   python publish-add.py --update-id existing-id --prompt-file prompt.txt --ref "Image 1|url" --push
   python publish-add.py --rebuild-only
   python publish-add.py --push-only
+  python publish-add.py path/to/STORY-v8.7.md --category story --title "Ночная смена" --id story-gym-night-shift --push
 
 Defaults:
   GAL = C:\\Users\\hebp\\galleries\\tigress-thread-gallery
@@ -15,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import html
 import json
 import os
 import re
@@ -33,9 +35,13 @@ IMG = GAL / "images"
 POSE_DIR = IMG / "poses"
 REFS_DIR = IMG / "refs"
 PROMPTS = GAL / "prompts"
+STORIES = GAL / "stories"
+STORY_HTML = GAL / "story.html"
 MANIFEST = GAL / "manifest.json"
 MAX_SIDE = 1800
 QUALITY = 86
+RE_BOLD = re.compile(r"\*\*(.+?)\*\*")
+RE_EM = re.compile(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)")
 
 
 def slugify(s: str) -> str:
@@ -157,6 +163,182 @@ def ingest_refs(iid: str, specs: list[str]) -> list[dict]:
     return out
 
 
+def inline_md(text: str) -> str:
+    text = html.escape(text)
+    text = RE_BOLD.sub(r"<strong>\1</strong>", text)
+    text = RE_EM.sub(r"<em>\1</em>", text)
+    return text
+
+
+def md_to_html(src: str) -> str:
+    lines = src.replace("\r\n", "\n").replace("\r", "\n").split("\n")
+    out: list[str] = []
+    para: list[str] = []
+
+    def flush() -> None:
+        if not para:
+            return
+        body = inline_md("\n".join(para)).replace("\n", "<br>\n")
+        out.append(f"<p>{body}</p>")
+        para.clear()
+
+    for line in lines:
+        if line.startswith("### "):
+            flush()
+            out.append(f"<h3>{inline_md(line[4:])}</h3>")
+        elif line.startswith("## "):
+            flush()
+            out.append(f"<h2>{inline_md(line[3:])}</h2>")
+        elif line.startswith("# "):
+            flush()
+            out.append(f"<h1>{inline_md(line[2:])}</h1>")
+        elif re.fullmatch(r"-{3,}", line.strip()):
+            flush()
+            out.append("<hr>")
+        elif line.strip() == "":
+            flush()
+        else:
+            para.append(line)
+    flush()
+    return "\n".join(out)
+
+
+def extract_story_meta(text: str, src: Path, title_arg: str) -> tuple[str, str]:
+    title = (title_arg or "").strip()
+    if not title:
+        m = re.search(r"^#\s+(.+)$", text, re.M)
+        title = m.group(1).strip() if m else src.stem
+    ver = ""
+    vm = re.search(r"\*\*Версия\s+([0-9.]+)\*\*", text)
+    if vm:
+        ver = vm.group(1)
+    else:
+        vm = re.search(r"v(\d+(?:\.\d+)*)", src.stem, re.I)
+        if vm:
+            ver = vm.group(1)
+    return title, ver
+
+
+def write_story_page(title: str, version: str, md_rel: str, body_html: str) -> None:
+    ver_label = f"Версия {html.escape(version)}" if version else "Рассказ"
+    page = f"""<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>{html.escape(title)} — {html.escape(version or "рассказ")}</title>
+  <style>
+    :root {{
+      --bg: #0d0f12;
+      --panel: #161a20;
+      --border: #2a313c;
+      --text: #e8ecf1;
+      --muted: #9aa3b2;
+      --accent: #7c9cff;
+      --story: #f4d35e;
+    }}
+    * {{ box-sizing: border-box; }}
+    body {{
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #1a2233 0%, var(--bg) 55%);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.7;
+    }}
+    header, article, footer {{
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }}
+    header {{ padding-top: 1.5rem; padding-bottom: 0.5rem; }}
+    header a {{ color: var(--accent); text-decoration: none; font-size: 0.9rem; }}
+    header a:hover {{ text-decoration: underline; }}
+    header h1 {{
+      margin: 0.7rem 0 0.25rem;
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      letter-spacing: -0.02em;
+      font-weight: 650;
+    }}
+    header p {{ margin: 0.2rem 0; color: var(--muted); font-size: 0.95rem; }}
+    article {{
+      padding: 1rem 1.25rem 3rem;
+      font-size: 1.05rem;
+    }}
+    article h1 {{
+      font-size: 1.45rem;
+      margin: 2rem 0 0.8rem;
+      letter-spacing: -0.02em;
+    }}
+    article h1:first-child {{ margin-top: 0; }}
+    article h2 {{
+      font-size: 1.15rem;
+      margin: 1.6rem 0 0.7rem;
+      color: var(--story);
+    }}
+    article h3 {{ font-size: 1.02rem; margin: 1.3rem 0 0.5rem; }}
+    article p {{ margin: 0.75rem 0; }}
+    article hr {{
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 1.6rem 0;
+    }}
+    article em {{ color: #c5d0e0; }}
+    footer {{
+      padding-bottom: 2.5rem;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }}
+    footer a {{ color: var(--accent); }}
+  </style>
+</head>
+<body>
+  <header>
+    <p><a href="index.html#story">Галерея / Рассказы</a></p>
+    <h1>{html.escape(title)}</h1>
+    <p>{ver_label} · NSFW 18+</p>
+  </header>
+  <article>
+{body_html}
+  </article>
+  <footer>
+    Исходник: <a href="{html.escape(md_rel)}">{html.escape(md_rel)}</a>
+  </footer>
+</body>
+</html>
+"""
+    STORY_HTML.write_text(page, encoding="utf-8")
+
+
+def publish_story(src: Path, args: argparse.Namespace, data: dict) -> dict:
+    text = src.read_text(encoding="utf-8")
+    title, version = extract_story_meta(text, src, args.title)
+    STORIES.mkdir(parents=True, exist_ok=True)
+    dest_name = src.name
+    dest = STORIES / dest_name
+    shutil.copy2(src, dest)
+    md_rel = f"stories/{dest_name}"
+    write_story_page(title, version, md_rel, md_to_html(text))
+    iid = args.id or "story-gym-night-shift"
+    data["items"] = [it for it in data.get("items") or [] if it.get("id") != iid]
+    item = {
+        "id": iid,
+        "file": md_rel,
+        "html": "story.html",
+        "source": src.name,
+        "title": title,
+        "category": "story",
+        "model": args.model if args.model != "Seedream 5 Pro" else "проза",
+        "note": args.note or "Последняя версия рассказа",
+        "version": version,
+        "date": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "latest": True,
+    }
+    data["items"].insert(0, item)
+    return item
+
+
 def apply_prompt_and_refs(item: dict, prompt: str, ref_specs: list[str]) -> None:
     iid = item["id"]
     if prompt:
@@ -235,7 +417,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("image", nargs="?", help="Source image/video path")
     ap.add_argument("--title", default="")
-    ap.add_argument("--category", default="scene", choices=["sheet", "scene", "identity", "bunny", "video"])
+    ap.add_argument("--category", default="scene", choices=["sheet", "scene", "identity", "bunny", "video", "story"])
     ap.add_argument("--model", default="Seedream 5 Pro")
     ap.add_argument("--note", default="")
     ap.add_argument("--cdn", default="", help="optional CDN url")
@@ -308,6 +490,15 @@ def main() -> int:
         return 1
 
     data = load_manifest()
+    if args.category == "story" or src.suffix.lower() == ".md":
+        item = publish_story(src, args, data)
+        save_manifest(data)
+        print("Story", item.get("version"), "->", item["file"])
+        print("Reader ->", STORY_HTML)
+        if args.push:
+            git_push(f"gallery: story {item.get('version') or item['id']}")
+        return 0
+
     iid = args.id or slugify(args.title or src.stem)
     existing = {it["id"] for it in data["items"]}
     base = iid

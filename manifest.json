@@ -2,9 +2,177 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T07:13+04:00",
+  "updated": "2026-08-13T07:22+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "tigra-oral3-close",
+      "file": "images/tigra-oral3-close.jpg",
+      "source": "o03_close_profile_00001_.png",
+      "title": "Gym oral identity close profile",
+      "category": "scene",
+      "model": "boleromixPony v210",
+      "note": "Anthro 0.72/0.88, profile, no FurryDT/muzzle_mask/IPA. Oral in positive. Neg has no oral ban.",
+      "date": "2026-08-13 07:22",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-identity-oral3/1786591279479-blidwnkwfog.png",
+      "prompt": "(anthro tigress:1.35), (feline muzzle:1.4), (short tiger snout:1.3), (philtrum:1.3), (inverted v mouth:1.25), (thin mouth line:1.35), (furred muzzle:1.35), (white bob bangs:1.3), rounded tiger ears, (small black almond eyes:1.4), black eye markings, two black cheek stripes, pink feline nose, white muzzle fur, orange face fur, (((fellatio))), deepthroat, (((muzzle wrapped around penis))), throat bulge, shaft in muzzle, (((human male))), (((1boy))), (((human skin))), (((real human male penis))), (human skin male:1.4), muscular human male torso, male hands holding her head, male hips, male thighs, pubic hair, human man body, no tiger male, no furry male, no male tail, single image, one shot, no collage, no panels, 1girl, 1boy, (((in a gym))), fitness center, gym equipment, close-up profile, kneeling, muzzle at base of penis, (side view of face:1.45), sweaty, post-workout, not looking at camera, human male standing, only oral, (((black sports bra))), (((black crop top))), bottomless, no panties, bare bottom, midriff, (((black choker)))\nBREAK\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy, (single tiger tail:1.3)\n\nNEGATIVE:\nblue eyes, cyan eyes, teal eyes, blur, glow, white glove, glove, bad anatomy, low quality, watermark, text, white tail, white legs, white ass, white butt, neuroslop, melted, extra limbs, fused fingers, deformed, (floating penis:1.4), (disembodied penis:1.4), dildo, butt plug, sex toy, looking at viewer, looking at camera, eye contact, (human face:1.7), (human girl face:1.7), (pretty human woman:1.7), (anime human face:1.7), (human nose:1.5), (human lips:1.9), (plump lips:1.9), (pink lips:1.8), (lipstick:1.8), (lip gloss:1.7), (full lips:1.8), (feral snout:1.5), (horse muzzle:1.5), (long snout:1.5), (long crocodile snout:1.5), (muzzle strap:1.6), (ball gag:1.6), (yellow eyes:1.5), (golden eyes:1.4), (eyeshadow:1.5), (purple eyeshadow:1.5), shallow, tip only, half inserted, closed mouth, just posing, licking tip only, leather jacket, coat, glasses, sunglasses, underwear, panties, pillow, bed, bedroom, (male tiger:1.6), (anthro male:1.6), (furry male:1.6), (male tail:1.6), (futa:1.6), (catgirl:1.5), (kemonomimi:1.5), character sheet, reference sheet, turnaround, multiple views, collage, T-pose, (cheerleader:1.6), (2girls:1.8), (3girls:1.8), (multiple girls:1.7), (crowd:1.5), vaginal sex, anal sex, doggystyle, from behind, monochrome, censored",
+      "prompt_file": "prompts/tigra-oral3-close.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/tigra-oral3-close/01-identity-sheet.jpg"
+        },
+        {
+          "label": "Head crop",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\tigra_head_front_crop.png",
+          "file": "images/refs/tigra-oral3-close/02-head-crop.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.18
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.72
+        },
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.2
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.18
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "tigra-oral3-sitting",
+      "file": "images/tigra-oral3-sitting.jpg",
+      "source": "o02_sitting_profile_00001_.png",
+      "title": "Gym oral identity sitting profile",
+      "category": "scene",
+      "model": "boleromixPony v210",
+      "note": "Anthro 0.72/0.88, profile, no FurryDT/muzzle_mask/IPA. Oral in positive. Neg has no oral ban.",
+      "date": "2026-08-13 07:22",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-identity-oral3/1786591277768-pzjwhhtpqal.png",
+      "prompt": "(anthro tigress:1.35), (feline muzzle:1.4), (short tiger snout:1.3), (philtrum:1.3), (inverted v mouth:1.25), (thin mouth line:1.35), (furred muzzle:1.35), (white bob bangs:1.3), rounded tiger ears, (small black almond eyes:1.4), black eye markings, two black cheek stripes, pink feline nose, white muzzle fur, orange face fur, (((fellatio))), deepthroat, (((muzzle wrapped around penis))), throat bulge, shaft in muzzle, (((human male))), (((1boy))), (((human skin))), (((real human male penis))), (human skin male:1.4), muscular human male torso, male hands holding her head, male hips, male thighs, pubic hair, human man body, no tiger male, no furry male, no male tail, single image, one shot, no collage, no panels, 1girl, 1boy, (((in a gym))), fitness center, gym equipment, sitting on gym bench, leaning forward, (profile view of face:1.45), (side view:1.35), sweaty, post-workout, not looking at camera, human male standing, only oral, (((black sports bra))), (((black crop top))), bottomless, no panties, bare bottom, midriff, (((black choker)))\nBREAK\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy, (single tiger tail:1.3)\n\nNEGATIVE:\nblue eyes, cyan eyes, teal eyes, blur, glow, white glove, glove, bad anatomy, low quality, watermark, text, white tail, white legs, white ass, white butt, neuroslop, melted, extra limbs, fused fingers, deformed, (floating penis:1.4), (disembodied penis:1.4), dildo, butt plug, sex toy, looking at viewer, looking at camera, eye contact, (human face:1.7), (human girl face:1.7), (pretty human woman:1.7), (anime human face:1.7), (human nose:1.5), (human lips:1.9), (plump lips:1.9), (pink lips:1.8), (lipstick:1.8), (lip gloss:1.7), (full lips:1.8), (feral snout:1.5), (horse muzzle:1.5), (long snout:1.5), (long crocodile snout:1.5), (muzzle strap:1.6), (ball gag:1.6), (yellow eyes:1.5), (golden eyes:1.4), (eyeshadow:1.5), (purple eyeshadow:1.5), shallow, tip only, half inserted, closed mouth, just posing, licking tip only, leather jacket, coat, glasses, sunglasses, underwear, panties, pillow, bed, bedroom, (male tiger:1.6), (anthro male:1.6), (furry male:1.6), (male tail:1.6), (futa:1.6), (catgirl:1.5), (kemonomimi:1.5), character sheet, reference sheet, turnaround, multiple views, collage, T-pose, (cheerleader:1.6), (2girls:1.8), (3girls:1.8), (multiple girls:1.7), (crowd:1.5), vaginal sex, anal sex, doggystyle, from behind, monochrome, censored",
+      "prompt_file": "prompts/tigra-oral3-sitting.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/tigra-oral3-sitting/01-identity-sheet.jpg"
+        },
+        {
+          "label": "Head crop",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\tigra_head_front_crop.png",
+          "file": "images/refs/tigra-oral3-sitting/02-head-crop.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.18
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.72
+        },
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.2
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.18
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "tigra-oral3-kneeling",
+      "file": "images/tigra-oral3-kneeling.jpg",
+      "source": "o01_kneeling_profile_00001_.png",
+      "title": "Gym oral identity kneeling profile",
+      "category": "scene",
+      "model": "boleromixPony v210",
+      "note": "Anthro 0.72/0.88, profile, no FurryDT/muzzle_mask/IPA. Oral in positive. Neg has no oral ban.",
+      "date": "2026-08-13 07:22",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-identity-oral3/1786591275544-ohf7luf0o0g.png",
+      "prompt": "(anthro tigress:1.35), (feline muzzle:1.4), (short tiger snout:1.3), (philtrum:1.3), (inverted v mouth:1.25), (thin mouth line:1.35), (furred muzzle:1.35), (white bob bangs:1.3), rounded tiger ears, (small black almond eyes:1.4), black eye markings, two black cheek stripes, pink feline nose, white muzzle fur, orange face fur, (((fellatio))), deepthroat, (((muzzle wrapped around penis))), throat bulge, shaft in muzzle, (((human male))), (((1boy))), (((human skin))), (((real human male penis))), (human skin male:1.4), muscular human male torso, male hands holding her head, male hips, male thighs, pubic hair, human man body, no tiger male, no furry male, no male tail, single image, one shot, no collage, no panels, 1girl, 1boy, (((in a gym))), fitness center, gym equipment, kneeling on gym floor, looking up, hands on his thighs, (profile view of face:1.45), (side view:1.35), sweaty, post-workout, not looking at camera, human male standing, only oral, (((black sports bra))), (((black crop top))), bottomless, no panties, bare bottom, midriff, (((black choker)))\nBREAK\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy, (single tiger tail:1.3)\n\nNEGATIVE:\nblue eyes, cyan eyes, teal eyes, blur, glow, white glove, glove, bad anatomy, low quality, watermark, text, white tail, white legs, white ass, white butt, neuroslop, melted, extra limbs, fused fingers, deformed, (floating penis:1.4), (disembodied penis:1.4), dildo, butt plug, sex toy, looking at viewer, looking at camera, eye contact, (human face:1.7), (human girl face:1.7), (pretty human woman:1.7), (anime human face:1.7), (human nose:1.5), (human lips:1.9), (plump lips:1.9), (pink lips:1.8), (lipstick:1.8), (lip gloss:1.7), (full lips:1.8), (feral snout:1.5), (horse muzzle:1.5), (long snout:1.5), (long crocodile snout:1.5), (muzzle strap:1.6), (ball gag:1.6), (yellow eyes:1.5), (golden eyes:1.4), (eyeshadow:1.5), (purple eyeshadow:1.5), shallow, tip only, half inserted, closed mouth, just posing, licking tip only, leather jacket, coat, glasses, sunglasses, underwear, panties, pillow, bed, bedroom, (male tiger:1.6), (anthro male:1.6), (furry male:1.6), (male tail:1.6), (futa:1.6), (catgirl:1.5), (kemonomimi:1.5), character sheet, reference sheet, turnaround, multiple views, collage, T-pose, (cheerleader:1.6), (2girls:1.8), (3girls:1.8), (multiple girls:1.7), (crowd:1.5), vaginal sex, anal sex, doggystyle, from behind, monochrome, censored",
+      "prompt_file": "prompts/tigra-oral3-kneeling.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/tigra-oral3-kneeling/01-identity-sheet.jpg"
+        },
+        {
+          "label": "Head crop",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\tigra_head_front_crop.png",
+          "file": "images/refs/tigra-oral3-kneeling/02-head-crop.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.18
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.72
+        },
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.2
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.18
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "story-gym-night-shift",
       "file": "stories/STORY-gym-4acts-v8.12.md",

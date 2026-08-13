@@ -2,8 +2,41 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-14T00:20+04:00",
+  "updated": "2026-08-14T00:25+04:00",
   "items": [
+    {
+      "id": "seedream-vinna-cowboy-longskirt-v2",
+      "file": "images/seedream-vinna-cowboy-longskirt-v2.jpg",
+      "source": "vinna-cowboy-skirt-lower-d.png",
+      "title": "Seedream 5 Pro — Vinna cowboy, skirt hem a bit lower",
+      "category": "scene",
+      "model": "Seedream 5 Pro",
+      "note": "i2i strength 0.20 from clone-stamped lower hem on previous keep. task 641b8ba5. hem lower-mid-thigh.",
+      "date": "2026-08-14 00:25",
+      "pixels": "1800x1000",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786652617599-ymiwt0b3ai.png",
+      "prompt": "Same cowboy bear woman, same cabin, same pose, hat, scarf, shirt, vest, gloves, belt, chaps, holster, revolver. BEAR.\nThe extra glossy black leather going lower on her thighs is the SKIRT hem, not a patch and not pants. Blend it into one continuous black leather pencil skirt. Hem stays this low, lower-mid-thigh, still above the knee. Do NOT raise the hem. Clean seams and shine. 16:9. No text.",
+      "prompt_file": "prompts/seedream-vinna-cowboy-longskirt-v2.txt",
+      "refs": [
+        {
+          "label": "previous_keep",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786651086071-hz2ro9kroen.png",
+          "file": "images/refs/seedream-vinna-cowboy-longskirt-v2/01-previous-keep.jpg"
+        },
+        {
+          "label": "painted_lower_hem",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786652294549-zim7f1qr5ad.png",
+          "file": "images/refs/seedream-vinna-cowboy-longskirt-v2/02-painted-lower-hem.jpg"
+        }
+      ],
+      "service": "Kie.ai",
+      "service_url": "https://kie.ai",
+      "service_model_url": "https://kie.ai",
+      "api": "https://api.kie.ai",
+      "characters": [
+        "Vinna"
+      ]
+    },
     {
       "id": "oral-restore-sitside",
       "file": "images/oral-restore-sitside.jpg",

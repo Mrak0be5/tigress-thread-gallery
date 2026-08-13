@@ -2,8 +2,41 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T21:00+04:00",
+  "updated": "2026-08-13T21:02+04:00",
   "items": [
+    {
+      "id": "seedream-vinna-cowboy-novest",
+      "file": "images/seedream-vinna-cowboy-novest.jpg",
+      "source": "vinna-cowboy-novest-a.png",
+      "title": "Seedream 5 Pro — Vinna cowboy, no shirt vest skirt, scarf on",
+      "category": "scene",
+      "model": "Seedream 5 Pro",
+      "note": "i2i strength 0.52, nude sheet + cowboy photo. no vest/shirt/skirt. task 4cb9d22c",
+      "date": "2026-08-13 21:02",
+      "pixels": "1800x1012",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786640520427-m19oqes1t0a.png",
+      "prompt": "Use the SAME anthropomorphic female BEAR Vinna from Image 1 (nude front/back sprite sheet). Do not redesign her. She is a BEAR, not a cat, not a lioness.\nPreserve identity from the nude sheet: golden-honey fur, cream blaze on muzzle chest belly and inner thighs, black bear nose, rounded bear ears, bear muzzle, long wavy blonde hair, amber eyes, THICK muscular hourglass, wide hips, heavy thighs, large heavy breasts, small fluffy bear tail, paw hands with black claws. Same illustration style as the sheet.\nImage 2 is pose, camera, cabin, and remaining cowboy gear ONLY. Keep that 16:9 cabin shot: one gloved hand on the wooden table, other hand holding a silver revolver upright, cocky smirk, window light, shelves, bear sketch on the wall.\nKEEP: tan cowboy hat with gold badge, green-and-yellow striped scarf around the neck, brown leather fingerless gloves, thick brown belt with large round gold buckle, brown leather chaps open at the front, thigh holster, silver revolver.\nREMOVE completely: white shirt, black miniskirt, AND the brown leather vest. No vest. No shirt. No skirt. No panties. No underwear.\nEnd state: scarf ON. Torso fully bare — both breasts and nipples clearly visible, cream chest blaze from the sheet visible. No vest covering the chest. Skirt gone — bare pussy clearly visible between the chaps. Same cabin, same pose. No text, no watermark, no extra people, no T-pose sheet layout.",
+      "prompt_file": "prompts/seedream-vinna-cowboy-novest.txt",
+      "refs": [
+        {
+          "label": "vinna_nude_sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786640241672-5tzyy6f4yq.png",
+          "file": "images/refs/seedream-vinna-cowboy-novest/01-vinna-nude-sheet.jpg"
+        },
+        {
+          "label": "cowboy_photo",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786640245463-77v8kkmitzv.png",
+          "file": "images/refs/seedream-vinna-cowboy-novest/02-cowboy-photo.jpg"
+        }
+      ],
+      "service": "Kie.ai",
+      "service_url": "https://kie.ai",
+      "service_model_url": "https://kie.ai",
+      "api": "https://api.kie.ai",
+      "characters": [
+        "Vinna"
+      ]
+    },
     {
       "id": "gym-act1-locker-plug-cheer-b",
       "file": "images/gym-act1-locker-plug-cheer-b.jpg",

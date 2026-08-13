@@ -2,8 +2,78 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-14T01:51+04:00",
+  "updated": "2026-08-14T02:03+04:00",
   "items": [
+    {
+      "id": "gym-act1-locker-2k-shy-a",
+      "file": "images/gym-act1-locker-2k-shy-a.jpg",
+      "source": "pluglock-2k-shy-A.png",
+      "title": "Акт I раздевалка 2K стеснение A",
+      "category": "scene",
+      "model": "Seedream 5.0 Pro 2K",
+      "note": "quality=high 1728x2304; Winna shy blush, Tigra sly smirk; from 2K legs A",
+      "date": "2026-08-14 02:03",
+      "pixels": "1350x1800",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/gym-locker-plug/1786658468582-gunwisiz3tj.png",
+      "prompt": "Image 1 = approved 2K locker shot. Keep camera, locker, bench, outfits, body poses, Winna's legs slightly apart, Tigra holding the clear teardrop glass plug at the anus not inserted. Do not redesign the scene.\nImage 2 = Winna IDENTITY sheet — bear face, long wavy blonde hair, amber eyes, black nose, honey-gold fur. ZERO tiger stripes.\nImage 3 = Tigra identity — orange tigress, black stripes, short platinum-white bob, green slit-pupil eyes.\n\nDo not copy Image 2 T-pose.\n\nChange ONLY facial expressions.\n\nWinna: shy, embarrassed, bashful blush, ears slightly back or folded, looking toward Tigra but not angry. Soft averted or sideways glance, lips pressed or slightly open in shy discomfort. NOT angry, NOT scowling, NOT frowning in rage, NOT a smirk.\n\nTigra: sly cunning fox-smile, knowing mischievous smirk, half-lidded green eyes, pleased with herself.\n\nSame camera as Image 1. Technical: 3:4, 2K.",
+      "prompt_file": "prompts/gym-act1-locker-2k-shy-a.txt",
+      "refs": [
+        {
+          "label": "Approved 2K legs A",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/gym-locker-plug/1786657860209-2yzcx6o7x42.png",
+          "file": "images/refs/gym-act1-locker-2k-shy-a/01-approved-2k-legs-a.jpg"
+        },
+        {
+          "label": "Winna identity sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/gym-locker-plug/1786652097090-ms6ywgqyz4.png",
+          "file": "images/refs/gym-act1-locker-2k-shy-a/02-winna-identity-sheet.jpg"
+        },
+        {
+          "label": "Tigra identity",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/gym-locker-plug/1786638931401-urqi6bxu909.png",
+          "file": "images/refs/gym-act1-locker-2k-shy-a/03-tigra-identity.jpg"
+        }
+      ],
+      "characters": [
+        "Tigra",
+        "Winna"
+      ]
+    },
+    {
+      "id": "gym-act1-locker-2k-shy-b",
+      "file": "images/gym-act1-locker-2k-shy-b.jpg",
+      "source": "pluglock-2k-shy-B.png",
+      "title": "Акт I раздевалка 2K стеснение B",
+      "category": "scene",
+      "model": "Seedream 5.0 Pro 2K",
+      "note": "quality=high 1728x2304; Winna shy blush, Tigra sly smirk; from 2K legs A",
+      "date": "2026-08-14 02:01",
+      "pixels": "1350x1800",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/gym-locker-plug/1786658470987-iwudu9wyam.png",
+      "prompt": "Image 1 = approved 2K locker shot — keep everything except faces.\nImage 2 = Winna identity sheet.\nImage 3 = Tigra identity.\n\nChange ONLY expressions.\n\nWinna looks at Tigra shy and embarrassed, blush on the muzzle, timid, not angry.\nTigra has a sly cunning grin, eyes narrowed with mischief.\n\nKeep legs slightly apart, teardrop glass plug in Tigra's paw, chest-down on the bench. Technical: 3:4, 2K.",
+      "prompt_file": "prompts/gym-act1-locker-2k-shy-b.txt",
+      "refs": [
+        {
+          "label": "Approved 2K legs A",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/gym-locker-plug/1786657860209-2yzcx6o7x42.png",
+          "file": "images/refs/gym-act1-locker-2k-shy-b/01-approved-2k-legs-a.jpg"
+        },
+        {
+          "label": "Winna identity sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/gym-locker-plug/1786652097090-ms6ywgqyz4.png",
+          "file": "images/refs/gym-act1-locker-2k-shy-b/02-winna-identity-sheet.jpg"
+        },
+        {
+          "label": "Tigra identity",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/gym-locker-plug/1786638931401-urqi6bxu909.png",
+          "file": "images/refs/gym-act1-locker-2k-shy-b/03-tigra-identity.jpg"
+        }
+      ],
+      "characters": [
+        "Tigra",
+        "Winna"
+      ]
+    },
     {
       "id": "gym-act1-locker-pluglock-2k-legs-b",
       "file": "images/gym-act1-locker-pluglock-2k-legs-b.jpg",

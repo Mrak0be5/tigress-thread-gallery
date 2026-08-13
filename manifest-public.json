@@ -2,8 +2,258 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T21:02+04:00",
+  "updated": "2026-08-13T21:58+04:00",
   "items": [
+    {
+      "id": "tpdt5-sit-side",
+      "file": "images/tpdt5-sit-side.jpg",
+      "source": "tp05_sit_side_00001_.png",
+      "title": "TPDT5 sit side",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST TPDT",
+      "note": "T2I 50 steps, no inpaint. Extra LoRA TPDT 0.45.",
+      "date": "2026-08-13 21:58",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, sitting on gym bench, fellatio, deepthroat, side view, human male standing, black sports bra, black crop top, black choker, bottomless, TPDT, all the way to the base, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/tpdt5-sit-side.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/tpdt5-sit-side/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "TPDT_TeamShuffle",
+          "url": "https://civitai.red/models/998658",
+          "strength": 0.45
+        },
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "tpdt5-kneel-look-up",
+      "file": "images/tpdt5-kneel-look-up.jpg",
+      "source": "tp04_kneel_look_up_00001_.png",
+      "title": "TPDT5 kneel look-up",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST TPDT",
+      "note": "T2I 50 steps, no inpaint. Extra LoRA TPDT 0.45.",
+      "date": "2026-08-13 21:58",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, kneeling on gym floor, looking up, fellatio, deepthroat, profile view of face, side view, human male standing, black sports bra, black crop top, black choker, bottomless, TPDT, all the way to the base, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/tpdt5-kneel-look-up.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/tpdt5-kneel-look-up/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "TPDT_TeamShuffle",
+          "url": "https://civitai.red/models/998658",
+          "strength": 0.45
+        },
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "tpdt5-close-profile",
+      "file": "images/tpdt5-close-profile.jpg",
+      "source": "tp03_close_profile_00001_.png",
+      "title": "TPDT5 close profile",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST TPDT",
+      "note": "T2I 50 steps, no inpaint. Extra LoRA TPDT 0.45.",
+      "date": "2026-08-13 21:58",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, close-up profile, kneeling, fellatio, deepthroat, muzzle at base of penis, side view, human male standing, black sports bra, black crop top, black choker, bottomless, TPDT, all the way to the base, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/tpdt5-close-profile.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/tpdt5-close-profile/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "TPDT_TeamShuffle",
+          "url": "https://civitai.red/models/998658",
+          "strength": 0.45
+        },
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "tpdt5-oral-sit",
+      "file": "images/tpdt5-oral-sit.jpg",
+      "source": "tp02_oral_sit_00001_.png",
+      "title": "TPDT5 oral sit",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST TPDT",
+      "note": "T2I 50 steps, no inpaint. Extra LoRA TPDT 0.45.",
+      "date": "2026-08-13 21:58",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, sitting on gym bench, leaning forward, fellatio, deepthroat, profile, human male standing, black sports bra, black crop top, black choker, bottomless, TPDT, all the way to the base, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/tpdt5-oral-sit.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/tpdt5-oral-sit/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "TPDT_TeamShuffle",
+          "url": "https://civitai.red/models/998658",
+          "strength": 0.45
+        },
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "tpdt5-oral-kneel",
+      "file": "images/tpdt5-oral-kneel.jpg",
+      "source": "tp01_oral_kneel_00001_.png",
+      "title": "TPDT5 oral kneel",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST TPDT",
+      "note": "T2I 50 steps, no inpaint. Extra LoRA TPDT 0.45.",
+      "date": "2026-08-13 21:58",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, fitness center, kneeling, fellatio, deepthroat, human male standing, black sports bra, black crop top, black choker, bottomless, TPDT, all the way to the base, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/tpdt5-oral-kneel.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/tpdt5-oral-kneel/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "TPDT_TeamShuffle",
+          "url": "https://civitai.red/models/998658",
+          "strength": 0.45
+        },
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "seedream-vinna-cowboy-novest",
       "file": "images/seedream-vinna-cowboy-novest.jpg",

@@ -82,6 +82,63 @@
     nav button[data-cat="identity"].active { border-color: var(--identity); color: var(--identity); }
     nav button[data-cat="video"].active { border-color: #ff5252; color: #ff5252; }
     nav button[data-cat="story"].active { border-color: var(--story); color: var(--story); }
+    nav button[data-cat="liked"].active { border-color: #ff6b9a; color: #ff6b9a; }
+    .net-bar {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0.55rem 1.25rem 0.75rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .net-bar .lbl { color: var(--muted); font-size: 0.8rem; margin-right: 0.15rem; }
+    .net-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      color: var(--text);
+      background: rgba(62, 207, 142, 0.08);
+      border: 1px solid var(--ok);
+      border-radius: 999px;
+      padding: 0.32rem 0.75rem;
+      font-size: 0.82rem;
+      cursor: pointer;
+    }
+    .net-btn .mark {
+      width: 1.05rem;
+      height: 1.05rem;
+      border-radius: 4px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.78rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+    .net-btn.on .mark { background: var(--ok); color: #0d0f12; }
+    .net-btn.off {
+      background: rgba(255, 82, 82, 0.08);
+      border-color: #ff5252;
+      color: var(--muted);
+      text-decoration: line-through;
+    }
+    .net-btn.off .mark { background: #ff5252; color: #fff; }
+    .like-btn {
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.03);
+      color: var(--muted);
+      border-radius: 8px;
+      padding: 0.25rem 0.55rem;
+      font-size: 0.76rem;
+      cursor: pointer;
+    }
+    .like-btn:hover { border-color: #ff6b9a; color: #fff; }
+    .like-btn.on {
+      border-color: #ff6b9a;
+      color: #ff6b9a;
+      background: rgba(255, 107, 154, 0.12);
+    }
     .stories-grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -337,8 +394,15 @@
     <button type="button" data-cat="bunny">Bunny</button>
     <button type="button" data-cat="video">Video</button>
     <button type="button" data-cat="story">Рассказы</button>
+    <button type="button" data-cat="liked">Лайки</button>
     <button type="button" data-cat="best">Best</button>
   </nav>
+  <div class="net-bar" id="net-bar">
+    <span class="lbl">Нейросети:</span>
+    <button type="button" class="net-btn on" data-net="wan" aria-pressed="true"><span class="mark">✓</span> Wan</button>
+    <button type="button" class="net-btn on" data-net="seedream" aria-pressed="true"><span class="mark">✓</span> Seedream</button>
+    <button type="button" class="net-btn on" data-net="minimax" aria-pressed="true"><span class="mark">✓</span> MiniMax</button>
+  </div>
 
   <main id="main"></main>
 
@@ -366,6 +430,98 @@
     let filter = (location.hash === "#story" || location.hash === "#stories") ? "story" : "all";
     /** per-card view: "tigress" | "pose" */
     const viewState = new Map();
+    const LIKES_KEY = "tigress-gallery-likes";
+    const NET_KEY = "tigress-gallery-nets";
+    const NETS = ["wan", "seedream", "minimax"];
+    let likes = new Set();
+    let netsOn = { wan: true, seedream: true, minimax: true };
+
+    function loadLikes() {
+      try {
+        const raw = JSON.parse(localStorage.getItem(LIKES_KEY) || "[]");
+        likes = new Set(Array.isArray(raw) ? raw.map(String) : []);
+      } catch (e) {
+        likes = new Set();
+      }
+    }
+    function saveLikes() {
+      localStorage.setItem(LIKES_KEY, JSON.stringify([...likes]));
+    }
+    function loadNets() {
+      try {
+        const raw = JSON.parse(localStorage.getItem(NET_KEY) || "null");
+        if (raw && typeof raw === "object") {
+          NETS.forEach((k) => { if (typeof raw[k] === "boolean") netsOn[k] = raw[k]; });
+        }
+      } catch (e) {}
+    }
+    function saveNets() {
+      localStorage.setItem(NET_KEY, JSON.stringify(netsOn));
+    }
+    function syncNetButtons() {
+      document.querySelectorAll("#net-bar .net-btn").forEach((btn) => {
+        const k = btn.dataset.net;
+        const on = netsOn[k] !== false;
+        btn.classList.toggle("on", on);
+        btn.classList.toggle("off", !on);
+        btn.setAttribute("aria-pressed", on ? "true" : "false");
+        const mark = btn.querySelector(".mark");
+        if (mark) mark.textContent = on ? "✓" : "✕";
+      });
+    }
+    function isLiked(id) {
+      return likes.has(String(id));
+    }
+    function toggleLike(id) {
+      id = String(id);
+      if (likes.has(id)) likes.delete(id);
+      else likes.add(id);
+      saveLikes();
+    }
+    function netFamily(it) {
+      const blob = [
+        it.model, it.service, it.service_url, it.id, it.note, it.category
+      ].map((x) => String(x || "").toLowerCase()).join(" ");
+      if (/\bwan\b|wavespeed|alibaba\/wan/.test(blob)) return "wan";
+      if (/seedream|kie\.ai|kieai/.test(blob)) return "seedream";
+      if (/minimax|fl2va|ref2va|\bh3\b/.test(blob)) return "minimax";
+      return "other";
+    }
+    function netAllowed(it) {
+      const fam = netFamily(it);
+      if (fam === "other") return true;
+      return netsOn[fam] !== false;
+    }
+    function plural(n, one, few, many) {
+      const n10 = Math.abs(n) % 10;
+      const n100 = Math.abs(n) % 100;
+      if (n10 === 1 && n100 !== 11) return one;
+      if (n10 >= 2 && n10 <= 4 && (n100 < 10 || n100 >= 20)) return few;
+      return many;
+    }
+    function relativeAgo(ms) {
+      if (!ms) return "";
+      const diff = Date.now() - ms;
+      if (diff < 0) return "только что";
+      const mins = Math.floor(diff / 60000);
+      if (mins < 1) return "только что";
+      if (mins < 60) return mins + " " + plural(mins, "минуту", "минуты", "минут") + " назад";
+      const hours = Math.floor(mins / 60);
+      if (hours < 24) return hours + " " + plural(hours, "час", "часа", "часов") + " назад";
+      const days = Math.floor(hours / 24);
+      return days + " " + plural(days, "день", "дня", "дней") + " назад";
+    }
+    function whenHtml(it) {
+      const ms = itemTime(it);
+      if (!ms) return "";
+      const label = relativeAgo(ms);
+      const title = it.date || it.created || "";
+      return `<div class="note ago" style="opacity:.85" data-ms="${ms}" title="${escapeHtml(title)}">${escapeHtml(label)}</div>`;
+    }
+    function likeBtnHtml(id) {
+      const on = isLiked(id);
+      return `<button type="button" class="like-btn ${on ? "on" : ""}" data-like="${escapeHtml(id)}" aria-pressed="${on ? "true" : "false"}">${on ? "♥ Лайк" : "♡ Лайк"}</button>`;
+    }
 
     function escapeHtml(s) {
       return String(s)
@@ -391,10 +547,10 @@
 
     function storyCardHtml(item) {
       const ver = item.version ? "v" + item.version : "рассказ";
-      const when = item.date ? `<div class="note" style="opacity:.85">${escapeHtml(item.date)}</div>` : "";
+      const when = whenHtml(item);
       const href = item.html || "story.html";
       return `
-        <article class="card story-card">
+        <article class="card story-card" data-id="${escapeHtml(item.id)}">
           <div class="story-mark"></div>
           <div class="meta">
             <h3>${escapeHtml(item.title || "Рассказ")}</h3>
@@ -404,6 +560,7 @@
             <div class="row">
               <a class="btn" href="${escapeHtml(href)}">Читать</a>
               <a class="btn" href="${escapeHtml(item.file)}" target="_blank" rel="noopener">MD</a>
+              ${likeBtnHtml(item.id)}
             </div>
           </div>
         </article>`;
@@ -412,7 +569,7 @@
     function cardHtml(item) {
       const best = item.flag === "best";
       const noteClass = best || /лучш|best|final|correct|identity lock/i.test(item.note || "") ? "ok" : "";
-      const when = item.date ? `<div class="note" style="opacity:.85">${escapeHtml(item.date)}</div>` : "";
+      const when = whenHtml(item);
       const hasPose = Boolean(item.pose);
       const mode = viewState.get(item.id) || "tigress";
       const src = mode === "pose" && hasPose ? item.pose : item.file;
@@ -464,6 +621,7 @@
             ${svcHtml}
             <div class="row">
               <a class="btn open-link" href="${escapeHtml(src)}" target="_blank" rel="noopener">Open</a>
+              ${likeBtnHtml(item.id)}
             </div>
           </div>
         </article>`;
@@ -519,8 +677,8 @@
       const main = document.getElementById("main");
       const items = sortNewestFirst(DATA.items || []);
       main.innerHTML = "";
-      const stories = items.filter(isStory);
-      const media = items.filter(it => !isStory(it));
+      const stories = items.filter(isStory).filter(netAllowed);
+      const media = items.filter(it => !isStory(it)).filter(netAllowed);
 
       if (filter === "story") {
         const sec = document.createElement("section");
@@ -528,6 +686,7 @@
         sec.innerHTML = `<h2>Рассказы <span style="color:var(--muted);font-weight:400;font-size:0.9rem">(${stories.length})</span></h2>
           <div class="stories-grid">${stories.map(storyCardHtml).join("")}</div>`;
         main.appendChild(sec);
+        bindLikeButtons(main);
         return;
       }
 
@@ -540,7 +699,19 @@
         main.appendChild(sec);
       }
 
+      if (filter === "liked") {
+        const likedStories = stories.filter((it) => isLiked(it.id));
+        if (likedStories.length) {
+          const sec = document.createElement("section");
+          sec.id = "stories";
+          sec.innerHTML = `<h2>Рассказы <span style="color:var(--muted);font-weight:400;font-size:0.9rem">(${likedStories.length})</span></h2>
+            <div class="stories-grid">${likedStories.map(storyCardHtml).join("")}</div>`;
+          main.appendChild(sec);
+        }
+      }
+
       const match = (it) => {
+        if (filter === "liked") return isLiked(it.id);
         if (filter === "all") return true;
         if (filter === "best") return it.flag === "best";
         return (it.category || "") === filter;
@@ -552,6 +723,7 @@
       const title =
         filter === "all" ? "По дате (новые сверху)"
         : filter === "best" ? "Best of thread"
+        : filter === "liked" ? "Лайки"
         : (CATS.find(c => c.id === filter)?.title || filter);
       sec.innerHTML = `<h2>${escapeHtml(title)} <span style="color:var(--muted);font-weight:400;font-size:0.9rem">(${group.length}, с рефом позы: ${withPose})</span></h2>
         <div class="grid">${group.map(cardHtml).join("")}</div>`;
@@ -576,9 +748,30 @@
           if (el.dataset.src) openLb(el.dataset.src);
         });
       });
+      bindLikeButtons(main);
+    }
+
+    function bindLikeButtons(root) {
+      root.querySelectorAll(".like-btn").forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const id = btn.dataset.like;
+          if (!id) return;
+          toggleLike(id);
+          const on = isLiked(id);
+          btn.classList.toggle("on", on);
+          btn.setAttribute("aria-pressed", on ? "true" : "false");
+          btn.textContent = on ? "♥ Лайк" : "♡ Лайк";
+          if (filter === "liked" && !on) render();
+        });
+      });
     }
 
     async function load() {
+      loadLikes();
+      loadNets();
+      syncNetButtons();
       const res = await fetch("manifest.json?ts=" + Date.now());
       DATA = await res.json();
       const all = DATA.items || [];
@@ -627,6 +820,17 @@
       render();
     });
 
+    document.getElementById("net-bar").addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-net]");
+      if (!btn) return;
+      const k = btn.dataset.net;
+      if (!NETS.includes(k)) return;
+      netsOn[k] = !netsOn[k];
+      saveNets();
+      syncNetButtons();
+      render();
+    });
+
     const lb = document.getElementById("lb");
     const lbImg = document.getElementById("lb-img");
     function openLb(src) {
@@ -643,6 +847,12 @@
     lb.addEventListener("click", closeLb);
     lbImg.addEventListener("click", (e) => e.stopPropagation());
     window.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLb(); });
+    setInterval(() => {
+      document.querySelectorAll(".ago[data-ms]").forEach((el) => {
+        const ms = Number(el.dataset.ms);
+        if (ms) el.textContent = relativeAgo(ms);
+      });
+    }, 60000);
 
     load().catch(err => {
       document.getElementById("main").innerHTML = "<p style='color:#ff6b7a'>Failed to load manifest.json: " + escapeHtml(err.message) + "</p>";

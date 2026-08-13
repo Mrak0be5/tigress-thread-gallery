@@ -2,8 +2,528 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-14T03:04+04:00",
+  "updated": "2026-08-14T03:05+04:00",
   "items": [
+    {
+      "id": "oral-bd-v4-hands-balls",
+      "file": "images/oral-bd-v4-hands-balls.jpg",
+      "source": "bx10_hands_balls_00001_.png",
+      "title": "Oral bd v4 hands balls",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pulled-up top, breasts out. Restore NEG. No irrumatio/neon. 60 steps 1024.",
+      "date": "2026-08-14 03:05",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-oral-bd-v4/1786662246293-nx0zaxd682p.png",
+      "prompt": "in a gym, kneeling, looking up, paws on his balls, fellatio, balls deep, deepthroat, muzzle at the base of penis, balls pressed against muzzle, human male standing, (sports bra pulled up:1.4), crop top pulled up, (clothes lift:1.3), (breasts out:1.4), (nipples:1.2), white fur breasts, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-bd-v4-hands-balls.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-bd-v4-hands-balls/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-bd-v4-lean-forward",
+      "file": "images/oral-bd-v4-lean-forward.jpg",
+      "source": "bx09_lean_forward_00001_.png",
+      "title": "Oral bd v4 lean forward",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pulled-up top, breasts out. Restore NEG. No irrumatio/neon. 60 steps 1024.",
+      "date": "2026-08-14 03:05",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-oral-bd-v4/1786662244418-qrnagm1ht4a.png",
+      "prompt": "in a gym, kneeling, leaning forward, paws on his thighs, fellatio, balls deep, deepthroat, muzzle at the base of penis, balls pressed against muzzle, human male standing, (sports bra pulled up:1.4), crop top pulled up, (clothes lift:1.3), (breasts out:1.4), (nipples:1.2), white fur breasts, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-bd-v4-lean-forward.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-bd-v4-lean-forward/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-bd-v4-pinned-kneel",
+      "file": "images/oral-bd-v4-pinned-kneel.jpg",
+      "source": "bz04_pinned_kneel_00001_.png",
+      "title": "Oral bd v4 pinned kneel",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pulled-up top, breasts out. Restore NEG. No irrumatio/neon. 60 steps 1024.",
+      "date": "2026-08-14 03:05",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-oral-bd-v4/1786662242207-5spvdhisagr.png",
+      "prompt": "in a gym, kneeling, hands on his hips, fellatio, balls deep, deepthroat, muzzle at the base of penis, balls pressed against muzzle, human male standing, (shirt lift:1.45), (clothes lift:1.4), (breasts out:1.55), (nipples:1.4), sports bra bunched at collarbone, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-bd-v4-pinned-kneel.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-bd-v4-pinned-kneel/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-bd-v4-sit-floor",
+      "file": "images/oral-bd-v4-sit-floor.jpg",
+      "source": "bz03_sit_floor_00001_.png",
+      "title": "Oral bd v4 sit floor",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pulled-up top, breasts out. Restore NEG. No irrumatio/neon. 60 steps 1024.",
+      "date": "2026-08-14 03:05",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-oral-bd-v4/1786662240181-x7gd5z8dgsk.png",
+      "prompt": "in a gym, sitting on gym floor, between his legs, only one tigress, 1girl, 1boy, fellatio, balls deep, deepthroat, muzzle at the base of penis, balls pressed against muzzle, human male standing, (shirt lift:1.45), (clothes lift:1.4), (breasts out:1.55), (nipples:1.4), sports bra bunched at collarbone, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-bd-v4-sit-floor.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-bd-v4-sit-floor/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-bd-v4-lying-side",
+      "file": "images/oral-bd-v4-lying-side.jpg",
+      "source": "by05_lying_side_00001_.png",
+      "title": "Oral bd v4 lying side",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pulled-up top, breasts out. Restore NEG. No irrumatio/neon. 60 steps 1024.",
+      "date": "2026-08-14 03:05",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-oral-bd-v4/1786662238043-n93on8pv96g.png",
+      "prompt": "in a gym, tigress lying on gym mat, lying on side, reclining, tigress performing fellatio, balls deep, deepthroat, muzzle at the base of penis, balls pressed against muzzle, human male standing, (sports bra pulled up:1.45), sports bra bunched at collarbone, sports bra above breasts, (clothes lift:1.35), (breasts out:1.5), (nipples:1.3), bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-bd-v4-lying-side.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-bd-v4-lying-side/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-bd-v4-three-quarter",
+      "file": "images/oral-bd-v4-three-quarter.jpg",
+      "source": "bx05_three_quarter_00001_.png",
+      "title": "Oral bd v4 three quarter",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pulled-up top, breasts out. Restore NEG. No irrumatio/neon. 60 steps 1024.",
+      "date": "2026-08-14 03:05",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-oral-bd-v4/1786662235923-bjhdhpwcp54.png",
+      "prompt": "in a gym, three-quarter view, 3/4 view, kneeling, fellatio, balls deep, deepthroat, muzzle at the base of penis, balls pressed against muzzle, human male standing, (sports bra pulled up:1.4), crop top pulled up, (clothes lift:1.3), (breasts out:1.4), (nipples:1.2), white fur breasts, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-bd-v4-three-quarter.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-bd-v4-three-quarter/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-bd-v4-from-above",
+      "file": "images/oral-bd-v4-from-above.jpg",
+      "source": "ba01_from_above_00001_.png",
+      "title": "Oral bd v4 from above",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pulled-up top, breasts out. Restore NEG. No irrumatio/neon. 60 steps 1024.",
+      "date": "2026-08-14 03:05",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-oral-bd-v4/1786662233533-pxrepqmbxh.png",
+      "prompt": "in a gym, from above, high angle, tigress kneeling, looking up, male standing over her, fellatio, balls deep, deepthroat, muzzle at the base of penis, balls pressed against muzzle, human male standing, (shirt lift:1.45), (clothes lift:1.4), (breasts out:1.55), (nipples:1.4), sports bra bunched at collarbone, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-bd-v4-from-above.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-bd-v4-from-above/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-bd-v4-close-profile",
+      "file": "images/oral-bd-v4-close-profile.jpg",
+      "source": "bz01_close_profile_00001_.png",
+      "title": "Oral bd v4 close profile",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pulled-up top, breasts out. Restore NEG. No irrumatio/neon. 60 steps 1024.",
+      "date": "2026-08-14 03:05",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-oral-bd-v4/1786662231564-czdkruq1cpu.png",
+      "prompt": "in a gym, close-up profile, kneeling, upper body, breasts in frame, fellatio, balls deep, deepthroat, muzzle at the base of penis, balls pressed against muzzle, side view, human male standing, (shirt lift:1.45), (clothes lift:1.4), (breasts out:1.55), (nipples:1.4), sports bra bunched at collarbone, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-bd-v4-close-profile.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-bd-v4-close-profile/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-bd-v4-sit-bench",
+      "file": "images/oral-bd-v4-sit-bench.jpg",
+      "source": "by02_sit_bench_00001_.png",
+      "title": "Oral bd v4 sit bench",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pulled-up top, breasts out. Restore NEG. No irrumatio/neon. 60 steps 1024.",
+      "date": "2026-08-14 03:05",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-oral-bd-v4/1786662229768-tjiy1te6uwa.png",
+      "prompt": "in a gym, sitting on gym bench, leaning forward, fellatio, balls deep, deepthroat, muzzle at the base of penis, balls pressed against muzzle, profile, human male standing, (sports bra pulled up:1.45), sports bra bunched at collarbone, sports bra above breasts, (clothes lift:1.35), (breasts out:1.5), (nipples:1.3), bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-bd-v4-sit-bench.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-bd-v4-sit-bench/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-bd-v4-kneel-up",
+      "file": "images/oral-bd-v4-kneel-up.jpg",
+      "source": "by01_kneel_up_00001_.png",
+      "title": "Oral bd v4 kneel up",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pulled-up top, breasts out. Restore NEG. No irrumatio/neon. 60 steps 1024.",
+      "date": "2026-08-14 03:05",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-oral-bd-v4/1786662226777-knk7i6rsl4o.png",
+      "prompt": "in a gym, kneeling on gym floor, looking up, fellatio, balls deep, deepthroat, muzzle at the base of penis, balls pressed against muzzle, human male standing, (sports bra pulled up:1.45), sports bra bunched at collarbone, sports bra above breasts, (clothes lift:1.35), (breasts out:1.5), (nipples:1.3), bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-bd-v4-kneel-up.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-bd-v4-kneel-up/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "story-gym-night-shift",
       "file": "stories/STORY-gym-4acts-v8.34.md",

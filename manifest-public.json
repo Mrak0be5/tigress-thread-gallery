@@ -2,8 +2,188 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-14T02:03+04:00",
+  "updated": "2026-08-14T02:17+04:00",
   "items": [
+    {
+      "id": "oral-nochoker-standing",
+      "file": "images/oral-nochoker-standing.jpg",
+      "source": "nf05_standing_00001_.png",
+      "title": "Oral no-choker standing",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Top pulled up. 60 steps 1024.",
+      "date": "2026-08-14 02:17",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, standing, standing fellatio, female standing, fellatio, deepthroat, human male standing, unadorned furred neck, sports bra bunched at collarbone, sports bra above breasts, (breasts out:1.4), (nipples:1.2), bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-nochoker-standing.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-nochoker-standing/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-nochoker-lying",
+      "file": "images/oral-nochoker-lying.jpg",
+      "source": "ne04_lying_00001_.png",
+      "title": "Oral top-above lying",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Top above breasts. 60 steps 1024.",
+      "date": "2026-08-14 02:17",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, lying on gym mat, lying on side, reclining, bottomless, fellatio, deepthroat, human male standing, sports bra around neck, sports bra bunched at collarbone, (breasts out:1.4), (nipples:1.2), bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-nochoker-lying.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-nochoker-lying/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-nochoker-three-quarter",
+      "file": "images/oral-nochoker-three-quarter.jpg",
+      "source": "nf03_three_quarter_00001_.png",
+      "title": "Oral top-above 3/4",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Top above breasts. 60 steps 1024.",
+      "date": "2026-08-14 02:17",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, three-quarter view, 3/4 view, three-quarter angle, kneeling, fellatio, deepthroat, human male standing, unadorned furred neck, sports bra bunched at collarbone, sports bra above breasts, (breasts out:1.4), (nipples:1.2), bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-nochoker-three-quarter.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-nochoker-three-quarter/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-nochoker-from-above",
+      "file": "images/oral-nochoker-from-above.jpg",
+      "source": "nd01_from_above_00001_.png",
+      "title": "Oral no-choker from above",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "No choker. Top pulled up. 60 steps 1024.",
+      "date": "2026-08-14 02:17",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, from above, bird's-eye view, overhead view, high angle, looking down, kneeling, looking up, fellatio, deepthroat, human male standing, unadorned furred neck, sports bra bunched at collarbone, sports bra above breasts, (sports bra pulled up:1.4), clothes lift, (breasts out:1.4), (nipples:1.2), bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-nochoker-from-above.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-nochoker-from-above/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "gym-act1-locker-2k-shy-a",
       "file": "images/gym-act1-locker-2k-shy-a.jpg",

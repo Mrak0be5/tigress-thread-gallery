@@ -2,8 +2,72 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T23:03+04:00",
+  "updated": "2026-08-13T23:07+04:00",
   "items": [
+    {
+      "id": "tigra-jacko-pose-lock-b",
+      "file": "images/tigra-jacko-pose-lock-b.jpg",
+      "source": "jacko-pose-lock-b.png",
+      "title": "Tigra jack-o couch pose lock B",
+      "category": "scene",
+      "model": "Seedream 5 Pro",
+      "note": "i2i str 0.62 2:3. Identity tech-01 + pose jacko-seedream-b. task 19b430e9",
+      "date": "2026-08-13 23:07",
+      "pixels": "1200x1800",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/jacko-pose-lock/1786647966562-bn7q70ggk2c.png",
+      "prompt": "Use the SAME character from Image 1 (the character sheet). Do not redesign her. Preserve: short white bob with bangs, orange fur, black tiger stripes, white chest belly inner thighs and muzzle, amber eyes, pink feline nose, athletic nude tigress, paw pads, black claws, long striped tail, same 2D illustration style as Image 1.\nImage 2 is the pose and camera lock. Copy THIS composition exactly. Do not copy the T-pose or the multi-panel sheet layout from Image 1.\nChange ONLY: render a clean single still of that pose with Image 1 identity.\nEnd state: rear-facing jack-o on a brown leather couch. Ass and a clear glass anal plug dominate the top of the frame. Upside-down face at the bottom looking at the camera between front paws, mouth open. Head hanging off the couch seat toward the viewer. Hips high, legs spread, vulva readable. Tail lifted aside. Living room, window sunlight, plant, framed pictures. Solo only.\nStyle: match Image 1. Lighting: bright daylight, highlights on fur and glass. Technical: 2:3 single shot, no text, no watermark.",
+      "prompt_file": "prompts/tigra-jacko-pose-lock-b.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/jacko-pose-lock/1786647709310-5ukp5cuy7nl.jpg",
+          "file": "images/refs/tigra-jacko-pose-lock-b/01-identity-sheet.jpg"
+        },
+        {
+          "label": "Pose lock",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/jacko-pose-lock/1786647713844-o7dawogewmr.png",
+          "file": "images/refs/tigra-jacko-pose-lock-b/02-pose-lock.jpg"
+        }
+      ],
+      "service": "Seedream 5 Pro",
+      "service_url": "https://kie.ai",
+      "api": "https://api.kie.ai",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "tigra-jacko-pose-lock-a",
+      "file": "images/tigra-jacko-pose-lock-a.jpg",
+      "source": "jacko-pose-lock-a.png",
+      "title": "Tigra jack-o couch pose lock A",
+      "category": "scene",
+      "model": "Seedream 5 Pro",
+      "note": "i2i str 0.55 2:3. Identity tech-01 + pose jacko-seedream-a. task 62682f4b",
+      "date": "2026-08-13 23:07",
+      "pixels": "1200x1800",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/jacko-pose-lock/1786647952307-6s4hf8h8ogi.png",
+      "prompt": "Use the SAME character from Image 1 (the character sheet). Do not redesign her. Preserve: short white bob with bangs, orange fur, black tiger stripes, white chest belly inner thighs and muzzle, amber eyes, pink feline nose, athletic nude tigress, paw pads, black claws, long striped tail, same 2D illustration style as Image 1.\nImage 2 is the pose and camera lock. Copy THIS composition exactly. Do not copy the T-pose or the multi-panel sheet layout from Image 1.\nChange ONLY: render a clean single still of that pose with Image 1 identity.\nEnd state: jack-o on a brown tufted leather couch in a sunlit living room. Ass, pussy and a clear bulbous glass anal plug fill the UPPER center of the frame. Her upside-down face looks into the camera between her front paws at the BOTTOM of the frame, mouth open, tongue out. Head and chest pressed into the couch seat, lower body arched high, legs spread toward the viewer. Tail curled aside so it does not cover the anus. Plug is transparent glass, already inserted, flared base sitting on the anus. Window with daylight, curtains, potted plant, framed pictures on the wall. Solo, no second character, no penis, no man.\nStyle: match Image 1 sheet. Lighting: warm window sunlight on fur, leather, and glass plug. Technical: 2:3 single shot, no collage, no text, no watermark, no extra limbs.",
+      "prompt_file": "prompts/tigra-jacko-pose-lock-a.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/jacko-pose-lock/1786647709310-5ukp5cuy7nl.jpg",
+          "file": "images/refs/tigra-jacko-pose-lock-a/01-identity-sheet.jpg"
+        },
+        {
+          "label": "Pose lock",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/jacko-pose-lock/1786647711393-6ssjkknbo9.png",
+          "file": "images/refs/tigra-jacko-pose-lock-a/02-pose-lock.jpg"
+        }
+      ],
+      "service": "Seedream 5 Pro",
+      "service_url": "https://kie.ai",
+      "api": "https://api.kie.ai",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "oral-human-lying-stomach",
       "file": "images/oral-human-lying-stomach.jpg",

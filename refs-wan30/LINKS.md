@@ -18,4 +18,13 @@
 - B (strength 0.58) → https://tempfile.redpandaai.co/kieai/1335989/wan30-r2v-refs/1786580252869-j0kuyynr0xn.png
   seedream: https://tempfile.aiquickdraw.com/seedream5pro/1786580159545-jxf1vldulnp.png
 
+## Tigra jack-o + glass plug (Seedream 5 Pro i2i)
+Identity ref: https://tempfile.redpandaai.co/kieai/1335989/wan30-dt-7s/1786593067435-wogpqexmhf.jpg
+- A (strength 0.55) → https://tempfile.redpandaai.co/kieai/1335989/tigra-jacko-plug/1786594498120-ybndmc2q2w.png
+  seedream: https://tempfile.aiquickdraw.com/seedream5pro/1786594305615-6zgu7505x3p.png
+  task: 11afcf9c5c364c882ff73dea044fa486
+- B (strength 0.62) → https://tempfile.redpandaai.co/kieai/1335989/tigra-jacko-plug/1786594501518-cvom3w01q47.png
+  seedream: https://tempfile.aiquickdraw.com/seedream5pro/1786594295930-6781xtgnki7.png
+  task: 908687756e0b35cc4015a47143c4011d
+
 Local: `C:\Users\hebp\galleries\tigress-thread-gallery\refs-wan30\`

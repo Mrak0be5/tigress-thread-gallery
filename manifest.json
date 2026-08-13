@@ -2,9 +2,69 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T08:16+04:00",
+  "updated": "2026-08-13T08:17+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "tigra-jacko-plug-b",
+      "file": "images/tigra-jacko-plug-b.jpg",
+      "source": "jacko-seedream-b.png",
+      "title": "Tigra jack-o couch plug B",
+      "category": "scene",
+      "model": "Seedream 5 Pro",
+      "note": "i2i strength 0.62, 2:3. Identity from tech-01 sheet. Pose described from user jack-o still (file not on disk). task 90868775",
+      "date": "2026-08-13 08:17",
+      "pixels": "1200x1800",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-jacko-plug/1786594501518-cvom3w01q47.png",
+      "prompt": "Use the SAME character from the reference character sheet. Do not redesign her.\nPreserve: short white bob with bangs, orange fur, black stripes, white underbelly, amber eyes, pink nose, athletic nude tigress, paws, striped tail, same art style.\nChange ONLY: pose and setting. No T-pose, no character-sheet grid.\nEnd state: rear-facing jack-o on a brown leather couch: ass and a clear glass anal plug fill the upper center of the frame; her upside-down face looks at the camera between her front paws at the bottom. Plug is transparent, funnel-shaped, flared base sitting on the anus. Living room, blue curtains, plant, framed pictures, bright daylight.\nStyle: match the sheet. Lighting: window sunlight, highlights on fur and glass plug. Technical: 2:3 single shot, no text.",
+      "prompt_file": "prompts/tigra-jacko-plug-b.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/wan30-dt-7s/1786593067435-wogpqexmhf.jpg",
+          "file": "images/refs/tigra-jacko-plug-b/01-identity-sheet.jpg"
+        }
+      ],
+      "service": "Seedream 5 Pro",
+      "service_url": "https://kie.ai",
+      "service_model_url": "https://kie.ai",
+      "api": "https://api.kie.ai",
+      "api_key": "f267669997d0cfbb669b6882b8fdc5e4",
+      "key_name": "KIE_API_KEY",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "tigra-jacko-plug-a",
+      "file": "images/tigra-jacko-plug-a.jpg",
+      "source": "jacko-seedream-a.png",
+      "title": "Tigra jack-o couch plug A",
+      "category": "scene",
+      "model": "Seedream 5 Pro",
+      "note": "i2i strength 0.55, 2:3. Identity from tech-01 sheet. Pose described from user jack-o still (file not on disk). task 11afcf9c",
+      "date": "2026-08-13 08:17",
+      "pixels": "1200x1800",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-jacko-plug/1786594498120-ybndmc2q2w.png",
+      "prompt": "Use the SAME character from the reference character sheet. Do not redesign her.\nPreserve: short white bob hair with bangs, orange fur, black tiger stripes, white chest belly and muzzle, amber eyes, pink feline nose, athletic nude body, paw pads, black claws, long striped tail, same illustration style as the sheet.\nChange ONLY: pose, camera, scene. Do not copy the T-pose or the multi-panel sheet layout.\nEnd state: she is in a jack-o pose on a dark brown tufted leather sofa in a sunlit living room. Head and chest pressed into the couch seat at the bottom of the frame, upside-down, looking into the camera. Lower body arched high, legs spread toward the viewer. A large clear transparent funnel-shaped glass anal plug is fully inserted in her anus, wide circular flared base visible against the buttocks. Vulva clearly visible. Window with light blue curtains, framed pictures on the wall, green potted plant to the right. Bright warm sunlight.\nStyle: match the reference sheet. Lighting: sun from the window on fur and leather. Technical: single vertical image, no collage, no text, no watermark.",
+      "prompt_file": "prompts/tigra-jacko-plug-a.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/wan30-dt-7s/1786593067435-wogpqexmhf.jpg",
+          "file": "images/refs/tigra-jacko-plug-a/01-identity-sheet.jpg"
+        }
+      ],
+      "service": "Seedream 5 Pro",
+      "service_url": "https://kie.ai",
+      "service_model_url": "https://kie.ai",
+      "api": "https://api.kie.ai",
+      "api_key": "f267669997d0cfbb669b6882b8fdc5e4",
+      "key_name": "KIE_API_KEY",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "minimax-ref2va-10s-bbc-switch-penisref-v2-bbc-dark-larger",
       "file": "images/minimax-ref2va-10s-bbc-switch-penisref-v2-bbc-dark-larger.mp4",
@@ -3362,6 +3422,14 @@
       "url": "pc-video.html",
       "docs": "pc-video.html",
       "model_url": "https://huggingface.co/Comfy-Org/MiniMax-H3_ComfyUI"
+    },
+    "seedream-5-pro": {
+      "name": "Seedream 5 Pro",
+      "url": "https://kie.ai",
+      "model_url": "https://kie.ai",
+      "api": "https://api.kie.ai",
+      "api_key": "f267669997d0cfbb669b6882b8fdc5e4",
+      "key_name": "KIE_API_KEY"
     }
   },
   "howto": {

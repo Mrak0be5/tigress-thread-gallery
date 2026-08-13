@@ -378,15 +378,10 @@ def write_story_page(title: str, version: str, md_rel: str, body_html: str) -> N
       letter-spacing: -0.02em;
     }}
     article h1:first-child {{ margin-top: 0; }}
-    article h1.act-prologue {{ color: #b8c4d4; font-family: Georgia, "Iowan Old Style", serif; font-style: italic; }}
-    article h1.act-1 {{ color: var(--story); }}
-    article h1.act-2 {{ color: #e8a87c; }}
-    article h1.act-3 {{ color: #d4a0c8; }}
-    article h1.act-4 {{ color: #f0a0a0; }}
+    article h1.act-prologue {{ font-family: Georgia, "Iowan Old Style", serif; font-style: italic; }}
     article h2 {{
       font-size: 1.15rem;
       margin: 1.6rem 0 0.7rem;
-      color: var(--story);
     }}
     article h3 {{ font-size: 1.02rem; margin: 1.3rem 0 0.5rem; }}
     article p {{ margin: 0.75rem 0; }}
@@ -395,95 +390,58 @@ def write_story_page(title: str, version: str, md_rel: str, body_html: str) -> N
       border-top: 1px solid var(--border);
       margin: 1.6rem 0;
     }}
-    article em {{ color: #c5d0e0; }}
     article .legend {{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem 0.85rem;
-      margin: 0.9rem 0 1.5rem;
-      padding: 0.75rem 0.95rem;
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      font-size: 0.82rem;
-      color: var(--muted);
-      line-height: 1.55;
+      display: none;
     }}
-    article .legend span {{ white-space: nowrap; }}
     article section.scene {{
       margin: 1.45rem 0 1.9rem;
       padding: 0.1rem 0 0.45rem 1.05rem;
-      border-left: 3px solid var(--scene, var(--border));
+      border-left: 3px solid var(--border);
       border-radius: 0 10px 10px 0;
     }}
-    article .scene-phone {{ --scene: #5ec8c0; }}
     article .scene-phone h2 {{
-      color: #5ec8c0;
       font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
       letter-spacing: 0.04em;
       font-size: 1.02rem;
       font-weight: 600;
     }}
-    article .scene-door {{ --scene: #8bb4ff; }}
-    article .scene-door h2 {{ color: #9ec5ff; font-family: Georgia, serif; font-style: italic; }}
-    article .scene-locker {{ --scene: #c9a0dc; }}
-    article .scene-locker h2 {{ color: #d4b0e8; font-family: Georgia, serif; }}
-    article .scene-school {{ --scene: #f4d35e; }}
-    article .scene-school h2 {{ color: #f4d35e; letter-spacing: 0.03em; font-weight: 700; }}
-    article .scene-yoga {{ --scene: #8fd4a0; }}
-    article .scene-yoga h2 {{ color: #8fd4a0; font-family: Georgia, serif; }}
-    article .scene-greet {{ --scene: #e8a87c; }}
-    article .scene-greet h2 {{ color: #e8a87c; }}
-    article .scene-birch {{ --scene: #d4c48a; }}
-    article .scene-birch h2 {{ color: #d4c48a; font-family: Georgia, serif; }}
-    article .scene-sex {{ --scene: #e8a0b0; }}
-    article .scene-sex h2 {{ color: #f0b0be; }}
-    article .scene-debt {{ --scene: #ffb4a2; }}
+    article .scene-door h2 {{ font-family: Georgia, serif; font-style: italic; }}
+    article .scene-locker h2 {{ font-family: Georgia, serif; }}
+    article .scene-school h2 {{ letter-spacing: 0.03em; font-weight: 700; }}
+    article .scene-yoga h2 {{ font-family: Georgia, serif; }}
+    article .scene-birch h2 {{ font-family: Georgia, serif; }}
     article .scene-debt h2 {{
-      color: #ffb4a2;
       font-family: ui-monospace, Consolas, monospace;
       letter-spacing: 0.02em;
     }}
-    article .scene-shower {{ --scene: #7ec8d4; }}
-    article .scene-shower h2 {{ color: #7ec8d4; font-family: Georgia, serif; font-style: italic; }}
-    article .scene-trap {{ --scene: #d4a0c8; }}
-    article .scene-trap h2 {{ color: #d4a0c8; }}
-    article .scene-finale {{ --scene: #f0a0a0; }}
-    article .scene-finale h2 {{ color: #f0a0a0; font-weight: 700; }}
-    article .scene-after {{ --scene: #9dc4a8; }}
-    article .scene-after h2 {{ color: #9dc4a8; font-family: Georgia, serif; }}
-    article .scene-beat {{ --scene: #6a7380; }}
+    article .scene-shower h2 {{ font-family: Georgia, serif; font-style: italic; }}
+    article .scene-finale h2 {{ font-weight: 700; }}
+    article .scene-after h2 {{ font-family: Georgia, serif; }}
     article .voice-whisper,
     article div.voice-whisper p {{
-      color: #9ec5ff;
       font-family: Georgia, "Palatino Linotype", serif;
       font-style: italic;
     }}
     article p.voice-thought {{
-      color: #c9b8e8;
       font-family: Georgia, serif;
       font-style: italic;
     }}
     article p.voice-phone {{
-      color: #7fd4c8;
       font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
       font-size: 0.95em;
       font-style: italic;
     }}
     article .voice-school,
     article div.voice-school p {{
-      color: #ead67a;
       font-family: "Segoe UI", system-ui, sans-serif;
       font-weight: 500;
     }}
     article .voice-vip,
     article div.voice-vip p {{
-      color: #e8a87c;
       font-family: Georgia, serif;
     }}
     article p.voice-debt,
     article div.voice-debt p {{
-      color: #ffb4a2;
       font-family: ui-monospace, Consolas, monospace;
       font-variant-numeric: tabular-nums;
     }}

@@ -185,6 +185,58 @@
     }
     .note { font-size: 0.82rem; color: var(--muted); }
     .note.ok { color: var(--ok); }
+    .refs {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      margin-top: 0.35rem;
+    }
+    .refs figure {
+      margin: 0;
+      width: 72px;
+    }
+    .refs img {
+      width: 72px;
+      height: 72px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      cursor: zoom-in;
+      display: block;
+      background: #0a0c10;
+    }
+    .refs figcaption {
+      font-size: 0.65rem;
+      color: var(--muted);
+      margin-top: 0.15rem;
+      line-height: 1.2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .prompt-box {
+      margin-top: 0.4rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #0a0c10;
+      padding: 0.35rem 0.5rem;
+    }
+    .prompt-box summary {
+      cursor: pointer;
+      font-size: 0.76rem;
+      color: var(--accent);
+      user-select: none;
+    }
+    .prompt-box pre {
+      margin: 0.4rem 0 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-size: 0.72rem;
+      color: var(--text);
+      max-height: 14rem;
+      overflow: auto;
+      font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+    }
     .row { display: flex; gap: 0.45rem; flex-wrap: wrap; margin-top: 0.35rem; }
     a.btn {
       text-decoration: none;
@@ -306,9 +358,20 @@
         ? `<video class="card-img" src="${escapeHtml(src)}" controls preload="metadata" loop style="object-fit:cover;"></video>`
         : `<img class="card-img" src="${escapeHtml(src)}" alt="${escapeHtml(item.title)}" loading="lazy" />`;
       const clickAction = isVideo ? "" : `data-src="${escapeHtml(src)}" title="Open full size"`;
+      const refs = Array.isArray(item.refs) ? item.refs : [];
+      const refsHtml = refs.length
+        ? `<div class="refs">${refs.map((r) => {
+            const rsrc = r.file || r.source || r.url || "";
+            if (!rsrc) return "";
+            return `<figure><img class="ref-thumb" src="${escapeHtml(rsrc)}" alt="${escapeHtml(r.label || "ref")}" title="${escapeHtml(r.label || "")}" data-src="${escapeHtml(rsrc)}" loading="lazy" /><figcaption>${escapeHtml(r.label || "")}</figcaption></figure>`;
+          }).join("")}</div>`
+        : "";
+      const promptHtml = item.prompt
+        ? `<details class="prompt-box"><summary>Промпт</summary><pre>${escapeHtml(item.prompt)}</pre></details>`
+        : "";
       
       return `
-        <article class="card ${best ? "best" : ""}" data-id="${escapeHtml(item.id)}" data-file="${escapeHtml(item.file)}" data-pose="${escapeHtml(item.pose || "")}">
+        <article class="card ${best ? "best" : ""} ${isVideo ? "video-card" : ""}" data-id="${escapeHtml(item.id)}" data-file="${escapeHtml(item.file)}" data-pose="${escapeHtml(item.pose || "")}">
           <div class="thumb" ${clickAction}>
             ${mediaHtml}
             <span class="view-badge">${badge}</span>
@@ -322,6 +385,8 @@
             <div class="model">${escapeHtml(item.model || "")}</div>
             ${when}
             <div class="note ${noteClass}">${escapeHtml(item.note || "")}</div>
+            ${refsHtml}
+            ${promptHtml}
             <div class="row">
               <a class="btn open-link" href="${escapeHtml(src)}" target="_blank" rel="noopener">Open</a>
             </div>
@@ -408,6 +473,12 @@
           if (btn.disabled) return;
           const card = btn.closest(".card");
           setCardMode(card, btn.dataset.mode);
+        });
+      });
+      main.querySelectorAll(".ref-thumb[data-src]").forEach(el => {
+        el.addEventListener("click", (e) => {
+          e.stopPropagation();
+          if (el.dataset.src) openLb(el.dataset.src);
         });
       });
     }

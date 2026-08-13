@@ -27,4 +27,13 @@ Identity ref: https://tempfile.redpandaai.co/kieai/1335989/wan30-dt-7s/178659306
   seedream: https://tempfile.aiquickdraw.com/seedream5pro/1786594295930-6781xtgnki7.png
   task: 908687756e0b35cc4015a47143c4011d
 
+## Crowd v2 — anime street + circular glass dilator (Wan 3.0 R2V 7s)
+- Identity sheet → https://tempfile.redpandaai.co/kieai/1335989/wan30-crowd-v2/1786625083677-tysoexl8vfj.jpg
+- Dilator close-up → https://tempfile.redpandaai.co/kieai/1335989/wan30-crowd-v2/1786625087550-3h6ktih6qlt.jpg
+
+## Gym squat 5s — blue skirt + glass dilator (Wan 3.0 R2V)
+- Identity sheet → https://tempfile.redpandaai.co/kieai/1335989/wan30-gym-squat-5s/1786625993968-aa82s2vovbd.png
+- Gym style → https://tempfile.redpandaai.co/kieai/1335989/wan30-gym-squat-5s/1786626003968-3979r9hvgsu.png
+- Dilator close-up → https://tempfile.redpandaai.co/kieai/1335989/wan30-gym-squat-5s/1786626012178-whyvrxzqzfe.jpg
+
 Local: `C:\Users\hebp\galleries\tigress-thread-gallery\refs-wan30\`

@@ -2,8 +2,36 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-14T00:25+04:00",
+  "updated": "2026-08-14T00:44+04:00",
   "items": [
+    {
+      "id": "seedream-vinna-cowboy-longskirt-v3",
+      "file": "images/seedream-vinna-cowboy-longskirt-v3.jpg",
+      "source": "vinna-cowboy-skirt-shorter-a.png",
+      "title": "Seedream 5 Pro — Vinna cowboy, skirt a bit shorter",
+      "category": "scene",
+      "model": "Seedream 5 Pro",
+      "note": "i2i strength 0.34 from v2. hem raised ~6cm, still mid-thigh, crotch covered. task 0c964acf.",
+      "date": "2026-08-14 00:44",
+      "pixels": "1800x1000",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786653851201-zrg23p2v49.png",
+      "prompt": "Use this exact cowboy bear woman. Do not redesign her. Keep cabin, pose, hat, scarf, white shirt, vest, gloves, belt, chaps, holster, revolver. BEAR, not a cat.\nChange ONLY the skirt hem: raise it about 6 centimeters, a little shorter than now. It stays a glossy black leather mini, hem at mid-thigh. Crotch still fully covered. Not a micro-skirt. Not flashing. Not knee-length. 16:9. No text.",
+      "prompt_file": "prompts/seedream-vinna-cowboy-longskirt-v3.txt",
+      "refs": [
+        {
+          "label": "previous_v2",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786652617599-ymiwt0b3ai.png",
+          "file": "images/refs/seedream-vinna-cowboy-longskirt-v3/01-previous-v2.jpg"
+        }
+      ],
+      "service": "Kie.ai",
+      "service_url": "https://kie.ai",
+      "service_model_url": "https://kie.ai",
+      "api": "https://api.kie.ai",
+      "characters": [
+        "Vinna"
+      ]
+    },
     {
       "id": "seedream-vinna-cowboy-longskirt-v2",
       "file": "images/seedream-vinna-cowboy-longskirt-v2.jpg",

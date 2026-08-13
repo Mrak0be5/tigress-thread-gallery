@@ -2,9 +2,44 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T08:53+04:00",
+  "updated": "2026-08-13T08:55+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "wan30-tigra-r2v-7s-crowd-challenge",
+      "file": "images/wan30-tigra-r2v-7s-crowd-challenge.mp4",
+      "source": "wan3_done_r2v7_crowd_challenge_ce1fc5ee.mp4",
+      "title": "Wan 3.0 R2V 7s — crowd blogger anal challenge bend",
+      "category": "video",
+      "model": "Wan 3.0",
+      "note": "crowd anime, line, panties off, glass plug, deep bend between legs. audio on. id ce1fc5ee",
+      "date": "2026-08-13 08:55",
+      "pixels": "0x0",
+      "cdn": "https://d1q70pf5vjeyhc.cloudfront.net/predictions/ce1fc5ee895043c3b3014488b9882c75/1.mp4",
+      "prompt": "7 seconds, 16:9, 480p, explicit adult 2D anime animation, with audio. ONE UNBROKEN CONTINUOUS SHOT for the entire 7 seconds. Single locked camera, single take, one composition, one frame. No cuts, no splices, no edits, no hard cuts, no jump cuts, no dissolve, no fade, no shot change. All action happens inside the SAME locked frame. Reference roles (strict): Image 1 = tiger woman identity ONLY (white bob hair, orange-black stripes, white underbelly, face, body proportions, athletic anthro tigress). Do not copy the T-pose layout. Image 2 = glass anal plug object ONLY (clear transparent teardrop glass plug, thin neck, flared circular base). Compose: same tigress identity from Image 1. Anime style. Setting: she stands in the middle of a dense anime crowd of people who are watching her. City street or public plaza, daylight. Crowd stays around her, looking at her. Outfit start: short leather jacket and panties only. No pants. She behaves like a popular confident female blogger filming herself. Camera: STATIC locked-off medium-wide full-body shot for the whole 7 seconds, wide enough that when she folds over she still fits in frame. No dolly, no zoom, no orbit. Keep her body, face, crowd, and later the plug readable. Action timeline (strict order, all in-camera in the same take): 0-2s: she stands facing camera in the crowd, in the short leather jacket and panties, smiling like a blogger, and clearly SPEAKS in Russian: \"Я тоже участвую в анальном челендже\". Audible dialogue, muzzle talking. Crowd watches. 2-3.5s: she pulls her panties down and off. Jacket stays on. 3.5-5s: she turns her back to camera; a clear glass anal plug matching Image 2 is already inserted in her anus, flared base visible between striped buttocks. 5-7s: she bends over extremely deep, standing wide-legged pike / forward fold, head upside-down between her legs, looking into the camera between her thighs, hands toward her ankles. Ass and the glass plug high in the upper part of the frame. Hold the pose. Still the same unbroken shot. Keep tiger identity locked from Image 1. Same 2D anime/illustration style as Image 1. No text overlay, no watermark, no identity morph, no extra limbs, no jump cuts.",
+      "prompt_file": "prompts/wan30-tigra-r2v-7s-crowd-challenge.txt",
+      "refs": [
+        {
+          "label": "Image 1 identity",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/wan30-blogger-7s/1786592416523-5pfbttvnfyw.jpg",
+          "file": "images/refs/wan30-tigra-r2v-7s-crowd-challenge/01-image-1-identity.jpg"
+        },
+        {
+          "label": "Image 2 glass plug",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/wan30-blogger-7s/1786592418454-dbb0fzk0bic.jpg",
+          "file": "images/refs/wan30-tigra-r2v-7s-crowd-challenge/02-image-2-glass-plug.jpg"
+        }
+      ],
+      "service": "WaveSpeed",
+      "service_url": "https://wavespeed.ai",
+      "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
+      "api": "https://api.wavespeed.ai/api/v3",
+      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
+      "key_name": "Grok",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "story-gym-night-shift",
       "file": "stories/STORY-gym-4acts-v8.19.md",

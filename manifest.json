@@ -2,9 +2,49 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T23:53+04:00",
+  "updated": "2026-08-13T23:58+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "seedream-vinna-cowboy-longskirt",
+      "file": "images/seedream-vinna-cowboy-longskirt.jpg",
+      "source": "vinna-cowboy-longskirt-blend-low.png",
+      "title": "Seedream 5 Pro — Vinna cowboy, longer black leather skirt",
+      "category": "scene",
+      "model": "Seedream 5 Pro",
+      "note": "i2i strength 0.28 on composite of cowboy still + mid-thigh skirt close-up. task bc929fad. hem mid-thigh, crotch covered.",
+      "date": "2026-08-13 23:58",
+      "pixels": "1800x1000",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786651086071-hz2ro9kroen.png",
+      "prompt": "Keep this exact cowboy bear woman and cabin. Only clean up the black leather on her hips into a smooth glossy pencil skirt. Keep the hem LOW, at mid-thigh. Do not shorten. Do not make a micro-skirt. Crotch covered. BEAR. 16:9. No text.",
+      "prompt_file": "prompts/seedream-vinna-cowboy-longskirt.txt",
+      "refs": [
+        {
+          "label": "cowboy_photo",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786647382588-zt5olm5qg9.png",
+          "file": "images/refs/seedream-vinna-cowboy-longskirt/01-cowboy-photo.jpg"
+        },
+        {
+          "label": "skirt_length_closeup",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786649415866-orcshxs09pr.png",
+          "file": "images/refs/seedream-vinna-cowboy-longskirt/02-skirt-length-closeup.jpg"
+        },
+        {
+          "label": "composite_source",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/bear-cowboy-r2v/1786650231369-ifbpzzug81l.png",
+          "file": "images/refs/seedream-vinna-cowboy-longskirt/03-composite-source.jpg"
+        }
+      ],
+      "service": "Kie.ai",
+      "service_url": "https://kie.ai",
+      "service_model_url": "https://kie.ai",
+      "api": "https://api.kie.ai",
+      "api_key": "f267669997d0cfbb669b6882b8fdc5e4",
+      "key_name": "KIE_API_KEY",
+      "characters": [
+        "Vinna"
+      ]
+    },
     {
       "id": "gym-act1-locker-chestdown-a",
       "file": "images/gym-act1-locker-chestdown-a.jpg",

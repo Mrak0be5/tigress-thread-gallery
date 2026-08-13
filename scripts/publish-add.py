@@ -42,6 +42,39 @@ MAX_SIDE = 1800
 QUALITY = 86
 RE_BOLD = re.compile(r"\*\*(.+?)\*\*")
 RE_EM = re.compile(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)")
+RE_HTML_LINE = re.compile(
+    r"^</?(?:div|aside|section|span)\b",
+    re.I,
+)
+ACT_CLASS = {
+    "Пролог. Ещё одна": "act-prologue",
+    "Акт I. Два сертификата": "act-1",
+    "Акт II. Прокачка и ускоренный VIP": "act-2",
+    "Акт III. Долг уже внутри": "act-3",
+    "Акт IV. Закрытие VIP": "act-4",
+}
+SCENE_CLASS = {
+    "Сообщения": "scene-phone",
+    "Чёрный ход": "scene-door",
+    "Раздевалка": "scene-locker",
+    "Площадка. Устав": "scene-school",
+    "Йога": "scene-yoga",
+    "Приветствие": "scene-greet",
+    "Березка": "scene-birch",
+    "Сгибание ног": "scene-sex",
+    "Скамья. Ноги за голову": "scene-sex",
+    "Велотренажёр": "scene-sex",
+    "Коридор. Долг": "scene-debt",
+    "Тяга гантели": "scene-sex",
+    "Душ": "scene-shower",
+    "Уговоры": "scene-trap",
+    "Наклоны": "scene-sex",
+    "Планка": "scene-sex",
+    "Жим": "scene-sex",
+    "Растяжка": "scene-yoga",
+    "Командный финал": "scene-finale",
+    "Aftercare": "scene-after",
+}
 
 
 def slugify(s: str) -> str:
@@ -170,36 +203,72 @@ def inline_md(text: str) -> str:
     return text
 
 
+def _para_class(body: str, scene_cls: str | None) -> str:
+    plain = re.sub(r"<[^>]+>", "", body)
+    if re.fullmatch(r"<em>.*</em>", body, flags=re.S):
+        if scene_cls == "scene-phone":
+            return "voice-phone"
+        return "voice-thought"
+    if plain.startswith("— Срыв.") or plain.startswith("Срыв."):
+        return "voice-debt"
+    return ""
+
+
 def md_to_html(src: str) -> str:
     lines = src.replace("\r\n", "\n").replace("\r", "\n").split("\n")
     out: list[str] = []
     para: list[str] = []
+    scene_cls: str | None = None
+    section_open = False
 
     def flush() -> None:
         if not para:
             return
         body = inline_md("\n".join(para)).replace("\n", "<br>\n")
-        out.append(f"<p>{body}</p>")
+        cls = _para_class(body, scene_cls)
+        attr = f' class="{cls}"' if cls else ""
+        out.append(f"<p{attr}>{body}</p>")
         para.clear()
 
+    def close_section() -> None:
+        nonlocal section_open, scene_cls
+        if section_open:
+            out.append("</section>")
+            section_open = False
+            scene_cls = None
+
     for line in lines:
+        stripped = line.strip()
         if line.startswith("### "):
             flush()
             out.append(f"<h3>{inline_md(line[4:])}</h3>")
         elif line.startswith("## "):
             flush()
-            out.append(f"<h2>{inline_md(line[3:])}</h2>")
+            close_section()
+            title = line[3:].strip()
+            scene_cls = SCENE_CLASS.get(title, "scene-beat")
+            out.append(f'<section class="scene {scene_cls}">')
+            section_open = True
+            out.append(f"<h2>{inline_md(title)}</h2>")
         elif line.startswith("# "):
             flush()
-            out.append(f"<h1>{inline_md(line[2:])}</h1>")
-        elif re.fullmatch(r"-{3,}", line.strip()):
+            close_section()
+            title = line[2:].strip()
+            act_cls = ACT_CLASS.get(title, "")
+            attr = f' class="{act_cls}"' if act_cls else ""
+            out.append(f"<h1{attr}>{inline_md(title)}</h1>")
+        elif re.fullmatch(r"-{3,}", stripped):
             flush()
             out.append("<hr>")
-        elif line.strip() == "":
+        elif RE_HTML_LINE.match(stripped):
+            flush()
+            out.append(stripped)
+        elif stripped == "":
             flush()
         else:
             para.append(line)
     flush()
+    close_section()
     return "\n".join(out)
 
 
@@ -272,6 +341,11 @@ def write_story_page(title: str, version: str, md_rel: str, body_html: str) -> N
       letter-spacing: -0.02em;
     }}
     article h1:first-child {{ margin-top: 0; }}
+    article h1.act-prologue {{ color: #b8c4d4; font-family: Georgia, "Iowan Old Style", serif; font-style: italic; }}
+    article h1.act-1 {{ color: var(--story); }}
+    article h1.act-2 {{ color: #e8a87c; }}
+    article h1.act-3 {{ color: #d4a0c8; }}
+    article h1.act-4 {{ color: #f0a0a0; }}
     article h2 {{
       font-size: 1.15rem;
       margin: 1.6rem 0 0.7rem;
@@ -285,6 +359,97 @@ def write_story_page(title: str, version: str, md_rel: str, body_html: str) -> N
       margin: 1.6rem 0;
     }}
     article em {{ color: #c5d0e0; }}
+    article .legend {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 0.85rem;
+      margin: 0.9rem 0 1.5rem;
+      padding: 0.75rem 0.95rem;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }}
+    article .legend span {{ white-space: nowrap; }}
+    article section.scene {{
+      margin: 1.45rem 0 1.9rem;
+      padding: 0.1rem 0 0.45rem 1.05rem;
+      border-left: 3px solid var(--scene, var(--border));
+      border-radius: 0 10px 10px 0;
+    }}
+    article .scene-phone {{ --scene: #5ec8c0; }}
+    article .scene-phone h2 {{
+      color: #5ec8c0;
+      font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+      letter-spacing: 0.04em;
+      font-size: 1.02rem;
+      font-weight: 600;
+    }}
+    article .scene-door {{ --scene: #8bb4ff; }}
+    article .scene-door h2 {{ color: #9ec5ff; font-family: Georgia, serif; font-style: italic; }}
+    article .scene-locker {{ --scene: #c9a0dc; }}
+    article .scene-locker h2 {{ color: #d4b0e8; font-family: Georgia, serif; }}
+    article .scene-school {{ --scene: #f4d35e; }}
+    article .scene-school h2 {{ color: #f4d35e; letter-spacing: 0.03em; font-weight: 700; }}
+    article .scene-yoga {{ --scene: #8fd4a0; }}
+    article .scene-yoga h2 {{ color: #8fd4a0; font-family: Georgia, serif; }}
+    article .scene-greet {{ --scene: #e8a87c; }}
+    article .scene-greet h2 {{ color: #e8a87c; }}
+    article .scene-birch {{ --scene: #d4c48a; }}
+    article .scene-birch h2 {{ color: #d4c48a; font-family: Georgia, serif; }}
+    article .scene-sex {{ --scene: #e8a0b0; }}
+    article .scene-sex h2 {{ color: #f0b0be; }}
+    article .scene-debt {{ --scene: #ffb4a2; }}
+    article .scene-debt h2 {{
+      color: #ffb4a2;
+      font-family: ui-monospace, Consolas, monospace;
+      letter-spacing: 0.02em;
+    }}
+    article .scene-shower {{ --scene: #7ec8d4; }}
+    article .scene-shower h2 {{ color: #7ec8d4; font-family: Georgia, serif; font-style: italic; }}
+    article .scene-trap {{ --scene: #d4a0c8; }}
+    article .scene-trap h2 {{ color: #d4a0c8; }}
+    article .scene-finale {{ --scene: #f0a0a0; }}
+    article .scene-finale h2 {{ color: #f0a0a0; font-weight: 700; }}
+    article .scene-after {{ --scene: #9dc4a8; }}
+    article .scene-after h2 {{ color: #9dc4a8; font-family: Georgia, serif; }}
+    article .scene-beat {{ --scene: #6a7380; }}
+    article .voice-whisper,
+    article div.voice-whisper p {{
+      color: #9ec5ff;
+      font-family: Georgia, "Palatino Linotype", serif;
+      font-style: italic;
+    }}
+    article p.voice-thought {{
+      color: #c9b8e8;
+      font-family: Georgia, serif;
+      font-style: italic;
+    }}
+    article p.voice-phone {{
+      color: #7fd4c8;
+      font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+      font-size: 0.95em;
+      font-style: italic;
+    }}
+    article .voice-school,
+    article div.voice-school p {{
+      color: #ead67a;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-weight: 500;
+    }}
+    article .voice-vip,
+    article div.voice-vip p {{
+      color: #e8a87c;
+      font-family: Georgia, serif;
+    }}
+    article p.voice-debt,
+    article div.voice-debt p {{
+      color: #ffb4a2;
+      font-family: ui-monospace, Consolas, monospace;
+      font-variant-numeric: tabular-nums;
+    }}
     footer {{
       padding-bottom: 2.5rem;
       color: var(--muted);

@@ -87,10 +87,7 @@
       cursor: pointer;
     }
     nav button:hover, nav button.active { border-color: var(--accent); color: #fff; }
-    nav button[data-cat="sheet"].active { border-color: var(--sheet); color: var(--sheet); }
-    nav button[data-cat="scene"].active { border-color: var(--scene); color: var(--scene); }
-    nav button[data-cat="bunny"].active { border-color: var(--bunny); color: var(--bunny); }
-    nav button[data-cat="identity"].active { border-color: var(--identity); color: var(--identity); }
+    nav button[data-cat="images"].active { border-color: var(--sheet); color: var(--sheet); }
     nav button[data-cat="video"].active { border-color: #ff5252; color: #ff5252; }
     nav button[data-cat="story"].active { border-color: var(--story); color: var(--story); }
     nav button[data-cat="liked"].active { border-color: #ff6b9a; color: #ff6b9a; }
@@ -458,11 +455,8 @@
 
   <nav id="nav">
     <button type="button" data-cat="all" class="active">Все</button>
-    <button type="button" data-cat="sheet">Sheets</button>
-    <button type="button" data-cat="scene">Scenes</button>
-    <button type="button" data-cat="identity">Identity</button>
-    <button type="button" data-cat="bunny">Bunny</button>
-    <button type="button" data-cat="video">Video</button>
+    <button type="button" data-cat="images">2D картинки</button>
+    <button type="button" data-cat="video">Видео</button>
     <a class="howto-nav local-only" href="pc-video.html">MiniMax</a>
     <button type="button" data-cat="story">Рассказы</button>
     <button type="button" data-cat="liked">Лайки</button>
@@ -492,15 +486,16 @@
     })();
     document.documentElement.classList.add(IS_LOCAL ? "mode-local" : "mode-public");
     const CATS = [
-      { id: "sheet", title: "Character sheets / 3-view" },
-      { id: "scene", title: "Scenes (sex poses)" },
-      { id: "identity", title: "Identity crops" },
-      { id: "bunny", title: "Bunny" },
-      { id: "video", title: "Videos" },
+      { id: "images", title: "2D картинки" },
+      { id: "video", title: "Видео" },
       { id: "story", title: "Рассказы" }
     ];
+    const FILTER_KEY = "tigress-gallery-filter";
+    const FILTER_IDS = ["all", "images", "video", "story", "liked", "best"];
+    const OLD_IMAGE_CATS = ["sheet", "scene", "identity", "bunny"];
+    const MODEL_ORDER = ["MiniMax", "Wan", "Seedream", "Pony / Comfy", "Qwen", "HappyHorse", "Другое"];
     let DATA = null;
-    let filter = (location.hash === "#story" || location.hash === "#stories") ? "story" : "all";
+    let filter = "all";
     /** per-card view: "tigress" | "pose" */
     const viewState = new Map();
     const LIKES_KEY = "tigress-gallery-likes";
@@ -529,10 +524,36 @@
     function saveLikes() {
       localStorage.setItem(LIKES_KEY, JSON.stringify([...likes]));
     }
+    function loadFilter() {
+      const hash = (location.hash || "").toLowerCase();
+      if (hash === "#story" || hash === "#stories") return "story";
+      if (hash === "#video") return "video";
+      if (hash === "#images" || hash === "#2d") return "images";
+      try {
+        let saved = String(localStorage.getItem(FILTER_KEY) || "all");
+        if (OLD_IMAGE_CATS.indexOf(saved) !== -1) saved = "images";
+        if (FILTER_IDS.indexOf(saved) !== -1) return saved;
+      } catch (e) {}
+      return "all";
+    }
+    function saveFilter() {
+      try { localStorage.setItem(FILTER_KEY, filter); } catch (e) {}
+    }
+    function normalizeModelFilter(raw) {
+      const n = String(raw || "").toLowerCase();
+      if (!n) return "";
+      if (n === "minimax" || /minimax|fl2va|ref2va|\bh3\b/.test(n)) return "MiniMax";
+      if (n === "wan" || /\bwan\b|alibaba\/wan/.test(n)) return "Wan";
+      if (n === "seedream" || /seedream/.test(n)) return "Seedream";
+      if (n === "qwen" || /qwen/.test(n)) return "Qwen";
+      if (n === "pony / comfy" || n === "pony" || /pony|boleromix|comfy/.test(n)) return "Pony / Comfy";
+      if (n === "happyhorse" || /happyhorse/.test(n)) return "HappyHorse";
+      if (n === "другое" || n === "other") return "Другое";
+      return "";
+    }
     function loadNets() {
       try {
-        modelFilter = String(localStorage.getItem(MODEL_KEY) || "");
-        if (/minimax|fl2va|ref2va|\bh3\b/i.test(modelFilter)) modelFilter = "MiniMax";
+        modelFilter = normalizeModelFilter(localStorage.getItem(MODEL_KEY) || "");
         charFilter = String(localStorage.getItem(CHAR_KEY) || "");
       } catch (e) {
         modelFilter = "";
@@ -550,23 +571,21 @@
       const blob = [it.model, it.id, it.service, it.service_url].map((x) => String(x || "")).join(" ");
       return /minimax|fl2va|ref2va|\bh3\b/i.test(blob);
     }
-    function itemModelGroup(it) {
-      if (isMiniMaxItem(it)) return "MiniMax";
-      return itemModel(it);
-    }
     function isVideoItem(it) {
       return (it.category || "") === "video" || /\.mp4($|\?)/i.test(String(it.file || ""));
     }
     function netKind(it) {
       const blob = [it.model, it.id, it.service].map((x) => String(x || "")).join(" ").toLowerCase();
       if (/minimax|fl2va|ref2va|\bh3\b/.test(blob)) return { id: "minimax", label: "MiniMax" };
-      if (/wan\s*3|alibaba\/wan/.test(blob)) return { id: "wan", label: "Wan" };
+      if (/\bwan\b|alibaba\/wan/.test(blob)) return { id: "wan", label: "Wan" };
       if (/seedream/.test(blob)) return { id: "seedream", label: "Seedream" };
       if (/qwen/.test(blob)) return { id: "qwen", label: "Qwen" };
-      if (/pony|boleromix/.test(blob)) return { id: "pony", label: "Pony" };
+      if (/pony|boleromix|comfy/.test(blob)) return { id: "pony", label: "Pony / Comfy" };
       if (/happyhorse/.test(blob)) return { id: "happyhorse", label: "HappyHorse" };
-      const label = itemModel(it);
-      return { id: "other", label: label.length > 18 ? label.slice(0, 16) + "…" : label };
+      return { id: "other", label: "Другое" };
+    }
+    function itemModelGroup(it) {
+      return netKind(it).label;
     }
     const NET_SVG = '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="3.5" cy="4" r="1.7" fill="currentColor"/><circle cx="12.5" cy="4" r="1.7" fill="currentColor"/><circle cx="8" cy="12.2" r="1.7" fill="currentColor"/><path d="M3.5 4h9M3.5 4L8 12.2M12.5 4L8 12.2" fill="none" stroke="currentColor" stroke-width="1.15"/></svg>';
     function itemCharacters(it) {
@@ -866,6 +885,8 @@
         if (filter === "liked") return isLiked(it.id);
         if (filter === "all") return true;
         if (filter === "best") return it.flag === "best";
+        if (filter === "images") return !isVideoItem(it);
+        if (filter === "video") return isVideoItem(it);
         return (it.category || "") === filter;
       };
 
@@ -876,6 +897,8 @@
         filter === "all" ? "По дате (новые сверху)"
         : filter === "best" ? "Best of thread"
         : filter === "liked" ? "Лайки"
+        : filter === "images" ? "2D картинки"
+        : filter === "video" ? "Видео"
         : (CATS.find(c => c.id === filter)?.title || filter);
       sec.innerHTML = `<h2>${escapeHtml(title)} <span style="color:var(--muted);font-weight:400;font-size:0.9rem">(${group.length}, с рефом позы: ${withPose})</span></h2>
         <div class="grid">${group.map(cardHtml).join("")}</div>`;
@@ -952,7 +975,7 @@
     }
 
     function renderFilterBars() {
-      const items = DATA.items || [];
+      const items = (DATA.items || []).filter((it) => !isStory(it));
       const modelCounts = new Map();
       const charCounts = new Map();
       items.forEach((it) => {
@@ -963,7 +986,14 @@
       if (modelFilter && !modelCounts.has(modelFilter)) modelFilter = "";
       if (charFilter && !charCounts.has(charFilter)) charFilter = "";
 
-      const models = [...modelCounts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ru"));
+      const models = [...modelCounts.entries()].sort((a, b) => {
+        const ia = MODEL_ORDER.indexOf(a[0]);
+        const ib = MODEL_ORDER.indexOf(b[0]);
+        const oa = ia === -1 ? 99 : ia;
+        const ob = ib === -1 ? 99 : ib;
+        if (oa !== ob) return oa - ob;
+        return b[1] - a[1] || a[0].localeCompare(b[0], "ru");
+      });
       const modelBar = document.getElementById("model-bar");
       modelBar.innerHTML = `<span class="lbl">Модели</span>` +
         pill(!modelFilter, `data-model=""`, "Все", items.length) +
@@ -989,6 +1019,7 @@
       }
       if (!res.ok) throw new Error("manifest HTTP " + res.status);
       DATA = await res.json();
+      filter = loadFilter();
       if (!IS_LOCAL) {
         delete DATA.services;
         delete DATA.howto;
@@ -1000,9 +1031,11 @@
       }
       const all = DATA.items || [];
       const nStory = all.filter(isStory).length;
-      const nMedia = all.length - nStory;
+      const media = all.filter((it) => !isStory(it));
+      const nVideo = media.filter(isVideoItem).length;
+      const nStill = media.length - nVideo;
       const nPose = all.filter(it => it.pose).length;
-      document.getElementById("count-badge").textContent = nMedia + " images · " + nPose + " with pose ref" + (nStory ? " · " + nStory + " story" : "");
+      document.getElementById("count-badge").textContent = nStill + " 2D · " + nVideo + " video · " + nPose + " with pose ref" + (nStory ? " · " + nStory + " story" : "");
       document.getElementById("updated-badge").textContent = "updated " + (DATA.updated || DATA.created || "");
       document.title = DATA.title || "Tigress thread gallery";
       document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("active", b.dataset.cat === filter));
@@ -1050,9 +1083,14 @@
       const btn = e.target.closest("button[data-cat]");
       if (!btn) return;
       filter = btn.dataset.cat;
+      saveFilter();
       document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("active", b === btn));
       if (filter === "story") history.replaceState(null, "", "#story");
-      else if (location.hash === "#story" || location.hash === "#stories") history.replaceState(null, "", location.pathname);
+      else if (filter === "video") history.replaceState(null, "", "#video");
+      else if (filter === "images") history.replaceState(null, "", "#images");
+      else if (location.hash === "#story" || location.hash === "#stories" || location.hash === "#video" || location.hash === "#images" || location.hash === "#2d") {
+        history.replaceState(null, "", location.pathname);
+      }
       render();
     });
 

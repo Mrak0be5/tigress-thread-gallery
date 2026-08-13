@@ -2,9 +2,55 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T12:00+04:00",
+  "updated": "2026-08-13T16:00+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "minimax-15s-bbc-switch-v3-10s-5s-balls-deep-disgust-bbc-2x-s",
+      "file": "images/minimax-15s-bbc-switch-v3-10s-5s-balls-deep-disgust-bbc-2x-s.mp4",
+      "source": "tigra_bbc_switch_15s_v3_merged.mp4",
+      "title": "MiniMax 15s — bbc-switch v3 (10s+5s: balls-deep disgust, BBC 2x shallow wince)",
+      "category": "video",
+      "model": "MiniMax-H3 Ref2VA+FL2VA Non-Turbo",
+      "note": "15s stitch. Part1 10s Ref2VA: bearded balls-deep + disgusted look-back + pull-out + BBC approach fear. Part2 5s FL2VA: 2x dark penis shallow insert, wince every thrust. Single 362-frame 15s was black.",
+      "date": "2026-08-13 16:00",
+      "pixels": "0x0",
+      "prompt": "Cinematic 24fps 16:9 medium-wide cabin shot, 10 seconds, explicit adult animation, continuous single take, no hard cuts.\nKeep the exact framing, camera distance, and composition of <Picture 1> for the entire clip. STATIC locked-off medium-wide side shot. No dolly, no zoom, no orbit, no genital close-up. Do not fill the frame with a penis. Do not copy any character-sheet, T-pose, anatomy-sheet, or close-up genital layout.\n<Picture 1> is the starting scene and the only composition reference: wooden cabin night interior, wooden table, fruit bowl, coffee cup, raised-leg mating-press pose, anal penetration already visible.\n<Picture 2> is tiger woman identity ONLY: white bob hair, orange-black stripes, white underbelly, face, body proportions. Do not copy the T-pose sheet layout.\n<Picture 3> is the first man identity ONLY: muscular bearded pale-skinned nude man, face, hair, body. Do not copy the turnaround sheet layout.\n<Picture 4> is penis anatomy identity ONLY for the bearded pale man from <Picture 3>: shaft shape, glans, veins, scrotum. Do not copy <Picture 4> close-up framing.\nThe bearded man's penis matches <Picture 4> in shape and pale skin.\nAction timeline, strict order:\n0-4s: the bearded pale man from <Picture 3> fucks her anus HARD and DEEP, balls-deep, his pale penis from <Picture 4> buried to the hilt, scrotum slapping against her; strong forceful thrusts. She turns her head and looks back at HIM over her shoulder with a disgusted, revulsed grimace, lip curled, eyes narrowed in disgust.\n4-6s: he stops, pulls his pale penis FULLY out of her anus, and walks away to the RIGHT off-screen. Her anus stays visibly stretched open, empty gape.\n6-10s: from the RIGHT a different nude BLACK man approaches, dark skin, muscular, short hair, NOT the bearded man. She sees him coming and her face becomes frightened, scared, wide eyes. He has an enormous dark erect penis TWICE as big as <Picture 4> (same shape, dark brown skin matching his body, NOT pale, NOT pink). He steps in behind her and lines up that huge dark cock at her gaped anus but does not fully insert yet.\nKeep tiger identity locked from <Picture 2>, pose and set from <Picture 1>, first man from <Picture 3> only for 0-6s. Same 2D illustration style as the references. Soft cabin lighting. No text, no watermark, no identity morph of the tigress, no extra limbs, no jump cuts. Highly detailed textures, anatomically precise, natural body motion.",
+      "prompt_file": "prompts/minimax-15s-bbc-switch-v3-10s-5s-balls-deep-disgust-bbc-2x-s.txt",
+      "refs": [
+        {
+          "label": "Picture 1 pose/env",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\02-pose-env.jpg",
+          "file": "images/refs/minimax-15s-bbc-switch-v3-10s-5s-balls-deep-disgust-bbc-2x-s/01-picture-1-pose-env.jpg"
+        },
+        {
+          "label": "Picture 2 identity",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\01-identity.jpg",
+          "file": "images/refs/minimax-15s-bbc-switch-v3-10s-5s-balls-deep-disgust-bbc-2x-s/02-picture-2-identity.jpg"
+        },
+        {
+          "label": "Picture 3 man",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\03-man.jpg",
+          "file": "images/refs/minimax-15s-bbc-switch-v3-10s-5s-balls-deep-disgust-bbc-2x-s/03-picture-3-man.jpg"
+        },
+        {
+          "label": "Picture 4 penis bearded",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\04-penis-side.png",
+          "file": "images/refs/minimax-15s-bbc-switch-v3-10s-5s-balls-deep-disgust-bbc-2x-s/04-picture-4-penis-bearded.jpg"
+        },
+        {
+          "label": "Part2 first frame",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\part1-last.jpg",
+          "file": "images/refs/minimax-15s-bbc-switch-v3-10s-5s-balls-deep-disgust-bbc-2x-s/05-part2-first-frame.jpg"
+        }
+      ],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "characters": [
+        "Black man",
+        "Tigra"
+      ]
+    },
     {
       "id": "wan30-bear-cowboy-flash-10s-2",
       "file": "images/wan30-bear-cowboy-flash-10s-2.mp4",

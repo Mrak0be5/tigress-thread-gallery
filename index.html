@@ -234,6 +234,36 @@
       color: #fff;
       pointer-events: none;
     }
+    .mark-type, .mark-net {
+      position: absolute;
+      z-index: 2;
+      pointer-events: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.22rem;
+      font-size: 0.68rem;
+      font-weight: 650;
+      letter-spacing: 0.01em;
+      padding: 0.16rem 0.42rem;
+      border-radius: 999px;
+      background: rgba(0,0,0,0.72);
+      border: 1px solid rgba(255,255,255,0.16);
+      color: #fff;
+      backdrop-filter: blur(8px);
+      line-height: 1;
+    }
+    .mark-type { bottom: 0.5rem; left: 0.5rem; }
+    .mark-type.is-video { border-color: rgba(255, 82, 82, 0.55); }
+    .mark-type.is-still { border-color: rgba(100, 181, 246, 0.5); }
+    .mark-net { top: 0.5rem; right: 0.5rem; max-width: calc(100% - 5.5rem); }
+    .mark-net svg { width: 12px; height: 12px; flex-shrink: 0; }
+    .mark-net.net-minimax { color: #ffcc80; }
+    .mark-net.net-wan { color: #80cbc4; }
+    .mark-net.net-seedream { color: #90caf9; }
+    .mark-net.net-qwen { color: #ce93d8; }
+    .mark-net.net-pony { color: #f48fb1; }
+    .mark-net.net-happyhorse { color: #ffe082; }
+    .mark-net.net-other { color: #cfd8dc; }
     .toggle {
       display: flex;
       gap: 0;
@@ -502,6 +532,7 @@
     function loadNets() {
       try {
         modelFilter = String(localStorage.getItem(MODEL_KEY) || "");
+        if (/minimax|fl2va|ref2va|\bh3\b/i.test(modelFilter)) modelFilter = "MiniMax";
         charFilter = String(localStorage.getItem(CHAR_KEY) || "");
       } catch (e) {
         modelFilter = "";
@@ -515,6 +546,29 @@
     function itemModel(it) {
       return String(it.model || "").trim() || "без модели";
     }
+    function isMiniMaxItem(it) {
+      const blob = [it.model, it.id, it.service, it.service_url].map((x) => String(x || "")).join(" ");
+      return /minimax|fl2va|ref2va|\bh3\b/i.test(blob);
+    }
+    function itemModelGroup(it) {
+      if (isMiniMaxItem(it)) return "MiniMax";
+      return itemModel(it);
+    }
+    function isVideoItem(it) {
+      return (it.category || "") === "video" || /\.mp4($|\?)/i.test(String(it.file || ""));
+    }
+    function netKind(it) {
+      const blob = [it.model, it.id, it.service].map((x) => String(x || "")).join(" ").toLowerCase();
+      if (/minimax|fl2va|ref2va|\bh3\b/.test(blob)) return { id: "minimax", label: "MiniMax" };
+      if (/wan\s*3|alibaba\/wan/.test(blob)) return { id: "wan", label: "Wan" };
+      if (/seedream/.test(blob)) return { id: "seedream", label: "Seedream" };
+      if (/qwen/.test(blob)) return { id: "qwen", label: "Qwen" };
+      if (/pony|boleromix/.test(blob)) return { id: "pony", label: "Pony" };
+      if (/happyhorse/.test(blob)) return { id: "happyhorse", label: "HappyHorse" };
+      const label = itemModel(it);
+      return { id: "other", label: label.length > 18 ? label.slice(0, 16) + "…" : label };
+    }
+    const NET_SVG = '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="3.5" cy="4" r="1.7" fill="currentColor"/><circle cx="12.5" cy="4" r="1.7" fill="currentColor"/><circle cx="8" cy="12.2" r="1.7" fill="currentColor"/><path d="M3.5 4h9M3.5 4L8 12.2M12.5 4L8 12.2" fill="none" stroke="currentColor" stroke-width="1.15"/></svg>';
     function itemCharacters(it) {
       if (Array.isArray(it.characters) && it.characters.length) {
         return it.characters.map(String);
@@ -536,7 +590,7 @@
     }
     function modelAllowed(it) {
       if (!modelFilter) return true;
-      return itemModel(it) === modelFilter;
+      return itemModelGroup(it) === modelFilter;
     }
     function charAllowed(it) {
       if (!charFilter) return true;
@@ -651,12 +705,13 @@
       const mode = viewState.get(item.id) || "tigress";
       const src = mode === "pose" && hasPose ? item.pose : item.file;
       const badge = mode === "pose" ? "Поза (реф)" : "Тигрица";
-      
-      const isVideo = src.endsWith('.mp4');
-      const mediaHtml = isVideo 
+      const isVideo = isVideoItem(item);
+      const srcIsVideo = /\.mp4($|\?)/i.test(String(src || ""));
+      const net = netKind(item);
+      const mediaHtml = srcIsVideo
         ? `<video class="card-img" src="${escapeHtml(src)}" controls preload="metadata" loop style="object-fit:cover;"></video>`
         : `<img class="card-img" src="${escapeHtml(src)}" alt="${escapeHtml(item.title)}" loading="lazy" />`;
-      const clickAction = isVideo ? "" : `data-src="${escapeHtml(src)}" title="Open full size"`;
+      const clickAction = srcIsVideo ? "" : `data-src="${escapeHtml(src)}" title="Open full size"`;
       const refs = Array.isArray(item.refs) ? item.refs : [];
       const refsHtml = refs.length
         ? `<div class="refs">${refs.map((r) => {
@@ -698,6 +753,8 @@
           <div class="thumb" ${clickAction}>
             ${mediaHtml}
             <span class="view-badge">${badge}</span>
+            <span class="mark-net net-${escapeHtml(net.id)}">${NET_SVG}${escapeHtml(net.label)}</span>
+            <span class="mark-type ${isVideo ? "is-video" : "is-still"}">${isVideo ? "Видео" : "Статика"}</span>
           </div>
           <div class="toggle" role="tablist" aria-label="Тигрица или поза">
             <button type="button" data-mode="tigress" class="${mode === "tigress" ? "active" : ""}">Тигрица</button>
@@ -899,7 +956,7 @@
       const modelCounts = new Map();
       const charCounts = new Map();
       items.forEach((it) => {
-        const m = itemModel(it);
+        const m = itemModelGroup(it);
         modelCounts.set(m, (modelCounts.get(m) || 0) + 1);
         itemCharacters(it).forEach((c) => charCounts.set(c, (charCounts.get(c) || 0) + 1));
       });

@@ -2,8 +2,278 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T23:07+04:00",
+  "updated": "2026-08-13T23:24+04:00",
   "items": [
+    {
+      "id": "oral-split-close",
+      "file": "images/oral-split-close.jpg",
+      "source": "os06_close_profile_00001_.png",
+      "title": "Oral split close profile",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Redo: anthro Tigra + human male + pulled-up top. T2I 50 steps, no inpaint.",
+      "date": "2026-08-13 23:24",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, close-up profile, anthro tigress kneeling, fellatio, deepthroat, muzzle at base of penis, side view, human male standing, male shown from waist down, anthro tigress, full orange fur, black tiger stripes, tiger muzzle, furred body, 1boy is a human man, human male partner, human penis, black sports bra pulled up over breasts, crop top lifted, breasts exposed, white fur breasts out, nipples visible, black choker, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-split-close.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-split-close/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-split-upside-down",
+      "file": "images/oral-split-upside-down.jpg",
+      "source": "os05_upside_down_00001_.png",
+      "title": "Oral split upside down",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Redo: anthro Tigra + human male + pulled-up top. T2I 50 steps, no inpaint.",
+      "date": "2026-08-13 23:24",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, anthro tigress lying on a weight bench, head hanging off the edge, upside-down, inverted, fellatio, deepthroat, human male standing at the head of the bench, male shown from waist down, anthro tigress, full orange fur, black tiger stripes, tiger muzzle, furred body, 1boy is a human man, human male partner, human penis, black sports bra pulled up over breasts, crop top lifted, breasts exposed, white fur breasts out, nipples visible, black choker, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-split-upside-down.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-split-upside-down/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-split-standing",
+      "file": "images/oral-split-standing.jpg",
+      "source": "os04_standing_00001_.png",
+      "title": "Oral split standing",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Redo: anthro Tigra + human male + pulled-up top. T2I 50 steps, no inpaint.",
+      "date": "2026-08-13 23:24",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, anthro tigress standing, knees slightly bent, leaning forward, standing fellatio, deepthroat, human male standing, male shown from chest down, anthro tigress, full orange fur, black tiger stripes, tiger muzzle, furred body, 1boy is a human man, human male partner, human penis, black sports bra pulled up over breasts, crop top lifted, breasts exposed, white fur breasts out, nipples visible, black choker, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-split-standing.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-split-standing/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-split-stomach",
+      "file": "images/oral-split-stomach.jpg",
+      "source": "os03_lying_stomach_00001_.png",
+      "title": "Oral split lying stomach",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Redo: anthro Tigra + human male + pulled-up top. T2I 50 steps, no inpaint.",
+      "date": "2026-08-13 23:24",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, anthro tigress lying on her stomach, prone on gym mat, fellatio, deepthroat, human male standing at her head, profile, male shown from waist down, anthro tigress, full orange fur, black tiger stripes, tiger muzzle, furred body, 1boy is a human man, human male partner, human penis, black sports bra pulled up over breasts, crop top lifted, breasts exposed, white fur breasts out, nipples visible, black choker, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-split-stomach.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-split-stomach/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-split-sitting",
+      "file": "images/oral-split-sitting.jpg",
+      "source": "os02_sitting_00001_.png",
+      "title": "Oral split sitting",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Redo: anthro Tigra + human male + pulled-up top. T2I 50 steps, no inpaint.",
+      "date": "2026-08-13 23:24",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, sitting on gym bench, seated, buttocks on the bench, leaning forward from a seated position, fellatio, deepthroat, human male standing in front of the bench, side view, male shown from chest down, anthro tigress, full orange fur, black tiger stripes, tiger muzzle, furred body, 1boy is a human man, human male partner, human penis, black sports bra pulled up over breasts, crop top lifted, breasts exposed, white fur breasts out, nipples visible, black choker, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-split-sitting.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-split-sitting/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-split-kneel",
+      "file": "images/oral-split-kneel.jpg",
+      "source": "os01_kneel_00001_.png",
+      "title": "Oral split kneel",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Redo: anthro Tigra + human male + pulled-up top. T2I 50 steps, no inpaint.",
+      "date": "2026-08-13 23:24",
+      "pixels": "1024x1024",
+      "prompt": "in a gym, kneeling, fellatio, deepthroat, human male standing, male shown from chest down, anthro tigress, full orange fur, black tiger stripes, tiger muzzle, furred body, 1boy is a human man, human male partner, human penis, black sports bra pulled up over breasts, crop top lifted, breasts exposed, white fur breasts out, nipples visible, black choker, bottomless, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-split-kneel.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/oral-split-kneel/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.18
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "strength": 0.12
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "tigra-jacko-pose-lock-b",
       "file": "images/tigra-jacko-pose-lock-b.jpg",

@@ -372,6 +372,15 @@
       background: rgba(255,255,255,0.03);
     }
     a.btn:hover { border-color: var(--accent); color: #fff; }
+    html.mode-public .local-only { display: none !important; }
+    html.mode-local .public-only { display: none !important; }
+    .mode-badge {
+      display: none;
+      margin-top: 0.55rem;
+      font-size: 0.78rem;
+      color: var(--ok);
+    }
+    html.mode-local .mode-badge { display: inline-block; }
     footer {
       max-width: 1280px;
       margin: 0 auto;
@@ -405,9 +414,10 @@
 <body>
   <header>
     <h1>Tigress thread gallery</h1>
+    <p class="mode-badge">Локальная версия — ключи Wan и гайд MiniMax</p>
     <p>Генерации тигрицы + оригинальные референсы поз. Под карточкой: переключатель <strong>Тигрица / Поза</strong>.</p>
     <p>Сортировка: <strong>новые сверху</strong>.</p>
-    <p><a class="howto" href="pc-video.html">Подключение к генерации видео на этом ПК</a></p>
+    <p class="local-only"><a class="howto" href="pc-video.html">Гайд MiniMax / ComfyUI на этом ПК</a></p>
     <div class="badges">
       <span class="badge" id="count-badge">loading…</span>
       <span class="badge" id="updated-badge"></span>
@@ -423,7 +433,7 @@
     <button type="button" data-cat="identity">Identity</button>
     <button type="button" data-cat="bunny">Bunny</button>
     <button type="button" data-cat="video">Video</button>
-    <a class="howto-nav" href="pc-video.html">ПК видео</a>
+    <a class="howto-nav local-only" href="pc-video.html">MiniMax</a>
     <button type="button" data-cat="story">Рассказы</button>
     <button type="button" data-cat="liked">Лайки</button>
     <button type="button" data-cat="best">Best</button>
@@ -434,9 +444,9 @@
   <main id="main"></main>
 
   <footer>
-    Local: <code>C:\Users\hebp\galleries\tigress-thread-gallery</code>
+    <span class="local-only">Local: <code>C:\Users\hebp\galleries\tigress-thread-gallery</code>
     · push: <code>scripts/publish-add.py --pose path</code>
-    · noindex
+    · </span>noindex
   </footer>
 
   <div class="lb" id="lb" aria-hidden="true">
@@ -445,6 +455,12 @@
   </div>
 
   <script>
+    const IS_LOCAL = (function () {
+      const host = (location.hostname || "").toLowerCase();
+      if (host.endsWith("github.io") || host.endsWith("github.com")) return false;
+      return location.protocol === "file:" || host === "localhost" || host === "127.0.0.1" || host === "";
+    })();
+    document.documentElement.classList.add(IS_LOCAL ? "mode-local" : "mode-public");
     const CATS = [
       { id: "sheet", title: "Character sheets / 3-view" },
       { id: "scene", title: "Scenes (sex poses)" },
@@ -673,7 +689,7 @@
       const apiUrl = item.api || "";
       const apiKey = item.api_key || "";
       const keyName = item.key_name || "";
-      const svcHtml = (svcName || svcUrl || apiKey)
+      const svcHtml = IS_LOCAL && (svcName || svcUrl || apiKey)
         ? `<div class="note">Сервис: ${svcUrl ? `<a class="btn" href="${escapeHtml(svcUrl)}" target="_blank" rel="noopener">${escapeHtml(svcName || "link")}</a>` : escapeHtml(svcName)}${svcModel ? ` <a class="btn" href="${escapeHtml(svcModel)}" target="_blank" rel="noopener">модель</a>` : ""}${apiUrl ? ` <a class="btn" href="${escapeHtml(apiUrl)}" target="_blank" rel="noopener">API</a>` : ""}</div>${apiKey ? `<details class="prompt-box"><summary>API key${keyName ? " · " + escapeHtml(keyName) : ""}</summary><pre>${escapeHtml(apiKey)}</pre></details>` : ""}`
         : "";
       
@@ -909,8 +925,22 @@
     async function load() {
       loadLikes();
       loadNets();
-      const res = await fetch("manifest.json?ts=" + Date.now());
+      const manifestName = IS_LOCAL ? "manifest.json" : "manifest-public.json";
+      let res = await fetch(manifestName + "?ts=" + Date.now());
+      if (!res.ok && !IS_LOCAL) {
+        res = await fetch("manifest.json?ts=" + Date.now());
+      }
+      if (!res.ok) throw new Error("manifest HTTP " + res.status);
       DATA = await res.json();
+      if (!IS_LOCAL) {
+        delete DATA.services;
+        delete DATA.howto;
+        delete DATA.local_path;
+        (DATA.items || []).forEach((it) => {
+          delete it.api_key;
+          delete it.key_name;
+        });
+      }
       const all = DATA.items || [];
       const nStory = all.filter(isStory).length;
       const nMedia = all.length - nStory;
@@ -927,13 +957,24 @@
     function renderServices(data) {
       const box = document.getElementById("services");
       if (!box) return;
+      if (!IS_LOCAL) {
+        box.innerHTML = "";
+        return;
+      }
       const raw = data.services;
       const list = Array.isArray(raw) ? raw : (raw && typeof raw === "object" ? Object.values(raw) : []);
       if (!list.length) {
         box.innerHTML = "";
         return;
       }
-      box.innerHTML = list.map((s) => {
+      const order = (s) => {
+        const blob = `${s.name || ""} ${s.api || ""} ${s.url || ""}`.toLowerCase();
+        if (blob.includes("wavespeed") || blob.includes("wan")) return 0;
+        if (blob.includes("minimax") || blob.includes("comfy") || blob.includes("пк")) return 1;
+        return 2;
+      };
+      list.sort((a, b) => order(a) - order(b));
+      box.innerHTML = `<div class="service"><strong>Ключи Wan и сервисы</strong></div>` + list.map((s) => {
         const name = s.name || "service";
         const links = [
           s.url ? `<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(name)}</a>` : escapeHtml(name),

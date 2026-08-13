@@ -1,18 +1,26 @@
 # Tigress thread gallery (18+)
 
-HTML gallery of all generations from the Grok tigress NSFW thread (sheets, cowgirl, doggystyle, pool table, bunny).
+Две версии одного сайта.
 
-## Local
+## Внешняя (GitHub Pages)
+
+https://mrak0be5.github.io/tigress-thread-gallery/
+
+Только галерея. Без ключей, без гайда MiniMax, без локальных путей.
+
+## Локальная
+
+Открыть файл с диска:
 
 ```
 C:\Users\hebp\galleries\tigress-thread-gallery\index.html
 ```
 
-## Public
+или `local.html` в той же папке.
 
-GitHub Pages: https://mrak0be5.github.io/tigress-thread-gallery/
+Показывает ключи Wan / сервисы и гайд MiniMax: [pc-video.html](pc-video.html).
 
-Local MiniMax / ComfyUI how-to: [pc-video.html](pc-video.html)
+`manifest.json` — полный (ключи). `manifest-public.json` — для внешней версии.
 
 ## Add next generation
 

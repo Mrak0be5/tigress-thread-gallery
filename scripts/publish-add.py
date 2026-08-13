@@ -38,6 +38,8 @@ PROMPTS = GAL / "prompts"
 STORIES = GAL / "stories"
 STORY_HTML = GAL / "story.html"
 MANIFEST = GAL / "manifest.json"
+PUBLIC_MANIFEST = GAL / "manifest-public.json"
+RE_LOCAL_PATH = re.compile(r"^[A-Za-z]:[\\/]|^/Users/|^/home/|^\\\\")
 MAX_SIDE = 1800
 QUALITY = 86
 RE_BOLD = re.compile(r"\*\*(.+?)\*\*")
@@ -126,11 +128,46 @@ def sort_items_newest_first(data: dict) -> None:
     )
 
 
+def strip_secrets_item(it: dict) -> dict:
+    out = {k: v for k, v in it.items() if k not in ("api_key", "key_name")}
+    refs = out.get("refs")
+    if isinstance(refs, list):
+        cleaned = []
+        for r in refs:
+            if not isinstance(r, dict):
+                cleaned.append(r)
+                continue
+            rr = dict(r)
+            src = str(rr.get("source") or "")
+            if RE_LOCAL_PATH.match(src):
+                rr.pop("source", None)
+            cleaned.append(rr)
+        out["refs"] = cleaned
+    return out
+
+
+def public_manifest(data: dict) -> dict:
+    return {
+        "title": data.get("title"),
+        "description": data.get("description"),
+        "created": data.get("created"),
+        "updated": data.get("updated"),
+        "items": [
+            strip_secrets_item(it) if isinstance(it, dict) else it
+            for it in (data.get("items") or [])
+        ],
+    }
+
+
 def save_manifest(data: dict) -> None:
     sort_items_newest_first(data)
     data["updated"] = datetime.now(timezone.utc).astimezone().isoformat(timespec="minutes")
     data["local_path"] = str(GAL)
     MANIFEST.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    PUBLIC_MANIFEST.write_text(
+        json.dumps(public_manifest(data), ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
 
 def git_push(message: str) -> None:

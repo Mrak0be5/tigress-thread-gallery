@@ -3,7 +3,6 @@
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
   "updated": "2026-08-13T18:22+04:00",
-  "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
       "id": "story-gym-night-shift",
@@ -34,7 +33,6 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-preset-nolips-sit-side/01-identity-sheet.jpg"
         }
       ],
@@ -87,7 +85,6 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-preset-nolips-kneel-up/01-identity-sheet.jpg"
         }
       ],
@@ -140,7 +137,6 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-preset-nolips-close/01-identity-sheet.jpg"
         }
       ],
@@ -193,7 +189,6 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-preset-nolips-sit/01-identity-sheet.jpg"
         }
       ],
@@ -246,7 +241,6 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-preset-nolips-kneel/01-identity-sheet.jpg"
         }
       ],
@@ -298,27 +292,22 @@
       "refs": [
         {
           "label": "Picture 1 pose/env",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\02-pose-env.jpg",
           "file": "images/refs/minimax-15s-bbc-switch-v3-10s-5s-balls-deep-disgust-bbc-2x-s/01-picture-1-pose-env.jpg"
         },
         {
           "label": "Picture 2 identity",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\01-identity.jpg",
           "file": "images/refs/minimax-15s-bbc-switch-v3-10s-5s-balls-deep-disgust-bbc-2x-s/02-picture-2-identity.jpg"
         },
         {
           "label": "Picture 3 man",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\03-man.jpg",
           "file": "images/refs/minimax-15s-bbc-switch-v3-10s-5s-balls-deep-disgust-bbc-2x-s/03-picture-3-man.jpg"
         },
         {
           "label": "Picture 4 penis bearded",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\04-penis-side.png",
           "file": "images/refs/minimax-15s-bbc-switch-v3-10s-5s-balls-deep-disgust-bbc-2x-s/04-picture-4-penis-bearded.jpg"
         },
         {
           "label": "Part2 first frame",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\part1-last.jpg",
           "file": "images/refs/minimax-15s-bbc-switch-v3-10s-5s-balls-deep-disgust-bbc-2x-s/05-part2-first-frame.jpg"
         }
       ],
@@ -358,8 +347,6 @@
       "service_url": "https://wavespeed.ai",
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok",
       "characters": [
         "Bear"
       ]
@@ -403,8 +390,6 @@
       "service_url": "https://wavespeed.ai",
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok",
       "characters": [
         "Tigra",
         "Male",
@@ -427,12 +412,10 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-inpaint-oral-stand-lean/01-identity-sheet.jpg"
         },
         {
           "label": "Pass 1 closed muzzle",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\output\\Tigra_2026\\inpaint_oral\\ip05_stand_lean_p1_00001_.png",
           "file": "images/refs/tigra-inpaint-oral-stand-lean/02-pass-1-closed-muzzle.jpg"
         }
       ],
@@ -480,12 +463,10 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-inpaint-oral-kneel-up/01-identity-sheet.jpg"
         },
         {
           "label": "Pass 1 closed muzzle",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\output\\Tigra_2026\\inpaint_oral\\ip04_kneel_up_p1_00001_.png",
           "file": "images/refs/tigra-inpaint-oral-kneel-up/02-pass-1-closed-muzzle.jpg"
         }
       ],
@@ -533,12 +514,10 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-inpaint-oral-close-right/01-identity-sheet.jpg"
         },
         {
           "label": "Pass 1 closed muzzle",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\output\\Tigra_2026\\inpaint_oral\\ip03_close_right_p1_00001_.png",
           "file": "images/refs/tigra-inpaint-oral-close-right/02-pass-1-closed-muzzle.jpg"
         }
       ],
@@ -586,12 +565,10 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-inpaint-oral-sit-right/01-identity-sheet.jpg"
         },
         {
           "label": "Pass 1 closed muzzle",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\output\\Tigra_2026\\inpaint_oral\\ip02_sit_right_p1_00001_.png",
           "file": "images/refs/tigra-inpaint-oral-sit-right/02-pass-1-closed-muzzle.jpg"
         }
       ],
@@ -639,12 +616,10 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-inpaint-oral-kneel-right/01-identity-sheet.jpg"
         },
         {
           "label": "Pass 1 closed muzzle",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\output\\Tigra_2026\\inpaint_oral\\ip01_kneel_right_p1_00001_.png",
           "file": "images/refs/tigra-inpaint-oral-kneel-right/02-pass-1-closed-muzzle.jpg"
         }
       ],
@@ -691,22 +666,18 @@
       "refs": [
         {
           "label": "Picture 1 pose/env",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\02-pose-env.jpg",
           "file": "images/refs/minimax-ref2va-15s-bbc-switch-v3-balls-deep-disgust-bbc-2x-s-2/01-picture-1-pose-env.jpg"
         },
         {
           "label": "Picture 2 identity",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\01-identity.jpg",
           "file": "images/refs/minimax-ref2va-15s-bbc-switch-v3-balls-deep-disgust-bbc-2x-s-2/02-picture-2-identity.jpg"
         },
         {
           "label": "Picture 3 man",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\03-man.jpg",
           "file": "images/refs/minimax-ref2va-15s-bbc-switch-v3-balls-deep-disgust-bbc-2x-s-2/03-picture-3-man.jpg"
         },
         {
           "label": "Picture 4 penis bearded",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\04-penis-side.png",
           "file": "images/refs/minimax-ref2va-15s-bbc-switch-v3-balls-deep-disgust-bbc-2x-s-2/04-picture-4-penis-bearded.jpg"
         }
       ],
@@ -732,22 +703,18 @@
       "refs": [
         {
           "label": "Picture 1 pose/env",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\02-pose-env.jpg",
           "file": "images/refs/minimax-ref2va-15s-bbc-switch-v3-balls-deep-disgust-bbc-2x-s/01-picture-1-pose-env.jpg"
         },
         {
           "label": "Picture 2 identity",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\01-identity.jpg",
           "file": "images/refs/minimax-ref2va-15s-bbc-switch-v3-balls-deep-disgust-bbc-2x-s/02-picture-2-identity.jpg"
         },
         {
           "label": "Picture 3 man",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\03-man.jpg",
           "file": "images/refs/minimax-ref2va-15s-bbc-switch-v3-balls-deep-disgust-bbc-2x-s/03-picture-3-man.jpg"
         },
         {
           "label": "Picture 4 penis bearded",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\04-penis-side.png",
           "file": "images/refs/minimax-ref2va-15s-bbc-switch-v3-balls-deep-disgust-bbc-2x-s/04-picture-4-penis-bearded.jpg"
         }
       ],
@@ -787,8 +754,6 @@
       "service_url": "https://wavespeed.ai",
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok",
       "characters": [
         "Bear"
       ]
@@ -822,8 +787,6 @@
       "service_url": "https://wavespeed.ai",
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok",
       "characters": [
         "Tigra"
       ]
@@ -844,7 +807,6 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-furry-dt85-close/01-identity-sheet.jpg"
         }
       ],
@@ -890,7 +852,6 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-furry-dt85-sitting/01-identity-sheet.jpg"
         }
       ],
@@ -936,7 +897,6 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-furry-dt85-kneeling/01-identity-sheet.jpg"
         }
       ],
@@ -990,8 +950,6 @@
       "service_url": "https://kie.ai",
       "service_model_url": "https://kie.ai",
       "api": "https://api.kie.ai",
-      "api_key": "f267669997d0cfbb669b6882b8fdc5e4",
-      "key_name": "KIE_API_KEY",
       "characters": [
         "Tigra"
       ]
@@ -1020,8 +978,6 @@
       "service_url": "https://kie.ai",
       "service_model_url": "https://kie.ai",
       "api": "https://api.kie.ai",
-      "api_key": "f267669997d0cfbb669b6882b8fdc5e4",
-      "key_name": "KIE_API_KEY",
       "characters": [
         "Tigra"
       ]
@@ -1041,22 +997,18 @@
       "refs": [
         {
           "label": "Picture 1 pose/env",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\02-pose-env.jpg",
           "file": "images/refs/minimax-ref2va-10s-bbc-switch-penisref-v2-bbc-dark-larger/01-picture-1-pose-env.jpg"
         },
         {
           "label": "Picture 2 identity",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\01-identity.jpg",
           "file": "images/refs/minimax-ref2va-10s-bbc-switch-penisref-v2-bbc-dark-larger/02-picture-2-identity.jpg"
         },
         {
           "label": "Picture 3 man",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\03-man.jpg",
           "file": "images/refs/minimax-ref2va-10s-bbc-switch-penisref-v2-bbc-dark-larger/03-picture-3-man.jpg"
         },
         {
           "label": "Picture 4 penis bearded",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\04-penis-side.png",
           "file": "images/refs/minimax-ref2va-10s-bbc-switch-penisref-v2-bbc-dark-larger/04-picture-4-penis-bearded.jpg"
         }
       ],
@@ -1083,7 +1035,6 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-preset-oral-sit/01-identity-sheet.jpg"
         }
       ],
@@ -1134,7 +1085,6 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-preset-oral-kneel/01-identity-sheet.jpg"
         }
       ],
@@ -1185,7 +1135,6 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-preset-id-stand/01-identity-sheet.jpg"
         }
       ],
@@ -1226,12 +1175,10 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-oral3-close/01-identity-sheet.jpg"
         },
         {
           "label": "Head crop",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\tigra_head_front_crop.png",
           "file": "images/refs/tigra-oral3-close/02-head-crop.jpg"
         }
       ],
@@ -1282,12 +1229,10 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-oral3-sitting/01-identity-sheet.jpg"
         },
         {
           "label": "Head crop",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\tigra_head_front_crop.png",
           "file": "images/refs/tigra-oral3-sitting/02-head-crop.jpg"
         }
       ],
@@ -1338,12 +1283,10 @@
       "refs": [
         {
           "label": "Identity sheet",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
           "file": "images/refs/tigra-oral3-kneeling/01-identity-sheet.jpg"
         },
         {
           "label": "Head crop",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\tigra_head_front_crop.png",
           "file": "images/refs/tigra-oral3-kneeling/02-head-crop.jpg"
         }
       ],
@@ -1393,22 +1336,18 @@
       "refs": [
         {
           "label": "Picture 1 pose/env",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\02-pose-env.jpg",
           "file": "images/refs/minimax-ref2va-10s-bbc-switch-penis-ref-bearded-pic4-bbc-sam/01-picture-1-pose-env.jpg"
         },
         {
           "label": "Picture 2 identity",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\01-identity.jpg",
           "file": "images/refs/minimax-ref2va-10s-bbc-switch-penis-ref-bearded-pic4-bbc-sam/02-picture-2-identity.jpg"
         },
         {
           "label": "Picture 3 man",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\03-man.jpg",
           "file": "images/refs/minimax-ref2va-10s-bbc-switch-penis-ref-bearded-pic4-bbc-sam/03-picture-3-man.jpg"
         },
         {
           "label": "Picture 4 penis bearded",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\wan30-bbc-switch\\04-penis-side.png",
           "file": "images/refs/minimax-ref2va-10s-bbc-switch-penis-ref-bearded-pic4-bbc-sam/04-picture-4-penis-bearded.jpg"
         }
       ],
@@ -1739,17 +1678,14 @@
       "refs": [
         {
           "label": "Picture 1 pose/env",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\refs\\wan30-tigra-r2v-10s-bbc-switch\\02-image-2-pose-env.jpg",
           "file": "images/refs/minimax-ref2va-10s-wan-bbc-switch-pull-out-walk-r-bbc-enters/01-picture-1-pose-env.jpg"
         },
         {
           "label": "Picture 2 identity",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\refs\\wan30-tigra-r2v-10s-bbc-switch\\01-image-1-identity.jpg",
           "file": "images/refs/minimax-ref2va-10s-wan-bbc-switch-pull-out-walk-r-bbc-enters/02-picture-2-identity.jpg"
         },
         {
           "label": "Picture 3 man",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\refs\\wan30-tigra-r2v-10s-bbc-switch\\03-image-3-man.jpg",
           "file": "images/refs/minimax-ref2va-10s-wan-bbc-switch-pull-out-walk-r-bbc-enters/03-picture-3-man.jpg"
         }
       ],
@@ -1775,7 +1711,6 @@
       "refs": [
         {
           "label": "source",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\refs-wan30\\image3-man-sheet.jpg",
           "file": "images/refs/image3-terry-sheet-b/01-source.jpg"
         }
       ],
@@ -1799,7 +1734,6 @@
       "refs": [
         {
           "label": "source",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\refs-wan30\\image3-man-sheet.jpg",
           "file": "images/refs/image3-terry-sheet-a/01-source.jpg"
         }
       ],
@@ -1823,7 +1757,6 @@
       "refs": [
         {
           "label": "source",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\refs-wan30\\image3-man-sheet.jpg",
           "file": "images/refs/image3-black-man-sheet-b/01-source.jpg"
         }
       ],
@@ -1847,7 +1780,6 @@
       "refs": [
         {
           "label": "source",
-          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\refs-wan30\\image3-man-sheet.jpg",
           "file": "images/refs/image3-black-man-sheet-a/01-source.jpg"
         }
       ],
@@ -1874,7 +1806,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\first-frame-standing-white.png",
           "file": "images/refs/handstand-straddle-10s/01-first-frame.jpg"
         }
       ],
@@ -1900,7 +1831,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\first-frame-standing-white.png",
           "file": "images/refs/handstand-straddle-10s-exact/01-first-frame.jpg"
         }
       ],
@@ -1926,7 +1856,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\first-frame-standing-white.png",
           "file": "images/refs/handstand-split-h3-10s/01-first-frame.jpg"
         }
       ],
@@ -1952,7 +1881,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\first-frame-standing-white.png",
           "file": "images/refs/handstand-split-h3-exact-10s/01-first-frame.jpg"
         }
       ],
@@ -1978,7 +1906,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\tigra_city_blogger_first_frame_5s.png",
           "file": "images/refs/city-blogger-handstand-5s/01-first-frame.jpg"
         }
       ],
@@ -2004,7 +1931,6 @@
       "refs": [
         {
           "label": "sheet / first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra_sheet_clean.png",
           "file": "images/refs/sheet-city-blogger-handstand-10s/01-sheet-first-frame.jpg"
         }
       ],
@@ -2030,7 +1956,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\first-frame-city-blogger-standing.png",
           "file": "images/refs/city-allfours-anal-15s/01-first-frame.jpg"
         }
       ],
@@ -2056,7 +1981,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
           "file": "images/refs/fl2va-turbo-q4-test/01-first-frame.jpg"
         }
       ],
@@ -2088,7 +2012,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
           "file": "images/refs/bored-anal-naughtytimes-15s/01-first-frame.jpg"
         }
       ],
@@ -2125,7 +2048,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
           "file": "images/refs/bored-anal-ridingpov-15s/01-first-frame.jpg"
         }
       ],
@@ -2162,7 +2084,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
           "file": "images/refs/bored-anal-baseline-15s/01-first-frame.jpg"
         }
       ],
@@ -2188,7 +2109,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\first-frame-standing-white.png",
           "file": "images/refs/handstand-8s/01-first-frame.jpg"
         }
       ],
@@ -2214,7 +2134,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
           "file": "images/refs/table-anal-3thrust-10s/01-first-frame.jpg"
         }
       ],
@@ -2240,7 +2159,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
           "file": "images/refs/anal-hmnsfw-aio-v2/01-first-frame.jpg"
         }
       ],
@@ -2272,12 +2190,10 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
           "file": "images/refs/anal-penisref-hard-hmnsfw/01-first-frame.jpg"
         },
         {
           "label": "penis",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
           "file": "images/refs/anal-penisref-hard-hmnsfw/02-penis.jpg"
         }
       ],
@@ -2309,7 +2225,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
           "file": "images/refs/anal-fl2va-hard-fixref/01-first-frame.jpg"
         }
       ],
@@ -2341,7 +2256,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-pool-anal-first.png",
           "file": "images/refs/pool-anal-fl2va-orbit-ball/01-first-frame.jpg"
         }
       ],
@@ -2367,7 +2281,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
           "file": "images/refs/naughtytimes-fl2va-turbo/01-first-frame.jpg"
         }
       ],
@@ -2404,7 +2317,6 @@
       "refs": [
         {
           "label": "Picture 1 last frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-part2-start.jpg",
           "file": "images/refs/part-2-deep-hold-pullout-fl2va-10s-2/01-picture-1-last-frame.jpg"
         }
       ],
@@ -2429,15 +2341,12 @@
       "refs": [
         {
           "label": "source",
-          "source": "C:\\Users\\hebp\\.t3\\userdata\\attachments\\4c71253f-f2bd-48f9-9350-48dc9c21db18-7ca79581-fd36-4c37-92e0-628d6562f570.webp",
           "file": "images/refs/wan30-tigra-i2v-3s-ab-nsfw/01-source.jpg"
         }
       ],
       "service": "WaveSpeed",
       "service_url": "https://wavespeed.ai",
       "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok",
       "characters": [
         "Tigra"
       ]
@@ -2457,12 +2366,10 @@
       "refs": [
         {
           "label": "Picture 1 scene",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-scene-part1.png",
           "file": "images/refs/part-1-bored-coffee-ref2va-v4-10s-2/01-picture-1-scene.jpg"
         },
         {
           "label": "Picture 2 male identity",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-male-sheet-style-matched.png",
           "file": "images/refs/part-1-bored-coffee-ref2va-v4-10s-2/02-picture-2-male-identity.jpg"
         }
       ],
@@ -2488,12 +2395,10 @@
       "refs": [
         {
           "label": "Picture 1 scene",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-scene-part1.png",
           "file": "images/refs/part-1-bored-coffee-ref2va-v4-10s/01-picture-1-scene.jpg"
         },
         {
           "label": "Picture 2 male identity",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-male-sheet-style-matched.png",
           "file": "images/refs/part-1-bored-coffee-ref2va-v4-10s/02-picture-2-male-identity.jpg"
         }
       ],
@@ -2519,17 +2424,14 @@
       "refs": [
         {
           "label": "Picture 1 scene",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-scene-part1.png",
           "file": "images/refs/part-1-bored-coffee-ref2va-v3-10s/01-picture-1-scene.jpg"
         },
         {
           "label": "Picture 2 penis",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
           "file": "images/refs/part-1-bored-coffee-ref2va-v3-10s/02-picture-2-penis.jpg"
         },
         {
           "label": "Picture 3 male",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-male-sheet-style-matched.png",
           "file": "images/refs/part-1-bored-coffee-ref2va-v3-10s/03-picture-3-male.jpg"
         }
       ],
@@ -2639,8 +2541,6 @@
       "service_url": "https://wavespeed.ai",
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok",
       "characters": [
         "Black man",
         "Tigra"
@@ -2661,8 +2561,6 @@
       "service_url": "https://wavespeed.ai",
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok",
       "characters": [
         "Tigra"
       ]
@@ -2682,8 +2580,6 @@
       "service_url": "https://wavespeed.ai",
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok",
       "characters": [
         "Tigra"
       ]
@@ -2703,8 +2599,6 @@
       "service_url": "https://wavespeed.ai",
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok",
       "characters": [
         "Tigra"
       ]
@@ -2724,8 +2618,6 @@
       "service_url": "https://wavespeed.ai",
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok",
       "characters": [
         "Tigra"
       ]
@@ -2745,8 +2637,6 @@
       "service_url": "https://wavespeed.ai",
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok",
       "characters": [
         "Tigra"
       ]
@@ -2766,8 +2656,6 @@
       "service_url": "https://wavespeed.ai",
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok",
       "characters": [
         "Tigra"
       ]
@@ -2787,8 +2675,6 @@
       "service_url": "https://wavespeed.ai",
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok",
       "characters": [
         "Tigra"
       ]
@@ -2808,8 +2694,6 @@
       "service_url": "https://wavespeed.ai",
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok",
       "characters": [
         "Tigra"
       ]
@@ -2829,8 +2713,6 @@
       "service_url": "https://wavespeed.ai",
       "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
       "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok",
       "characters": [
         "Tigra"
       ]
@@ -2864,17 +2746,14 @@
       "refs": [
         {
           "label": "Picture 1 scene",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-scene-part1.png",
           "file": "images/refs/part-1-bored-coffee-ref2va-v2-10s/01-picture-1-scene.jpg"
         },
         {
           "label": "Picture 2 penis",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
           "file": "images/refs/part-1-bored-coffee-ref2va-v2-10s/02-picture-2-penis.jpg"
         },
         {
           "label": "Picture 3 male",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-male-sheet-style-matched.png",
           "file": "images/refs/part-1-bored-coffee-ref2va-v2-10s/03-picture-3-male.jpg"
         }
       ],
@@ -3078,7 +2957,6 @@
       "refs": [
         {
           "label": "Picture 1 last frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-part2-start.jpg",
           "file": "images/refs/part-2-deep-hold-pullout-fl2va-10s/01-picture-1-last-frame.jpg"
         }
       ],
@@ -3119,7 +2997,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-scene-part1.png",
           "file": "images/refs/part-1-bored-coffee-fl2va-10s/01-first-frame.jpg"
         }
       ],
@@ -3159,7 +3036,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-part2-start.jpg",
           "file": "images/refs/black-man-continuation-fl2va-non-turbo-15s/01-first-frame.jpg"
         }
       ],
@@ -3186,12 +3062,10 @@
       "refs": [
         {
           "label": "Picture 1 scene",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
           "file": "images/refs/bored-coffee-anal-ref2va-non-turbo-15s/01-picture-1-scene.jpg"
         },
         {
           "label": "Picture 2 penis",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
           "file": "images/refs/bored-coffee-anal-ref2va-non-turbo-15s/02-picture-2-penis.jpg"
         }
       ],
@@ -3231,7 +3105,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
           "file": "images/refs/table-anal-hole-fl2va-non-turbo-5s/01-first-frame.jpg"
         }
       ],
@@ -3257,12 +3130,10 @@
       "refs": [
         {
           "label": "Picture 1 scene",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
           "file": "images/refs/table-anal-hole-ref2va-non-turbo/01-picture-1-scene.jpg"
         },
         {
           "label": "Picture 2 penis",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
           "file": "images/refs/table-anal-hole-ref2va-non-turbo/02-picture-2-penis.jpg"
         }
       ],
@@ -3288,12 +3159,10 @@
       "refs": [
         {
           "label": "Picture 1 scene",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
           "file": "images/refs/table-anal-hole-ref2va-patched/01-picture-1-scene.jpg"
         },
         {
           "label": "Picture 2 penis",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
           "file": "images/refs/table-anal-hole-ref2va-patched/02-picture-2-penis.jpg"
         }
       ],
@@ -3475,12 +3344,10 @@
       "refs": [
         {
           "label": "Picture 1 scene",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-pool-anal-first.png",
           "file": "images/refs/pool-anal-hole-ref2va-patched/01-picture-1-scene.jpg"
         },
         {
           "label": "Picture 2 penis",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
           "file": "images/refs/pool-anal-hole-ref2va-patched/02-picture-2-penis.jpg"
         }
       ],
@@ -3572,7 +3439,6 @@
       "refs": [
         {
           "label": "Picture 1 scene",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-pool-anal-first.png",
           "file": "images/refs/pool-anal-ref2va-turbo-v1/01-picture-1-scene.jpg"
         }
       ],
@@ -3604,7 +3470,6 @@
       "refs": [
         {
           "label": "first frame",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-pool-anal-first.png",
           "file": "images/refs/pool-anal-fl2va-non-turbo/01-first-frame.jpg"
         }
       ],
@@ -3630,12 +3495,10 @@
       "refs": [
         {
           "label": "Picture 1 scene",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-pool-anal-first.png",
           "file": "images/refs/pool-anal-hole-ref2va/01-picture-1-scene.jpg"
         },
         {
           "label": "Picture 2 penis",
-          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
           "file": "images/refs/pool-anal-hole-ref2va/02-picture-2-penis.jpg"
         }
       ],
@@ -4355,33 +4218,5 @@
         "Tigra"
       ]
     }
-  ],
-  "services": {
-    "wavespeed": {
-      "name": "WaveSpeed",
-      "url": "https://wavespeed.ai",
-      "model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
-      "api": "https://api.wavespeed.ai/api/v3",
-      "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
-      "key_name": "Grok"
-    },
-    "local-comfyui-minimax": {
-      "name": "ПК видео (MiniMax ComfyUI)",
-      "url": "pc-video.html",
-      "docs": "pc-video.html",
-      "model_url": "https://huggingface.co/Comfy-Org/MiniMax-H3_ComfyUI"
-    },
-    "seedream-5-pro": {
-      "name": "Seedream 5 Pro",
-      "url": "https://kie.ai",
-      "model_url": "https://kie.ai",
-      "api": "https://api.kie.ai",
-      "api_key": "f267669997d0cfbb669b6882b8fdc5e4",
-      "key_name": "KIE_API_KEY"
-    }
-  },
-  "howto": {
-    "pc_video": "pc-video.html",
-    "title": "Подключение к генерации видео на этом ПК"
-  }
+  ]
 }

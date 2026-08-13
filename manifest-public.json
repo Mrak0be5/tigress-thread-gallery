@@ -2,8 +2,54 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T18:55+04:00",
+  "updated": "2026-08-13T19:05+04:00",
   "items": [
+    {
+      "id": "wan30-tigra-r2v-7s-crowd-dilator-zoom",
+      "file": "images/wan30-tigra-r2v-7s-crowd-dilator-zoom.mp4",
+      "source": "wan3_done_r2v7_crowd_dilator_zoom_51ca5fd1.mp4",
+      "title": "Wan 3.0 R2V 7s — crowd street dilator, tail up, zoom anus",
+      "category": "video",
+      "model": "Wan 3.0",
+      "note": "anime street style, glass circular dilator from tech-01, tail lifts, camera push-in. id 51ca5fd1",
+      "date": "2026-08-13 19:05",
+      "pixels": "0x0",
+      "cdn": "https://d1q70pf5vjeyhc.cloudfront.net/predictions/51ca5fd1605242d8ac49518daf1cf7da/1.mp4",
+      "prompt": "7 seconds, 16:9, 480p, explicit adult 2D anime animation. ONE UNBROKEN CONTINUOUS SHOT for the entire 7 seconds. Single take, one composition evolving only by her motion and a camera push-in. No cuts, no splices, no hard cuts, no jump cuts, no dissolve, no fade, no shot change, no montage. Reference roles (strict): Image 1 = tiger woman identity ONLY (short white bob with bangs, orange fur, black tiger stripes, white chest belly muzzle and inner thighs, amber eyes, pink feline nose, athletic nude body, paw pads, black claws, long striped tail). Do not copy the T-pose or the multi-panel sheet layout. Ignore Russian labels. Image 2 = glass anal dilator anatomy ONLY: a clear transparent glass circular anal expander/dilator with a wide flat rim, hollow glass look, already stretching the anus. Copy THIS device, not a teardrop butt-plug, not a funnel plug, not a penis. Ignore text. Style lock: clean high-end 2D anime digital illustration, vibrant colors, smooth cel shading, slightly 3D-feeling lighting on fur. Sunny outdoor town street: tiled roofs, striped shop awnings, hanging flower boxes, power lines, light-blue sky, painted road markings. NOT photoreal, NOT 3D game render, NOT a character-sheet grid. Setting: she is nude in the middle of a dense pedestrian crowd on that sunny anime town street. Crowd of people around her, watching. Daylight. Prop: the clear glass circular anal dilator from Image 2 stays fully inserted in her anus the entire 7 seconds. No penis. No male. No penetration by a cock. Camera: start as a medium-wide full-body shot so crowd, street, and her whole nude body are readable. Action timeline (strict order, same take): 0-2s: she stands in the crowd on the street, nude, facing mostly toward camera, smiling, tail hanging. Crowd watches. Dilator already in. 2-4.5s: she bends forward deeply, legs spread, hips high toward camera. As she leans, her striped tail LIFTS STRAIGHT UP and curls aside so it does NOT cover the anus. The stretched anus with the clear glass circular dilator becomes clearly visible to camera. Crowd stays in the background. 4.5-7s: camera smoothly ZOOMS / PUSHES IN toward her anus. By 7.0s the frame is a close-up of the anus with the glass dilator filling the shot, rim and stretched hole readable. Continuous push-in, not a cut. Keep tiger identity locked from Image 1. Dilator locked from Image 2. Same 2D anime town-street look the whole time. No text overlay, no watermark, no identity morph, no extra limbs, no penis, no jump cuts.",
+      "prompt_file": "prompts/wan30-tigra-r2v-7s-crowd-dilator-zoom.txt",
+      "refs": [
+        {
+          "label": "Image 1 identity sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/wan30-crowd-v2/1786625083677-tysoexl8vfj.jpg",
+          "file": "images/refs/wan30-tigra-r2v-7s-crowd-dilator-zoom/01-image-1-identity-sheet.jpg"
+        },
+        {
+          "label": "Image 2 glass dilator close-up",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/wan30-crowd-v2/1786625087550-3h6ktih6qlt.jpg",
+          "file": "images/refs/wan30-tigra-r2v-7s-crowd-dilator-zoom/02-image-2-glass-dilator-close-up.jpg"
+        }
+      ],
+      "service": "WaveSpeed",
+      "service_url": "https://wavespeed.ai",
+      "service_model_url": "https://wavespeed.ai/models/alibaba/wan-3.0/reference-to-video",
+      "api": "https://api.wavespeed.ai/api/v3",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "story-gym-night-shift",
+      "file": "stories/STORY-gym-4acts-v8.30.md",
+      "html": "story.html",
+      "source": "STORY-gym-4acts-v8.30.md",
+      "title": "Ночная смена",
+      "category": "story",
+      "model": "проза",
+      "note": "v8.30: без цветовых выделений голосов и сцен",
+      "version": "8.30",
+      "date": "2026-08-13 19:00",
+      "latest": true
+    },
     {
       "id": "wan30-vinna-cowboy-holdup-10s",
       "file": "images/wan30-vinna-cowboy-holdup-10s.mp4",
@@ -36,19 +82,6 @@
       "characters": [
         "Vinna"
       ]
-    },
-    {
-      "id": "story-gym-night-shift",
-      "file": "stories/STORY-gym-4acts-v8.29.md",
-      "html": "story.html",
-      "source": "STORY-gym-4acts-v8.29.md",
-      "title": "Ночная смена",
-      "category": "story",
-      "model": "проза",
-      "note": "v8.29: VIP играют однокурсников, эвфемизмы прокачки бренда, развёрнутые подколки без 'я заплатил'",
-      "version": "8.29",
-      "date": "2026-08-13 18:36",
-      "latest": true
     },
     {
       "id": "tigra-preset-nolips-sit-side",

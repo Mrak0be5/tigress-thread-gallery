@@ -2,9 +2,22 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T05:38+04:00",
+  "updated": "2026-08-13T05:48+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "story-gym-night-shift",
+      "file": "stories/STORY-gym-4acts-v8.8.md",
+      "html": "story.html",
+      "source": "STORY-gym-4acts-v8.8.md",
+      "title": "Ночная смена",
+      "category": "story",
+      "model": "проза",
+      "note": "v8.8: двойной штраф, долг 2600, без наличных.",
+      "version": "8.8",
+      "date": "2026-08-13 05:48",
+      "latest": true
+    },
     {
       "id": "minimax-ref2va-10s-wan-bbc-switch-pull-out-walk-r-bbc-enters",
       "file": "images/minimax-ref2va-10s-wan-bbc-switch-pull-out-walk-r-bbc-enters.mp4",
@@ -646,19 +659,6 @@
       "api": "https://api.wavespeed.ai/api/v3",
       "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
       "key_name": "Grok"
-    },
-    {
-      "id": "story-gym-night-shift",
-      "file": "stories/STORY-gym-4acts-v8.7.md",
-      "html": "story.html",
-      "source": "STORY-gym-4acts-v8.7.md",
-      "title": "Ночная смена",
-      "category": "story",
-      "model": "проза",
-      "note": "Тигра и Винна. Ночной зал. Пролог + 4 акта.",
-      "version": "8.7",
-      "date": "2026-08-13 04:55",
-      "latest": true
     },
     {
       "id": "part-1-bored-coffee-ref2va-v4-10s-2",

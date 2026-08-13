@@ -2,9 +2,22 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T08:19+04:00",
+  "updated": "2026-08-13T08:28+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "story-gym-night-shift",
+      "file": "stories/STORY-gym-4acts-v8.17.md",
+      "html": "story.html",
+      "source": "STORY-gym-4acts-v8.17.md",
+      "title": "Ночная смена",
+      "category": "story",
+      "model": "проза",
+      "note": "v8.17: йога вместо вело+махов (Воин/Собака); один присед, без рулетки.",
+      "version": "8.17",
+      "date": "2026-08-13 08:28",
+      "latest": true
+    },
     {
       "id": "tigra-furry-dt85-close",
       "file": "images/tigra-furry-dt85-close.jpg",
@@ -243,19 +256,6 @@
         "Black man",
         "Tigra"
       ]
-    },
-    {
-      "id": "story-gym-night-shift",
-      "file": "stories/STORY-gym-4acts-v8.16.md",
-      "html": "story.html",
-      "source": "STORY-gym-4acts-v8.16.md",
-      "title": "Ночная смена",
-      "category": "story",
-      "model": "проза",
-      "note": "v8.16: топы вверх после разминки; дуга стыда груди/низа.",
-      "version": "8.16",
-      "date": "2026-08-13 08:04",
-      "latest": true
     },
     {
       "id": "tigra-preset-oral-sit",

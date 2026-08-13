@@ -2,8 +2,43 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-14T01:15+04:00",
+  "updated": "2026-08-14T01:18+04:00",
   "items": [
+    {
+      "id": "gym-act1-locker-wide-frown-b",
+      "file": "images/gym-act1-locker-wide-frown-b.jpg",
+      "source": "spread-wide-frown-B.png",
+      "title": "Акт I раздевалка wide frown",
+      "category": "scene",
+      "model": "Seedream 5.0 Pro 1K",
+      "note": "edit of wide B; Winna looks at Tigra displeased; quality=basic 3:4 strength 0.48",
+      "date": "2026-08-14 01:18",
+      "pixels": "864x1152",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/gym-locker-plug/1786655860259-p3vhucg2ypm.png",
+      "prompt": "Image 1 = approved locker scene — keep camera distance, aisle, bench, outfits, bodies, plug geometry.\nImage 2 = Winna identity sheet (face/hair/species).\nImage 3 = Tigra identity.\n\nDo not copy Image 2 T-pose.\n\nKeep Image 1 end state except the face: Winna prone on the bench, Tigra at her hip with the glass plug.\n\nChange ONLY: Winna looks at Tigra, not the lens. Annoyed unhappy glare, frown, ears back, no smile.\n\nSame wide pulled-back camera. Technical: 3:4.",
+      "prompt_file": "prompts/gym-act1-locker-wide-frown-b.txt",
+      "refs": [
+        {
+          "label": "Approved wide B",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/gym-locker-plug/1786653877186-0wvc05hvg91.png",
+          "file": "images/refs/gym-act1-locker-wide-frown-b/01-approved-wide-b.jpg"
+        },
+        {
+          "label": "Winna identity sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/gym-locker-plug/1786652097090-ms6ywgqyz4.png",
+          "file": "images/refs/gym-act1-locker-wide-frown-b/02-winna-identity-sheet.jpg"
+        },
+        {
+          "label": "Tigra identity",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/gym-locker-plug/1786638931401-urqi6bxu909.png",
+          "file": "images/refs/gym-act1-locker-wide-frown-b/03-tigra-identity.jpg"
+        }
+      ],
+      "characters": [
+        "Tigra",
+        "Winna"
+      ]
+    },
     {
       "id": "oral-angles-v2-standing",
       "file": "images/oral-angles-v2-standing.jpg",

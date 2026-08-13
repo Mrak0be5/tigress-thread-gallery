@@ -1,0 +1,11 @@
+Image 1 = approved locker scene — keep camera distance, aisle, bench, outfits, bodies, plug geometry.
+Image 2 = Winna identity sheet (face/hair/species).
+Image 3 = Tigra identity.
+
+Do not copy Image 2 T-pose.
+
+Keep Image 1 end state except the face: Winna prone on the bench, Tigra at her hip with the glass plug.
+
+Change ONLY: Winna looks at Tigra, not the lens. Annoyed unhappy glare, frown, ears back, no smile.
+
+Same wide pulled-back camera. Technical: 3:4.

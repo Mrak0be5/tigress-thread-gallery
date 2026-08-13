@@ -10,7 +10,9 @@ C:\Users\hebp\galleries\tigress-thread-gallery\index.html
 
 ## Public
 
-GitHub Pages: see repo homepage / Actions after first push.
+GitHub Pages: https://mrak0be5.github.io/tigress-thread-gallery/
+
+Local MiniMax / ComfyUI how-to: [pc-video.html](pc-video.html)
 
 ## Add next generation
 
@@ -22,6 +24,9 @@ python scripts\publish-add.py "C:\path\to\new.png" `
   --model "Seedream 5 Pro" `
   --note "smaller ass" `
   --cdn "https://tempfile.aiquickdraw.com/..." `
+  --prompt-file "C:\path\to\prompt.txt" `
+  --ref "Picture 1 scene|C:\path\to\ref.png" `
+  --lora "Name|https://civitai.com/models/...|0.45" `
   --push
 ```
 

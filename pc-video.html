@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>ПК видео — подключение MiniMax / ComfyUI</title>
+  <style>
+    :root {
+      --bg: #0d0f12;
+      --panel: #161a20;
+      --border: #2a313c;
+      --text: #e8ecf1;
+      --muted: #9aa3b2;
+      --accent: #7c9cff;
+      --ok: #3ecf8e;
+      --warn: #ff8a65;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #1a2233 0%, var(--bg) 55%);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    header, main, footer {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+    header { padding-top: 2rem; }
+    header h1 { margin: 0 0 0.4rem; font-size: 1.6rem; }
+    header p { color: var(--muted); margin: 0.25rem 0; }
+    a { color: var(--accent); }
+    nav { margin: 1rem 0 0; }
+    nav a {
+      display: inline-block;
+      text-decoration: none;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.35rem 0.8rem;
+      color: var(--text);
+      background: rgba(255,255,255,0.03);
+      margin-right: 0.4rem;
+    }
+    section {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1rem 1.1rem;
+      margin: 1rem 0;
+    }
+    h2 { margin: 0 0 0.6rem; font-size: 1.05rem; }
+    h3 { margin: 0.9rem 0 0.35rem; font-size: 0.95rem; color: var(--ok); }
+    ol, ul { margin: 0.4rem 0 0.2rem 1.2rem; padding: 0; }
+    li { margin: 0.25rem 0; }
+    code, pre {
+      font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+      font-size: 0.82rem;
+    }
+    code {
+      background: #0a0c10;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.05rem 0.35rem;
+    }
+    pre {
+      background: #0a0c10;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.75rem 0.85rem;
+      overflow: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .warn { color: var(--warn); }
+    footer { padding: 0.5rem 1.25rem 2.5rem; color: var(--muted); font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Генерация видео на этом ПК</h1>
+    <p>Локальный MiniMax-H3 через Stability Matrix ComfyUI (RTX 4090). Не cloud MiniMax API.</p>
+    <nav>
+      <a href="index.html">Галерея</a>
+      <a href="https://mrak0be5.github.io/tigress-thread-gallery/">Live</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>1. Что должно быть запущено</h2>
+      <ol>
+        <li>ComfyUI <strong>только через Stability Matrix</strong>. Не запускать <code>main.py</code> вручную.</li>
+        <li>API: <code>http://127.0.0.1:8188</code></li>
+        <li>Проверка: <code>Invoke-RestMethod http://127.0.0.1:8188/system_stats</code></li>
+      </ol>
+      <p>Модели: <code>C:\Users\hebp\AppData\Roaming\StabilityMatrix\Models</code></p>
+      <p>Выход видео: <code>C:\Users\hebp\AppData\Roaming\StabilityMatrix\Packages\ComfyUI\output\video</code></p>
+    </section>
+
+    <section>
+      <h2>2. Локальный агент на этом ПК (предпочтительно)</h2>
+      <p>Работай в локальном Cursor-агенте / private worker. Cloud VM не видит <code>:8188</code>.</p>
+      <ol>
+        <li>MCP-сервер: <code>comfyui-video</code> (stdio, сам стартует с Cursor).</li>
+        <li>Skill: <code>C:\Users\hebp\.cursor\skills\comfyui-video-mcp\SKILL.md</code></li>
+        <li>Реестр workflow: <code>C:\Users\hebp\OneDrive\Desktop\rab stol\sulphur-ai\comfyui-video-mcp</code></li>
+      </ol>
+      <h3>Порядок MCP</h3>
+      <pre>comfy_health
+list_workflows → describe_workflow
+upload_input → subfolder/name как input_image
+prepare_workflow  (без очереди)
+run_workflow → wait_for_job → get_outputs</pre>
+      <p>Для качества сцены стола: <strong>Ref2VA Non-Turbo, 25 steps</strong>, <code>res_multistep</code> + <code>simple</code>. Turbo 4-step плавит кадр. Не кормить penis-коллаж как composition-ref.</p>
+      <h3>Зарегистрированные workflow</h3>
+      <ul>
+        <li><code>minimax-h3-i2v</code> — I2V</li>
+        <li><code>minimax-h3-fl2va-turbo-q4</code> — first/last-frame Turbo</li>
+        <li><code>minimax-h3-ref2va-turbo-q4</code> — reference-to-video Turbo, в промпте <code>&lt;Picture N&gt;</code></li>
+        <li>Non-Turbo Ref2VA — скрипты в <code>hops-and-honey-bar-manager-3d/minimax-material/scripts/</code></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Cloud-агент (если нельзя локально)</h2>
+      <p class="warn">Не открывать мёртвые <code>bc-…</code> remote. Не стартовать ComfyUI с cloud-VM.</p>
+      <ol>
+        <li>На ПК после старта ComfyUI запустить туннель:</li>
+      </ol>
+      <pre>C:\cloudflare\сomfyui_cloudflared_8188.bat</pre>
+      <p>Скопировать <code>https://….trycloudflare.com</code> агенту как <code>COMFY_URL</code>.</p>
+      <p>Либо private worker на этом ПК (видит MCP и <code>:8188</code> без туннеля).</p>
+    </section>
+
+    <section>
+      <h2>4. MCP в Cursor</h2>
+      <p>Клиент сам поднимает процесс, отдельно сервер запускать не нужно:</p>
+      <pre>{
+  "mcpServers": {
+    "comfyui-video": {
+      "command": "C:\\Users\\hebp\\OneDrive\\Desktop\\rab stol\\sulphur-ai\\comfyui-video-mcp\\.venv\\Scripts\\comfy-video-mcp.exe",
+      "args": ["--transport", "stdio"],
+      "env": {"COMFY_URL": "http://127.0.0.1:8188"}
+    }
+  }
+}</pre>
+      <p>Input allowlist: Desktop + Sorter. Рефы класть в проект <code>minimax-material/frames/</code>, затем <code>upload_input</code>.</p>
+    </section>
+
+    <section>
+      <h2>5. После успешной генерации</h2>
+      <p>Публиковать в эту галерею клип + точный промпт + все рефы + LoRA:</p>
+      <pre>cd C:\Users\hebp\galleries\tigress-thread-gallery
+python scripts\publish-add.py "C:\path\to\clip.mp4" `
+  --title "..." --category video `
+  --model "MiniMax-H3 Ref2VA Non-Turbo" `
+  --prompt-file "C:\path\to\prompt.txt" `
+  --ref "Picture 1 scene|C:\path\to\scene.png" `
+  --ref "Picture 2 identity|C:\path\to\id.png" `
+  --lora "Name|https://civitai.com/models/...|0.45" `
+  --push</pre>
+      <p>Live: <a href="https://mrak0be5.github.io/tigress-thread-gallery/">https://mrak0be5.github.io/tigress-thread-gallery/</a></p>
+    </section>
+  </main>
+  <footer>18+ · noindex · локальный ComfyUI этого ПК</footer>
+</body>
+</html>

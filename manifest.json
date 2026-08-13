@@ -2,7 +2,7 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-13T05:27+04:00",
+  "updated": "2026-08-13T05:38+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
@@ -33,7 +33,10 @@
           "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\refs\\wan30-tigra-r2v-10s-bbc-switch\\03-image-3-man.jpg",
           "file": "images/refs/minimax-ref2va-10s-wan-bbc-switch-pull-out-walk-r-bbc-enters/03-picture-3-man.jpg"
         }
-      ]
+      ],
+      "loras": [],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "image3-terry-sheet-b",
@@ -125,14 +128,22 @@
       "source": "tigra_handstand_straddle_10s_00001_.mp4",
       "title": "Handstand straddle 10s",
       "category": "video",
-      "model": "MiniMax-H3",
+      "model": "MiniMax-H3 I2V",
       "note": "ComfyUI output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
       "prompt": "Create a 10-second 9:16 video from the first-frame image. Static camera, pure white background, single character only.\n\nThe anthropomorphic adult female tigress from the first frame stands alone on a plain white background. Preserve identity exactly: orange fur, black stripes, white underbelly, short platinum bob hair, tiger ears, green eyes, nude athletic body, long striped tail.\n\nTimeline:\n0.0-1.5s: idle standing pose matching the first frame.\n1.5-3.5s: bends down and plants both hands on the white floor.\n3.5-6.0s: kicks up into a clean vertical handstand, legs together, body inverted.\n6.0-8.5s: while inverted, slowly spreads legs into a wide straddle/V-split.\n8.5-10.0s: holds the straddle handstand.\n\nNo cuts, no other characters, no props, no text, no clothing, background stays pure white.",
       "prompt_file": "prompts/handstand-straddle-10s.txt",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\first-frame-standing-white.png",
+          "file": "images/refs/handstand-straddle-10s/01-first-frame.jpg"
+        }
+      ],
+      "loras": []
     },
     {
       "id": "handstand-straddle-10s-exact",
@@ -140,14 +151,22 @@
       "source": "tigra_handstand_straddle_10s_exact.mp4",
       "title": "Handstand straddle 10s exact",
       "category": "video",
-      "model": "MiniMax-H3",
+      "model": "MiniMax-H3 I2V",
       "note": "minimax-material output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
       "prompt": "Create a 10-second 9:16 video from the first-frame image. Static camera, pure white background, single character only.\n\nThe anthropomorphic adult female tigress from the first frame stands alone on a plain white background. Preserve identity exactly: orange fur, black stripes, white underbelly, short platinum bob hair, tiger ears, green eyes, nude athletic body, long striped tail.\n\nTimeline:\n0.0-1.5s: idle standing pose matching the first frame.\n1.5-3.5s: bends down and plants both hands on the white floor.\n3.5-6.0s: kicks up into a clean vertical handstand, legs together, body inverted.\n6.0-8.5s: while inverted, slowly spreads legs into a wide straddle/V-split.\n8.5-10.0s: holds the straddle handstand.\n\nNo cuts, no other characters, no props, no text, no clothing, background stays pure white.",
       "prompt_file": "prompts/handstand-straddle-10s-exact.txt",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\first-frame-standing-white.png",
+          "file": "images/refs/handstand-straddle-10s-exact/01-first-frame.jpg"
+        }
+      ],
+      "loras": []
     },
     {
       "id": "handstand-split-h3-10s",
@@ -155,14 +174,22 @@
       "source": "tigra_handstand_split_minimax_h3_10s_00001_.mp4",
       "title": "Handstand split MiniMax-H3 10s",
       "category": "video",
-      "model": "MiniMax-H3",
+      "model": "MiniMax-H3 I2V",
       "note": "ComfyUI output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
       "prompt": "Create a 10-second 9:16 video from the first-frame image. Static camera, pure white background, single character only.\n\nThe anthropomorphic adult female tigress from the first frame stands alone on a plain white background. Preserve identity exactly: orange fur, black stripes, white underbelly, short platinum bob hair, tiger ears, green eyes, nude athletic body, long striped tail.\n\nTimeline:\n0.0-1.5s: idle standing pose matching the first frame.\n1.5-3.5s: bends down and plants both hands on the white floor.\n3.5-6.0s: kicks up into a clean vertical handstand, legs together, body inverted.\n6.0-8.5s: while inverted, slowly spreads legs into a wide straddle/V-split.\n8.5-10.0s: holds the straddle handstand.\n\nNo cuts, no other characters, no props, no text, no clothing, background stays pure white.",
       "prompt_file": "prompts/handstand-split-h3-10s.txt",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\first-frame-standing-white.png",
+          "file": "images/refs/handstand-split-h3-10s/01-first-frame.jpg"
+        }
+      ],
+      "loras": []
     },
     {
       "id": "handstand-split-h3-exact-10s",
@@ -170,14 +197,22 @@
       "source": "tigra_handstand_split_minimax_h3_exact_10sec.mp4",
       "title": "Handstand split MiniMax-H3 exact 10s",
       "category": "video",
-      "model": "MiniMax-H3",
+      "model": "MiniMax-H3 I2V",
       "note": "ComfyUI output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
       "prompt": "Create a 10-second 9:16 video from the first-frame image. Static camera, pure white background, single character only.\n\nThe anthropomorphic adult female tigress from the first frame stands alone on a plain white background. Preserve identity exactly: orange fur, black stripes, white underbelly, short platinum bob hair, tiger ears, green eyes, nude athletic body, long striped tail.\n\nTimeline:\n0.0-1.5s: idle standing pose matching the first frame.\n1.5-3.5s: bends down and plants both hands on the white floor.\n3.5-6.0s: kicks up into a clean vertical handstand, legs together, body inverted.\n6.0-8.5s: while inverted, slowly spreads legs into a wide straddle/V-split.\n8.5-10.0s: holds the straddle handstand.\n\nNo cuts, no other characters, no props, no text, no clothing, background stays pure white.",
       "prompt_file": "prompts/handstand-split-h3-exact-10s.txt",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\first-frame-standing-white.png",
+          "file": "images/refs/handstand-split-h3-exact-10s/01-first-frame.jpg"
+        }
+      ],
+      "loras": []
     },
     {
       "id": "city-blogger-handstand-5s",
@@ -185,14 +220,22 @@
       "source": "tigra_city_blogger_handstand_5s_00001_.mp4",
       "title": "City blogger handstand 5s",
       "category": "video",
-      "model": "MiniMax-H3",
+      "model": "MiniMax-H3 I2V",
       "note": "ComfyUI output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
       "prompt": "[OUTPUT SPECIFICATION]\nCreate a 5-second, 9:16 adult erotic animation video. One continuous shot, no cuts. Identity from first-frame/reference. Spoken Russian line required.\n\n[OVERALL LOOK]\nSexy female blogger style. Soft cinematic lighting, high detail, detailed fur texture, smooth motion. Busy crowded modern city street, dense pedestrian crowd.\n\n[CHARACTER AND SPATIAL CONTINUITY]\nExact anthropomorphic adult female tigress from the reference (18+): orange fur, black stripes, white underbelly, platinum bob, green eyes, nude athletic body, long striped tail. Only furry; humans in crowd. Identity lock.\n\n[PROP STATE CONTINUITY]\nClear transparent anal dilator stays inserted the whole clip; visible when butt faces camera and in final close-up.\n\n[TWO-LEVEL TIMELINE]\nShot 1 | 0:00-0:05 | Duration 5s | Reference / first-frame\n\nCamera: medium full-body 0:00-0:03.5, then smooth push-in toward anus+dilator; end near close-up by 0:05.\n\nMicro-timeline:\n- 0:00-0:00.8: standing in crowded city street facing camera, blogger tease look.\n- 0:00.8-0:01.6: turns back to viewer; dilator visible.\n- 0:01.6-0:03.0: full handstand, legs up, butt to camera.\n- 0:03.0-0:03.8: looks over shoulder, teasing, says «Полюбуйтесь моей жопой.»\n- 0:03.8-0:05.0: spreads legs wide in handstand while camera pushes in toward anus with transparent dilator.\n\n[AUDIO]\nRussian line at 3.0-3.8s: «Полюбуйтесь моей жопой.» Soft city ambience.\n\n[NEGATIVE CONSTRAINTS]\nNo minors, no clothing on tigress, no text, no cuts, no identity drift, do not remove dilator.",
       "prompt_file": "prompts/city-blogger-handstand-5s.txt",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\tigra_city_blogger_first_frame_5s.png",
+          "file": "images/refs/city-blogger-handstand-5s/01-first-frame.jpg"
+        }
+      ],
+      "loras": []
     },
     {
       "id": "sheet-city-blogger-handstand-10s",
@@ -200,14 +243,22 @@
       "source": "tigra_sheet_city_blogger_handstand_10s_00001_.mp4",
       "title": "City blogger handstand 10s (sheet ref)",
       "category": "video",
-      "model": "MiniMax-H3",
+      "model": "MiniMax-H3 I2V",
       "note": "ComfyUI output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
       "prompt": "The exact anthropomorphic furry tigress from the first reference photo, sexy female blogger style, standing in the middle of a busy crowded city street, completely surrounded by a dense crowd of people, turns her back to the viewer, then smoothly goes into a full handstand balancing on her hands with her legs up, looks back over her shoulder with a teasing playful expression and says “Полюбуйтесь моей жопой”, then slowly spreads her legs wide open while still in the handstand, camera slowly pushes in from a medium shot into an extreme close-up of her anus with a clear transparent anal dilator already inserted, detailed fur texture, soft cinematic lighting, high detail, smooth motion, continuous 9:16 shot, adult content, identity locked to reference.",
       "prompt_file": "prompts/sheet-city-blogger-handstand-10s.txt",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "refs": [
+        {
+          "label": "sheet / first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra_sheet_clean.png",
+          "file": "images/refs/sheet-city-blogger-handstand-10s/01-sheet-first-frame.jpg"
+        }
+      ],
+      "loras": []
     },
     {
       "id": "city-allfours-anal-15s",
@@ -215,12 +266,22 @@
       "source": "tigra_city_allfours_anal_15s_00001_.mp4",
       "title": "City all-fours anal 15s",
       "category": "video",
-      "model": "MiniMax-H3",
+      "model": "MiniMax-H3 I2V",
       "note": "ComfyUI output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "prompt": "City street, Tigra on all fours, anal, identity from first frame.",
+      "prompt_file": "prompts/city-allfours-anal-15s.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\first-frame-city-blogger-standing.png",
+          "file": "images/refs/city-allfours-anal-15s/01-first-frame.jpg"
+        }
+      ],
+      "loras": []
     },
     {
       "id": "fl2va-turbo-q4-test",
@@ -228,12 +289,28 @@
       "source": "tigra_fl2va_turbo_q4_test_00001_.mp4",
       "title": "FL2VA Turbo Q4 test",
       "category": "video",
-      "model": "MiniMax-H3 FL2VA Turbo",
+      "model": "MiniMax-H3 FL2VA Turbo Q4",
       "note": "ComfyUI test output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "prompt": "FL2VA Turbo Q4 test from first frame.",
+      "prompt_file": "prompts/fl2va-turbo-q4-test.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
+          "file": "images/refs/fl2va-turbo-q4-test/01-first-frame.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "MiniMax H3 Turbo 4-step",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3_ComfyUI",
+          "strength": 1.0
+        }
+      ]
     },
     {
       "id": "bored-anal-naughtytimes-15s",
@@ -241,12 +318,33 @@
       "source": "tigra_bored_anal_naughtytimes_15s_00001_.mp4",
       "title": "Bored coffee anal NaughtyTimes 15s",
       "category": "video",
-      "model": "MiniMax-H3",
+      "model": "MiniMax-H3 FL2VA Turbo + NaughtyTimes",
       "note": "ComfyUI output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "prompt": "Bored coffee anal at the table. Keep first frame. Trigger: NaughtyTimes sex motion.",
+      "prompt_file": "prompts/bored-anal-naughtytimes-15s.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
+          "file": "images/refs/bored-anal-naughtytimes-15s/01-first-frame.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "MiniMax H3 Turbo 4-step",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3_ComfyUI",
+          "strength": 1.0
+        },
+        {
+          "name": "SexGod NaughtyTimes MiniMax H3",
+          "url": "https://civitai.com/models/2836176?modelVersionId=3200994",
+          "strength": 0.45
+        }
+      ]
     },
     {
       "id": "bored-anal-ridingpov-15s",
@@ -254,12 +352,33 @@
       "source": "tigra_bored_anal_ridingpov_15s_00001_.mp4",
       "title": "Bored coffee anal RidingPOV 15s",
       "category": "video",
-      "model": "MiniMax-H3",
+      "model": "MiniMax-H3 FL2VA Turbo + Riding POV",
       "note": "ComfyUI output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "prompt": "Bored coffee anal at the table. Keep first frame. Riding POV motion LoRA.",
+      "prompt_file": "prompts/bored-anal-ridingpov-15s.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
+          "file": "images/refs/bored-anal-ridingpov-15s/01-first-frame.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "MiniMax H3 Turbo 4-step",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3_ComfyUI",
+          "strength": 1.0
+        },
+        {
+          "name": "Riding POV H3 I2V",
+          "url": "https://civitai.com/models/2446218?modelVersionId=3203205",
+          "strength": 0.5
+        }
+      ]
     },
     {
       "id": "bored-anal-baseline-15s",
@@ -267,12 +386,22 @@
       "source": "tigra_bored_anal_baseline_15s_00001_.mp4",
       "title": "Bored coffee anal baseline 15s",
       "category": "video",
-      "model": "MiniMax-H3",
+      "model": "MiniMax-H3 FL2VA Non-Turbo",
       "note": "ComfyUI output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "prompt": "Bored coffee anal baseline, no concept LoRA. Keep first frame.",
+      "prompt_file": "prompts/bored-anal-baseline-15s.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
+          "file": "images/refs/bored-anal-baseline-15s/01-first-frame.jpg"
+        }
+      ],
+      "loras": []
     },
     {
       "id": "handstand-8s",
@@ -280,12 +409,22 @@
       "source": "tigra_handstand_8s_00001_.mp4",
       "title": "Handstand 8s",
       "category": "video",
-      "model": "MiniMax-H3",
+      "model": "MiniMax-H3 I2V",
       "note": "ComfyUI output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "prompt": "Single continuous shot, exactly one adult anthropomorphic female tigress character on a seamless pure white background. 0-3 seconds: the character shifts her weight forward, places both hands on the floor, and smoothly lifts into a controlled handstand. 3-6 seconds: she stabilizes in a straight vertical handstand, arms locked, body balanced, striped tiger tail moving naturally for balance. 6-10 seconds: while maintaining the handstand, she slowly opens both legs into a wide symmetrical straddle split and holds the pose. Static full-body camera, the entire character remains visible, smooth realistic motion, stable identity and anatomy matching the first frame exactly.",
+      "prompt_file": "prompts/handstand-8s.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\hops-and-honey-bar-manager-3d\\minimax-material\\frames\\first-frame-standing-white.png",
+          "file": "images/refs/handstand-8s/01-first-frame.jpg"
+        }
+      ],
+      "loras": []
     },
     {
       "id": "table-anal-3thrust-10s",
@@ -293,12 +432,22 @@
       "source": "tigra_table_anal_3thrust_10s_00001_.mp4",
       "title": "Table anal 3-thrust 10s",
       "category": "video",
-      "model": "MiniMax-H3",
+      "model": "MiniMax-H3 I2V",
       "note": "ComfyUI nsfw output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "prompt": "Table anal, 3 thrusts. Keep first frame.",
+      "prompt_file": "prompts/table-anal-3thrust-10s.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
+          "file": "images/refs/table-anal-3thrust-10s/01-first-frame.jpg"
+        }
+      ],
+      "loras": []
     },
     {
       "id": "anal-hmnsfw-aio-v2",
@@ -306,12 +455,28 @@
       "source": "tigra_anal_hmnsfw_aio_v2_00001_.mp4",
       "title": "Table anal HM-NSFW AIO v2",
       "category": "video",
-      "model": "MiniMax-H3 FL2VA",
+      "model": "MiniMax-H3 FL2VA + HMNSFW AIO V2",
       "note": "ComfyUI nsfw output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "prompt": "Table anal. Trigger hmmotion. Keep first frame.",
+      "prompt_file": "prompts/anal-hmnsfw-aio-v2.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
+          "file": "images/refs/anal-hmnsfw-aio-v2/01-first-frame.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "HMNSFW AIO V2",
+          "url": "https://civitai.com/models/2834417?modelVersionId=3206518",
+          "strength": 0.5
+        }
+      ]
     },
     {
       "id": "anal-penisref-hard-hmnsfw",
@@ -319,12 +484,33 @@
       "source": "tigra_anal_penisref_hard_hmnsfw_00001_.mp4",
       "title": "Table anal penis-ref hard HM-NSFW",
       "category": "video",
-      "model": "MiniMax-H3 FL2VA",
+      "model": "MiniMax-H3 FL2VA + HMNSFW AIO V2",
       "note": "ComfyUI nsfw output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "prompt": "Hard anal thrusts. First frame lock + penis text/ref. Trigger hmmotion.",
+      "prompt_file": "prompts/anal-penisref-hard-hmnsfw.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
+          "file": "images/refs/anal-penisref-hard-hmnsfw/01-first-frame.jpg"
+        },
+        {
+          "label": "penis",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
+          "file": "images/refs/anal-penisref-hard-hmnsfw/02-penis.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "HMNSFW AIO V2",
+          "url": "https://civitai.com/models/2834417?modelVersionId=3206518",
+          "strength": 0.5
+        }
+      ]
     },
     {
       "id": "anal-fl2va-hard-fixref",
@@ -332,12 +518,28 @@
       "source": "tigra_anal_fl2va_hard_fixref_00001_.mp4",
       "title": "Table anal FL2VA hard fix-ref",
       "category": "video",
-      "model": "MiniMax-H3 FL2VA",
+      "model": "MiniMax-H3 FL2VA + HMNSFW AIO V2",
       "note": "ComfyUI nsfw output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "prompt": "Hard anal, first-frame lock.",
+      "prompt_file": "prompts/anal-fl2va-hard-fixref.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
+          "file": "images/refs/anal-fl2va-hard-fixref/01-first-frame.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "HMNSFW AIO V2",
+          "url": "https://civitai.com/models/2834417?modelVersionId=3206518",
+          "strength": 0.5
+        }
+      ]
     },
     {
       "id": "pool-anal-fl2va-orbit-ball",
@@ -345,12 +547,22 @@
       "source": "tigra_pool_anal_fl2va_orbit_ball_00001_.mp4",
       "title": "Pool anal FL2VA orbit + ball",
       "category": "video",
-      "model": "MiniMax-H3 FL2VA",
+      "model": "MiniMax-H3 FL2VA Non-Turbo",
       "note": "ComfyUI output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "prompt": "Pool anal, orbit, look at ball. Keep first frame.",
+      "prompt_file": "prompts/pool-anal-fl2va-orbit-ball.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-pool-anal-first.png",
+          "file": "images/refs/pool-anal-fl2va-orbit-ball/01-first-frame.jpg"
+        }
+      ],
+      "loras": []
     },
     {
       "id": "naughtytimes-fl2va-turbo",
@@ -358,12 +570,33 @@
       "source": "tigra_naughtytimes_fl2va_turbo_00001_.mp4",
       "title": "NaughtyTimes FL2VA Turbo",
       "category": "video",
-      "model": "MiniMax-H3 FL2VA Turbo",
+      "model": "MiniMax-H3 FL2VA Turbo + NaughtyTimes",
       "note": "ComfyUI output not previously in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "prompt": "NaughtyTimes FL2VA Turbo sex motion. Keep first frame.",
+      "prompt_file": "prompts/naughtytimes-fl2va-turbo.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
+          "file": "images/refs/naughtytimes-fl2va-turbo/01-first-frame.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "MiniMax H3 Turbo 4-step",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3_ComfyUI",
+          "strength": 1.0
+        },
+        {
+          "name": "SexGod NaughtyTimes MiniMax H3",
+          "url": "https://civitai.com/models/2836176?modelVersionId=3200994",
+          "strength": 0.45
+        }
+      ]
     },
     {
       "id": "part-2-deep-hold-pullout-fl2va-10s-2",
@@ -375,8 +608,18 @@
       "note": "Second ComfyUI take (00002). 00001 already in gallery.",
       "date": "2026-08-13 05:07",
       "pixels": "0x0",
-      "service": "Stability Matrix ComfyUI",
-      "service_url": "http://127.0.0.1:8188"
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html",
+      "prompt": "Cinematic 24fps shot. The scene continues seamlessly from <Picture 1>. Tigra is at the wooden table. The camera slowly pushes in towards her anus. Behind her, the muscular human male pushes his huge, thick penis as deeply as possible into her anus and holds it there for 3 seconds. Tigra's facial expression changes to intense disgust and revulsion. After the deep hold, the man slowly pulls his penis completely out of her anus. When the penis is removed, her anus remains stretched open, showing a visible gaping hole (rosebud). Highly detailed textures, anatomically precise, natural body motion.",
+      "prompt_file": "prompts/part-2-deep-hold-pullout-fl2va-10s-2.txt",
+      "refs": [
+        {
+          "label": "Picture 1 last frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-part2-start.jpg",
+          "file": "images/refs/part-2-deep-hold-pullout-fl2va-10s-2/01-picture-1-last-frame.jpg"
+        }
+      ],
+      "loras": []
     },
     {
       "id": "wan30-tigra-i2v-3s-ab-nsfw",
@@ -426,7 +669,24 @@
       "model": "MiniMax-H3 Ref2VA Non-Turbo",
       "note": "2 refs: scene framing + male identity sheet. No penis collage. Orbit right, raised leg, 3 thrusts, coffee, arched back.",
       "date": "2026-08-13 04:33",
-      "pixels": "0x0"
+      "pixels": "0x0",
+      "prompt": "Cinematic 24fps medium-wide cabin shot. Keep the exact framing, camera distance, and composition of <Picture 1> for the entire clip. Do not zoom into genitals. Do not fill the frame with a penis close-up. Do not copy any character-sheet or anatomy-sheet layout. The camera slowly orbits a little to the right around Tigra, revealing more of the man behind her while staying a medium-wide shot of the table scene. <Picture 1> is the starting scene and the only composition reference. Tigra (female anthropomorphic tiger, orange fur, black stripes, white belly, short white hair) is bent over a wooden table. Her left leg stays raised high exactly as in <Picture 1>, do not lower her leg. A coffee mug sits on the table. Behind her a muscular human male performs deep anal sex using the penis already visible in <Picture 1>. <Picture 2> is identity reference only for the man's face, beard, muscular body, and skin tone. Do not copy <Picture 2> turnaround layout. Tigra looks bored and looks at the camera. She picks up the coffee mug with her right hand and drinks. While drinking she arches her lower back and shows her breasts to the camera. The man makes exactly 3 very strong deep thrusts. On every thrust Tigra winces in discomfort. Highly detailed textures, anatomically precise, natural body motion.",
+      "prompt_file": "prompts/part-1-bored-coffee-ref2va-v4-10s-2.txt",
+      "refs": [
+        {
+          "label": "Picture 1 scene",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-scene-part1.png",
+          "file": "images/refs/part-1-bored-coffee-ref2va-v4-10s-2/01-picture-1-scene.jpg"
+        },
+        {
+          "label": "Picture 2 male identity",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-male-sheet-style-matched.png",
+          "file": "images/refs/part-1-bored-coffee-ref2va-v4-10s-2/02-picture-2-male-identity.jpg"
+        }
+      ],
+      "loras": [],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "part-1-bored-coffee-ref2va-v4-10s",
@@ -437,7 +697,24 @@
       "model": "MiniMax-H3 Ref2VA Non-Turbo",
       "note": "2 refs: scene framing + male identity sheet. No penis collage. Orbit right, raised leg, 3 thrusts, coffee, arched back.",
       "date": "2026-08-13 04:33",
-      "pixels": "0x0"
+      "pixels": "0x0",
+      "prompt": "Cinematic 24fps medium-wide cabin shot. Keep the exact framing, camera distance, and composition of <Picture 1> for the entire clip. Do not zoom into genitals. Do not fill the frame with a penis close-up. Do not copy any character-sheet or anatomy-sheet layout. The camera slowly orbits a little to the right around Tigra, revealing more of the man behind her while staying a medium-wide shot of the table scene. <Picture 1> is the starting scene and the only composition reference. Tigra (female anthropomorphic tiger, orange fur, black stripes, white belly, short white hair) is bent over a wooden table. Her left leg stays raised high exactly as in <Picture 1>, do not lower her leg. A coffee mug sits on the table. Behind her a muscular human male performs deep anal sex using the penis already visible in <Picture 1>. <Picture 2> is identity reference only for the man's face, beard, muscular body, and skin tone. Do not copy <Picture 2> turnaround layout. Tigra looks bored and looks at the camera. She picks up the coffee mug with her right hand and drinks. While drinking she arches her lower back and shows her breasts to the camera. The man makes exactly 3 very strong deep thrusts. On every thrust Tigra winces in discomfort. Highly detailed textures, anatomically precise, natural body motion.",
+      "prompt_file": "prompts/part-1-bored-coffee-ref2va-v4-10s.txt",
+      "refs": [
+        {
+          "label": "Picture 1 scene",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-scene-part1.png",
+          "file": "images/refs/part-1-bored-coffee-ref2va-v4-10s/01-picture-1-scene.jpg"
+        },
+        {
+          "label": "Picture 2 male identity",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-male-sheet-style-matched.png",
+          "file": "images/refs/part-1-bored-coffee-ref2va-v4-10s/02-picture-2-male-identity.jpg"
+        }
+      ],
+      "loras": [],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "part-1-bored-coffee-ref2va-v3-10s",
@@ -448,7 +725,29 @@
       "model": "MiniMax-H3 Ref2VA Non-Turbo",
       "note": "3 refs: scene + penis sheet + male sheet. Orbit right, raised leg, 3 deep thrusts, coffee, arched back.",
       "date": "2026-08-12 21:17",
-      "pixels": "0x0"
+      "pixels": "0x0",
+      "prompt": "Cinematic 24fps shot. The camera slowly orbits horizontally to the right, showing more of the man's penis. IMPORTANT: Tigra MUST keep her left leg raised high up exactly as in <Picture 1>, do not lower her leg! <Picture 1> is the starting scene. Tigra (female anthropomorphic tiger, orange fur, black stripes) is bent over a wooden table, her leg stays UP. Behind her, a muscular human male is performing deep, forceful anal sex. <Picture 2> is the precise visual reference for his huge, thick penis. <Picture 3> is the precise visual reference for the human male's body and skin tone. Tigra has a bored facial expression. She picks up the coffee mug with her right hand and drinks from it. While drinking, she arches her back down heavily, proudly showing off her bare breasts to the camera. She looks directly at the camera. The man makes exactly 3 very strong, deep, forceful thrusts over the duration. With every single hard thrust, Tigra visibly winces in pain. Highly detailed textures, anatomically precise, natural body motion.",
+      "prompt_file": "prompts/part-1-bored-coffee-ref2va-v3-10s.txt",
+      "refs": [
+        {
+          "label": "Picture 1 scene",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-scene-part1.png",
+          "file": "images/refs/part-1-bored-coffee-ref2va-v3-10s/01-picture-1-scene.jpg"
+        },
+        {
+          "label": "Picture 2 penis",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
+          "file": "images/refs/part-1-bored-coffee-ref2va-v3-10s/02-picture-2-penis.jpg"
+        },
+        {
+          "label": "Picture 3 male",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-male-sheet-style-matched.png",
+          "file": "images/refs/part-1-bored-coffee-ref2va-v3-10s/03-picture-3-male.jpg"
+        }
+      ],
+      "loras": [],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "dt-close-v5",
@@ -719,10 +1018,32 @@
       "source": "tigra_part1_10s_ref2va_nonturbo_00001_.mp4",
       "title": "Part 1: Bored Coffee (Ref2VA V2 10s)",
       "category": "video",
-      "model": "Seedream 5 Pro",
+      "model": "MiniMax-H3 Ref2VA Non-Turbo",
       "note": "",
       "date": "2026-08-11 03:35",
-      "pixels": "0x0"
+      "pixels": "0x0",
+      "prompt": "Cinematic 24fps shot. The camera slowly orbits to the right. <Picture 1> is the starting scene. Tigra (female anthropomorphic tiger, orange fur, black stripes, white hair) is bent over a wooden table. Behind her, a muscular human male is performing deep anal sex. <Picture 2> is the precise visual reference for his huge, thick penis. <Picture 3> is the precise visual reference for the human male's body, muscular build, and skin tone. Tigra has a bored, displeased facial expression, looking around out of boredom. Then she picks up the coffee mug from the table and drinks from it. She looks directly at the camera the entire time. He makes exactly 4 slow, deep, forceful thrusts over the duration. With every single thrust of his penis penetrating her, Tigra winces in discomfort. Highly detailed textures, anatomically precise, natural body motion.",
+      "prompt_file": "prompts/part-1-bored-coffee-ref2va-v2-10s.txt",
+      "refs": [
+        {
+          "label": "Picture 1 scene",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-scene-part1.png",
+          "file": "images/refs/part-1-bored-coffee-ref2va-v2-10s/01-picture-1-scene.jpg"
+        },
+        {
+          "label": "Picture 2 penis",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
+          "file": "images/refs/part-1-bored-coffee-ref2va-v2-10s/02-picture-2-penis.jpg"
+        },
+        {
+          "label": "Picture 3 male",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-male-sheet-style-matched.png",
+          "file": "images/refs/part-1-bored-coffee-ref2va-v2-10s/03-picture-3-male.jpg"
+        }
+      ],
+      "loras": [],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "dt-table-v4",
@@ -871,10 +1192,22 @@
       "source": "tigra_part2_10s_fl2va_nonturbo_00001_.mp4",
       "title": "Part 2: Deep Hold & Pullout (FL2VA 10s)",
       "category": "video",
-      "model": "Seedream 5 Pro",
+      "model": "MiniMax-H3 FL2VA Non-Turbo",
       "note": "",
       "date": "2026-08-10 20:09",
-      "pixels": "0x0"
+      "pixels": "0x0",
+      "prompt": "Cinematic 24fps shot. The scene continues seamlessly from <Picture 1>. Tigra is at the wooden table. The camera slowly pushes in towards her anus. Behind her, the muscular human male pushes his huge, thick penis as deeply as possible into her anus and holds it there for 3 seconds. Tigra's facial expression changes to intense disgust and revulsion. After the deep hold, the man slowly pulls his penis completely out of her anus. When the penis is removed, her anus remains stretched open, showing a visible gaping hole (rosebud). Highly detailed textures, anatomically precise, natural body motion.",
+      "prompt_file": "prompts/part-2-deep-hold-pullout-fl2va-10s.txt",
+      "refs": [
+        {
+          "label": "Picture 1 last frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-part2-start.jpg",
+          "file": "images/refs/part-2-deep-hold-pullout-fl2va-10s/01-picture-1-last-frame.jpg"
+        }
+      ],
+      "loras": [],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "transition-frame-2-3-needs-black-man",
@@ -893,10 +1226,22 @@
       "source": "tigra_part1_10s_fl2va_nonturbo_00001_.mp4",
       "title": "Part 1: Bored Coffee (FL2VA 10s)",
       "category": "video",
-      "model": "Seedream 5 Pro",
+      "model": "MiniMax-H3 FL2VA Non-Turbo",
       "note": "",
       "date": "2026-08-10 19:41",
-      "pixels": "0x0"
+      "pixels": "0x0",
+      "prompt": "Cinematic 24fps medium-wide cabin shot. Keep the exact framing, camera distance, and composition of <Picture 1> for the entire clip. Do not zoom into genitals. Do not fill the frame with a penis close-up. Do not copy any character-sheet or anatomy-sheet layout. The camera slowly orbits a little to the right around Tigra, revealing more of the man behind her while staying a medium-wide shot of the table scene. <Picture 1> is the starting scene and the only composition reference. Tigra (female anthropomorphic tiger, orange fur, black stripes, white belly, short white hair) is bent over a wooden table. Her left leg stays raised high exactly as in <Picture 1>, do not lower her leg. A coffee mug sits on the table. Behind her a muscular human male performs deep anal sex using the penis already visible in <Picture 1>. the man is identity reference only for the man's face, beard, muscular body, and skin tone. Do not copy the man turnaround layout. Tigra looks bored and looks at the camera. She picks up the coffee mug with her right hand and drinks. While drinking she arches her lower back and shows her breasts to the camera. The man makes exactly 3 very strong deep thrusts. On every thrust Tigra winces in discomfort. Highly detailed textures, anatomically precise, natural body motion.",
+      "prompt_file": "prompts/part-1-bored-coffee-fl2va-10s.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-scene-part1.png",
+          "file": "images/refs/part-1-bored-coffee-fl2va-10s/01-first-frame.jpg"
+        }
+      ],
+      "loras": [],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "transition-frame-1-2",
@@ -915,10 +1260,22 @@
       "source": "tigra_black_man_fl2va_nonturbo_00001_.mp4",
       "title": "Black Man Continuation (FL2VA Non-Turbo 15s)",
       "category": "video",
-      "model": "Seedream 5 Pro",
+      "model": "MiniMax-H3 FL2VA Non-Turbo",
       "note": "",
       "date": "2026-08-10 08:05",
-      "pixels": "0x0"
+      "pixels": "0x0",
+      "prompt": "Continuation from last frame. A nude black man enters from the right and anally fucks Tigra at the table. Keep identity from <Picture 1>.",
+      "prompt_file": "prompts/black-man-continuation-fl2va-non-turbo-15s.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-part2-start.jpg",
+          "file": "images/refs/black-man-continuation-fl2va-non-turbo-15s/01-first-frame.jpg"
+        }
+      ],
+      "loras": [],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "bored-coffee-anal-ref2va-non-turbo-15s",
@@ -926,10 +1283,27 @@
       "source": "tigra_coffee_anal_ref2va_nonturbo_00001_.mp4",
       "title": "Bored Coffee Anal (Ref2VA Non-Turbo 15s)",
       "category": "video",
-      "model": "Seedream 5 Pro",
+      "model": "MiniMax-H3 Ref2VA Non-Turbo",
       "note": "",
       "date": "2026-08-10 08:05",
-      "pixels": "0x0"
+      "pixels": "0x0",
+      "prompt": "Cinematic 24fps medium-wide cabin shot. Keep the exact framing of <Picture 1>. <Picture 1> is the starting scene. Tigra drinks coffee bored while a man anally fucks her at the wooden table. <Picture 2> is penis anatomy identity only; do not copy sheet layout or fill the frame with a penis. Exactly 3 strong thrusts. Tigra winces on each thrust. Pull-out and gape at the end. Highly detailed textures, anatomically precise, natural body motion.",
+      "prompt_file": "prompts/bored-coffee-anal-ref2va-non-turbo-15s.txt",
+      "refs": [
+        {
+          "label": "Picture 1 scene",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
+          "file": "images/refs/bored-coffee-anal-ref2va-non-turbo-15s/01-picture-1-scene.jpg"
+        },
+        {
+          "label": "Picture 2 penis",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
+          "file": "images/refs/bored-coffee-anal-ref2va-non-turbo-15s/02-picture-2-penis.jpg"
+        }
+      ],
+      "loras": [],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "crowd-blogger-dilator-hh11-7s",
@@ -948,10 +1322,22 @@
       "source": "tigra_table_anal_fl2va_nonturbo_00001_.mp4",
       "title": "Table Anal Hole (FL2VA Non-Turbo 5s)",
       "category": "video",
-      "model": "Seedream 5 Pro",
+      "model": "MiniMax-H3 FL2VA Non-Turbo",
       "note": "",
       "date": "2026-08-10 03:46",
-      "pixels": "0x0"
+      "pixels": "0x0",
+      "prompt": "Keep <Picture 1> pose. Anal penetration at the wooden table, gaping hole visible.",
+      "prompt_file": "prompts/table-anal-hole-fl2va-non-turbo-5s.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
+          "file": "images/refs/table-anal-hole-fl2va-non-turbo-5s/01-first-frame.jpg"
+        }
+      ],
+      "loras": [],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "table-anal-hole-ref2va-non-turbo",
@@ -959,10 +1345,27 @@
       "source": "tigra_table_anal_ref2va_nonturbo_00001_.mp4",
       "title": "Table anal hole (Ref2VA Non-Turbo)",
       "category": "video",
-      "model": "MiniMax-H3 Q4",
+      "model": "MiniMax-H3 Ref2VA Non-Turbo",
       "note": "New table ref, gaping hole, new penis ref, properly wired, Non-Turbo for better quality",
       "date": "2026-08-10 03:05",
-      "pixels": "0x0"
+      "pixels": "0x0",
+      "prompt": "Keep <Picture 1> composition. Gaping anal hole. <Picture 2> penis identity only, do not copy sheet layout.",
+      "prompt_file": "prompts/table-anal-hole-ref2va-non-turbo.txt",
+      "refs": [
+        {
+          "label": "Picture 1 scene",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
+          "file": "images/refs/table-anal-hole-ref2va-non-turbo/01-picture-1-scene.jpg"
+        },
+        {
+          "label": "Picture 2 penis",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
+          "file": "images/refs/table-anal-hole-ref2va-non-turbo/02-picture-2-penis.jpg"
+        }
+      ],
+      "loras": [],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "table-anal-hole-ref2va-patched",
@@ -970,10 +1373,33 @@
       "source": "tigra_table_anal_ref2va_turbo_00001_.mp4",
       "title": "Table anal hole (Ref2VA Patched)",
       "category": "video",
-      "model": "MiniMax-H3 Turbo Q4",
+      "model": "MiniMax-H3 Ref2VA Turbo Q4",
       "note": "New table ref, gaping hole, new penis ref, properly wired",
       "date": "2026-08-10 02:24",
-      "pixels": "0x0"
+      "pixels": "0x0",
+      "prompt": "Keep <Picture 1> composition. Gaping anal hole. <Picture 2> penis identity only.",
+      "prompt_file": "prompts/table-anal-hole-ref2va-patched.txt",
+      "refs": [
+        {
+          "label": "Picture 1 scene",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-table-anal-new.png",
+          "file": "images/refs/table-anal-hole-ref2va-patched/01-picture-1-scene.jpg"
+        },
+        {
+          "label": "Picture 2 penis",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
+          "file": "images/refs/table-anal-hole-ref2va-patched/02-picture-2-penis.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "MiniMax H3 Turbo 4-step",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3_ComfyUI",
+          "strength": 1.0
+        }
+      ],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "id-sheet-final",
@@ -1101,10 +1527,33 @@
       "source": "tigra_pool_anal_ref2va_hole_patched_00001_.mp4",
       "title": "Pool anal hole (Ref2VA Patched)",
       "category": "video",
-      "model": "MiniMax-H3 Turbo Q4",
+      "model": "MiniMax-H3 Ref2VA Turbo Q4",
       "note": "Orbit, wincing, gaping hole, new penis ref, properly wired",
       "date": "2026-08-10 01:30",
-      "pixels": "0x0"
+      "pixels": "0x0",
+      "prompt": "Orbit around Tigra at the pool table. Anal, wincing, gaping hole. <Picture 1> scene, <Picture 2> penis identity only.",
+      "prompt_file": "prompts/pool-anal-hole-ref2va-patched.txt",
+      "refs": [
+        {
+          "label": "Picture 1 scene",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-pool-anal-first.png",
+          "file": "images/refs/pool-anal-hole-ref2va-patched/01-picture-1-scene.jpg"
+        },
+        {
+          "label": "Picture 2 penis",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
+          "file": "images/refs/pool-anal-hole-ref2va-patched/02-picture-2-penis.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "MiniMax H3 Turbo 4-step",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3_ComfyUI",
+          "strength": 1.0
+        }
+      ],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "game-kneel-v2",
@@ -1160,10 +1609,28 @@
       "source": "tigra-pool-anal-3thrust-pullout-10s.mp4",
       "title": "Pool anal (Ref2VA Turbo v1)",
       "category": "video",
-      "model": "MiniMax-H3 Turbo Q4",
+      "model": "MiniMax-H3 Ref2VA Turbo Q4",
       "note": "Initial test of Ref2VA Turbo, 3 thrusts",
       "date": "2026-08-09 23:32",
-      "pixels": "0x0"
+      "pixels": "0x0",
+      "prompt": "Pool table anal, 3 thrusts, pull-out. Keep <Picture 1> framing.",
+      "prompt_file": "prompts/pool-anal-ref2va-turbo-v1.txt",
+      "refs": [
+        {
+          "label": "Picture 1 scene",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-pool-anal-first.png",
+          "file": "images/refs/pool-anal-ref2va-turbo-v1/01-picture-1-scene.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "MiniMax H3 Turbo 4-step",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3_ComfyUI",
+          "strength": 1.0
+        }
+      ],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "pool-anal-fl2va-non-turbo",
@@ -1171,10 +1638,22 @@
       "source": "tigra-pool-anal-fl2va-nonturbo-10s.mp4",
       "title": "Pool anal (FL2VA Non-Turbo)",
       "category": "video",
-      "model": "MiniMax-H3 Q4",
+      "model": "MiniMax-H3 FL2VA Non-Turbo",
       "note": "Orbit, wincing, looks at ball",
       "date": "2026-08-09 23:32",
-      "pixels": "0x0"
+      "pixels": "0x0",
+      "prompt": "Orbit, wincing, looks at ball. Keep first frame identity.",
+      "prompt_file": "prompts/pool-anal-fl2va-non-turbo.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-pool-anal-first.png",
+          "file": "images/refs/pool-anal-fl2va-non-turbo/01-first-frame.jpg"
+        }
+      ],
+      "loras": [],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "pool-anal-hole-ref2va",
@@ -1182,10 +1661,33 @@
       "source": "tigra_pool_anal_ref2va_hole_00001_.mp4",
       "title": "Pool anal hole (Ref2VA)",
       "category": "video",
-      "model": "MiniMax-H3 Turbo Q4",
+      "model": "MiniMax-H3 Ref2VA Turbo Q4",
       "note": "Orbit, wincing, gaping hole, new penis ref",
       "date": "2026-08-09 23:32",
-      "pixels": "0x0"
+      "pixels": "0x0",
+      "prompt": "Orbit, wincing, gaping hole. <Picture 1> scene, <Picture 2> penis identity only.",
+      "prompt_file": "prompts/pool-anal-hole-ref2va.txt",
+      "refs": [
+        {
+          "label": "Picture 1 scene",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\tigra-pool-anal-first.png",
+          "file": "images/refs/pool-anal-hole-ref2va/01-picture-1-scene.jpg"
+        },
+        {
+          "label": "Picture 2 penis",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\mcp\\ref-penis-sheet-2.png",
+          "file": "images/refs/pool-anal-hole-ref2va/02-picture-2-penis.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "MiniMax H3 Turbo 4-step",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3_ComfyUI",
+          "strength": 1.0
+        }
+      ],
+      "service": "Local ComfyUI MiniMax-H3 (this PC)",
+      "service_url": "pc-video.html"
     },
     {
       "id": "switch-anal-v1",
@@ -1756,6 +2258,16 @@
       "api": "https://api.wavespeed.ai/api/v3",
       "api_key": "wsk_live_o2mbb0lnPUlm2FLN63Wb2GhGTdhD-EgWYFNKwKF3qho",
       "key_name": "Grok"
+    },
+    "local-comfyui-minimax": {
+      "name": "ПК видео (MiniMax ComfyUI)",
+      "url": "pc-video.html",
+      "docs": "pc-video.html",
+      "model_url": "https://huggingface.co/Comfy-Org/MiniMax-H3_ComfyUI"
     }
+  },
+  "howto": {
+    "pc_video": "pc-video.html",
+    "title": "Подключение к генерации видео на этом ПК"
   }
 }

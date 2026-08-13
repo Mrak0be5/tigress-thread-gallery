@@ -42,6 +42,17 @@
       letter-spacing: -0.02em;
     }
     header p { margin: 0.25rem 0; color: var(--muted); font-size: 0.95rem; }
+    header a.howto {
+      display: inline-block;
+      margin-top: 0.65rem;
+      color: var(--accent);
+      text-decoration: none;
+      border: 1px solid var(--accent);
+      border-radius: 999px;
+      padding: 0.28rem 0.75rem;
+      font-size: 0.82rem;
+    }
+    header a.howto:hover { background: rgba(124,156,255,0.12); }
     .badges { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 0.85rem; }
     .badge {
       display: inline-block;
@@ -83,6 +94,18 @@
     nav button[data-cat="video"].active { border-color: #ff5252; color: #ff5252; }
     nav button[data-cat="story"].active { border-color: var(--story); color: var(--story); }
     nav button[data-cat="liked"].active { border-color: #ff6b9a; color: #ff6b9a; }
+    nav a.howto-nav {
+      color: var(--text);
+      background: transparent;
+      border: 1px solid var(--accent);
+      border-radius: 999px;
+      padding: 0.4rem 0.85rem;
+      font-size: 0.85rem;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+    }
+    nav a.howto-nav:hover { color: #fff; }
     .net-bar {
       max-width: 1280px;
       margin: 0 auto;
@@ -311,6 +334,23 @@
       overflow: auto;
       font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
     }
+    .loras {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-top: 0.4rem;
+    }
+    .loras a {
+      text-decoration: none;
+      color: var(--accent);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.2rem 0.45rem;
+      font-size: 0.72rem;
+      background: rgba(124,156,255,0.08);
+    }
+    .loras a:hover { border-color: var(--accent); color: #fff; }
+    .loras .none { color: var(--muted); font-size: 0.72rem; }
     .services {
       margin-top: 0.9rem;
       display: flex;
@@ -378,6 +418,7 @@
     <h1>Tigress thread gallery</h1>
     <p>Генерации тигрицы + оригинальные референсы поз. Под карточкой: переключатель <strong>Тигрица / Поза</strong>.</p>
     <p>Сортировка: <strong>новые сверху</strong>.</p>
+    <p><a class="howto" href="pc-video.html">Подключение к генерации видео на этом ПК</a></p>
     <div class="badges">
       <span class="badge" id="count-badge">loading…</span>
       <span class="badge" id="updated-badge"></span>
@@ -393,6 +434,7 @@
     <button type="button" data-cat="identity">Identity</button>
     <button type="button" data-cat="bunny">Bunny</button>
     <button type="button" data-cat="video">Video</button>
+    <a class="howto-nav" href="pc-video.html">ПК видео</a>
     <button type="button" data-cat="story">Рассказы</button>
     <button type="button" data-cat="liked">Лайки</button>
     <button type="button" data-cat="best">Best</button>
@@ -479,12 +521,13 @@
       saveLikes();
     }
     function netFamily(it) {
+      const modelSvc = [it.model, it.service].map((x) => String(x || "").toLowerCase()).join(" ");
       const blob = [
         it.model, it.service, it.service_url, it.id, it.note, it.category
       ].map((x) => String(x || "").toLowerCase()).join(" ");
+      if (/minimax|fl2va|ref2va|\bh3\b/.test(modelSvc) || /minimax|fl2va|ref2va/.test(blob)) return "minimax";
       if (/\bwan\b|wavespeed|alibaba\/wan/.test(blob)) return "wan";
       if (/seedream|kie\.ai|kieai/.test(blob)) return "seedream";
-      if (/minimax|fl2va|ref2va|\bh3\b/.test(blob)) return "minimax";
       return "other";
     }
     function netAllowed(it) {
@@ -591,6 +634,21 @@
       const promptHtml = item.prompt
         ? `<details class="prompt-box"><summary>Промпт</summary><pre>${escapeHtml(item.prompt)}</pre></details>`
         : "";
+      const loras = Array.isArray(item.loras) ? item.loras : [];
+      let lorasHtml = "";
+      if (loras.length) {
+        lorasHtml = `<div class="loras">${loras.map((l) => {
+          const name = l.name || "LoRA";
+          const extra = l.strength != null && l.strength !== "" ? ` · ${escapeHtml(String(l.strength))}` : "";
+          const url = l.url || "";
+          if (url) {
+            return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(name)}${extra}</a>`;
+          }
+          return `<span class="none">${escapeHtml(name)}${extra}</span>`;
+        }).join("")}</div>`;
+      } else if (/minimax|fl2va|ref2va|\bh3\b/i.test(String(item.model || "") + String(item.id || ""))) {
+        lorasHtml = `<div class="loras"><span class="none">LoRA: нет (base checkpoint)</span></div>`;
+      }
       const svcName = item.service || "";
       const svcUrl = item.service_url || "";
       const svcModel = item.service_model_url || "";
@@ -618,6 +676,7 @@
             <div class="note ${noteClass}">${escapeHtml(item.note || "")}</div>
             ${refsHtml}
             ${promptHtml}
+            ${lorasHtml}
             ${svcHtml}
             <div class="row">
               <a class="btn open-link" href="${escapeHtml(src)}" target="_blank" rel="noopener">Open</a>

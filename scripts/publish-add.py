@@ -3,7 +3,7 @@
 
 Usage:
   python publish-add.py path/to/image.png --title "Pool v6" --category scene --model "Seedream 5 Pro" --note "fix notes"
-  python publish-add.py path/to/video.mp4 --title "..." --category video --prompt-file prompt.txt --ref "Image 1|https://..." --push
+  python publish-add.py path/to/video.mp4 --title "..." --category video --prompt-file prompt.txt --ref "Image 1|https://..." --lora "Name|https://civitai.com/models/...|0.45" --push
   python publish-add.py --update-id existing-id --prompt-file prompt.txt --ref "Image 1|url" --push
   python publish-add.py --rebuild-only
   python publish-add.py --push-only
@@ -350,6 +350,25 @@ def apply_prompt_and_refs(item: dict, prompt: str, ref_specs: list[str]) -> None
         item["refs"] = ingest_refs(iid, ref_specs)
 
 
+def parse_lora_spec(spec: str) -> dict:
+    parts = [p.strip() for p in spec.split("|")]
+    out = {"name": parts[0] if parts else "LoRA"}
+    if len(parts) > 1 and parts[1]:
+        out["url"] = parts[1]
+    if len(parts) > 2 and parts[2]:
+        try:
+            out["strength"] = float(parts[2])
+        except ValueError:
+            out["strength"] = parts[2]
+    return out
+
+
+def apply_loras(item: dict, specs: list[str]) -> None:
+    if not specs:
+        return
+    item["loras"] = [parse_lora_spec(s) for s in specs if s.strip()]
+
+
 def apply_service(item: dict, args: argparse.Namespace) -> None:
     if args.service:
         item["service"] = args.service
@@ -432,6 +451,7 @@ def main() -> int:
     ap.add_argument("--prompt-file", default="", help="utf-8 file with exact prompt")
     ap.add_argument("--ref", action="append", default=[], help="repeatable: 'label|url_or_path'")
     ap.add_argument("--refs-json", default="", help="json object {label: url} or list")
+    ap.add_argument("--lora", action="append", default=[], help="repeatable: 'name|url' or 'name|url|strength'")
     ap.add_argument("--service", default="", help="service name, e.g. WaveSpeed")
     ap.add_argument("--service-url", default="", help="public site URL for the service")
     ap.add_argument("--service-model-url", default="", help="model playground/docs URL")
@@ -470,6 +490,7 @@ def main() -> int:
             print("Not found:", args.update_id, file=sys.stderr)
             return 1
         apply_prompt_and_refs(item, prompt, ref_specs)
+        apply_loras(item, args.lora or [])
         apply_service(item, args)
         if args.set_gallery_service:
             upsert_gallery_service(data, args)
@@ -546,6 +567,7 @@ def main() -> int:
         print("Pose", pose_name, "->", pose_path)
 
     apply_prompt_and_refs(item, prompt, ref_specs)
+    apply_loras(item, args.lora or [])
     apply_service(item, args)
     if args.set_gallery_service:
         upsert_gallery_service(data, args)

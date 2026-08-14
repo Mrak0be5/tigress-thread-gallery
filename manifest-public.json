@@ -2,8 +2,43 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-14T05:59+04:00",
+  "updated": "2026-08-14T06:25+04:00",
   "items": [
+    {
+      "id": "minimax-oral-gym-v1-10s-1024x576-deepthroat-scared",
+      "file": "images/minimax-oral-gym-v1-10s-1024x576-deepthroat-scared.mp4",
+      "source": "tigra_oral_gym_v1_10s_vhs_00001.mp4",
+      "title": "MiniMax oral gym v1 10s deepthroat scared eyes",
+      "category": "video",
+      "model": "MiniMax H3 Ref2VA local",
+      "note": "10s 1024x576 50 steps. Gym oral, deep throat, scared eyes. Pic1 dt44 stand-in, Pic2 man sheet, Pic3 CGI penis.",
+      "date": "2026-08-14 06:25",
+      "pixels": "0x0",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/minimax-oral-gym-v1/1786674328033-ifr9a50nhp.mp4",
+      "prompt": "Cinematic 24fps 16:9 gym shot, 10 seconds, explicit adult animation, continuous single take, no hard cuts.\nKeep the exact framing, camera distance, and composition of <Picture 1> for the entire clip. STATIC locked-off medium gym shot, slightly from above. No dolly, no zoom, no orbit, no genital close-up. Do not fill the frame with a penis. Do not copy any character-sheet, T-pose, anatomy-sheet, turnaround, or close-up genital layout.\n<Picture 1> is the starting scene and the only composition and style reference: indoor gym, bright lighting, weight rack with barbell and black plates in the background, wooden floor with a large bright blue exercise mat. Anthropomorphic tigress on all fours on the blue mat, looking up, performing oral sex. Black sports bra pulled down, breasts exposed. Striped tail visible. Polished 2D anime/furry illustration style matching <Picture 1>.\n<Picture 2> is the man identity ONLY: hyper-muscular bearded pale-skinned adult human male, short dark hair, full beard, body hair, face, body proportions. He is the man face-fucking her. Do not copy the three-view turnaround sheet layout. He wears dark blue denim jeans, unzipped, lower torso and legs visible.\n<Picture 3> is penis anatomy identity ONLY for the man from <Picture 2>: pale erect shaft, veins, glans, scrotum. Do not copy <Picture 3> close-up framing or white-background product shot.\nThe man's penis matches <Picture 3> in shape, veins, glans, and pale skin.\nLOCKED ACTION for the entire 10 seconds: he fucks her mouth. Deep insertion to the throat. The shaft goes in until her muzzle is at the base, throat-level, not a shallow lick. Her eyes are SCARED: wide terrified amber eyes, pupils tight, brows up, wet frightened stare looking up at him. Not dazed, not blissed, not a glaze — scared.\nAction timeline, strict order:\n0-2s: penis already in her mouth, he pushes deeper toward the throat, she looks up with scared wide eyes, paws on the blue mat.\n2-7s: three slow powerful face-fuck thrusts, each one deeper, each time the penis reaches throat depth, her throat takes it, scared eyes stay locked upward, saliva strings. Pause briefly between thrusts. Not rapid pounding.\n7-10s: fourth thrust is the deepest, balls against her muzzle, held in her throat. She stays on all fours on the blue mat. Scared eyes. No pull-out. No extra characters. No Black man.\nKeep tiger identity from <Picture 1>: orange fur, black stripes, white chest, short spiky white hair, feline muzzle, amber eyes. Man from <Picture 2>. Penis from <Picture 3>. Same 2D illustration style as <Picture 1>. Gym lighting. No text, no watermark, no extra limbs, no jump cuts. Highly detailed textures, anatomically precise, natural body motion.",
+      "prompt_file": "prompts/minimax-oral-gym-v1-10s-1024x576-deepthroat-scared.txt",
+      "refs": [
+        {
+          "label": "Picture 1 pose",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/minimax-oral-gym-v1/1786672006936-y6wqudbeeas.png",
+          "file": "images/refs/minimax-oral-gym-v1-10s-1024x576-deepthroat-scared/01-picture-1-pose.jpg"
+        },
+        {
+          "label": "Picture 2 man",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/minimax-oral-gym-v1/1786672008497-slitn6j696o.png",
+          "file": "images/refs/minimax-oral-gym-v1-10s-1024x576-deepthroat-scared/02-picture-2-man.jpg"
+        },
+        {
+          "label": "Picture 3 penis",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/minimax-oral-gym-v1/1786672010121-rwsi6dhjw8d.png",
+          "file": "images/refs/minimax-oral-gym-v1-10s-1024x576-deepthroat-scared/03-picture-3-penis.jpg"
+        }
+      ],
+      "service": "local-comfyui-minimax",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "oral-furry-dt05-chest",
       "file": "images/oral-furry-dt05-chest.jpg",

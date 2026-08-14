@@ -2,8 +2,50 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-14T17:44+04:00",
+  "updated": "2026-08-15T00:56+04:00",
   "items": [
+    {
+      "id": "winnie-anuslock-5s-v2-wan-3-0",
+      "file": "images/winnie-anuslock-5s-v2-wan-3-0.mp4",
+      "source": "bunny-anuslock-5s-v2.mp4",
+      "title": "Winnie anus-lock 5s v2 Wan 3.0",
+      "category": "video",
+      "model": "Wan 3.0 r2v",
+      "note": "480P 5s. Prompt fix: upper hole under tail, vagina empty below, no fused holes, camera slightly above. task cfa052ff.",
+      "date": "2026-08-15 00:56",
+      "pixels": "0x0",
+      "prompt": "5 seconds, 16:9, polished digital illustration matching image 1. One primary event: the penis enters the UPPER hole under the tail, not the vagina.\n\nIdentity lock bunny: cream-tan fur, brown hip spots, long wavy auburn hair, long upright rabbit ears, small pink nose. Image 1 is bunny identity and farm stall only. She is nude on all fours. Do not copy orange fur from image 2.\n\nIdentity lock man: the same human male from image 3. Image 3 is man identity only.\n\nPenis lock: the exact large thick penis from image 4. Image 4 is penis anatomy only.\n\nImage 2 is anus shape only: the puckered hole directly under the white tail. Use that hole's location. Do not copy fluids from image 2.\n\nWorld: sunny farm vegetable stall from image 1. Dirt, wooden stall, striped awning, carrots. Warm daylight.\n\nAnatomy lock, keep this geometry the whole clip:\nTwo separate holes with a strip of fur (perineum) between them. Do not fuse them into one opening. Do not make a cloaca.\nUPPER hole = anus, immediately under the tail base, high on the buttocks, one finger-width below the tail.\nLOWER hole = vagina, a slit lower toward the belly, farther from the tail. It stays empty. Nothing touches it.\n\nAction, one causal chain:\nShe is already on all fours, ass toward camera, tail lifted. He aims HIGH: the glans is placed on the upper hole under the tail, clearly above the vaginal slit. He pushes into that upper anus only. The shaft goes into the anus under the tail. The perineum stays visible between penis and the empty lower slit. End frame: penis in the upper hole under the tail; vagina empty below.\n\n0-1.5s: rear doggy; tail up; two distinct holes stacked vertically, anus high, vagina low and empty; he lines up on the upper hole.\n1.5-3.5s: glans on the anus under the tail, not on the midline, not on the vagina; he pushes in; penis enters the upper hole.\n3.5-5s: slow thrust staying inside that same upper anus; vagina remains a separate empty slit below.\n\nCamera: locked rear three-quarter from slightly ABOVE hip height, looking down toward the tail. The anus under the tail sits in the upper third of the buttocks, not the center of the crotch. One 5 percent push-in. No low angle. No orbit. No cut.\n\nLook: warm daylight, same illustration style as image 1.\n\nKeep: penis enters ONLY the upper anus under the tail. No vaginal entry. No fused anus-and-vagina. No single combined hole. No extra people. No jump cuts. No text. No watermark.",
+      "prompt_file": "prompts/winnie-anuslock-5s-v2-wan-3-0.txt",
+      "refs": [
+        {
+          "label": "Image 1 standing",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/wan30-bunny/1786674140326-o0gq8jd7cm.png",
+          "file": "images/refs/winnie-anuslock-5s-v2-wan-3-0/01-image-1-standing.jpg"
+        },
+        {
+          "label": "Image 2 anus close-up",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/wan30-bunny/1786713460889-tbkfk1cuwqb.png",
+          "file": "images/refs/winnie-anuslock-5s-v2-wan-3-0/02-image-2-anus-close-up.jpg"
+        },
+        {
+          "label": "Image 3 man",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/wan30-bunny/1786674956205-seqcy7zjkpr.png",
+          "file": "images/refs/winnie-anuslock-5s-v2-wan-3-0/03-image-3-man.jpg"
+        },
+        {
+          "label": "Image 4 penis",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/wan30-bunny/1786674957801-j5l8z7ksydd.png",
+          "file": "images/refs/winnie-anuslock-5s-v2-wan-3-0/04-image-4-penis.jpg"
+        }
+      ],
+      "service": "APIPod Wan 3.0",
+      "service_url": "https://www.apipod.ai",
+      "service_model_url": "https://docs.apipod.ai/wan/wan3-0-r2v",
+      "api": "https://api.apipod.ai",
+      "characters": [
+        "Winnie"
+      ]
+    },
     {
       "id": "wan30-tigra-r2v-10s-anal-switch",
       "file": "images/wan30-tigra-r2v-10s-anal-switch.mp4",

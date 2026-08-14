@@ -2,8 +2,42 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-14T05:41+04:00",
+  "updated": "2026-08-14T05:43+04:00",
   "items": [
+    {
+      "id": "jack-o-hair-gravity-d",
+      "file": "images/jack-o-hair-gravity-d.jpg",
+      "source": "hair-d.png",
+      "title": "Jack-O hair gravity D",
+      "category": "scene",
+      "model": "Seedream 5.0 Pro",
+      "note": "Short bob hanging down with gravity; head inverted.",
+      "date": "2026-08-14 05:43",
+      "pixels": "1312x736",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-facefix-jacko/1786671789422-le4qjyxrhp.png",
+      "flag": "best",
+      "prompt": "Keep everything in reference image 1 except the hair physics.\n\nThe tigress is upside-down. Gravity pulls down toward the bottom of the photo. Make the short platinum bob from reference image 2 hang like wet hair: loose strands dangling from the top of her head (the lowest part of the image) toward the camera. Hair hanging in empty space off the cushion edge. Not styled. Not a helmet. Not framing the face. Bangs fallen away from the eyes toward the floor.\n\nSame short length as the identity sheet. No long hair.\n\nFace, pose, body, couch, room stay identical to image 1.\n\nEnd state: inverted jack-o tigress with limp gravity-hanging short platinum bob, tips pointing down at the viewer.",
+      "prompt_file": "prompts/jack-o-hair-gravity-d.txt",
+      "refs": [
+        {
+          "label": "Image 1 facefix A",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/tigra-facefix-jacko/1786670026957-g88xt80gkvi.png",
+          "file": "images/refs/jack-o-hair-gravity-d/01-image-1-facefix-a.jpg"
+        },
+        {
+          "label": "Image 2 identity sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/tigra-facefix-jacko/1786669542680-pj1rx3088o.png",
+          "file": "images/refs/jack-o-hair-gravity-d/02-image-2-identity-sheet.jpg"
+        }
+      ],
+      "service": "MuAPI Seedream 5.0 Pro",
+      "service_url": "https://muapi.ai",
+      "service_model_url": "https://muapi.ai/playground/bytedance-seedream-5.0-pro-edit",
+      "api": "https://api.muapi.ai",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "gym-prolog-plan1-b",
       "file": "images/gym-prolog-plan1-b.jpg",

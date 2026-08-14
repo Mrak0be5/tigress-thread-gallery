@@ -2,9 +2,168 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-14T03:19+04:00",
+  "updated": "2026-08-14T05:00+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "oral-dt-portrait-nogag-three-q",
+      "file": "images/oral-dt-portrait-nogag-three-q.jpg",
+      "source": "nj02_three_q_00001_.png",
+      "title": "Oral DT portrait no gag three-quarter",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Close portrait, no ring gag. BallsDeep 0.08. Restore NEG + ring_gag 2.2. 60 steps 1024.",
+      "date": "2026-08-14 05:00",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-oral-portrait-nogag/1786669195048-r3q7p5bpub9.png",
+      "prompt": "in a gym, close-up portrait, three-quarter view, head and shoulders, looking up, fellatio, balls deep, muzzle at the base of penis, balls pressed against muzzle, human male standing, bare muzzle, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-dt-portrait-nogag-three-q.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/oral-dt-portrait-nogag-three-q/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.08
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-dt-portrait-nogag-medium",
+      "file": "images/oral-dt-portrait-nogag-medium.jpg",
+      "source": "nj04_tight_00001_.png",
+      "title": "Oral DT portrait no gag medium",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Close portrait, no ring gag. BallsDeep 0.08. Restore NEG + ring_gag 2.2. 60 steps 1024.",
+      "date": "2026-08-14 05:00",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-oral-portrait-nogag/1786669193358-4g0197gypu7.png",
+      "prompt": "in a gym, tight close-up portrait, muzzle and penis, looking up, fellatio, balls deep, muzzle at the base of penis, balls pressed against muzzle, human male standing, bare muzzle, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-dt-portrait-nogag-medium.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/oral-dt-portrait-nogag-medium/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.08
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-dt-portrait-nogag-upward",
+      "file": "images/oral-dt-portrait-nogag-upward.jpg",
+      "source": "nk05_upward_00001_.png",
+      "title": "Oral DT portrait no gag upward",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Close portrait, no ring gag. BallsDeep 0.08. Restore NEG + ring_gag 2.2. 60 steps 1024.",
+      "date": "2026-08-14 05:00",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-oral-portrait-nogag/1786669191580-r7vbz6q15f.png",
+      "prompt": "in a gym, upper body portrait, looking up at him, fellatio, balls deep, muzzle at the base of penis, balls pressed against muzzle, human male standing, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-dt-portrait-nogag-upward.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/oral-dt-portrait-nogag-upward/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "BallsDeep-PN-V3.1",
+          "url": "https://civitai.red/models/550870",
+          "strength": 0.08
+        },
+        {
+          "name": "ponyxl-deep_penetration-concept-v01",
+          "url": "local",
+          "strength": 0.15
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "m0d3rn_gym-p",
+          "url": "local",
+          "strength": 0.12
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "oral-dt-portrait-upward",
       "file": "images/oral-dt-portrait-upward.jpg",

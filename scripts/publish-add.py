@@ -76,6 +76,7 @@ SCENE_CLASS = {
     "Растяжка": "scene-yoga",
     "Командный финал": "scene-finale",
     "Aftercare": "scene-after",
+    "Диван": "scene-beat",
 }
 
 
@@ -296,7 +297,10 @@ def md_to_html(src: str) -> str:
             out.append(f"<h1{attr}>{inline_md(title)}</h1>")
         elif re.fullmatch(r"-{3,}", stripped):
             flush()
-            out.append("<hr>")
+        elif re.fullmatch(r"Ночная смена", stripped):
+            flush()
+        elif re.fullmatch(r"Версия\s+[0-9.]+", stripped):
+            flush()
         elif RE_HTML_LINE.match(stripped):
             flush()
             out.append(stripped)
@@ -315,7 +319,7 @@ def extract_story_meta(text: str, src: Path, title_arg: str) -> tuple[str, str]:
         m = re.search(r"^#\s+(.+)$", text, re.M)
         title = m.group(1).strip() if m else src.stem
     ver = ""
-    vm = re.search(r"\*\*Версия\s+([0-9.]+)\*\*", text)
+    vm = re.search(r"(?:\*\*)?Версия\s+([0-9.]+)(?:\*\*)?", text)
     if vm:
         ver = vm.group(1)
     else:
@@ -378,10 +382,10 @@ def write_story_page(title: str, version: str, md_rel: str, body_html: str) -> N
       letter-spacing: -0.02em;
     }}
     article h1:first-child {{ margin-top: 0; }}
-    article h1.act-prologue {{ font-family: Georgia, "Iowan Old Style", serif; font-style: italic; }}
     article h2 {{
       font-size: 1.15rem;
       margin: 1.6rem 0 0.7rem;
+      font-weight: 600;
     }}
     article h3 {{ font-size: 1.02rem; margin: 1.3rem 0 0.5rem; }}
     article p {{ margin: 0.75rem 0; }}
@@ -399,37 +403,9 @@ def write_story_page(title: str, version: str, md_rel: str, body_html: str) -> N
       border-left: 3px solid var(--border);
       border-radius: 0 10px 10px 0;
     }}
-    article .scene-phone h2 {{
-      font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
-      letter-spacing: 0.04em;
-      font-size: 1.02rem;
-      font-weight: 600;
-    }}
-    article .scene-door h2 {{ font-family: Georgia, serif; font-style: italic; }}
-    article .scene-locker h2 {{ font-family: Georgia, serif; }}
-    article .scene-school h2 {{ letter-spacing: 0.03em; font-weight: 700; }}
-    article .scene-yoga h2 {{ font-family: Georgia, serif; }}
-    article .scene-birch h2 {{ font-family: Georgia, serif; }}
-    article .scene-debt h2 {{
-      font-family: ui-monospace, Consolas, monospace;
-      letter-spacing: 0.02em;
-    }}
-    article .scene-shower h2 {{ font-family: Georgia, serif; font-style: italic; }}
-    article .scene-finale h2 {{ font-weight: 700; }}
-    article .scene-after h2 {{ font-family: Georgia, serif; }}
     article .voice-whisper,
     article div.voice-whisper p {{
       font-family: Georgia, "Palatino Linotype", serif;
-      font-style: italic;
-    }}
-    article p.voice-thought {{
-      font-family: Georgia, serif;
-      font-style: italic;
-    }}
-    article p.voice-phone {{
-      font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
-      font-size: 0.95em;
-      font-style: italic;
     }}
     article .voice-school,
     article div.voice-school p {{

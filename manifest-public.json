@@ -5,6 +5,50 @@
   "updated": "2026-08-14T07:09+04:00",
   "items": [
     {
+      "id": "wan30-tigra-r2v-6s-apipod-dt-fromabove-v2",
+      "file": "images/wan30-tigra-r2v-6s-apipod-dt-fromabove-v2.mp4",
+      "source": "apipod_wan30_dt_fromabove_v2_34bb6855.mp4",
+      "title": "Wan 3.0 R2V 6s — from-above balls-deep gag orbit (APIPod v2)",
+      "category": "video",
+      "model": "Wan 3.0",
+      "note": "APIPod wan3.0-r2v v2: to the balls, gag, shocked face, slight orbit. task 34bb6855",
+      "date": "2026-08-14 07:09",
+      "pixels": "0x0",
+      "cdn": "https://s.apipod.ai/videos/2026/08/14/7445fe8b-4748-4775-b3b3-e018e5d8a73a.mp4",
+      "prompt": "6 seconds, 16:9, 480p, explicit adult 2D anime animation. ONE UNBROKEN CONTINUOUS SHOT, single take. No cuts, no jump cuts, no dissolve, no fade. Camera: high-angle from Image 1, slow slight orbit around the pair, small arc only, keep her face and the cock in frame the whole time. Reference roles (strict, 3 images): Image 1 = THIS photo for the tigress, pose, gym and starting angle. Kneeling tigress on the gym floor, from above: short messy white hair, orange fur, black stripes, white muzzle and chest, golden eyes, dark grey t-shirt yanked up to the collarbones, breasts out. Weight rack, barbell plates, sunlit gym. Copy her identity and this gym. Do not stand her up. REMOVE the male tiger from Image 1. Do not keep striped tiger legs, tiger cock, or tiger partner. Image 2 = the man who replaces him: muscular bearded nude Caucasian bodybuilder, short dark hair, chest hair. He stands over her head. Do not copy the 3-view sheet layout. Image 3 = erect human penis for that man (fair skin, thick veins, glossy head). Put THIS cock in her muzzle, not a tiger cock. Do not copy the multi-panel layout. Action: he throat-fucks her as deep as possible. Every thrust seats the Image 3 cock to the balls, hilt buried, scrotum pressed against her muzzle and chin. She gags and chokes on it, wet choke, spit, throat bulge, eyes wide. Shocked face: stunned wide golden eyes, brows up, overwhelmed, gagging around the shaft. Repeated brutal balls-deep oral thrusts for the full 6 seconds. His hand on her head. She stays kneeling. Keep tigress and gym from Image 1, man from Image 2, cock from Image 3. Same illustration style as Image 1. No text, no watermark, no extra limbs, no second tigress, no male tiger.",
+      "prompt_file": "prompts/wan30-tigra-r2v-6s-apipod-dt-fromabove-v2.txt",
+      "refs": [
+        {
+          "label": "Image 1 tigress pose from above",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/wan30-apipod-dt-fromabove/1786675848591-0dd6xdiqskxj.jpg",
+          "file": "images/refs/wan30-tigra-r2v-6s-apipod-dt-fromabove-v2/01-image-1-tigress-pose-from-above.jpg"
+        },
+        {
+          "label": "Image 1 source",
+          "source": "https://mrak0be5.github.io/tigress-thread-gallery/images/oral-bd-v4-from-above.jpg",
+          "file": "images/refs/wan30-tigra-r2v-6s-apipod-dt-fromabove-v2/02-image-1-source.jpg"
+        },
+        {
+          "label": "Image 2 man",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/wan30-apipod-dt-3ref/1786675575931-70j48uthoo.png",
+          "file": "images/refs/wan30-tigra-r2v-6s-apipod-dt-fromabove-v2/03-image-2-man.jpg"
+        },
+        {
+          "label": "Image 3 penis",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/wan30-apipod-dt-3ref/1786675574278-pi6u8y4y2si.png",
+          "file": "images/refs/wan30-tigra-r2v-6s-apipod-dt-fromabove-v2/04-image-3-penis.jpg"
+        }
+      ],
+      "service": "APIPod",
+      "service_url": "https://www.apipod.ai",
+      "service_model_url": "https://docs.apipod.ai/wan/wan3-0-r2v",
+      "api": "https://api.apipod.ai",
+      "characters": [
+        "Tigra",
+        "Male"
+      ]
+    },
+    {
       "id": "oral-furry-dt-v10-chest",
       "file": "images/oral-furry-dt-v10-chest.jpg",
       "source": "nc05_chest_00001_.png",

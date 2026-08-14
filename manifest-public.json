@@ -2,8 +2,41 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-14T17:12+04:00",
+  "updated": "2026-08-14T17:16+04:00",
   "items": [
+    {
+      "id": "wan30-tigra-r2v-7s-anal",
+      "file": "images/wan30-tigra-r2v-7s-anal.mp4",
+      "source": "apipod_wan30_tigra_anal_7s_0759b9f6.mp4",
+      "title": "Wan 3.0 R2V 7s — Tigra anal (APIPod)",
+      "category": "video",
+      "model": "Wan 3.0",
+      "note": "APIPod wan3.0-r2v 7s anal from still. task 0759b9f6",
+      "date": "2026-08-14 17:16",
+      "pixels": "0x0",
+      "cdn": "https://s.apipod.ai/videos/2026/08/14/0335d487-d736-402e-aeef-07241e4d3421.mp4",
+      "prompt": "7 seconds, 16:9, 480p, explicit adult 2D anime animation. ONE UNBROKEN CONTINUOUS SHOT, single take. No cuts, no jump cuts, no dissolve, no fade.\n\nReference roles (strict, 2 images):\nImage 1 = THIS photo for the tigress, pose, camera and environment. Short white bob, orange fur, black tiger stripes, white chest and muzzle, amber eyes, athletic nude tiger woman. Copy THIS composition and her identity. Do not redesign her. Do not stand her in a T-pose.\nImage 2 = the adult human man ONLY: muscular dark-skinned nude Black man, short black hair, huge thick penis. He is behind her, anally fucking her. Copy his body and cock. Do not copy a 3-view sheet layout. Do not copy a white background.\n\nSTART STATE (already in progress): the man from Image 2 is already standing behind her. His penis is already inside her anus. They are already having anal sex.\n\nTimeline (same take):\n0.0-7.0s: he fucks her anus with steady repeated thrusts, hips slapping her ass, thick shaft sliding in and out of her anus. Tail aside so the penetration stays visible. EACH thrust she winces: eyes squeeze, muzzle tight, ears pin then flick, a hitch in her chest. She stays in the Image 1 pose. Not smug. Not ahegao.\n\nKeep identity, pose, camera and place from Image 1. Man and cock from Image 2. Same illustration style as Image 1. No extra limbs. No second tigress. No text. No watermark.",
+      "prompt_file": "prompts/wan30-tigra-r2v-7s-anal.txt",
+      "refs": [
+        {
+          "label": "Image 1 tigress pose",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/wan30-tigra-anal-7s/1786712660225-fxonnzfk9b.png",
+          "file": "images/refs/wan30-tigra-r2v-7s-anal/01-image-1-tigress-pose.jpg"
+        },
+        {
+          "label": "Image 2 man",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/wan30-kitchen-cucumber-15s/1786682574334-pcoea568wz.jpg",
+          "file": "images/refs/wan30-tigra-r2v-7s-anal/02-image-2-man.jpg"
+        }
+      ],
+      "service": "APIPod",
+      "service_url": "https://www.apipod.ai",
+      "service_model_url": "https://docs.apipod.ai/wan/wan3-0-r2v",
+      "api": "https://api.apipod.ai",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "minimax-anal-handoff-7s-1024x576-two-men",
       "file": "images/minimax-anal-handoff-7s-1024x576-two-men.mp4",

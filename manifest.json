@@ -2,9 +2,224 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-14T07:08+04:00",
+  "updated": "2026-08-14T07:09+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "oral-furry-dt-v10-chest",
+      "file": "images/oral-furry-dt-v10-chest.jpg",
+      "source": "nc05_chest_00001_.png",
+      "title": "Furry DT v10 topless chest",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Topless, no sports bra. Gym LoRA off. Color-safe NEG + lens flare/bright window. Furry DT 0.50. 60 steps 1024.",
+      "date": "2026-08-14 07:09",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-furry-dt-v10/1786676917830-23rcuosdvl2h.png",
+      "prompt": "in a gym, indoor lighting, upper body portrait, face and chest, looking up, breasts in frame, topless, nude breasts, nipples, no clothes on chest, furry_deepthroat, fellatio, balls deep, muzzle at the base of penis, balls pressed against muzzle, human male standing, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-furry-dt-v10-chest.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/oral-furry-dt-v10-chest/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Furry_Deep_Throat",
+          "url": "https://civitai.com/models/1083611",
+          "strength": 0.5
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-furry-dt-v10-kneel",
+      "file": "images/oral-furry-dt-v10-kneel.jpg",
+      "source": "nc04_kneel_00001_.png",
+      "title": "Furry DT v10 topless kneel",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Topless, no sports bra. Gym LoRA off. Color-safe NEG + lens flare/bright window. Furry DT 0.50. 60 steps 1024.",
+      "date": "2026-08-14 07:09",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-furry-dt-v10/1786676916123-t989qsfriy7.png",
+      "prompt": "in a gym, indoor lighting, upper body portrait, kneeling, looking up, breasts in frame, topless, nude breasts, nipples, no clothes on chest, furry_deepthroat, fellatio, balls deep, muzzle at the base of penis, balls pressed against muzzle, human male standing, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-furry-dt-v10-kneel.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/oral-furry-dt-v10-kneel/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Furry_Deep_Throat",
+          "url": "https://civitai.com/models/1083611",
+          "strength": 0.5
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-furry-dt-v10-threeq",
+      "file": "images/oral-furry-dt-v10-threeq.jpg",
+      "source": "nc03_threeq_00001_.png",
+      "title": "Furry DT v10 topless three-quarter",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Topless, no sports bra. Gym LoRA off. Color-safe NEG + lens flare/bright window. Furry DT 0.50. 60 steps 1024.",
+      "date": "2026-08-14 07:09",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-furry-dt-v10/1786676914485-30m6unvg1xq.png",
+      "prompt": "in a gym, indoor lighting, upper body portrait, three-quarter view, looking up, breasts in frame, topless, nude breasts, nipples, no clothes on chest, furry_deepthroat, fellatio, balls deep, muzzle at the base of penis, balls pressed against muzzle, human male standing, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-furry-dt-v10-threeq.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/oral-furry-dt-v10-threeq/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Furry_Deep_Throat",
+          "url": "https://civitai.com/models/1083611",
+          "strength": 0.5
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-furry-dt-v10-profile",
+      "file": "images/oral-furry-dt-v10-profile.jpg",
+      "source": "nc02_profile_00001_.png",
+      "title": "Furry DT v10 topless profile",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Topless, no sports bra. Gym LoRA off. Color-safe NEG + lens flare/bright window. Furry DT 0.50. 60 steps 1024.",
+      "date": "2026-08-14 07:09",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-furry-dt-v10/1786676912831-h8lzq6ymnxm.png",
+      "prompt": "in a gym, indoor lighting, upper body portrait, profile, side view, breasts in frame, topless, nude breasts, nipples, no clothes on chest, furry_deepthroat, fellatio, balls deep, muzzle at the base of penis, balls pressed against muzzle, human male standing, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-furry-dt-v10-profile.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/oral-furry-dt-v10-profile/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Furry_Deep_Throat",
+          "url": "https://civitai.com/models/1083611",
+          "strength": 0.5
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "oral-furry-dt-v10-hips",
+      "file": "images/oral-furry-dt-v10-hips.jpg",
+      "source": "nc01_hips_00001_.png",
+      "title": "Furry DT v10 topless hips",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Topless, no sports bra. Gym LoRA off. Color-safe NEG + lens flare/bright window. Furry DT 0.50. 60 steps 1024.",
+      "date": "2026-08-14 07:09",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-furry-dt-v10/1786676910013-oltndejqqgk.png",
+      "prompt": "in a gym, indoor lighting, upper body portrait, hands on his hips, looking up, breasts in frame, topless, nude breasts, nipples, no clothes on chest, furry_deepthroat, fellatio, balls deep, muzzle at the base of penis, balls pressed against muzzle, human male standing, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, muzzle wrapped around penis, muzzle at the base of penis, balls pressed against muzzle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/oral-furry-dt-v10-hips.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/oral-furry-dt-v10-hips/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Furry_Deep_Throat",
+          "url": "https://civitai.com/models/1083611",
+          "strength": 0.5
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "winnie-anal-5s-doggy-wan-3-0",
       "file": "images/winnie-anal-5s-doggy-wan-3-0.mp4",

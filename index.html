@@ -394,7 +394,7 @@
       color: var(--text);
     }
     .row { display: flex; gap: 0.45rem; flex-wrap: wrap; margin-top: 0.35rem; }
-    a.btn {
+    a.btn, button.btn {
       text-decoration: none;
       color: var(--text);
       border: 1px solid var(--border);
@@ -402,8 +402,10 @@
       padding: 0.25rem 0.5rem;
       font-size: 0.76rem;
       background: rgba(255,255,255,0.03);
+      font-family: inherit;
+      cursor: pointer;
     }
-    a.btn:hover { border-color: var(--accent); color: #fff; }
+    a.btn:hover, button.btn:hover { border-color: var(--accent); color: #fff; }
     html.mode-public .local-only { display: none !important; }
     html.mode-local .public-only { display: none !important; }
     .mode-badge {
@@ -911,6 +913,8 @@
         main.appendChild(sec);
         bindLikeButtons(main);
         bindDownloadButtons(main);
+        bindCopyButtons(main);
+        requestAnimationFrame(() => focusItemFromHash());
         return;
       }
 
@@ -1095,6 +1099,7 @@
       if (!res.ok) throw new Error("manifest HTTP " + res.status);
       DATA = await res.json();
       filter = loadFilter();
+      prepareHashItem();
       if (!IS_LOCAL) {
         delete DATA.services;
         delete DATA.howto;
@@ -1163,9 +1168,7 @@
       if (filter === "story") history.replaceState(null, "", "#story");
       else if (filter === "video") history.replaceState(null, "", "#video");
       else if (filter === "images") history.replaceState(null, "", "#images");
-      else if (location.hash === "#story" || location.hash === "#stories" || location.hash === "#video" || location.hash === "#images" || location.hash === "#2d") {
-        history.replaceState(null, "", location.pathname);
-      }
+      else history.replaceState(null, "", location.pathname + location.search);
       render();
     });
 
@@ -1201,6 +1204,23 @@
     document.getElementById("lb-close").addEventListener("click", (e) => { e.stopPropagation(); closeLb(); });
     lb.addEventListener("click", closeLb);
     lbImg.addEventListener("click", (e) => e.stopPropagation());
+    window.addEventListener("hashchange", () => {
+      const id = itemIdFromHash();
+      if (id) {
+        prepareHashItem();
+        document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("active", b.dataset.cat === filter));
+        renderFilterBars();
+        render();
+        return;
+      }
+      const cat = HASH_CATS[hashRaw().toLowerCase()];
+      if (cat) {
+        filter = cat;
+        saveFilter();
+        document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("active", b.dataset.cat === filter));
+        render();
+      }
+    });
     window.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLb(); });
     setInterval(() => {
       document.querySelectorAll(".ago[data-ms]").forEach((el) => {

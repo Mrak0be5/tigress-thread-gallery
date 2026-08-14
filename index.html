@@ -192,6 +192,11 @@
     }
     .card:hover { border-color: #3d4a60; transform: translateY(-2px); }
     .card.best { border-color: color-mix(in srgb, var(--ok) 55%, var(--border)); }
+    .card.target-item {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(124,156,255,0.35);
+      scroll-margin-top: 5.5rem;
+    }
     .thumb {
       aspect-ratio: 1 / 1;
       background: #0a0c10;
@@ -503,12 +508,14 @@
     const CHAR_KEY = "tigress-gallery-char";
     const CHAR_LABEL = {
       "Tigra": "Тигрица",
+      "Vinna": "Vinna",
       "Bunny": "Bunny",
       "Male": "Мужчина",
       "Terry Crews": "Terry Crews",
       "Black man": "Black man"
     };
-    const CHAR_ORDER = ["Tigra", "Bunny", "Male", "Terry Crews", "Black man"];
+    const CHAR_ORDER = ["Tigra", "Vinna", "Bunny", "Male", "Terry Crews", "Black man"];
+    const HASH_CATS = { story: "story", stories: "story", video: "video", images: "images", "2d": "images" };
     let likes = new Set();
     let modelFilter = "";
     let charFilter = "";
@@ -524,8 +531,52 @@
     function saveLikes() {
       localStorage.setItem(LIKES_KEY, JSON.stringify([...likes]));
     }
+    function hashRaw() {
+      return decodeURIComponent((location.hash || "").replace(/^#/, "")).trim();
+    }
+    function itemIdFromHash() {
+      let h = hashRaw();
+      if (!h) return "";
+      const low = h.toLowerCase();
+      if (HASH_CATS[low] || FILTER_IDS.includes(low)) return "";
+      if (/^item\//i.test(h)) h = h.slice(5);
+      else if (/^i\//i.test(h)) h = h.slice(2);
+      else if (/^id=/i.test(h)) h = h.slice(3);
+      return h;
+    }
+    function itemPermalink(id) {
+      const path = location.pathname.replace(/\/index\.html$/i, "/");
+      const base = location.origin + (path.endsWith("/") ? path : path + "/");
+      return base + "#" + encodeURIComponent(id);
+    }
+    function findItem(id) {
+      return (DATA && DATA.items || []).find((it) => String(it.id) === String(id)) || null;
+    }
+    function prepareHashItem() {
+      const id = itemIdFromHash();
+      if (!id) return;
+      const it = findItem(id);
+      if (!it) return;
+      charFilter = "";
+      modelFilter = "";
+      filter = isStory(it) ? "story" : "all";
+      saveNets();
+      saveFilter();
+    }
+    function focusItemFromHash() {
+      const id = itemIdFromHash();
+      document.querySelectorAll(".card.target-item").forEach((el) => el.classList.remove("target-item"));
+      if (!id) return;
+      const card = document.querySelector('.card[data-id="' + String(id).replace(/\\/g, "\\\\").replace(/"/g, '\\"') + '"]');
+      if (!card) return;
+      card.classList.add("target-item");
+      card.scrollIntoView({ behavior: "smooth", block: "center" });
+      const v = card.querySelector("video");
+      if (v) v.play().catch(() => {});
+    }
     function loadFilter() {
       const hash = (location.hash || "").toLowerCase();
+      if (itemIdFromHash()) return "all";
       if (hash === "#story" || hash === "#stories") return "story";
       if (hash === "#video") return "video";
       if (hash === "#images" || hash === "#2d") return "images";
@@ -709,6 +760,7 @@
             <div class="row">
               <a class="btn" href="${escapeHtml(href)}">Читать</a>
               <a class="btn" href="${escapeHtml(item.file)}" target="_blank" rel="noopener">MD</a>
+              <button type="button" class="btn copy-link" data-copy-id="${escapeHtml(item.id)}">Ссылка</button>
               ${downloadBtnHtml(item, item.file)}
               ${likeBtnHtml(item.id)}
             </div>
@@ -790,6 +842,7 @@
             ${svcHtml}
             <div class="row">
               <a class="btn open-link" href="${escapeHtml(src)}" target="_blank" rel="noopener">Open</a>
+              <button type="button" class="btn copy-link" data-copy-id="${escapeHtml(item.id)}">Ссылка</button>
               ${downloadBtnHtml(item, src)}
               ${likeBtnHtml(item.id)}
             </div>
@@ -925,6 +978,8 @@
       });
       bindLikeButtons(main);
       bindDownloadButtons(main);
+      bindCopyButtons(main);
+      requestAnimationFrame(() => focusItemFromHash());
     }
 
     function bindLikeButtons(root) {
@@ -940,6 +995,26 @@
           btn.setAttribute("aria-pressed", on ? "true" : "false");
           btn.textContent = on ? "♥ Лайк" : "♡ Лайк";
           if (filter === "liked" && !on) render();
+        });
+      });
+    }
+
+    function bindCopyButtons(root) {
+      root.querySelectorAll(".copy-link").forEach((btn) => {
+        btn.addEventListener("click", async (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const id = btn.dataset.copyId;
+          if (!id) return;
+          const url = itemPermalink(id);
+          history.replaceState(null, "", "#" + encodeURIComponent(id));
+          try {
+            await navigator.clipboard.writeText(url);
+            btn.textContent = "Скопировано";
+            setTimeout(() => { btn.textContent = "Ссылка"; }, 1500);
+          } catch (err) {
+            window.prompt("Ссылка на ролик", url);
+          }
         });
       });
     }

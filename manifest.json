@@ -2,9 +2,22 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-14T08:11+04:00",
+  "updated": "2026-08-14T08:18+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "story-gym-night-shift",
+      "file": "stories/STORY-gym-4acts-v8.39.md",
+      "html": "story.html",
+      "source": "STORY-gym-4acts-v8.39.md",
+      "title": "Ночная смена",
+      "category": "story",
+      "model": "проза",
+      "note": "v8.39: канцелярит и стек директор/касса/VIP",
+      "version": "8.39",
+      "date": "2026-08-14 08:18",
+      "latest": true
+    },
     {
       "id": "wan30-tigra-r2v-7s-kitchen-cucumber-plain",
       "file": "images/wan30-tigra-r2v-7s-kitchen-cucumber-plain.mp4",
@@ -827,19 +840,6 @@
       "characters": [
         "Winnie"
       ]
-    },
-    {
-      "id": "story-gym-night-shift",
-      "file": "stories/STORY-gym-4acts-v8.38.md",
-      "html": "story.html",
-      "source": "STORY-gym-4acts-v8.38.md",
-      "title": "Ночная смена",
-      "category": "story",
-      "model": "проза",
-      "note": "v8.38: убраны повторы кассы, устава, VIP и сливов",
-      "version": "8.38",
-      "date": "2026-08-14 07:07",
-      "latest": true
     },
     {
       "id": "apipod-wan30-vinna-cowboy-holdup-20s-v4",

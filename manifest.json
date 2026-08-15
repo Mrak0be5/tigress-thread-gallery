@@ -2,9 +2,33 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-16T01:22+04:00",
+  "updated": "2026-08-16T02:12+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "gym-act1-recap-imagine20",
+      "file": "images/gym-act1-recap-imagine20.jpg",
+      "source": "gym-act1-recap-imagine20.png",
+      "title": "Акт I — сюжет и персонажи",
+      "category": "scene",
+      "model": "grok-imagine-image-2.0",
+      "note": "Рекап Акта I: два сертификата, чёрный ход, форма+пробки, камера, йога, VIP. T2I, без рефов.",
+      "date": "2026-08-16 02:12",
+      "pixels": "1800x1012",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigress-act1-recap/1786831910221-djdhjy0kv9.png",
+      "prompt": "Cinematic adult furry story-recap poster, 16:9 widescreen, painterly illustrated comic key art, not photoreal, not collage of random photos. Title bar at top in clean readable English: NIGHT SHIFT  ACT I  TWO CERTIFICATES.\n\nCAST LOCK, three distinct adults, never mix identities:\n\nTIGRA: anthropomorphic tigress, orange fur with bold black tiger stripes on arms thighs tail and cheeks, WHITE bob haircut, green eyes with vertical slit pupils, white muzzle, athletic slim-thick, confident smirk. Short cheer crop and tiny pleated skirt. She is the liar-star selling a fake \"School\".\n\nVINNA: anthropomorphic BEAR, honey-gold cream fur, rounder softer body, heavy breasts, soft belly, round bear ears, dark brown nose, blushing shy food-blogger. ZERO black tiger stripes. ZERO orange tiger pattern. She is the baited guest.\n\nCHRIS: human male instructor, athletic, tank top, dark hair, calm face, tablet labeled CASH DESK, camera tripod with a glowing RED recording LED. He never says sex words; he speaks like a gym coach.\n\nBackground VIP trio smaller: ALEX thick dark-skinned, MICHAEL huge body, GEORGE tall with reddish hair. All adult men.\n\nLAYOUT: left third is a labeled character lineup (name plates: TIGRA / VINNA / CHRIS). Right two-thirds is one night gym interior with mirrors, mats, black door, locker bench, two faceted glass butt-plugs on a towel, phone showing two certificates (VIP and FREE GUEST).\n\nSTORY BEATS as five small captioned panels along the bottom, readable short English:\n1 SMS  fake night school  free guest cert\n2 black door  Chris is the trainer\n3 locker  cheer uniform plus glass plug\n4 yoga  camera  warrior  plug slips\n5 VIP greeting and birch stand  guest still watching\n\nMood: trap disguised as a qualification course. Vinna embarrassed covering herself. Tigra sweet-faced, leading her. Chris reading rules. Night gym, warm tungsten plus red camera light.\n\nDo not merge Tigra and Vinna. Do not put tiger stripes on the bear. Do not make anyone underage. Adult 18+ illustrated recap, explicit enough to show the uniform, plugs, camera, and the lie of the School.",
+      "prompt_file": "prompts/gym-act1-recap-imagine20.txt",
+      "service": "xAI Grok Imagine 2.0",
+      "service_url": "https://docs.x.ai/docs/guides/image-generation",
+      "service_model_url": "https://docs.x.ai/docs/guides/image-generation",
+      "api": "https://api.x.ai/v1",
+      "key_name": "Cursor",
+      "characters": [
+        "Tigra",
+        "Vinna",
+        "Chris"
+      ]
+    },
     {
       "id": "story-gym-night-shift",
       "file": "stories/STORY-gym-4acts-v8.45.md",

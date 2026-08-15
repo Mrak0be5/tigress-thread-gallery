@@ -2,8 +2,41 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-15T05:22+04:00",
+  "updated": "2026-08-15T05:42+04:00",
   "items": [
+    {
+      "id": "tigra-gym-closed-anus-v2",
+      "file": "images/tigra-gym-closed-anus-v2.jpg",
+      "source": "closed-anus-v2-B.png",
+      "title": "Gym bench anus v2",
+      "category": "scene",
+      "model": "Seedream 5.0 Pro",
+      "note": "3:4 2K. MuAPI Pro Edit 2-ref. Image 2 = user pucker crop. Closed rosebud not gape.",
+      "date": "2026-08-15 05:42",
+      "pixels": "1350x1800",
+      "cdn": "https://cdn.muapi.ai/outputs/generated/0a63e6c2b1864f2b8b57db5fbad7fd67.png",
+      "prompt": "Same tigress and same gym photo as Image 1. Keep identity, pose, bench, tail, face looking back, stripes, lighting.\nImage 2 is the anus reference. Transplant only that anus: a small unused pink rosette, tightly clenched, pencil-eraser size, flat, wrinkled pucker, no depth.\nDo not copy anything else from Image 2.\nReplace the gaped hole on Image 1 with that Image 2 sphincter. No pink tunnel. No circular void. No stretched rim.\n3:4, match Image 1 style.",
+      "prompt_file": "prompts/tigra-gym-closed-anus-v2.txt",
+      "refs": [
+        {
+          "label": "Image 1 gym bench gape",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/tigra-gym-closed-anus/1786753711511-lc92l9d40l.png",
+          "file": "images/refs/tigra-gym-closed-anus-v2/01-image-1-gym-bench-gape.jpg"
+        },
+        {
+          "label": "Image 2 anus pucker",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/tigra-gym-closed-anus/1786757912267-ikmhhrkoz5s.png",
+          "file": "images/refs/tigra-gym-closed-anus-v2/02-image-2-anus-pucker.jpg"
+        }
+      ],
+      "service": "MuAPI Seedream 5.0 Pro",
+      "service_url": "https://muapi.ai",
+      "service_model_url": "https://muapi.ai/playground/bytedance-seedream-5.0-pro-edit",
+      "api": "https://api.muapi.ai",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "apipod-wan30-vinna-cowboy-holdup-20s-v7",
       "file": "images/apipod-wan30-vinna-cowboy-holdup-20s-v7.mp4",

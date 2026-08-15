@@ -2,9 +2,61 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-16T03:44+04:00",
+  "updated": "2026-08-16T03:49+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "grok-tigra-bench-curl-v2",
+      "file": "images/grok-tigra-bench-curl-v2.jpg",
+      "source": "bench-curl-2.png",
+      "title": "Tigra bench pose biceps curl Grok Imagine 2.0",
+      "category": "scene",
+      "model": "grok-imagine-image-2.0",
+      "note": "",
+      "date": "2026-08-16 03:49",
+      "pixels": "1800x1800",
+      "prompt": "Adult 21+ anthropomorphic tigress. Keep this EXACT pose and composition: on all fours straddling the black weight bench, same gym, same body, same camera angle, same outfit. Do NOT stand up. Do NOT change to a standing pose. Do NOT turn this into a full-body standing curl. Only change the RIGHT arm: her right paw holds a black iron dumbbell and performs a biceps curl, elbow bent, biceps flexed, while she stays on the bench in the same crouched pose. She looks concentrated at the dumbbell in her right hand, eyes on the weight, not at the camera. Left paw stays on the bench. Keep the black athletic bikini.",
+      "prompt_file": "prompts/grok-tigra-bench-curl-v2.txt",
+      "refs": [
+        {
+          "label": "pose",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\brothel-hud-iphone15\\grok-imagine\\bikini-head-forward.png",
+          "file": "images/refs/grok-tigra-bench-curl-v2/01-pose.jpg"
+        }
+      ],
+      "service": "xAI Grok Imagine",
+      "service_url": "https://docs.x.ai/developers/model-capabilities/imagine",
+      "api": "https://api.x.ai/v1",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "grok-tigra-bench-curl-v1",
+      "file": "images/grok-tigra-bench-curl-v1.jpg",
+      "source": "bench-curl-1.png",
+      "title": "Tigra bench pose dumbbell v1 Grok Imagine 2.0",
+      "category": "scene",
+      "model": "grok-imagine-image-2.0",
+      "note": "",
+      "date": "2026-08-16 03:49",
+      "pixels": "1800x1800",
+      "prompt": "Adult 21+ anthropomorphic tigress. Keep this EXACT pose and composition: on all fours straddling the black weight bench, same gym, same body, same camera angle, same outfit. Do NOT stand up. Do NOT change to a standing pose. Do NOT turn this into a full-body standing curl. Only change the RIGHT arm: her right paw holds a black iron dumbbell and performs a biceps curl, elbow bent, biceps flexed, while she stays on the bench in the same crouched pose. She looks concentrated at the dumbbell in her right hand, eyes on the weight, not at the camera. Left paw stays on the bench. Keep the black athletic bikini.",
+      "prompt_file": "prompts/grok-tigra-bench-curl-v1.txt",
+      "refs": [
+        {
+          "label": "pose",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\brothel-hud-iphone15\\grok-imagine\\bikini-head-forward.png",
+          "file": "images/refs/grok-tigra-bench-curl-v1/01-pose.jpg"
+        }
+      ],
+      "service": "xAI Grok Imagine",
+      "service_url": "https://docs.x.ai/developers/model-capabilities/imagine",
+      "api": "https://api.x.ai/v1",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "grok-tigra-gym-bicep-curl-v2",
       "file": "images/grok-tigra-gym-bicep-curl-v2.jpg",

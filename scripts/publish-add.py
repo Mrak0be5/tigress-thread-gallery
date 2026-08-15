@@ -37,8 +37,6 @@ IMG = GAL / "images"
 POSE_DIR = IMG / "poses"
 REFS_DIR = IMG / "refs"
 POSTER_DIR = IMG / "posters"
-STREAM_DIR = IMG / "stream"
-STREAM_INDEX = GAL / "stream-index.js"
 PROMPTS = GAL / "prompts"
 STORIES = GAL / "stories"
 STORY_HTML = GAL / "story.html"
@@ -224,10 +222,6 @@ def ffmpeg_exe() -> str:
     raise RuntimeError("ffmpeg not found")
 
 
-def stream_rel(iid: str) -> str:
-    return f"images/stream/{iid}.mp4"
-
-
 def process_video_file(src: Path, dest: Path) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
     tmp = dest.with_suffix(".tmp.mp4")
@@ -260,68 +254,6 @@ def process_video_file(src: Path, dest: Path) -> None:
     ]
     subprocess.run(cmd, check=True)
     tmp.replace(dest)
-
-
-def ensure_item_stream(item: dict, force: bool = False) -> bool:
-    if not is_video_item(item):
-        return False
-    iid = str(item.get("id") or "")
-    if not iid:
-        return False
-    src = GAL / str(item.get("file") or "")
-    dest = STREAM_DIR / f"{iid}.mp4"
-    rel = stream_rel(iid)
-    if dest.is_file() and dest.stat().st_size > 0 and not force:
-        if (not src.is_file()) or dest.stat().st_mtime >= src.stat().st_mtime:
-            if item.get("stream") != rel:
-                item["stream"] = rel
-                return True
-            return False
-    if not src.is_file():
-        print("skip stream, missing video", src, file=sys.stderr)
-        return False
-    try:
-        process_video_file(src, dest)
-        item["stream"] = rel
-        print("Stream", iid, src.stat().st_size, "->", dest.stat().st_size)
-        return True
-    except Exception as e:
-        print("stream fail", iid, e, file=sys.stderr)
-        return False
-
-
-def write_stream_index(data: dict) -> None:
-    ids = {}
-    for it in data.get("items") or []:
-        if not isinstance(it, dict):
-            continue
-        iid = str(it.get("id") or "")
-        dest = STREAM_DIR / f"{iid}.mp4"
-        if iid and dest.is_file() and dest.stat().st_size > 0:
-            ids[iid] = 1
-            it["stream"] = stream_rel(iid)
-    STREAM_INDEX.write_text(
-        "window.STREAM_IDS=" + json.dumps(ids, separators=(",", ":")) + ";\n",
-        encoding="utf-8",
-    )
-
-
-def encode_all_streams(data: dict, force: bool = False) -> int:
-    from concurrent.futures import ThreadPoolExecutor, as_completed
-
-    items = [
-        it
-        for it in (data.get("items") or [])
-        if isinstance(it, dict) and is_video_item(it)
-    ]
-    n = 0
-    with ThreadPoolExecutor(max_workers=3) as ex:
-        futs = {ex.submit(ensure_item_stream, it, force): it for it in items}
-        for fut in as_completed(futs):
-            if fut.result():
-                n += 1
-    write_stream_index(data)
-    return n
 
 
 def strip_secrets_item(it: dict) -> dict:
@@ -941,7 +873,8 @@ def main() -> int:
         out_name = f"{iid}.mp4"
         out_path = IMG / out_name
         out_path.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(src, out_path)
+        print(f"Compressing video {src.name} to {out_name}...")
+        process_video_file(src, out_path)
         size = (0, 0)
     else:
         out_name = f"{iid}.jpg"
@@ -961,7 +894,6 @@ def main() -> int:
     }
     if src.suffix.lower() == ".mp4":
         ensure_item_poster(item)
-        ensure_item_stream(item)
     if args.cdn:
         item["cdn"] = args.cdn
     if args.best:
@@ -986,8 +918,6 @@ def main() -> int:
         upsert_gallery_service(data, args)
 
     data["items"].insert(0, item)
-    if src.suffix.lower() == ".mp4":
-        write_stream_index(data)
     save_manifest(data)
     print("Added", out_name, size, "->", out_path)
     print("Total items:", len(data["items"]))

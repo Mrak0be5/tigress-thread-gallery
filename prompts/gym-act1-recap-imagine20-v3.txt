@@ -1,17 +1,20 @@
-Edit <IMAGE_0>. Keep the 16:9 gym recap, Russian title, six portraits, five bottom panels, camera, certificates. Clothed cheer outfits. Fix identity and two story mistakes.
+Revise <IMAGE_2> recap. Keep 16:9 gym, Russian title, five panels, camera, certificates. Clothed cheer outfits.
 
-TIGRA must become <IMAGE_2> in EVERY portrait and panel:
-orange tigress, black stripes, WHITE bob, green slit pupils, athletic. Not white-fur. Not blonde.
+TIGRA = <IMAGE_0> everywhere: orange tigress, black stripes, WHITE bob, green slit pupils, athletic.
 
-VINNA must become <IMAGE_1> in EVERY portrait and panel:
-honey-tan BEAR, cream belly, SOFT thick body, no six-pack, long wavy blonde hair, round bear ears, small round bear tail, four-finger paws, amber eyes. ZERO stripes. Do not draw Vinna as a tigress.
+VINNA = <IMAGE_1> face and species everywhere: honey-tan BEAR, long wavy blonde hair, round bear ears, amber eyes, ZERO stripes. CHANGE her body: softer, thicker thighs and hips, cream belly, NO six-pack, small round bear tail. Shy blush.
 
-Keep КРИС, АЛЕКС, МАЙКЛ, ДЖОРДЖ portraits.
+Add VIP portraits if missing:
+КРИС human beard black tank
+АЛЕКС Black man dark skin muscular
+МАЙКЛ huge tall heavy white man kind face
+ДЖОРДЖ reddish hair lazy eyes
+Three different men, do not merge names.
 
-STORY FIXES:
-Panel 3 РАЗДЕВАЛКА: Vinna the blonde bear sits on the bench with a glass toy beside her. Face shy: blush, ears back, eyes down, no smile. Tigra orange white-bob stands calm.
-Panel 4 ЙОГА: the person in Warrior who dropped the glass toy onto the mat is VINNA the blonde bear. Tigra orange white-bob stands in Warrior next to her and does NOT drop a toy.
+Panel 3 РАЗДЕВАЛКА — форма и стеклянная пробка
+Blonde bear Vinna on the bench, small glass toy beside her. Face shy: blush, ears back, eyes down, no smile.
 
-Center: orange Tigra with white bob leads shy blonde bear Vinna.
+Panel 4 ЙОГА — камера, Воин, пробка выпала
+The Warrior who dropped the glass toy is VINNA the blonde bear. Toy on the mat at her feet. Tigra orange white-bob in Warrior does not drop it.
 
-All text stays Russian. Two different women.
+All text Russian.

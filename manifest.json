@@ -2,9 +2,39 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-15T04:18+04:00",
+  "updated": "2026-08-15T04:48+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "tigra-gym-closed-anus",
+      "file": "images/tigra-gym-closed-anus.jpg",
+      "source": "closed-anus-F.png",
+      "title": "Gym bench closed anus",
+      "category": "scene",
+      "model": "Seedream 5.0 Pro",
+      "note": "3:4 2K. MuAPI Pro Edit. Same bench pose, anus closed pucker not gape.",
+      "date": "2026-08-15 04:48",
+      "pixels": "1350x1800",
+      "cdn": "https://cdn.muapi.ai/outputs/generated/49fdca39e8d74f23949fcad7a5642d98.png",
+      "prompt": "Same character and same photo. Only anatomy fix. Closed unused anus: a tight star-shaped pucker the size of a pencil eraser, flat against the body, no depth, no gape, no dark center. If the cheeks must move a few millimeters inward to close it, do that. Everything else identical.",
+      "prompt_file": "prompts/tigra-gym-closed-anus.txt",
+      "refs": [
+        {
+          "label": "Source bench gape",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/tigra-gym-closed-anus/1786753711511-lc92l9d40l.png",
+          "file": "images/refs/tigra-gym-closed-anus/01-source-bench-gape.jpg"
+        }
+      ],
+      "service": "MuAPI Seedream 5.0 Pro",
+      "service_url": "https://muapi.ai",
+      "service_model_url": "https://muapi.ai/playground/bytedance-seedream-5.0-pro-edit",
+      "api": "https://api.muapi.ai",
+      "api_key": "162e14725ca1417a39f174a1c2a6a324174a3e947a403f99620c60b43b41b952",
+      "key_name": "Cursor",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "winnie-kitchen-carrot-anal-20s-v3-wan-3-0",
       "file": "images/winnie-kitchen-carrot-anal-20s-v3-wan-3-0.mp4",

@@ -2,8 +2,193 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-15T04:11+04:00",
+  "updated": "2026-08-15T04:12+04:00",
   "items": [
+    {
+      "id": "bike-anal-v5-console",
+      "file": "images/bike-anal-v5-console.jpg",
+      "source": "b04_console.png",
+      "title": "Bike anal v5 console scene",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "On bike, man behind, anal. Anthro 0.65. 60 steps 1024.",
+      "date": "2026-08-15 04:12",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-anal-v6/1786752740855-ejqolwplohn.png",
+      "prompt": "in a gym, indoor lighting, medium shot, her head large in the frame, detailed tiger muzzle in profile, 1boy 1girl, she sits on a stationary exercise bike, paws on handlebars, looking forward at the console, feet on pedals, pedaling, human male standing behind her, his hands on her hips, anal sex from behind, penis in anus, tail lifted to the side, anus stretched around penis, topless, nude breasts, nipples, no clothes on chest, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, medium side view, head large, looking forward at the bike console, breasts in frame,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-anal-v5-console.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-anal-v5-console/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-anal-v5-insert",
+      "file": "images/bike-anal-v5-insert.jpg",
+      "source": "b03_insert.png",
+      "title": "Bike anal v5 insert scene",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "On bike, pedals, anal from behind. Anthro 0.65. 60 steps 1024.",
+      "date": "2026-08-15 04:12",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-anal-v6/1786752739133-3tsu2o1k7yy.png",
+      "prompt": "in a gym, indoor lighting, medium shot, her head large in the frame, detailed tiger muzzle in profile, 1boy 1girl, she sits on a stationary exercise bike, paws on handlebars, looking forward at the console, feet on pedals, pedaling, human male standing behind her, his hands on her hips, anal sex from behind, penis in anus, tail lifted to the side, anus stretched around penis, topless, nude breasts, nipples, no clothes on chest, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, medium side view, head large, muzzle in profile, penis in anus, his hips behind her,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-anal-v5-insert.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-anal-v5-insert/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-anal-v5-profile",
+      "file": "images/bike-anal-v5-profile.jpg",
+      "source": "b01_profile.png",
+      "title": "Bike anal v5 profile scene",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Pedaling, man standing behind, anal. Anthro 0.65. 60 steps 1024.",
+      "date": "2026-08-15 04:12",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-anal-v6/1786752737315-gee0ftqfee.png",
+      "prompt": "in a gym, indoor lighting, medium shot, her head large in the frame, detailed tiger muzzle in profile, 1boy 1girl, she sits on a stationary exercise bike, paws on handlebars, looking forward at the console, feet on pedals, pedaling, human male standing behind her, his hands on her hips, anal sex from behind, penis in anus, tail lifted to the side, anus stretched around penis, topless, nude breasts, nipples, no clothes on chest, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, close side profile, her head large in frame, muzzle in profile, looking forward,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-anal-v5-profile.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-anal-v5-profile/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-anal-v6-insert",
+      "file": "images/bike-anal-v6-insert.jpg",
+      "source": "b03_insert.png",
+      "title": "Bike anal v6 insert muzzle",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Close side. Best feline muzzle this set. Bike + anal. 60 steps 1024.",
+      "date": "2026-08-15 04:12",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-anal-v6/1786752735642-flywv2w0psg.png",
+      "prompt": "in a gym, indoor lighting, close side view, her head large in the frame, eyes on the handlebars, 1boy 1girl, she sits on a stationary exercise bike, paws on handlebars, looking forward at the console, feet on pedals, pedaling, human male standing behind her, his hands on her hips, anal sex from behind, penis in anus, tail lifted to the side, anus stretched around penis, topless, nude breasts, nipples, no clothes on chest, (short feline muzzle:1.4), (philtrum:1.3), (inverted v mouth:1.3), thin mouth line, furred muzzle, close side view, head large, muzzle in profile, penis in anus, human male hips behind her,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-anal-v6-insert.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-anal-v6-insert/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-anal-v6-pedals",
+      "file": "images/bike-anal-v6-pedals.jpg",
+      "source": "b02_pedals.png",
+      "title": "Bike anal v6 pedals muzzle",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Close side. Muzzle lock. Anthro 0.50. She on bike, anal from behind. 60 steps 1024.",
+      "date": "2026-08-15 04:12",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-anal-v6/1786752733734-btzn1ff3tc9.png",
+      "prompt": "in a gym, indoor lighting, close side view, her head large in the frame, eyes on the handlebars, 1boy 1girl, she sits on a stationary exercise bike, paws on handlebars, looking forward at the console, feet on pedals, pedaling, human male standing behind her, his hands on her hips, anal sex from behind, penis in anus, tail lifted to the side, anus stretched around penis, topless, nude breasts, nipples, no clothes on chest, (short feline muzzle:1.4), (philtrum:1.3), (inverted v mouth:1.3), thin mouth line, furred muzzle, close side view, head large, muzzle in profile, feet on pedals, pedaling,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-anal-v6-pedals.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-anal-v6-pedals/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "wan30-tigra-r2v-12s-cheer-stretch-anal-v4-2",
       "file": "images/wan30-tigra-r2v-12s-cheer-stretch-anal-v4-2.mp4",

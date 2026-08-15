@@ -2,8 +2,638 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-15T08:20+04:00",
+  "updated": "2026-08-15T08:34+04:00",
   "items": [
+    {
+      "id": "bike-grip-v6c-saddle",
+      "file": "images/bike-grip-v6c-saddle.jpg",
+      "source": "s05_saddle.png",
+      "title": "Bike grip bike-grip-v6c saddle",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + spin bike riding 0.75/0.55. Hands on bars, pedaling.",
+      "date": "2026-08-15 08:34",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-grip-v6c/1786768403044-1l6qlm8asz7.png",
+      "prompt": "riding spin bike, 1girl, ground vehicle, solo, ass, riding, breasts, ass on middle, ass near seat, both paws gripping the handlebars, both hands on the handlebars, holding the handlebars, looking forward, focused, concentrated, serious, sitting on the saddle, pedaling hard, feet on pedals, turning the pedals, one pedal up one pedal down, nude, no clothes, bottomless, anus visible, pussy visible, vulva, in a gym, indoor lighting, sitting on the saddle, both paws on the handlebars, looking forward, pedaling hard,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-grip-v6c-saddle.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-grip-v6c-saddle/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "spin_bike_riding",
+          "url": "https://civitai.com/models/1846169?modelVersionId=2089272",
+          "strength": 0.75
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-grip-v6c-low",
+      "file": "images/bike-grip-v6c-low.jpg",
+      "source": "s04_low.png",
+      "title": "Bike grip bike-grip-v6c low",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + spin bike riding 0.75/0.55. Hands on bars, pedaling.",
+      "date": "2026-08-15 08:34",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-grip-v6c/1786768401330-8cjj36h1ybk.png",
+      "prompt": "riding spin bike, 1girl, ground vehicle, solo, ass, riding, breasts, ass on middle, ass near seat, both paws gripping the handlebars, both hands on the handlebars, holding the handlebars, looking forward, focused, concentrated, serious, sitting on the saddle, pedaling hard, feet on pedals, turning the pedals, one pedal up one pedal down, nude, no clothes, bottomless, anus visible, pussy visible, vulva, in a gym, indoor lighting, low side view, feet clipped to pedals turning, both paws gripping the handlebars,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-grip-v6c-low.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-grip-v6c-low/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "spin_bike_riding",
+          "url": "https://civitai.com/models/1846169?modelVersionId=2089272",
+          "strength": 0.75
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-grip-v6c-threeq",
+      "file": "images/bike-grip-v6c-threeq.jpg",
+      "source": "s03_threeq.png",
+      "title": "Bike grip bike-grip-v6c threeq",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + spin bike riding 0.75/0.55. Hands on bars, pedaling.",
+      "date": "2026-08-15 08:34",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-grip-v6c/1786768399583-o4neu1l892.png",
+      "prompt": "riding spin bike, 1girl, ground vehicle, solo, ass, riding, breasts, ass on middle, ass near seat, both paws gripping the handlebars, both hands on the handlebars, holding the handlebars, looking forward, focused, concentrated, serious, sitting on the saddle, pedaling hard, feet on pedals, turning the pedals, one pedal up one pedal down, nude, no clothes, bottomless, anus visible, pussy visible, vulva, in a gym, indoor lighting, rear three-quarter, both paws gripping the handlebars, pedals in frame, pedaling,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-grip-v6c-threeq.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-grip-v6c-threeq/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "spin_bike_riding",
+          "url": "https://civitai.com/models/1846169?modelVersionId=2089272",
+          "strength": 0.75
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-grip-v6c-rear",
+      "file": "images/bike-grip-v6c-rear.jpg",
+      "source": "s02_rear.png",
+      "title": "Bike grip bike-grip-v6c rear",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + spin bike riding 0.75/0.55. Hands on bars, pedaling.",
+      "date": "2026-08-15 08:34",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-grip-v6c/1786768397809-kzrmcqqu8q.png",
+      "prompt": "riding spin bike, 1girl, ground vehicle, solo, ass, riding, breasts, ass on middle, ass near seat, both paws gripping the handlebars, both hands on the handlebars, holding the handlebars, looking forward, focused, concentrated, serious, sitting on the saddle, pedaling hard, feet on pedals, turning the pedals, one pedal up one pedal down, nude, no clothes, bottomless, anus visible, pussy visible, vulva, in a gym, indoor lighting, from behind, both paws on the handlebars ahead, sitting, pedaling, ass toward camera,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-grip-v6c-rear.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-grip-v6c-rear/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "spin_bike_riding",
+          "url": "https://civitai.com/models/1846169?modelVersionId=2089272",
+          "strength": 0.75
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-grip-v6c-profile",
+      "file": "images/bike-grip-v6c-profile.jpg",
+      "source": "s01_profile.png",
+      "title": "Bike grip bike-grip-v6c profile",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + spin bike riding 0.75/0.55. Hands on bars, pedaling.",
+      "date": "2026-08-15 08:34",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-grip-v6c/1786768396045-w2xovfnnjt.png",
+      "prompt": "riding spin bike, 1girl, ground vehicle, solo, ass, riding, breasts, ass on middle, ass near seat, both paws gripping the handlebars, both hands on the handlebars, holding the handlebars, looking forward, focused, concentrated, serious, sitting on the saddle, pedaling hard, feet on pedals, turning the pedals, one pedal up one pedal down, nude, no clothes, bottomless, anus visible, pussy visible, vulva, in a gym, indoor lighting, side view profile, both paws gripping the handlebars, feet on pedals, pedaling,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-grip-v6c-profile.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-grip-v6c-profile/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "spin_bike_riding",
+          "url": "https://civitai.com/models/1846169?modelVersionId=2089272",
+          "strength": 0.75
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-grip-v6b-saddle",
+      "file": "images/bike-grip-v6b-saddle.jpg",
+      "source": "s05_saddle.png",
+      "title": "Bike grip bike-grip-v6b saddle",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Exercise Bike Pony 0.90/0.85. Hands on bars, pedaling.",
+      "date": "2026-08-15 08:34",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-grip-v6b/1786768394298-3glz2zbl2ew.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, both paws gripping the handlebars, both hands on the handlebars, holding the handlebars, looking forward, focused, concentrated, serious, sitting on the saddle, pedaling hard, feet on pedals, turning the pedals, one pedal up one pedal down, nude, no clothes, bottomless, anus visible, pussy visible, vulva, in a gym, indoor lighting, sitting on the saddle, both paws on the handlebars, looking forward, pedaling hard,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-grip-v6b-saddle.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-grip-v6b-saddle/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-grip-v6b-low",
+      "file": "images/bike-grip-v6b-low.jpg",
+      "source": "s04_low.png",
+      "title": "Bike grip bike-grip-v6b low",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Exercise Bike Pony 0.90/0.85. Hands on bars, pedaling.",
+      "date": "2026-08-15 08:34",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-grip-v6b/1786768392315-611m1z78hl3.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, both paws gripping the handlebars, both hands on the handlebars, holding the handlebars, looking forward, focused, concentrated, serious, sitting on the saddle, pedaling hard, feet on pedals, turning the pedals, one pedal up one pedal down, nude, no clothes, bottomless, anus visible, pussy visible, vulva, in a gym, indoor lighting, low side view, feet clipped to pedals turning, both paws gripping the handlebars,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-grip-v6b-low.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-grip-v6b-low/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-grip-v6b-threeq",
+      "file": "images/bike-grip-v6b-threeq.jpg",
+      "source": "s03_threeq.png",
+      "title": "Bike grip bike-grip-v6b threeq",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Exercise Bike Pony 0.90/0.85. Hands on bars, pedaling.",
+      "date": "2026-08-15 08:34",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-grip-v6b/1786768389938-3yn93qpy419.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, both paws gripping the handlebars, both hands on the handlebars, holding the handlebars, looking forward, focused, concentrated, serious, sitting on the saddle, pedaling hard, feet on pedals, turning the pedals, one pedal up one pedal down, nude, no clothes, bottomless, anus visible, pussy visible, vulva, in a gym, indoor lighting, rear three-quarter, both paws gripping the handlebars, pedals in frame, pedaling,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-grip-v6b-threeq.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-grip-v6b-threeq/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-grip-v6b-rear",
+      "file": "images/bike-grip-v6b-rear.jpg",
+      "source": "s02_rear.png",
+      "title": "Bike grip bike-grip-v6b rear",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Exercise Bike Pony 0.90/0.85. Hands on bars, pedaling.",
+      "date": "2026-08-15 08:34",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-grip-v6b/1786768387841-neypoqayg9t.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, both paws gripping the handlebars, both hands on the handlebars, holding the handlebars, looking forward, focused, concentrated, serious, sitting on the saddle, pedaling hard, feet on pedals, turning the pedals, one pedal up one pedal down, nude, no clothes, bottomless, anus visible, pussy visible, vulva, in a gym, indoor lighting, from behind, both paws on the handlebars ahead, sitting, pedaling, ass toward camera,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-grip-v6b-rear.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-grip-v6b-rear/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-grip-v6b-profile",
+      "file": "images/bike-grip-v6b-profile.jpg",
+      "source": "s01_profile.png",
+      "title": "Bike grip bike-grip-v6b profile",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Exercise Bike Pony 0.90/0.85. Hands on bars, pedaling.",
+      "date": "2026-08-15 08:34",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-grip-v6b/1786768385749-4o0oij1t6gh.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, both paws gripping the handlebars, both hands on the handlebars, holding the handlebars, looking forward, focused, concentrated, serious, sitting on the saddle, pedaling hard, feet on pedals, turning the pedals, one pedal up one pedal down, nude, no clothes, bottomless, anus visible, pussy visible, vulva, in a gym, indoor lighting, side view profile, both paws gripping the handlebars, feet on pedals, pedaling,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-grip-v6b-profile.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-grip-v6b-profile/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-grip-v6a-saddle",
+      "file": "images/bike-grip-v6a-saddle.jpg",
+      "source": "s05_saddle.png",
+      "title": "Bike grip bike-grip-v6a saddle",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Exercise Bike Illustrious 0.85/0.65. Hands on bars, pedaling.",
+      "date": "2026-08-15 08:34",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-grip-v6a/1786768383781-7szyp4oiv4h.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, both paws gripping the handlebars, both hands on the handlebars, holding the handlebars, looking forward, focused, concentrated, serious, sitting on the saddle, pedaling hard, feet on pedals, turning the pedals, one pedal up one pedal down, nude, no clothes, bottomless, anus visible, pussy visible, vulva, in a gym, indoor lighting, sitting on the saddle, both paws on the handlebars, looking forward, pedaling hard,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-grip-v6a-saddle.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-grip-v6a-saddle/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-illustriousxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1302772?modelVersionId=1470514",
+          "strength": 0.85
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-grip-v6a-low",
+      "file": "images/bike-grip-v6a-low.jpg",
+      "source": "s04_low.png",
+      "title": "Bike grip bike-grip-v6a low",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Exercise Bike Illustrious 0.85/0.65. Hands on bars, pedaling.",
+      "date": "2026-08-15 08:33",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-grip-v6a/1786768381940-ql3rtb5nyt.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, both paws gripping the handlebars, both hands on the handlebars, holding the handlebars, looking forward, focused, concentrated, serious, sitting on the saddle, pedaling hard, feet on pedals, turning the pedals, one pedal up one pedal down, nude, no clothes, bottomless, anus visible, pussy visible, vulva, in a gym, indoor lighting, low side view, feet clipped to pedals turning, both paws gripping the handlebars,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-grip-v6a-low.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-grip-v6a-low/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-illustriousxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1302772?modelVersionId=1470514",
+          "strength": 0.85
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-grip-v6a-threeq",
+      "file": "images/bike-grip-v6a-threeq.jpg",
+      "source": "s03_threeq.png",
+      "title": "Bike grip bike-grip-v6a threeq",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Exercise Bike Illustrious 0.85/0.65. Hands on bars, pedaling.",
+      "date": "2026-08-15 08:33",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-grip-v6a/1786768380190-6g1951zxjo.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, both paws gripping the handlebars, both hands on the handlebars, holding the handlebars, looking forward, focused, concentrated, serious, sitting on the saddle, pedaling hard, feet on pedals, turning the pedals, one pedal up one pedal down, nude, no clothes, bottomless, anus visible, pussy visible, vulva, in a gym, indoor lighting, rear three-quarter, both paws gripping the handlebars, pedals in frame, pedaling,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-grip-v6a-threeq.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-grip-v6a-threeq/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-illustriousxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1302772?modelVersionId=1470514",
+          "strength": 0.85
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-grip-v6a-rear",
+      "file": "images/bike-grip-v6a-rear.jpg",
+      "source": "s02_rear.png",
+      "title": "Bike grip bike-grip-v6a rear",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Exercise Bike Illustrious 0.85/0.65. Hands on bars, pedaling.",
+      "date": "2026-08-15 08:33",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-grip-v6a/1786768378396-ij62e7usrzi.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, both paws gripping the handlebars, both hands on the handlebars, holding the handlebars, looking forward, focused, concentrated, serious, sitting on the saddle, pedaling hard, feet on pedals, turning the pedals, one pedal up one pedal down, nude, no clothes, bottomless, anus visible, pussy visible, vulva, in a gym, indoor lighting, from behind, both paws on the handlebars ahead, sitting, pedaling, ass toward camera,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-grip-v6a-rear.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-grip-v6a-rear/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-illustriousxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1302772?modelVersionId=1470514",
+          "strength": 0.85
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-grip-v6a-profile",
+      "file": "images/bike-grip-v6a-profile.jpg",
+      "source": "s01_profile.png",
+      "title": "Bike grip bike-grip-v6a profile",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Exercise Bike Illustrious 0.85/0.65. Hands on bars, pedaling.",
+      "date": "2026-08-15 08:33",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-grip-v6a/1786768376442-7huofbrtxio.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, both paws gripping the handlebars, both hands on the handlebars, holding the handlebars, looking forward, focused, concentrated, serious, sitting on the saddle, pedaling hard, feet on pedals, turning the pedals, one pedal up one pedal down, nude, no clothes, bottomless, anus visible, pussy visible, vulva, in a gym, indoor lighting, side view profile, both paws gripping the handlebars, feet on pedals, pedaling,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-grip-v6a-profile.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "file": "images/refs/bike-grip-v6a-profile/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-illustriousxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1302772?modelVersionId=1470514",
+          "strength": 0.85
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "bike-rear-v5-spread",
       "file": "images/bike-rear-v5-spread.jpg",

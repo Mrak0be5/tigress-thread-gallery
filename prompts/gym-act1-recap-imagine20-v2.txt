@@ -1,0 +1,24 @@
+Create a 16:9 story-recap poster for Act I. Clean polished digital illustration matching the linework, cel shading, and lighting of <IMAGE_0> and <IMAGE_1>. Same style for every extra character and for the whole environment. Not photoreal, not a photo collage.
+
+IDENTITY:
+<IMAGE_0> is TIGRA only. Copy her exactly: anthropomorphic tigress, orange fur, bold black stripes, WHITE bob hair, green eyes with vertical slit pupils, athletic body, black cheer crop and short pleated skirt with cyan-magenta musical-note pattern, black choker, navel piercing.
+<IMAGE_1> is VINNA only. Copy her exactly: anthropomorphic BEAR, honey-tan fur, ZERO black tiger stripes, ZERO orange tiger pattern, round bear ears, long wavy honey-blonde hair, amber eyes, same black cheer crop and short pleated skirt with musical-note pattern, black choker. Never put tiger stripes on Vinna.
+<IMAGE_2> is ENVIRONMENT ONLY. Use this gym: bright modern weight room, fluorescent ceiling tubes, floor-to-ceiling windows with daylight, dark reflective gym tiles, black padded benches, barbells with black plates, dumbbell racks, green potted plant. Ignore the bent-over nude pose in <IMAGE_2>. Do not copy that pose as the poster.
+
+OTHER CAST in the same style as <IMAGE_0> and <IMAGE_1>:
+КРИС — human male instructor, athletic, black tank, dark hair, short beard, tablet labeled КАССА, camera tripod with a red recording LED.
+VIP trio smaller: АЛЕКС dark-skinned, МАЙКЛ huge body, ДЖОРДЖ tall with reddish hair. All adult men.
+
+LAYOUT:
+Top Russian title: НОЧНАЯ СМЕНА — АКТ I. ДВА СЕРТИФИКАТА
+Left labeled portraits: ТИГРА / ВИННА / КРИС
+Center: this gym, Tigra leading shy Vinna, Chris with camera, two faceted glass plugs on a towel, tablet showing certificates ВИП and ГОСТЕВОЙ
+Bottom five panels, short readable RUSSIAN captions only:
+1 СМС — фейковая школа, гостевой сертификат
+2 ЧЁРНЫЙ ХОД — Крис тренер
+3 РАЗДЕВАЛКА — форма и стеклянная пробка
+4 ЙОГА — камера, Воин, пробка выпала
+5 ПРИВЕТСТВИЕ И БЕРЁЗКА — гостья смотрит
+
+ALL on-image text must be Russian. No English words.
+Do not merge Tigra and Vinna. Adult 18+.

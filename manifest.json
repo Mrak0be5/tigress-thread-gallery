@@ -2,9 +2,49 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-16T02:23+04:00",
+  "updated": "2026-08-16T02:33+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "gym-act1-recap-imagine20-v2",
+      "file": "images/gym-act1-recap-imagine20-v2.jpg",
+      "source": "gym-act1-recap-imagine20-v2.png",
+      "title": "Акт I — сюжет и персонажи v2",
+      "category": "scene",
+      "model": "grok-imagine-image-2.0",
+      "note": "Рекап Акта I по 3 рефам: лист Тигры, лист Винны, зал. Подписи по-русски.",
+      "date": "2026-08-16 02:33",
+      "pixels": "1800x1012",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/act1-recap-v2/1786833215629-97mhay3myb4.png",
+      "prompt": "Create a 16:9 story-recap poster for Act I. Clean polished digital illustration matching the linework, cel shading, and lighting of <IMAGE_0> and <IMAGE_1>. Same style for every extra character and for the whole environment. Not photoreal, not a photo collage.\n\nIDENTITY:\n<IMAGE_0> is TIGRA only. Copy her exactly: anthropomorphic tigress, orange fur, bold black stripes, WHITE bob hair, green eyes with vertical slit pupils, athletic body, black cheer crop and short pleated skirt with cyan-magenta musical-note pattern, black choker, navel piercing.\n<IMAGE_1> is VINNA only. Copy her exactly: anthropomorphic BEAR, honey-tan fur, ZERO black tiger stripes, ZERO orange tiger pattern, round bear ears, long wavy honey-blonde hair, amber eyes, same black cheer crop and short pleated skirt with musical-note pattern, black choker. Never put tiger stripes on Vinna.\n<IMAGE_2> is ENVIRONMENT ONLY. Use this gym: bright modern weight room, fluorescent ceiling tubes, floor-to-ceiling windows with daylight, dark reflective gym tiles, black padded benches, barbells with black plates, dumbbell racks, green potted plant. Ignore the bent-over nude pose in <IMAGE_2>. Do not copy that pose as the poster.\n\nOTHER CAST in the same style as <IMAGE_0> and <IMAGE_1>:\nКРИС — human male instructor, athletic, black tank, dark hair, short beard, tablet labeled КАССА, camera tripod with a red recording LED.\nVIP trio smaller: АЛЕКС dark-skinned, МАЙКЛ huge body, ДЖОРДЖ tall with reddish hair. All adult men.\n\nLAYOUT:\nTop Russian title: НОЧНАЯ СМЕНА — АКТ I. ДВА СЕРТИФИКАТА\nLeft labeled portraits: ТИГРА / ВИННА / КРИС\nCenter: this gym, Tigra leading shy Vinna, Chris with camera, two faceted glass plugs on a towel, tablet showing certificates ВИП and ГОСТЕВОЙ\nBottom five panels, short readable RUSSIAN captions only:\n1 СМС — фейковая школа, гостевой сертификат\n2 ЧЁРНЫЙ ХОД — Крис тренер\n3 РАЗДЕВАЛКА — форма и стеклянная пробка\n4 ЙОГА — камера, Воин, пробка выпала\n5 ПРИВЕТСТВИЕ И БЕРЁЗКА — гостья смотрит\n\nALL on-image text must be Russian. No English words.\nDo not merge Tigra and Vinna. Adult 18+.",
+      "prompt_file": "prompts/gym-act1-recap-imagine20-v2.txt",
+      "refs": [
+        {
+          "label": "Tigra sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/act1-recap-v2/1786833038239-y5bny2mkcq.png",
+          "file": "images/refs/gym-act1-recap-imagine20-v2/01-tigra-sheet.jpg"
+        },
+        {
+          "label": "Vinna sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/act1-recap-v2/1786833039907-8dzrvd1h5jm.png",
+          "file": "images/refs/gym-act1-recap-imagine20-v2/02-vinna-sheet.jpg"
+        },
+        {
+          "label": "Gym",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/act1-recap-v2/1786833041403-axuuqjsz02n.png",
+          "file": "images/refs/gym-act1-recap-imagine20-v2/03-gym.jpg"
+        }
+      ],
+      "service": "xAI Grok Imagine 2.0",
+      "service_url": "https://docs.x.ai/docs/guides/image-generation",
+      "api": "https://api.x.ai/v1",
+      "key_name": "Cursor",
+      "characters": [
+        "Tigra",
+        "Vinna",
+        "Chris"
+      ]
+    },
     {
       "id": "wan30-tigra-r2v-10s-cheer-stretch-anal-v13",
       "file": "images/wan30-tigra-r2v-10s-cheer-stretch-anal-v13.mp4",

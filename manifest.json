@@ -2,9 +2,439 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-15T08:00+04:00",
+  "updated": "2026-08-15T08:20+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "bike-rear-v5-spread",
+      "file": "images/bike-rear-v5-spread.jpg",
+      "source": "s05_spread.png",
+      "title": "Bike rear v5 spread",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + spin bike riding Illustrious 0.80/0.75. Rear. Solo. Pedaling attempt.",
+      "date": "2026-08-15 08:20",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-rear-v5/1786767582455-ank08s2s90l.png",
+      "prompt": "riding spin bike, 1girl, ground vehicle, motion blur, solo, ass, riding, breasts, ass on middle, ass near seat, sitting, pedaling, feet on pedals, turning the pedals, one pedal raised, one pedal lowered, in a gym, indoor lighting, paws on handlebars, looking forward, nude, no clothes, bottomless, anus visible, pussy visible, vulva, from behind, thighs apart while pedaling, feet on pedals, genitals in frame,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-rear-v5-spread.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-rear-v5-spread/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "spin_bike_riding",
+          "url": "https://civitai.com/models/1846169?modelVersionId=2089272",
+          "strength": 0.8
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-rear-v5-saddle",
+      "file": "images/bike-rear-v5-saddle.jpg",
+      "source": "s04_saddle.png",
+      "title": "Bike rear v5 saddle",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + spin bike riding Illustrious 0.80/0.75. Rear. Solo. Pedaling attempt.",
+      "date": "2026-08-15 08:20",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-rear-v5/1786767580040-lccvr1mss8.png",
+      "prompt": "riding spin bike, 1girl, ground vehicle, motion blur, solo, ass, riding, breasts, ass on middle, ass near seat, sitting, pedaling, feet on pedals, turning the pedals, one pedal raised, one pedal lowered, in a gym, indoor lighting, paws on handlebars, looking forward, nude, no clothes, bottomless, anus visible, pussy visible, vulva, sitting on the saddle, pedaling, feet on pedals, ass toward camera,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-rear-v5-saddle.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-rear-v5-saddle/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "spin_bike_riding",
+          "url": "https://civitai.com/models/1846169?modelVersionId=2089272",
+          "strength": 0.8
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-rear-v5-side",
+      "file": "images/bike-rear-v5-side.jpg",
+      "source": "s03_side.png",
+      "title": "Bike rear v5 side",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + spin bike riding Illustrious 0.80/0.75. Rear. Solo. Pedaling attempt.",
+      "date": "2026-08-15 08:20",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-rear-v5/1786767577828-nxlcahul1u8.png",
+      "prompt": "riding spin bike, 1girl, ground vehicle, motion blur, solo, ass, riding, breasts, ass on middle, ass near seat, sitting, pedaling, feet on pedals, turning the pedals, one pedal raised, one pedal lowered, in a gym, indoor lighting, paws on handlebars, looking forward, nude, no clothes, bottomless, anus visible, pussy visible, vulva, rear three-quarter, pedaling hard, both feet on pedals, crank motion,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-rear-v5-side.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-rear-v5-side/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "spin_bike_riding",
+          "url": "https://civitai.com/models/1846169?modelVersionId=2089272",
+          "strength": 0.8
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-rear-v5-low",
+      "file": "images/bike-rear-v5-low.jpg",
+      "source": "s02_low.png",
+      "title": "Bike rear v5 low",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + spin bike riding Illustrious 0.80/0.75. Rear. Solo. Pedaling attempt.",
+      "date": "2026-08-15 08:20",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-rear-v5/1786767576107-i8avh23sqe.png",
+      "prompt": "riding spin bike, 1girl, ground vehicle, motion blur, solo, ass, riding, breasts, ass on middle, ass near seat, sitting, pedaling, feet on pedals, turning the pedals, one pedal raised, one pedal lowered, in a gym, indoor lighting, paws on handlebars, looking forward, nude, no clothes, bottomless, anus visible, pussy visible, vulva, low camera from behind, pedaling, feet clipped to pedals, turning the cranks,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-rear-v5-low.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-rear-v5-low/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "spin_bike_riding",
+          "url": "https://civitai.com/models/1846169?modelVersionId=2089272",
+          "strength": 0.8
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-rear-v5-rear",
+      "file": "images/bike-rear-v5-rear.jpg",
+      "source": "s01_rear.png",
+      "title": "Bike rear v5 rear",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + spin bike riding Illustrious 0.80/0.75. Rear. Solo. Pedaling attempt.",
+      "date": "2026-08-15 08:20",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-rear-v5/1786767573634-ejcgh6c8v5.png",
+      "prompt": "riding spin bike, 1girl, ground vehicle, motion blur, solo, ass, riding, breasts, ass on middle, ass near seat, sitting, pedaling, feet on pedals, turning the pedals, one pedal raised, one pedal lowered, in a gym, indoor lighting, paws on handlebars, looking forward, nude, no clothes, bottomless, anus visible, pussy visible, vulva, from behind, rear view, pedaling, one pedal up one pedal down, feet on pedals,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-rear-v5-rear.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-rear-v5-rear/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "spin_bike_riding",
+          "url": "https://civitai.com/models/1846169?modelVersionId=2089272",
+          "strength": 0.8
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-rear-v4-spread",
+      "file": "images/bike-rear-v4-spread.jpg",
+      "source": "s05_spread.png",
+      "title": "Bike rear v4 spread",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Exercise Bike Pony 1.0/1.0. Rear. Solo. Pedaling attempt.",
+      "date": "2026-08-15 08:20",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-rear-v4/1786767571707-dvtghyxe5p.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, pedaling, riding the exercise bike, feet on pedals, turning the pedals, one pedal raised, one pedal lowered, cranks at different angles, in a gym, indoor lighting, paws on handlebars, looking forward, nude, no clothes, bottomless, anus visible, pussy visible, vulva, from behind, thighs apart while pedaling, feet on pedals, genitals in frame,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-rear-v4-spread.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-rear-v4-spread/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 1.0
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-rear-v4-saddle",
+      "file": "images/bike-rear-v4-saddle.jpg",
+      "source": "s04_saddle.png",
+      "title": "Bike rear v4 saddle",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Exercise Bike Pony 1.0/1.0. Rear. Solo. Pedaling attempt.",
+      "date": "2026-08-15 08:20",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-rear-v4/1786767569978-23p3fbkat16.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, pedaling, riding the exercise bike, feet on pedals, turning the pedals, one pedal raised, one pedal lowered, cranks at different angles, in a gym, indoor lighting, paws on handlebars, looking forward, nude, no clothes, bottomless, anus visible, pussy visible, vulva, sitting on the saddle, pedaling, feet on pedals, ass toward camera,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-rear-v4-saddle.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-rear-v4-saddle/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 1.0
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-rear-v4-side",
+      "file": "images/bike-rear-v4-side.jpg",
+      "source": "s03_side.png",
+      "title": "Bike rear v4 side",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Exercise Bike Pony 1.0/1.0. Rear. Solo. Pedaling attempt.",
+      "date": "2026-08-15 08:20",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-rear-v4/1786767567397-jl2b8ip9d2.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, pedaling, riding the exercise bike, feet on pedals, turning the pedals, one pedal raised, one pedal lowered, cranks at different angles, in a gym, indoor lighting, paws on handlebars, looking forward, nude, no clothes, bottomless, anus visible, pussy visible, vulva, rear three-quarter, pedaling hard, both feet on pedals, crank motion,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-rear-v4-side.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-rear-v4-side/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 1.0
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-rear-v4-low",
+      "file": "images/bike-rear-v4-low.jpg",
+      "source": "s02_low.png",
+      "title": "Bike rear v4 low",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Exercise Bike Pony 1.0/1.0. Rear. Solo. Pedaling attempt.",
+      "date": "2026-08-15 08:20",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-rear-v4/1786767565000-v3qrhmghwj.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, pedaling, riding the exercise bike, feet on pedals, turning the pedals, one pedal raised, one pedal lowered, cranks at different angles, in a gym, indoor lighting, paws on handlebars, looking forward, nude, no clothes, bottomless, anus visible, pussy visible, vulva, low camera from behind, pedaling, feet clipped to pedals, turning the cranks,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-rear-v4-low.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-rear-v4-low/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 1.0
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-rear-v4-rear",
+      "file": "images/bike-rear-v4-rear.jpg",
+      "source": "s01_rear.png",
+      "title": "Bike rear v4 rear",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Exercise Bike Pony 1.0/1.0. Rear. Solo. Pedaling attempt.",
+      "date": "2026-08-15 08:20",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-rear-v4/1786767563320-4lgnawfqe1l.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, pedaling, riding the exercise bike, feet on pedals, turning the pedals, one pedal raised, one pedal lowered, cranks at different angles, in a gym, indoor lighting, paws on handlebars, looking forward, nude, no clothes, bottomless, anus visible, pussy visible, vulva, from behind, rear view, pedaling, one pedal up one pedal down, feet on pedals,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-rear-v4-rear.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-rear-v4-rear/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 1.0
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "bike-rear-v3-spread",
       "file": "images/bike-rear-v3-spread.jpg",

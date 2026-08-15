@@ -2,9 +2,224 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-15T06:50+04:00",
+  "updated": "2026-08-15T07:01+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "bike-rear-v2-threeq",
+      "file": "images/bike-rear-v2-threeq.jpg",
+      "source": "s05_threeq.png",
+      "title": "Bike rear v2 threeq",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Gym Equipment V2. Triggers b1k3 exercise_bike. UNET 0.80 CLIP 0.70. Rear view, anus and pussy. Solo.",
+      "date": "2026-08-15 07:01",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-rear-v2/1786762849385-gjpwco2zzqd.png",
+      "prompt": "b1k3, exercise_bike, in a gym, fitness center, indoor lighting, from behind, rear view, she sits on a stationary exercise bike, paws on handlebars, looking forward, leaning forward, ass toward camera, nude, no clothes, bottomless, anus visible, pussy visible, vulva, anus and pussy between the thighs, rear three-quarter, ass toward camera, anus and pussy visible,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-rear-v2-threeq.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-rear-v2-threeq/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "GymEquipmentV2",
+          "url": "https://civitai.com/models/1740394?modelVersionId=2286350",
+          "strength": 0.8
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-rear-v2-saddle",
+      "file": "images/bike-rear-v2-saddle.jpg",
+      "source": "s04_saddle.png",
+      "title": "Bike rear v2 saddle",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Gym Equipment V2. Triggers b1k3 exercise_bike. UNET 0.80 CLIP 0.70. Rear view, anus and pussy. Solo.",
+      "date": "2026-08-15 07:01",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-rear-v2/1786762846848-r42vd76uqyg.png",
+      "prompt": "b1k3, exercise_bike, in a gym, fitness center, indoor lighting, from behind, rear view, she sits on a stationary exercise bike, paws on handlebars, looking forward, leaning forward, ass toward camera, nude, no clothes, bottomless, anus visible, pussy visible, vulva, anus and pussy between the thighs, sitting on the bike saddle, ass toward camera, genitals over the seat,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-rear-v2-saddle.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-rear-v2-saddle/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "GymEquipmentV2",
+          "url": "https://civitai.com/models/1740394?modelVersionId=2286350",
+          "strength": 0.8
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-rear-v2-spread",
+      "file": "images/bike-rear-v2-spread.jpg",
+      "source": "s03_spread.png",
+      "title": "Bike rear v2 spread",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Gym Equipment V2. Triggers b1k3 exercise_bike. UNET 0.80 CLIP 0.70. Rear view, anus and pussy. Solo.",
+      "date": "2026-08-15 07:01",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-rear-v2/1786762844924-mq1xb2r1l6n.png",
+      "prompt": "b1k3, exercise_bike, in a gym, fitness center, indoor lighting, from behind, rear view, she sits on a stationary exercise bike, paws on handlebars, looking forward, leaning forward, ass toward camera, nude, no clothes, bottomless, anus visible, pussy visible, vulva, anus and pussy between the thighs, feet on pedals, thighs apart, anus and pussy between the thighs,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-rear-v2-spread.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-rear-v2-spread/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "GymEquipmentV2",
+          "url": "https://civitai.com/models/1740394?modelVersionId=2286350",
+          "strength": 0.8
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-rear-v2-low",
+      "file": "images/bike-rear-v2-low.jpg",
+      "source": "s02_low.png",
+      "title": "Bike rear v2 low",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Gym Equipment V2. Triggers b1k3 exercise_bike. UNET 0.80 CLIP 0.70. Rear view, anus and pussy. Solo.",
+      "date": "2026-08-15 07:01",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-rear-v2/1786762843153-gf01tg6mvsu.png",
+      "prompt": "b1k3, exercise_bike, in a gym, fitness center, indoor lighting, from behind, rear view, she sits on a stationary exercise bike, paws on handlebars, looking forward, leaning forward, ass toward camera, nude, no clothes, bottomless, anus visible, pussy visible, vulva, anus and pussy between the thighs, low camera behind her, close on the ass, genitals in frame,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-rear-v2-low.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-rear-v2-low/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "GymEquipmentV2",
+          "url": "https://civitai.com/models/1740394?modelVersionId=2286350",
+          "strength": 0.8
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-rear-v2-rear",
+      "file": "images/bike-rear-v2-rear.jpg",
+      "source": "s01_rear.png",
+      "title": "Bike rear v2 rear",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST + Gym Equipment V2. Triggers b1k3 exercise_bike. UNET 0.80 CLIP 0.70. Rear view, anus and pussy. Solo.",
+      "date": "2026-08-15 07:01",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-rear-v2/1786762841265-tjtiezkco3c.png",
+      "prompt": "b1k3, exercise_bike, in a gym, fitness center, indoor lighting, from behind, rear view, she sits on a stationary exercise bike, paws on handlebars, looking forward, leaning forward, ass toward camera, nude, no clothes, bottomless, anus visible, pussy visible, vulva, anus and pussy between the thighs, full rear view, leaning forward on the handlebars, ass filling the frame,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-rear-v2-rear.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-rear-v2-rear/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "GymEquipmentV2",
+          "url": "https://civitai.com/models/1740394?modelVersionId=2286350",
+          "strength": 0.8
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "bike-rear-v1-threeq",
       "file": "images/bike-rear-v1-threeq.jpg",

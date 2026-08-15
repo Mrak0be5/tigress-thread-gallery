@@ -2,9 +2,199 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-15T04:48+04:00",
+  "updated": "2026-08-15T04:52+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "bike-solo-v3-mid",
+      "file": "images/bike-solo-v3-mid.jpg",
+      "source": "s05_mid.png",
+      "title": "Bike solo v3 mid",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Solo nude on stationary bike. No male. Indoor lighting. WtP 0.10 Anthro 0.50. 60 steps 1024.",
+      "date": "2026-08-15 04:52",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-solo/1786755100446-qwdot9mp2cf.png",
+      "prompt": "in a gym, indoor lighting, even indoor lighting, gym wall background, no window, solo, 1girl, medium shot, she sits on an upright stationary spin bike, paws on handlebars, looking forward at the console, feet on pedals, pedaling, nude, topless, nude breasts, nipples, no clothes, orange yellow fur, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, medium side view, head large, sitting on the spin bike saddle, paws on handlebars,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-solo-v3-mid.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-solo-v3-mid/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.1
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-solo-v3-frontq",
+      "file": "images/bike-solo-v3-frontq.jpg",
+      "source": "s04_frontq.png",
+      "title": "Bike solo v3 frontq",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Solo nude on stationary bike. No male. Indoor lighting. WtP 0.10 Anthro 0.50. 60 steps 1024.",
+      "date": "2026-08-15 04:52",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-solo/1786755097991-ojuve2wf6g.png",
+      "prompt": "in a gym, indoor lighting, even indoor lighting, gym wall background, no window, solo, 1girl, medium shot, she sits on an upright stationary spin bike, paws on handlebars, looking forward at the console, feet on pedals, pedaling, nude, topless, nude breasts, nipples, no clothes, orange yellow fur, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, three-quarter from front, breasts in frame, bike console in frame, on the spin bike,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-solo-v3-frontq.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-solo-v3-frontq/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.1
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-solo-v3-pedals",
+      "file": "images/bike-solo-v3-pedals.jpg",
+      "source": "s03_pedals.png",
+      "title": "Bike solo v3 pedals",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Solo nude on stationary bike. No male. Indoor lighting. WtP 0.10 Anthro 0.50. 60 steps 1024.",
+      "date": "2026-08-15 04:52",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-solo/1786755096253-1y4hnextzt4j.png",
+      "prompt": "in a gym, indoor lighting, even indoor lighting, gym wall background, no window, solo, 1girl, medium shot, she sits on an upright stationary spin bike, paws on handlebars, looking forward at the console, feet on pedals, pedaling, nude, topless, nude breasts, nipples, no clothes, orange yellow fur, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, side view, feet on pedals, pedaling, spin bike in frame,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-solo-v3-pedals.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-solo-v3-pedals/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.1
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-solo-v3-threeq",
+      "file": "images/bike-solo-v3-threeq.jpg",
+      "source": "s02_threeq.png",
+      "title": "Bike solo v3 threeq",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Solo nude on stationary bike. No male. Indoor lighting. WtP 0.10 Anthro 0.50. 60 steps 1024.",
+      "date": "2026-08-15 04:52",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-solo/1786755093916-rlhtchk0eu9.png",
+      "prompt": "in a gym, indoor lighting, even indoor lighting, gym wall background, no window, solo, 1girl, medium shot, she sits on an upright stationary spin bike, paws on handlebars, looking forward at the console, feet on pedals, pedaling, nude, topless, nude breasts, nipples, no clothes, orange yellow fur, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, three-quarter view, looking forward at the console, breasts in frame, on the spin bike,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-solo-v3-threeq.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-solo-v3-threeq/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.1
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-solo-v3-profile",
+      "file": "images/bike-solo-v3-profile.jpg",
+      "source": "s01_profile.png",
+      "title": "Bike solo v3 profile",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "Solo nude on stationary bike. No male. Indoor lighting. WtP 0.10 Anthro 0.50. 60 steps 1024.",
+      "date": "2026-08-15 04:52",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-solo/1786755092024-e7mrxseusz.png",
+      "prompt": "in a gym, indoor lighting, even indoor lighting, gym wall background, no window, solo, 1girl, medium shot, she sits on an upright stationary spin bike, paws on handlebars, looking forward at the console, feet on pedals, pedaling, nude, topless, nude breasts, nipples, no clothes, orange yellow fur, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, side view profile, looking forward at the handlebars, on the spin bike saddle,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-solo-v3-profile.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-solo-v3-profile/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.1
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "tigra-gym-closed-anus",
       "file": "images/tigra-gym-closed-anus.jpg",

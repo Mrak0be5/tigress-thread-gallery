@@ -873,8 +873,8 @@ def main() -> int:
         out_name = f"{iid}.mp4"
         out_path = IMG / out_name
         out_path.parent.mkdir(parents=True, exist_ok=True)
-        print(f"Compressing video {src.name} to {out_name}...")
-        process_video_file(src, out_path)
+        print(f"Copying original video {src.name} to {out_name}...")
+        shutil.copy2(src, out_path)
         size = (0, 0)
     else:
         out_name = f"{iid}.jpg"

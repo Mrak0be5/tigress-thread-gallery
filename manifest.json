@@ -2,9 +2,61 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-16T03:06+04:00",
+  "updated": "2026-08-16T03:31+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "grok-tigra-gym-bikini-head-forward-v1",
+      "file": "images/grok-tigra-gym-bikini-head-forward-v1.jpg",
+      "source": "bikini-head-forward.png",
+      "title": "Tigra gym bikini head forward Grok Imagine 2.0",
+      "category": "scene",
+      "model": "grok-imagine-image-2.0",
+      "note": "",
+      "date": "2026-08-16 03:31",
+      "pixels": "1800x1800",
+      "prompt": "Adult 21+ anthropomorphic tigress. Keep this exact image, outfit, gym, body pose, lighting. Only change the head: she looks straight forward away from the camera toward the gym. Do not look back over the shoulder. No eye contact with the viewer.",
+      "prompt_file": "prompts/grok-tigra-gym-bikini-head-forward-v1.txt",
+      "refs": [
+        {
+          "label": "bikini-v1",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\brothel-hud-iphone15\\grok-imagine\\bikini-forward.png",
+          "file": "images/refs/grok-tigra-gym-bikini-head-forward-v1/01-bikini-v1.jpg"
+        }
+      ],
+      "service": "xAI Grok Imagine",
+      "service_url": "https://docs.x.ai/developers/model-capabilities/imagine",
+      "api": "https://api.x.ai/v1",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "grok-tigra-gym-bikini-v1",
+      "file": "images/grok-tigra-gym-bikini-v1.jpg",
+      "source": "bikini-forward.png",
+      "title": "Tigra gym bikini Grok Imagine 2.0",
+      "category": "scene",
+      "model": "grok-imagine-image-2.0",
+      "note": "",
+      "date": "2026-08-16 03:31",
+      "pixels": "1800x1800",
+      "prompt": "Adult 21+ anthropomorphic tigress, same character, same gym, same body pose on the weight bench. Dress her in a black two-piece athletic bikini that fully covers chest and hips. Turn her head to look straight forward, away from the camera, toward the gym. Do not look back over the shoulder. Keep lighting, background, and composition.",
+      "prompt_file": "prompts/grok-tigra-gym-bikini-v1.txt",
+      "refs": [
+        {
+          "label": "source",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\brothel-hud-iphone15\\grok-imagine\\source.png",
+          "file": "images/refs/grok-tigra-gym-bikini-v1/01-source.jpg"
+        }
+      ],
+      "service": "xAI Grok Imagine",
+      "service_url": "https://docs.x.ai/developers/model-capabilities/imagine",
+      "api": "https://api.x.ai/v1",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "krol-poker-anal-15s-v9-wan-3-0",
       "file": "images/krol-poker-anal-15s-v9-wan-3-0.mp4",
@@ -18398,6 +18450,11 @@
     "comfyui-local": {
       "name": "ComfyUI local",
       "url": "http://127.0.0.1:8188"
+    },
+    "xai-grok-imagine": {
+      "name": "xAI Grok Imagine",
+      "url": "https://docs.x.ai/developers/model-capabilities/imagine",
+      "api": "https://api.x.ai/v1"
     }
   },
   "howto": {

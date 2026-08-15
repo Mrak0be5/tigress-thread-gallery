@@ -162,12 +162,66 @@
       font-size: 0.74rem;
     }
     .err { color: #ff6b7a; padding: 2rem 0; }
+    .loadbar {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 3px;
+      background: rgba(255,255,255,0.12);
+      pointer-events: none;
+      z-index: 3;
+    }
+    .loadbar i {
+      display: block;
+      height: 100%;
+      width: 0;
+      background: var(--accent);
+    }
+    .loadbar.hide { display: none; }
+    .load-hint {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-size: 0.82rem;
+      background: rgba(0,0,0,0.55);
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 999px;
+      padding: 0.28rem 0.7rem;
+      pointer-events: none;
+      z-index: 3;
+    }
+    .load-hint.hide { display: none; }
     footer {
       padding-bottom: 2rem;
       color: var(--muted);
       font-size: 0.8rem;
     }
   </style>
+  <script src="stream-index.js"></script>
+  <script>
+    (function () {
+      var q = new URLSearchParams(location.search).get("id");
+      if (!q) return;
+      var id = q.trim();
+      var src = (window.STREAM_IDS && window.STREAM_IDS[id])
+        ? ("images/stream/" + encodeURIComponent(id) + ".mp4")
+        : ("images/" + encodeURIComponent(id) + ".mp4");
+      window.__VIDEO_SRC = src;
+      var v = document.createElement("link");
+      v.rel = "preload";
+      v.as = "video";
+      v.href = src;
+      document.head.appendChild(v);
+      var p = document.createElement("link");
+      p.rel = "preload";
+      p.as = "image";
+      p.href = "images/posters/" + encodeURIComponent(id) + ".jpg";
+      document.head.appendChild(p);
+    })();
+  </script>
 </head>
 <body>
   <header>
@@ -220,11 +274,51 @@
     }
 
     function posterOf(item) {
-      if (item.poster) return item.poster;
-      return "images/posters/" + String(item.id || "") + ".jpg";
+      if (item && item.poster) return item.poster;
+      return "images/posters/" + String((item && item.id) || itemId()) + ".jpg";
+    }
+    function playUrl(id, item) {
+      if (item && item.stream) return item.stream;
+      if (window.STREAM_IDS && window.STREAM_IDS[id]) {
+        return "images/stream/" + encodeURIComponent(id) + ".mp4";
+      }
+      if (item && item.file) return item.file;
+      return "images/" + encodeURIComponent(id) + ".mp4";
+    }
+    function bindPlayer(video) {
+      const bar = document.getElementById("loadbar");
+      const hint = document.getElementById("load-hint");
+      const fill = bar ? bar.querySelector("i") : null;
+      const tick = () => {
+        if (!fill || !video.duration || !video.buffered.length) return;
+        const end = video.buffered.end(video.buffered.length - 1);
+        fill.style.width = Math.min(100, (end / video.duration) * 100) + "%";
+      };
+      video.addEventListener("progress", tick);
+      video.addEventListener("loadeddata", tick);
+      video.addEventListener("canplay", () => {
+        if (hint) hint.classList.add("hide");
+        video.play().catch(() => {});
+      });
+      video.addEventListener("playing", () => {
+        if (hint) hint.classList.add("hide");
+        if (bar) bar.classList.add("hide");
+      });
+    }
+    function mountPlayer(id) {
+      const src = window.__VIDEO_SRC || playUrl(id);
+      const poster = "images/posters/" + encodeURIComponent(id) + ".jpg";
+      document.getElementById("root").innerHTML = `
+        <div class="stage" id="stage">
+          <video id="player" src="${escapeHtml(src)}" poster="${escapeHtml(poster)}" controls playsinline loop preload="auto"></video>
+          <div class="loadbar" id="loadbar"><i></i></div>
+          <span class="load-hint" id="load-hint">загрузка…</span>
+        </div>
+        <div class="desc" id="desc"></div>`;
+      bindPlayer(document.getElementById("player"));
     }
 
-    function render(item) {
+    function fillMeta(item) {
       const src = item.file || "";
       const video = isVideoItem(item);
       const chars = itemCharacters(item).map(charLabel).join(" · ");
@@ -252,19 +346,19 @@
               : `<span class="none">${escapeHtml(name)}${extra}</span>`;
           }).join("")}</div>`
         : "";
-      const poster = posterOf(item);
-      const media = video
-        ? `<video src="${escapeHtml(src)}" poster="${escapeHtml(poster)}" controls autoplay playsinline loop preload="auto"></video>`
-        : `<img src="${escapeHtml(src)}" alt="${escapeHtml(item.title || "")}" />`;
       document.getElementById("title").textContent = item.title || item.id;
       document.getElementById("sub").textContent = [item.model, item.date || item.created, chars].filter(Boolean).join(" · ");
       document.title = (item.title || item.id) + " — Tigress thread gallery";
-      document.getElementById("root").innerHTML = `
-        <div class="stage">
-          ${media}
-          ${chars ? `<span class="view-badge">${escapeHtml(chars)}</span>` : ""}
-        </div>
-        <div class="desc">
+      const badgeHost = document.getElementById("stage");
+      if (badgeHost && chars && !badgeHost.querySelector(".view-badge")) {
+        const b = document.createElement("span");
+        b.className = "view-badge";
+        b.textContent = chars;
+        badgeHost.appendChild(b);
+      }
+      const desc = document.getElementById("desc");
+      if (desc) {
+        desc.innerHTML = `
           <div class="model">${escapeHtml(item.model || "")}</div>
           <div class="note ${noteClass}">${escapeHtml(item.note || "")}</div>
           ${refsHtml}
@@ -274,8 +368,8 @@
             <a class="btn" href="index.html#${encodeURIComponent(item.id)}">К карточке в галерее</a>
             <a class="btn" href="${escapeHtml(src)}" target="_blank" rel="noopener">Open</a>
             ${src ? `<a class="btn" href="${escapeHtml(src)}" download>Скачать</a>` : ""}
-          </div>
-        </div>`;
+          </div>`;
+      }
       const box = document.querySelector("details.prompt-box[data-prompt-file]");
       if (box) {
         box.addEventListener("toggle", async () => {
@@ -290,6 +384,12 @@
           }
         });
       }
+      if (!video) {
+        const stage = document.getElementById("stage");
+        if (stage) {
+          stage.innerHTML = `<img src="${escapeHtml(src)}" alt="${escapeHtml(item.title || "")}" />`;
+        }
+      }
     }
 
     async function load() {
@@ -300,6 +400,7 @@
         root.innerHTML = `<p class="err">В URL нет id ролика. <a href="index.html">Галерея</a></p>`;
         return;
       }
+      mountPlayer(id);
       const manifestName = IS_LOCAL ? "manifest.json" : "manifest-public.json";
       let res = await fetch(manifestName);
       if (!res.ok && !IS_LOCAL) res = await fetch("manifest.json");
@@ -311,7 +412,7 @@
         root.innerHTML = `<p class="err">Ролик <code>${escapeHtml(id)}</code> не найден. <a href="index.html">Галерея</a></p>`;
         return;
       }
-      render(item);
+      fillMeta(item);
     }
 
     load().catch((err) => {

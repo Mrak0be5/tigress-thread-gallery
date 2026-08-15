@@ -535,6 +535,7 @@
     <img id="lb-img" alt="" />
   </div>
 
+  <script src="stream-index.js"></script>
   <script>
     const IS_LOCAL = (function () {
       const host = (location.hostname || "").toLowerCase();
@@ -605,6 +606,22 @@
     }
     function watchUrl(id) {
       return "watch.html?id=" + encodeURIComponent(id);
+    }
+    function playUrl(id) {
+      if (window.STREAM_IDS && window.STREAM_IDS[id]) {
+        return "images/stream/" + encodeURIComponent(id) + ".mp4";
+      }
+      return "images/" + encodeURIComponent(id) + ".mp4";
+    }
+    function prefetchPlayUrl(id) {
+      if (!id) return;
+      if (document.querySelector('link[data-vidpre="' + CSS.escape(id) + '"]')) return;
+      const l = document.createElement("link");
+      l.rel = "prefetch";
+      l.as = "video";
+      l.href = playUrl(id);
+      l.dataset.vidpre = id;
+      document.head.appendChild(l);
     }
     function viewBadgeText(item, mode) {
       if (mode === "pose") return "Поза (реф)";
@@ -1073,6 +1090,9 @@
       bindDownloadButtons(main);
       bindCopyButtons(main);
       bindPromptBoxes(main);
+      main.querySelectorAll(".video-card").forEach((card) => {
+        card.addEventListener("pointerenter", () => prefetchPlayUrl(card.dataset.id), { once: true });
+      });
       requestAnimationFrame(() => focusItemFromHash());
     }
 

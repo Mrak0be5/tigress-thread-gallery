@@ -200,15 +200,12 @@
       font-size: 0.8rem;
     }
   </style>
-  <script src="stream-index.js"></script>
-  <script>
+    <script>
     (function () {
       var q = new URLSearchParams(location.search).get("id");
       if (!q) return;
       var id = q.trim();
-      var src = (window.STREAM_IDS && window.STREAM_IDS[id])
-        ? ("images/stream/" + encodeURIComponent(id) + ".mp4")
-        : ("images/" + encodeURIComponent(id) + ".mp4");
+      var src = "images/" + encodeURIComponent(id) + ".mp4";
       window.__VIDEO_SRC = src;
       var v = document.createElement("link");
       v.rel = "preload";

@@ -2,9 +2,61 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-16T03:31+04:00",
+  "updated": "2026-08-16T03:44+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "grok-tigra-gym-bicep-curl-v2",
+      "file": "images/grok-tigra-gym-bicep-curl-v2.jpg",
+      "source": "bicep-curl-2.png",
+      "title": "Tigra gym bicep curl v2 Grok Imagine 2.0",
+      "category": "scene",
+      "model": "grok-imagine-image-2.0",
+      "note": "",
+      "date": "2026-08-16 03:44",
+      "pixels": "1800x1800",
+      "prompt": "Adult 21+ anthropomorphic tigress, same character identity: orange fur, black stripes, short white bob hair, yellow eyes, muscular gym build, feline paws, striped tail. New pose: standing in the gym, doing a right-arm dumbbell biceps curl. A black iron dumbbell is in her RIGHT hand, forearm curled up, biceps flexed. She looks down concentrated at the dumbbell, focused serious expression, eyes on the weight, not at the camera. Wearing a black two-piece athletic bikini. Keep the same modern gym background. Full body, digital illustration.",
+      "prompt_file": "prompts/grok-tigra-gym-bicep-curl-v2.txt",
+      "refs": [
+        {
+          "label": "identity",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\brothel-hud-iphone15\\grok-imagine\\bikini-head-forward.png",
+          "file": "images/refs/grok-tigra-gym-bicep-curl-v2/01-identity.jpg"
+        }
+      ],
+      "service": "xAI Grok Imagine",
+      "service_url": "https://docs.x.ai/developers/model-capabilities/imagine",
+      "api": "https://api.x.ai/v1",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "grok-tigra-gym-bicep-curl-v1",
+      "file": "images/grok-tigra-gym-bicep-curl-v1.jpg",
+      "source": "bicep-curl-1.png",
+      "title": "Tigra gym bicep curl Grok Imagine 2.0",
+      "category": "scene",
+      "model": "grok-imagine-image-2.0",
+      "note": "",
+      "date": "2026-08-16 03:44",
+      "pixels": "1800x1800",
+      "prompt": "Adult 21+ anthropomorphic tigress, same character identity: orange fur, black stripes, short white bob hair, yellow eyes, muscular gym build, feline paws, striped tail. New pose: standing in the gym, doing a right-arm dumbbell biceps curl. A black iron dumbbell is in her RIGHT hand, forearm curled up, biceps flexed. She looks down concentrated at the dumbbell, focused serious expression, eyes on the weight, not at the camera. Wearing a black two-piece athletic bikini. Keep the same modern gym background. Full body, digital illustration.",
+      "prompt_file": "prompts/grok-tigra-gym-bicep-curl-v1.txt",
+      "refs": [
+        {
+          "label": "identity",
+          "source": "C:\\Users\\hebp\\OneDrive\\Desktop\\manager\\brothel-hud-iphone15\\grok-imagine\\bikini-head-forward.png",
+          "file": "images/refs/grok-tigra-gym-bicep-curl-v1/01-identity.jpg"
+        }
+      ],
+      "service": "xAI Grok Imagine",
+      "service_url": "https://docs.x.ai/developers/model-capabilities/imagine",
+      "api": "https://api.x.ai/v1",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "grok-tigra-gym-bikini-head-forward-v1",
       "file": "images/grok-tigra-gym-bikini-head-forward-v1.jpg",

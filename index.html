@@ -205,8 +205,7 @@
       position: relative;
     }
     .video-card .thumb {
-      aspect-ratio: auto;
-      cursor: default;
+      cursor: pointer;
     }
     .thumb img, .thumb video {
       width: 100%;
@@ -214,16 +213,52 @@
       object-fit: cover;
       display: block;
     }
-    .video-card .thumb video, .video-card .thumb img {
-      height: auto;
-      object-fit: contain;
-      max-height: 80vh;
+    .play-hit {
+      display: block;
+      position: absolute;
+      inset: 0;
+      text-decoration: none;
+      color: inherit;
     }
-    @media (min-width: 640px) {
-      .video-card {
-        grid-column: span 2;
-      }
+    .play-hit .card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
+    .play-ico {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 54px;
+      height: 54px;
+      margin: -27px 0 0 -27px;
+      border-radius: 50%;
+      background: rgba(0,0,0,0.55);
+      border: 1px solid rgba(255,255,255,0.28);
+      pointer-events: none;
+    }
+    .play-ico::before {
+      content: "";
+      position: absolute;
+      left: 21px;
+      top: 17px;
+      border-style: solid;
+      border-width: 10px 0 10px 16px;
+      border-color: transparent transparent transparent #fff;
+    }
+    .more-btn {
+      display: block;
+      margin: 1.25rem auto 0;
+      color: var(--text);
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.5rem 1.1rem;
+      font-size: 0.88rem;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .more-btn:hover { border-color: var(--accent); color: #fff; }
     .view-badge {
       position: absolute;
       bottom: 0.5rem;
@@ -339,18 +374,21 @@
       text-overflow: ellipsis;
       white-space: nowrap;
     }
-    .prompt-box {
+    .refs-box, .prompt-box {
       margin-top: 0.4rem;
       border: 1px solid var(--border);
       border-radius: 8px;
       background: #0a0c10;
       padding: 0.35rem 0.5rem;
     }
-    .prompt-box summary {
+    .refs-box summary, .prompt-box summary {
       cursor: pointer;
       font-size: 0.76rem;
       color: var(--accent);
       user-select: none;
+    }
+    .prompt-box {
+      margin-top: 0.4rem;
     }
     .prompt-box pre {
       margin: 0.4rem 0 0;
@@ -520,6 +558,8 @@
     const LIKES_KEY = "tigress-gallery-likes";
     const MODEL_KEY = "tigress-gallery-model";
     const CHAR_KEY = "tigress-gallery-char";
+    const PAGE = 36;
+    let shown = PAGE;
     const CHAR_LABEL = {
       "Tigra": "Тигрица",
       "Vinna": "Vinna",
@@ -593,8 +633,6 @@
       if (!card) return;
       card.classList.add("target-item");
       card.scrollIntoView({ behavior: "smooth", block: "center" });
-      const v = card.querySelector("video");
-      if (v) v.play().catch(() => {});
     }
     function loadFilter() {
       const hash = (location.hash || "").toLowerCase();
@@ -790,6 +828,36 @@
         </article>`;
     }
 
+    function posterOf(item) {
+      if (item.poster) return item.poster;
+      return "images/posters/" + String(item.id || "") + ".jpg";
+    }
+    function videoThumbHtml(item) {
+      const poster = posterOf(item);
+      const href = watchUrl(item.id);
+      return `<a class="play-hit" href="${escapeHtml(href)}" title="Смотреть">
+        <img class="card-img" src="${escapeHtml(poster)}" alt="${escapeHtml(item.title || "")}" loading="lazy" decoding="async" />
+        <span class="play-ico" aria-hidden="true"></span>
+      </a>`;
+    }
+    function promptBoxHtml(item) {
+      if (item.prompt) {
+        return `<details class="prompt-box"><summary>Промпт</summary><pre>${escapeHtml(item.prompt)}</pre></details>`;
+      }
+      if (item.prompt_file) {
+        return `<details class="prompt-box" data-prompt-file="${escapeHtml(item.prompt_file)}"><summary>Промпт</summary><pre>загрузка…</pre></details>`;
+      }
+      return "";
+    }
+    function refsBoxHtml(item) {
+      const refs = Array.isArray(item.refs) ? item.refs : [];
+      if (!refs.length) return "";
+      return `<details class="refs-box"><summary>Рефы (${refs.length})</summary><div class="refs">${refs.map((r) => {
+        const rsrc = r.file || r.source || r.url || "";
+        if (!rsrc) return "";
+        return `<figure><img class="ref-thumb" src="${escapeHtml(rsrc)}" alt="${escapeHtml(r.label || "ref")}" title="${escapeHtml(r.label || "")}" data-src="${escapeHtml(rsrc)}" loading="lazy" decoding="async" /><figcaption>${escapeHtml(r.label || "")}</figcaption></figure>`;
+      }).join("")}</div></details>`;
+    }
     function cardHtml(item) {
       const best = item.flag === "best";
       const noteClass = best || /лучш|best|final|correct|identity lock/i.test(item.note || "") ? "ok" : "";
@@ -800,23 +868,14 @@
       const charsLabel = viewBadgeText(item, "tigress");
       const badge = viewBadgeText(item, mode);
       const isVideo = isVideoItem(item);
-      const srcIsVideo = /\.mp4($|\?)/i.test(String(src || ""));
+      const srcIsVideo = isVideo && mode !== "pose";
       const net = netKind(item);
       const mediaHtml = srcIsVideo
-        ? `<video class="card-img" src="${escapeHtml(src)}" controls preload="metadata" loop style="object-fit:cover;"></video>`
-        : `<img class="card-img" src="${escapeHtml(src)}" alt="${escapeHtml(item.title)}" loading="lazy" />`;
+        ? videoThumbHtml(item)
+        : `<img class="card-img" src="${escapeHtml(src)}" alt="${escapeHtml(item.title)}" loading="lazy" decoding="async" />`;
       const clickAction = srcIsVideo ? "" : `data-src="${escapeHtml(src)}" title="Open full size"`;
-      const refs = Array.isArray(item.refs) ? item.refs : [];
-      const refsHtml = refs.length
-        ? `<div class="refs">${refs.map((r) => {
-            const rsrc = r.file || r.source || r.url || "";
-            if (!rsrc) return "";
-            return `<figure><img class="ref-thumb" src="${escapeHtml(rsrc)}" alt="${escapeHtml(r.label || "ref")}" title="${escapeHtml(r.label || "")}" data-src="${escapeHtml(rsrc)}" loading="lazy" /><figcaption>${escapeHtml(r.label || "")}</figcaption></figure>`;
-          }).join("")}</div>`
-        : "";
-      const promptHtml = item.prompt
-        ? `<details class="prompt-box"><summary>Промпт</summary><pre>${escapeHtml(item.prompt)}</pre></details>`
-        : "";
+      const refsHtml = refsBoxHtml(item);
+      const promptHtml = promptBoxHtml(item);
       const loras = Array.isArray(item.loras) ? item.loras : [];
       let lorasHtml = "";
       if (loras.length) {
@@ -843,7 +902,7 @@
         : "";
       
       return `
-        <article class="card ${best ? "best" : ""} ${isVideo ? "video-card" : ""}" data-id="${escapeHtml(item.id)}" data-file="${escapeHtml(item.file)}" data-pose="${escapeHtml(item.pose || "")}" data-chars="${escapeHtml(charsLabel)}">
+        <article class="card ${best ? "best" : ""} ${isVideo ? "video-card" : ""}" data-id="${escapeHtml(item.id)}" data-file="${escapeHtml(item.file)}" data-pose="${escapeHtml(item.pose || "")}" data-poster="${escapeHtml(posterOf(item))}" data-chars="${escapeHtml(charsLabel)}">
           <div class="thumb" ${clickAction}>
             ${mediaHtml}
             <span class="view-badge">${escapeHtml(badge)}</span>
@@ -881,40 +940,30 @@
       if (mode === "pose" && !pose) return;
       viewState.set(id, mode);
       const src = mode === "pose" ? pose : file;
-      const isVideo = src.endsWith('.mp4');
+      const isVideo = /\.mp4($|\?)/i.test(String(src || ""));
       const thumb = card.querySelector(".thumb");
-      
-      const mediaHtml = isVideo 
-        ? `<video class="card-img" src="${escapeHtml(src)}" controls preload="metadata" loop style="object-fit:cover; width:100%; height:100%; display:block;"></video>`
-        : `<img class="card-img" src="${escapeHtml(src)}" alt="Media" loading="lazy" />`;
-      
-      // We need to keep the badge when replacing innerHTML or just replace the media tag.
-      let mediaEl = card.querySelector(".card-img");
-      if (mediaEl) {
-        if ((isVideo && mediaEl.tagName === 'IMG') || (!isVideo && mediaEl.tagName === 'VIDEO')) {
-            mediaEl.outerHTML = mediaHtml;
-        } else {
-            mediaEl.src = src;
-        }
-      }
-
+      const mediaHtml = isVideo
+        ? videoThumbHtml({ id, title: "", poster: card.dataset.poster || posterOf({ id }) })
+        : `<img class="card-img" src="${escapeHtml(src)}" alt="Media" loading="lazy" decoding="async" />`;
+      const playHit = card.querySelector(".play-hit");
+      const mediaEl = card.querySelector(".card-img");
+      if (playHit) playHit.outerHTML = mediaHtml;
+      else if (mediaEl) mediaEl.outerHTML = mediaHtml;
       const badge = card.querySelector(".view-badge");
       const open = card.querySelector(".open-link");
-      
       if (thumb) {
         if (isVideo) {
-            thumb.removeAttribute("data-src");
-            thumb.removeAttribute("title");
-            thumb.style.cursor = "default";
+          thumb.removeAttribute("data-src");
+          thumb.removeAttribute("title");
+          thumb.style.cursor = "pointer";
         } else {
-            thumb.dataset.src = src;
-            thumb.title = "Open full size";
-            thumb.style.cursor = "zoom-in";
+          thumb.dataset.src = src;
+          thumb.title = "Open full size";
+          thumb.style.cursor = "zoom-in";
         }
       }
-      
       if (badge) badge.textContent = mode === "pose" ? "Поза (реф)" : (card.dataset.chars || "Тигрица");
-      if (open) open.href = src;
+      if (open) open.href = isVideo ? watchUrl(id) : src;
       card.querySelectorAll(".toggle button").forEach(b => {
         b.classList.toggle("active", b.dataset.mode === mode);
       });
@@ -970,6 +1019,12 @@
       };
 
       const group = media.filter(match);
+      const hashId = itemIdFromHash();
+      if (hashId) {
+        const idx = group.findIndex((it) => String(it.id) === String(hashId));
+        if (idx >= 0) shown = Math.max(shown, idx + 1);
+      }
+      const page = group.slice(0, shown);
       const withPose = group.filter(it => it.pose).length;
       const sec = document.createElement("section");
       const title =
@@ -980,8 +1035,20 @@
         : filter === "video" ? "Видео"
         : (CATS.find(c => c.id === filter)?.title || filter);
       sec.innerHTML = `<h2>${escapeHtml(title)} <span style="color:var(--muted);font-weight:400;font-size:0.9rem">(${group.length}, с рефом позы: ${withPose})</span></h2>
-        <div class="grid">${group.map(cardHtml).join("")}</div>`;
+        <div class="grid">${page.map(cardHtml).join("")}</div>`;
       main.appendChild(sec);
+      if (shown < group.length) {
+        const left = group.length - shown;
+        const more = document.createElement("button");
+        more.type = "button";
+        more.className = "more-btn";
+        more.textContent = "Ещё " + Math.min(PAGE, left) + " · осталось " + left;
+        more.addEventListener("click", () => {
+          shown += PAGE;
+          render();
+        });
+        main.appendChild(more);
+      }
 
       main.querySelectorAll(".thumb[data-src]").forEach(el => {
         el.addEventListener("click", () => {
@@ -1005,7 +1072,24 @@
       bindLikeButtons(main);
       bindDownloadButtons(main);
       bindCopyButtons(main);
+      bindPromptBoxes(main);
       requestAnimationFrame(() => focusItemFromHash());
+    }
+
+    function bindPromptBoxes(root) {
+      root.querySelectorAll("details.prompt-box[data-prompt-file]").forEach((el) => {
+        el.addEventListener("toggle", async () => {
+          if (!el.open || el.dataset.loaded === "1") return;
+          el.dataset.loaded = "1";
+          const pre = el.querySelector("pre");
+          try {
+            const r = await fetch(el.dataset.promptFile);
+            pre.textContent = r.ok ? await r.text() : "файл промпта не найден";
+          } catch (err) {
+            pre.textContent = "ошибка загрузки промпта";
+          }
+        });
+      });
     }
 
     function bindLikeButtons(root) {
@@ -1114,9 +1198,9 @@
       loadLikes();
       loadNets();
       const manifestName = IS_LOCAL ? "manifest.json" : "manifest-public.json";
-      let res = await fetch(manifestName + "?ts=" + Date.now());
+      let res = await fetch(manifestName);
       if (!res.ok && !IS_LOCAL) {
-        res = await fetch("manifest.json?ts=" + Date.now());
+        res = await fetch("manifest.json");
       }
       if (!res.ok) throw new Error("manifest HTTP " + res.status);
       DATA = await res.json();
@@ -1185,6 +1269,7 @@
       const btn = e.target.closest("button[data-cat]");
       if (!btn) return;
       filter = btn.dataset.cat;
+      shown = PAGE;
       saveFilter();
       document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("active", b === btn));
       if (filter === "story") history.replaceState(null, "", "#story");
@@ -1198,6 +1283,7 @@
       const btn = e.target.closest("button[data-model]");
       if (!btn) return;
       modelFilter = btn.dataset.model || "";
+      shown = PAGE;
       saveNets();
       renderFilterBars();
       render();
@@ -1206,6 +1292,7 @@
       const btn = e.target.closest("button[data-char]");
       if (!btn) return;
       charFilter = btn.dataset.char || "";
+      shown = PAGE;
       saveNets();
       renderFilterBars();
       render();
@@ -1238,6 +1325,7 @@
       const cat = HASH_CATS[hashRaw().toLowerCase()];
       if (cat) {
         filter = cat;
+        shown = PAGE;
         saveFilter();
         document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("active", b.dataset.cat === filter));
         render();

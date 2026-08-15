@@ -6,6 +6,7 @@ Usage:
   python publish-add.py path/to/video.mp4 --title "..." --category video --prompt-file prompt.txt --ref "Image 1|https://..." --lora "Name|https://civitai.com/models/...|0.45" --push
   python publish-add.py --update-id existing-id --prompt-file prompt.txt --ref "Image 1|url" --push
   python publish-add.py --rebuild-only
+  python publish-add.py --extract-posters [--push]
   python publish-add.py --push-only
   python publish-add.py path/to/STORY-v8.7.md --category story --title "Ночная смена" --id story-gym-night-shift --push
 
@@ -34,6 +35,7 @@ GAL = Path(r"C:\Users\hebp\galleries\tigress-thread-gallery")
 IMG = GAL / "images"
 POSE_DIR = IMG / "poses"
 REFS_DIR = IMG / "refs"
+POSTER_DIR = IMG / "posters"
 PROMPTS = GAL / "prompts"
 STORIES = GAL / "stories"
 STORY_HTML = GAL / "story.html"
@@ -42,6 +44,8 @@ PUBLIC_MANIFEST = GAL / "manifest-public.json"
 RE_LOCAL_PATH = re.compile(r"^[A-Za-z]:[\\/]|^/Users/|^/home/|^\\\\")
 MAX_SIDE = 1800
 QUALITY = 86
+POSTER_MAX_SIDE = 720
+POSTER_QUALITY = 72
 RE_BOLD = re.compile(r"\*\*(.+?)\*\*")
 RE_EM = re.compile(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)")
 RE_HTML_LINE = re.compile(
@@ -129,8 +133,86 @@ def sort_items_newest_first(data: dict) -> None:
     )
 
 
+def is_video_item(it: dict) -> bool:
+    return (it.get("category") or "") == "video" or str(it.get("file") or "").lower().endswith(".mp4")
+
+
+def poster_rel(iid: str) -> str:
+    return f"images/posters/{iid}.jpg"
+
+
+def extract_poster(video_path: Path, dest: Path) -> tuple[int, int]:
+    import cv2
+
+    cap = cv2.VideoCapture(str(video_path))
+    if not cap.isOpened():
+        raise RuntimeError(f"cannot open {video_path}")
+    frame = None
+    for msec in (0, 400, 1200):
+        if msec:
+            cap.set(cv2.CAP_PROP_POS_MSEC, float(msec))
+        ok, raw = cap.read()
+        if not ok or raw is None or not getattr(raw, "size", 0):
+            continue
+        mean = float(raw.mean())
+        if frame is None or mean > 8:
+            frame = raw
+        if mean > 8:
+            break
+    cap.release()
+    if frame is None:
+        raise RuntimeError(f"no frame from {video_path}")
+    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    im = Image.fromarray(rgb)
+    w, h = im.size
+    scale = min(1.0, POSTER_MAX_SIDE / max(w, h))
+    if scale < 1.0:
+        im = im.resize((int(w * scale), int(h * scale)), Image.Resampling.LANCZOS)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    im.save(dest, "JPEG", quality=POSTER_QUALITY, optimize=True, progressive=True)
+    return im.size
+
+
+def ensure_item_poster(item: dict, force: bool = False) -> bool:
+    if not is_video_item(item):
+        return False
+    iid = str(item.get("id") or "")
+    if not iid:
+        return False
+    src = GAL / str(item.get("file") or "")
+    dest = POSTER_DIR / f"{iid}.jpg"
+    rel = poster_rel(iid)
+    if dest.is_file() and dest.stat().st_size > 0 and not force:
+        if item.get("poster") != rel:
+            item["poster"] = rel
+            return True
+        return False
+    if not src.is_file():
+        print("skip poster, missing video", src, file=sys.stderr)
+        return False
+    try:
+        extract_poster(src, dest)
+        item["poster"] = rel
+        print("Poster", iid, "->", dest)
+        return True
+    except Exception as e:
+        print("poster fail", iid, e, file=sys.stderr)
+        return False
+
+
+def extract_all_posters(data: dict, force: bool = False) -> int:
+    n = 0
+    for it in data.get("items") or []:
+        if isinstance(it, dict) and ensure_item_poster(it, force=force):
+            n += 1
+    return n
+
+
 def strip_secrets_item(it: dict) -> dict:
-    out = {k: v for k, v in it.items() if k not in ("api_key", "key_name")}
+    out = {k: v for k, v in it.items() if k not in ("api_key", "key_name", "prompt")}
+    src = str(out.get("source") or "")
+    if RE_LOCAL_PATH.match(src):
+        out.pop("source", None)
     refs = out.get("refs")
     if isinstance(refs, list):
         cleaned = []
@@ -139,8 +221,8 @@ def strip_secrets_item(it: dict) -> dict:
                 cleaned.append(r)
                 continue
             rr = dict(r)
-            src = str(rr.get("source") or "")
-            if RE_LOCAL_PATH.match(src):
+            rsrc = str(rr.get("source") or "")
+            if RE_LOCAL_PATH.match(rsrc):
                 rr.pop("source", None)
             cleaned.append(rr)
         out["refs"] = cleaned
@@ -166,7 +248,7 @@ def save_manifest(data: dict) -> None:
     data["local_path"] = str(GAL)
     MANIFEST.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     PUBLIC_MANIFEST.write_text(
-        json.dumps(public_manifest(data), ensure_ascii=False, indent=2),
+        json.dumps(public_manifest(data), ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
 
@@ -632,6 +714,8 @@ def main() -> int:
     ap.add_argument("--push", action="store_true", help="git commit + push after add")
     ap.add_argument("--push-only", action="store_true")
     ap.add_argument("--rebuild-only", action="store_true")
+    ap.add_argument("--extract-posters", action="store_true", help="extract JPEG posters for video items")
+    ap.add_argument("--force-posters", action="store_true", help="rebuild posters even if files exist")
     ap.add_argument("--update-id", default="", help="update prompt/refs on an existing item")
     ap.add_argument("--prompt", default="", help="exact generation prompt")
     ap.add_argument("--prompt-file", default="", help="utf-8 file with exact prompt")
@@ -652,8 +736,18 @@ def main() -> int:
         git_push("gallery: update")
         return 0
 
+    if args.extract_posters:
+        data = load_manifest()
+        n = extract_all_posters(data, force=args.force_posters)
+        save_manifest(data)
+        print("posters updated", n)
+        if args.push:
+            git_push("gallery: video posters")
+        return 0
+
     if args.rebuild_only:
         data = load_manifest()
+        extract_all_posters(data, force=False)
         save_manifest(data)
         print("manifest touched")
         return 0
@@ -738,6 +832,8 @@ def main() -> int:
         "date": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "pixels": f"{size[0]}x{size[1]}",
     }
+    if src.suffix.lower() == ".mp4":
+        ensure_item_poster(item)
     if args.cdn:
         item["cdn"] = args.cdn
     if args.best:

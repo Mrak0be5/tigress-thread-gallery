@@ -219,6 +219,11 @@
       return CHAR_LABEL[id] || id;
     }
 
+    function posterOf(item) {
+      if (item.poster) return item.poster;
+      return "images/posters/" + String(item.id || "") + ".jpg";
+    }
+
     function render(item) {
       const src = item.file || "";
       const video = isVideoItem(item);
@@ -230,11 +235,11 @@
         ? `<div class="refs">${refs.map((r) => {
             const rsrc = r.file || r.source || r.url || "";
             if (!rsrc) return "";
-            return `<figure><img src="${escapeHtml(rsrc)}" alt="${escapeHtml(r.label || "ref")}" /><figcaption>${escapeHtml(r.label || "")}</figcaption></figure>`;
+            return `<figure><img src="${escapeHtml(rsrc)}" alt="${escapeHtml(r.label || "ref")}" loading="lazy" decoding="async" /><figcaption>${escapeHtml(r.label || "")}</figcaption></figure>`;
           }).join("")}</div>`
         : "";
-      const promptHtml = item.prompt
-        ? `<details class="prompt-box" open><summary>Промпт</summary><pre>${escapeHtml(item.prompt)}</pre></details>`
+      const promptHtml = (item.prompt || item.prompt_file)
+        ? `<details class="prompt-box"${item.prompt_file && !item.prompt ? ` data-prompt-file="${escapeHtml(item.prompt_file)}"` : ""}><summary>Промпт</summary><pre>${item.prompt ? escapeHtml(item.prompt) : "загрузка…"}</pre></details>`
         : "";
       const loras = Array.isArray(item.loras) ? item.loras : [];
       const lorasHtml = loras.length
@@ -247,8 +252,9 @@
               : `<span class="none">${escapeHtml(name)}${extra}</span>`;
           }).join("")}</div>`
         : "";
+      const poster = posterOf(item);
       const media = video
-        ? `<video src="${escapeHtml(src)}" controls autoplay playsinline loop></video>`
+        ? `<video src="${escapeHtml(src)}" poster="${escapeHtml(poster)}" controls autoplay playsinline loop preload="auto"></video>`
         : `<img src="${escapeHtml(src)}" alt="${escapeHtml(item.title || "")}" />`;
       document.getElementById("title").textContent = item.title || item.id;
       document.getElementById("sub").textContent = [item.model, item.date || item.created, chars].filter(Boolean).join(" · ");
@@ -270,6 +276,20 @@
             ${src ? `<a class="btn" href="${escapeHtml(src)}" download>Скачать</a>` : ""}
           </div>
         </div>`;
+      const box = document.querySelector("details.prompt-box[data-prompt-file]");
+      if (box) {
+        box.addEventListener("toggle", async () => {
+          if (!box.open || box.dataset.loaded === "1") return;
+          box.dataset.loaded = "1";
+          const pre = box.querySelector("pre");
+          try {
+            const r = await fetch(box.dataset.promptFile);
+            pre.textContent = r.ok ? await r.text() : "файл промпта не найден";
+          } catch (err) {
+            pre.textContent = "ошибка загрузки промпта";
+          }
+        });
+      }
     }
 
     async function load() {
@@ -281,8 +301,8 @@
         return;
       }
       const manifestName = IS_LOCAL ? "manifest.json" : "manifest-public.json";
-      let res = await fetch(manifestName + "?ts=" + Date.now());
-      if (!res.ok && !IS_LOCAL) res = await fetch("manifest.json?ts=" + Date.now());
+      let res = await fetch(manifestName);
+      if (!res.ok && !IS_LOCAL) res = await fetch("manifest.json");
       if (!res.ok) throw new Error("manifest HTTP " + res.status);
       const data = await res.json();
       const item = (data.items || []).find((it) => String(it.id) === String(id));

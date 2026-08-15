@@ -226,8 +226,11 @@
     }
     .view-badge {
       position: absolute;
-      top: 0.5rem;
-      left: 0.5rem;
+      bottom: 0.5rem;
+      right: 0.5rem;
+      top: auto;
+      left: auto;
+      z-index: 2;
       font-size: 0.7rem;
       padding: 0.15rem 0.45rem;
       border-radius: 999px;
@@ -235,6 +238,10 @@
       border: 1px solid rgba(255,255,255,0.15);
       color: #fff;
       pointer-events: none;
+      max-width: 70%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
     .mark-type, .mark-net {
       position: absolute;
@@ -257,7 +264,7 @@
     .mark-type { bottom: 0.5rem; left: 0.5rem; }
     .mark-type.is-video { border-color: rgba(255, 82, 82, 0.55); }
     .mark-type.is-still { border-color: rgba(100, 181, 246, 0.5); }
-    .mark-net { top: 0.5rem; right: 0.5rem; max-width: calc(100% - 5.5rem); }
+    .mark-net { top: 0.5rem; right: 0.5rem; max-width: calc(100% - 1rem); }
     .mark-net svg { width: 12px; height: 12px; flex-shrink: 0; }
     .mark-net.net-minimax { color: #ffcc80; }
     .mark-net.net-wan { color: #80cbc4; }
@@ -406,6 +413,11 @@
       cursor: pointer;
     }
     a.btn:hover, button.btn:hover { border-color: var(--accent); color: #fff; }
+    a.btn.expand-link {
+      border-color: var(--accent);
+      color: #fff;
+      background: rgba(124,156,255,0.14);
+    }
     html.mode-public .local-only { display: none !important; }
     html.mode-local .public-only { display: none !important; }
     .mode-badge {
@@ -550,6 +562,14 @@
       const path = location.pathname.replace(/\/index\.html$/i, "/");
       const base = location.origin + (path.endsWith("/") ? path : path + "/");
       return base + "#" + encodeURIComponent(id);
+    }
+    function watchUrl(id) {
+      return "watch.html?id=" + encodeURIComponent(id);
+    }
+    function viewBadgeText(item, mode) {
+      if (mode === "pose") return "Поза (реф)";
+      const names = itemCharacters(item).map(charLabel);
+      return names.length ? names.join(" · ") : "Тигрица";
     }
     function findItem(id) {
       return (DATA && DATA.items || []).find((it) => String(it.id) === String(id)) || null;
@@ -777,7 +797,8 @@
       const hasPose = Boolean(item.pose);
       const mode = viewState.get(item.id) || "tigress";
       const src = mode === "pose" && hasPose ? item.pose : item.file;
-      const badge = mode === "pose" ? "Поза (реф)" : "Тигрица";
+      const charsLabel = viewBadgeText(item, "tigress");
+      const badge = viewBadgeText(item, mode);
       const isVideo = isVideoItem(item);
       const srcIsVideo = /\.mp4($|\?)/i.test(String(src || ""));
       const net = netKind(item);
@@ -822,10 +843,10 @@
         : "";
       
       return `
-        <article class="card ${best ? "best" : ""} ${isVideo ? "video-card" : ""}" data-id="${escapeHtml(item.id)}" data-file="${escapeHtml(item.file)}" data-pose="${escapeHtml(item.pose || "")}">
+        <article class="card ${best ? "best" : ""} ${isVideo ? "video-card" : ""}" data-id="${escapeHtml(item.id)}" data-file="${escapeHtml(item.file)}" data-pose="${escapeHtml(item.pose || "")}" data-chars="${escapeHtml(charsLabel)}">
           <div class="thumb" ${clickAction}>
             ${mediaHtml}
-            <span class="view-badge">${badge}</span>
+            <span class="view-badge">${escapeHtml(badge)}</span>
             <span class="mark-net net-${escapeHtml(net.id)}">${NET_SVG}${escapeHtml(net.label)}</span>
             <span class="mark-type ${isVideo ? "is-video" : "is-still"}">${isVideo ? "Видео" : "Статика"}</span>
           </div>
@@ -843,6 +864,7 @@
             ${lorasHtml}
             ${svcHtml}
             <div class="row">
+              ${isVideo ? `<a class="btn expand-link" href="${escapeHtml(watchUrl(item.id))}">Развернуть</a>` : ""}
               <a class="btn open-link" href="${escapeHtml(src)}" target="_blank" rel="noopener">Open</a>
               <button type="button" class="btn copy-link" data-copy-id="${escapeHtml(item.id)}">Ссылка</button>
               ${downloadBtnHtml(item, src)}
@@ -891,7 +913,7 @@
         }
       }
       
-      if (badge) badge.textContent = mode === "pose" ? "Поза (реф)" : "Тигрица";
+      if (badge) badge.textContent = mode === "pose" ? "Поза (реф)" : (card.dataset.chars || "Тигрица");
       if (open) open.href = src;
       card.querySelectorAll(".toggle button").forEach(b => {
         b.classList.toggle("active", b.dataset.mode === mode);

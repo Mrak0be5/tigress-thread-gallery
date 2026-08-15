@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Ролик — Tigress thread gallery</title>
+  <style>
+    :root {
+      --bg: #0d0f12;
+      --panel: #161a20;
+      --border: #2a313c;
+      --text: #e8ecf1;
+      --muted: #9aa3b2;
+      --accent: #7c9cff;
+      --ok: #3ecf8e;
+      --radius: 14px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #1a2233 0%, var(--bg) 55%);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.45;
+    }
+    header, .wrap, footer {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+    header {
+      padding-top: 1.25rem;
+      padding-bottom: 0.75rem;
+    }
+    header a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    header a:hover { text-decoration: underline; }
+    header h1 {
+      margin: 0.55rem 0 0.25rem;
+      font-size: clamp(1.2rem, 2.4vw, 1.7rem);
+      font-weight: 650;
+      letter-spacing: -0.02em;
+    }
+    .meta-line { margin: 0.15rem 0; color: var(--muted); font-size: 0.9rem; }
+    .stage {
+      position: relative;
+      background: #0a0c10;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .stage video, .stage img {
+      display: block;
+      width: 100%;
+      max-height: 82vh;
+      object-fit: contain;
+      background: #000;
+    }
+    .view-badge {
+      position: absolute;
+      bottom: 0.6rem;
+      right: 0.6rem;
+      font-size: 0.72rem;
+      padding: 0.16rem 0.48rem;
+      border-radius: 999px;
+      background: rgba(0,0,0,0.65);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #fff;
+      pointer-events: none;
+    }
+    .desc {
+      margin: 1rem 0 2.5rem;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 1.05rem 1.15rem;
+    }
+    .note { font-size: 0.92rem; color: var(--muted); margin: 0.35rem 0; }
+    .note.ok { color: var(--ok); }
+    .model {
+      font-size: 0.82rem;
+      color: var(--accent);
+      font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+    }
+    .row { display: flex; gap: 0.45rem; flex-wrap: wrap; margin-top: 0.7rem; }
+    a.btn, button.btn {
+      text-decoration: none;
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.28rem 0.6rem;
+      font-size: 0.8rem;
+      background: rgba(255,255,255,0.03);
+      font-family: inherit;
+      cursor: pointer;
+    }
+    a.btn:hover, button.btn:hover { border-color: var(--accent); color: #fff; }
+    .refs {
+      display: flex;
+      gap: 0.45rem;
+      flex-wrap: wrap;
+      margin-top: 0.7rem;
+    }
+    .refs figure { margin: 0; width: 88px; }
+    .refs img {
+      width: 88px;
+      height: 88px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      display: block;
+      background: #0a0c10;
+    }
+    .refs figcaption {
+      font-size: 0.68rem;
+      color: var(--muted);
+      margin-top: 0.15rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .prompt-box {
+      margin-top: 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #0a0c10;
+      padding: 0.45rem 0.6rem;
+    }
+    .prompt-box summary {
+      cursor: pointer;
+      font-size: 0.82rem;
+      color: var(--accent);
+      user-select: none;
+    }
+    .prompt-box pre {
+      margin: 0.45rem 0 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-size: 0.78rem;
+      color: var(--text);
+      max-height: 28rem;
+      overflow: auto;
+      font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+    }
+    .loras {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-top: 0.6rem;
+    }
+    .loras a, .loras .none {
+      text-decoration: none;
+      color: var(--accent);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.2rem 0.45rem;
+      font-size: 0.74rem;
+    }
+    .err { color: #ff6b7a; padding: 2rem 0; }
+    footer {
+      padding-bottom: 2rem;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">← К галерее</a>
+    <h1 id="title">Загрузка…</h1>
+    <p class="meta-line" id="sub"></p>
+  </header>
+  <div class="wrap">
+    <div id="root"></div>
+  </div>
+  <footer>NSFW 18+ · noindex</footer>
+  <script>
+    const IS_LOCAL = (function () {
+      const host = (location.hostname || "").toLowerCase();
+      if (host.endsWith("github.io") || host.endsWith("github.com")) return false;
+      return location.protocol === "file:" || host === "localhost" || host === "127.0.0.1" || host === "";
+    })();
+    const CHAR_LABEL = {
+      "Tigra": "Тигрица",
+      "Vinna": "Vinna",
+      "Bunny": "Bunny",
+      "Male": "Мужчина",
+      "Terry Crews": "Terry Crews",
+      "Black man": "Black man"
+    };
+
+    function escapeHtml(s) {
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+    function itemId() {
+      const q = new URLSearchParams(location.search).get("id");
+      if (q) return q.trim();
+      return decodeURIComponent((location.hash || "").replace(/^#/, "")).trim();
+    }
+    function isVideoItem(it) {
+      return (it.category || "") === "video" || /\.mp4($|\?)/i.test(String(it.file || ""));
+    }
+    function itemCharacters(it) {
+      if (Array.isArray(it.characters) && it.characters.length) {
+        return it.characters.map(String);
+      }
+      return [];
+    }
+    function charLabel(id) {
+      return CHAR_LABEL[id] || id;
+    }
+
+    function render(item) {
+      const src = item.file || "";
+      const video = isVideoItem(item);
+      const chars = itemCharacters(item).map(charLabel).join(" · ");
+      const best = item.flag === "best";
+      const noteClass = best || /лучш|best|final|correct|identity lock/i.test(item.note || "") ? "ok" : "";
+      const refs = Array.isArray(item.refs) ? item.refs : [];
+      const refsHtml = refs.length
+        ? `<div class="refs">${refs.map((r) => {
+            const rsrc = r.file || r.source || r.url || "";
+            if (!rsrc) return "";
+            return `<figure><img src="${escapeHtml(rsrc)}" alt="${escapeHtml(r.label || "ref")}" /><figcaption>${escapeHtml(r.label || "")}</figcaption></figure>`;
+          }).join("")}</div>`
+        : "";
+      const promptHtml = item.prompt
+        ? `<details class="prompt-box" open><summary>Промпт</summary><pre>${escapeHtml(item.prompt)}</pre></details>`
+        : "";
+      const loras = Array.isArray(item.loras) ? item.loras : [];
+      const lorasHtml = loras.length
+        ? `<div class="loras">${loras.map((l) => {
+            const name = l.name || "LoRA";
+            const extra = l.strength != null && l.strength !== "" ? ` · ${escapeHtml(String(l.strength))}` : "";
+            const url = l.url || "";
+            return url
+              ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(name)}${extra}</a>`
+              : `<span class="none">${escapeHtml(name)}${extra}</span>`;
+          }).join("")}</div>`
+        : "";
+      const media = video
+        ? `<video src="${escapeHtml(src)}" controls autoplay playsinline loop></video>`
+        : `<img src="${escapeHtml(src)}" alt="${escapeHtml(item.title || "")}" />`;
+      document.getElementById("title").textContent = item.title || item.id;
+      document.getElementById("sub").textContent = [item.model, item.date || item.created, chars].filter(Boolean).join(" · ");
+      document.title = (item.title || item.id) + " — Tigress thread gallery";
+      document.getElementById("root").innerHTML = `
+        <div class="stage">
+          ${media}
+          ${chars ? `<span class="view-badge">${escapeHtml(chars)}</span>` : ""}
+        </div>
+        <div class="desc">
+          <div class="model">${escapeHtml(item.model || "")}</div>
+          <div class="note ${noteClass}">${escapeHtml(item.note || "")}</div>
+          ${refsHtml}
+          ${promptHtml}
+          ${lorasHtml}
+          <div class="row">
+            <a class="btn" href="index.html#${encodeURIComponent(item.id)}">К карточке в галерее</a>
+            <a class="btn" href="${escapeHtml(src)}" target="_blank" rel="noopener">Open</a>
+            ${src ? `<a class="btn" href="${escapeHtml(src)}" download>Скачать</a>` : ""}
+          </div>
+        </div>`;
+    }
+
+    async function load() {
+      const id = itemId();
+      const root = document.getElementById("root");
+      if (!id) {
+        document.getElementById("title").textContent = "Нет id";
+        root.innerHTML = `<p class="err">В URL нет id ролика. <a href="index.html">Галерея</a></p>`;
+        return;
+      }
+      const manifestName = IS_LOCAL ? "manifest.json" : "manifest-public.json";
+      let res = await fetch(manifestName + "?ts=" + Date.now());
+      if (!res.ok && !IS_LOCAL) res = await fetch("manifest.json?ts=" + Date.now());
+      if (!res.ok) throw new Error("manifest HTTP " + res.status);
+      const data = await res.json();
+      const item = (data.items || []).find((it) => String(it.id) === String(id));
+      if (!item) {
+        document.getElementById("title").textContent = "Не найдено";
+        root.innerHTML = `<p class="err">Ролик <code>${escapeHtml(id)}</code> не найден. <a href="index.html">Галерея</a></p>`;
+        return;
+      }
+      render(item);
+    }
+
+    load().catch((err) => {
+      document.getElementById("title").textContent = "Ошибка";
+      document.getElementById("root").innerHTML = `<p class="err">${escapeHtml(err.message)}</p>`;
+    });
+  </script>
+</body>
+</html>

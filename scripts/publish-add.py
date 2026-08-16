@@ -78,7 +78,7 @@ SCENE_CLASS = {
     "Наклоны": "scene-sex",
     "Планка": "scene-sex",
     "Жим": "scene-sex",
-    "Растяжка": "scene-yoga",
+    "Растяжка": "scene-sex",
     "Командный финал": "scene-finale",
     "Aftercare": "scene-after",
     "Диван": "scene-beat",

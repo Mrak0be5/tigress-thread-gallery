@@ -100,6 +100,19 @@
       cursor: pointer;
     }
     a.btn:hover, button.btn:hover { border-color: var(--accent); color: #fff; }
+    .q-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.4rem;
+      margin-top: 0.7rem;
+    }
+    .q-bar .lbl { color: var(--muted); font-size: 0.8rem; }
+    .q-bar button.active {
+      border-color: var(--ok);
+      color: var(--ok);
+      background: rgba(62, 207, 142, 0.12);
+    }
     .refs {
       display: flex;
       gap: 0.45rem;
@@ -205,12 +218,12 @@
       var q = new URLSearchParams(location.search).get("id");
       if (!q) return;
       var id = q.trim();
-      var src = "images/" + encodeURIComponent(id) + ".mp4";
-      window.__VIDEO_SRC = src;
+      window.__VIDEO_ORIG = "images/" + encodeURIComponent(id) + ".mp4";
+      window.__VIDEO_SRC = "images/stream/" + encodeURIComponent(id) + ".mp4";
       var v = document.createElement("link");
       v.rel = "preload";
       v.as = "video";
-      v.href = src;
+      v.href = window.__VIDEO_SRC;
       document.head.appendChild(v);
       var p = document.createElement("link");
       p.rel = "preload";
@@ -230,6 +243,7 @@
     <div id="root"></div>
   </div>
   <footer>NSFW 18+ · noindex</footer>
+  <script src="stream-index.js"></script>
   <script>
     const IS_LOCAL = (function () {
       const host = (location.hostname || "").toLowerCase();
@@ -276,13 +290,36 @@
       if (item && item.poster) return item.poster;
       return "images/posters/" + String((item && item.id) || itemId()) + ".jpg";
     }
+    let QUALITY = "stream";
+    let URLS = { stream: "", orig: "" };
+
     function playUrl(id, item) {
-      if (item && item.stream) return item.stream;
-      if (window.STREAM_IDS && window.STREAM_IDS[id]) {
-        return "images/stream/" + encodeURIComponent(id) + ".mp4";
-      }
-      if (item && item.file) return item.file;
-      return "images/" + encodeURIComponent(id) + ".mp4";
+      const orig = (item && item.file) || ("images/" + encodeURIComponent(id) + ".mp4");
+      const stream = (item && item.stream)
+        || ((window.STREAM_IDS && window.STREAM_IDS[id]) ? ("images/stream/" + encodeURIComponent(id) + ".mp4") : "");
+      URLS.orig = orig;
+      URLS.stream = stream || window.__VIDEO_SRC || "";
+      if (QUALITY === "orig") return URLS.orig;
+      return URLS.stream || URLS.orig;
+    }
+    function setQuality(q) {
+      if (q === QUALITY) return;
+      const video = document.getElementById("player");
+      const t = video ? video.currentTime : 0;
+      const paused = video ? video.paused : true;
+      QUALITY = q;
+      const src = (q === "orig" ? URLS.orig : (URLS.stream || URLS.orig));
+      if (!src || !video) return;
+      const hint = document.getElementById("load-hint");
+      const bar = document.getElementById("loadbar");
+      if (hint) hint.classList.remove("hide");
+      if (bar) bar.classList.remove("hide");
+      video.src = src;
+      video.currentTime = t;
+      if (!paused) video.play().catch(() => {});
+      document.querySelectorAll(".q-bar button[data-q]").forEach((b) => {
+        b.classList.toggle("active", b.dataset.q === q);
+      });
     }
     function bindPlayer(video) {
       const bar = document.getElementById("loadbar");
@@ -303,18 +340,40 @@
         if (hint) hint.classList.add("hide");
         if (bar) bar.classList.add("hide");
       });
+      video.addEventListener("error", () => {
+        if (QUALITY === "stream" && URLS.orig && video.src.indexOf("/stream/") !== -1) {
+          QUALITY = "orig";
+          URLS.stream = "";
+          video.src = URLS.orig;
+          document.querySelectorAll(".q-bar button[data-q]").forEach((b) => {
+            b.classList.toggle("active", b.dataset.q === "orig");
+          });
+        }
+      });
     }
-    function mountPlayer(id) {
-      const src = window.__VIDEO_SRC || playUrl(id);
-      const poster = "images/posters/" + encodeURIComponent(id) + ".jpg";
+    function mountPlayer(id, item) {
+      const src = playUrl(id, item);
+      const poster = (item && item.poster) || ("images/posters/" + encodeURIComponent(id) + ".jpg");
+      const hasStream = Boolean(URLS.stream);
       document.getElementById("root").innerHTML = `
         <div class="stage" id="stage">
           <video id="player" src="${escapeHtml(src)}" poster="${escapeHtml(poster)}" controls playsinline loop preload="auto"></video>
           <div class="loadbar" id="loadbar"><i></i></div>
           <span class="load-hint" id="load-hint">загрузка…</span>
         </div>
+        <div class="q-bar" id="q-bar">
+          <span class="lbl">Качество</span>
+          <button type="button" class="btn${QUALITY === "stream" ? " active" : ""}" data-q="stream"${hasStream ? "" : " disabled"}>Сжатое</button>
+          <button type="button" class="btn${QUALITY === "orig" ? " active" : ""}" data-q="orig">Оригинал</button>
+        </div>
         <div class="desc" id="desc"></div>`;
       bindPlayer(document.getElementById("player"));
+      document.querySelectorAll("#q-bar button[data-q]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          if (btn.disabled) return;
+          setQuality(btn.dataset.q);
+        });
+      });
     }
 
     function fillMeta(item) {
@@ -399,18 +458,7 @@
         root.innerHTML = `<p class="err">В URL нет id ролика. <a href="index.html">Галерея</a></p>`;
         return;
       }
-      mountPlayer(id);
-      const manifestName = IS_LOCAL ? "manifest.json" : "manifest-public.json";
-      let res = await fetch(manifestName);
-      if (!res.ok && !IS_LOCAL) res = await fetch("manifest.json");
-      if (!res.ok) throw new Error("manifest HTTP " + res.status);
-      const data = await res.json();
-      const item = (data.items || []).find((it) => String(it.id) === String(id));
-      if (!item) {
-        document.getElementById("title").textContent = "Не найдено";
-        root.innerHTML = `<p class="err">Ролик <code>${escapeHtml(id)}</code> не найден. <a href="index.html">Галерея</a></p>`;
-        return;
-      }
+      mountPlayer(id, item);
       fillMeta(item);
     }
 

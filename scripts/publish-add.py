@@ -37,6 +37,8 @@ IMG = GAL / "images"
 POSE_DIR = IMG / "poses"
 REFS_DIR = IMG / "refs"
 POSTER_DIR = IMG / "posters"
+STREAM_DIR = IMG / "stream"
+STREAM_INDEX = GAL / "stream-index.js"
 PROMPTS = GAL / "prompts"
 STORIES = GAL / "stories"
 STORY_HTML = GAL / "story.html"
@@ -239,9 +241,11 @@ def process_video_file(src: Path, dest: Path) -> None:
         "-preset",
         "veryfast",
         "-crf",
-        "28",
+        "34",
         "-pix_fmt",
         "yuv420p",
+        "-vf",
+        "scale=-2:'min(480,ih)'",
         "-g",
         "48",
         "-keyint_min",
@@ -254,6 +258,44 @@ def process_video_file(src: Path, dest: Path) -> None:
     ]
     subprocess.run(cmd, check=True)
     tmp.replace(dest)
+
+
+def write_stream_index() -> list[str]:
+    ids = sorted(p.stem for p in STREAM_DIR.glob("*.mp4") if p.stat().st_size > 1000)
+    body = ",".join(f'"{i}":1' for i in ids)
+    STREAM_INDEX.write_text(f"window.STREAM_IDS={{{body}}};\n", encoding="utf-8")
+    return ids
+
+
+def encode_all_streams(data: dict, force: bool = False) -> int:
+    STREAM_DIR.mkdir(parents=True, exist_ok=True)
+    n = 0
+    items = [it for it in (data.get("items") or []) if isinstance(it, dict)]
+    total = 0
+    jobs = []
+    for it in items:
+        iid = str(it.get("id") or "")
+        f = str(it.get("file") or "")
+        if not iid or not f.lower().endswith(".mp4"):
+            continue
+        if (it.get("category") or "") == "story":
+            continue
+        src = GAL / f
+        if not src.is_file():
+            continue
+        dest = STREAM_DIR / f"{iid}.mp4"
+        jobs.append((it, iid, src, dest))
+        total += 1
+    for i, (it, iid, src, dest) in enumerate(jobs, 1):
+        if dest.exists() and dest.stat().st_size > 1000 and not force:
+            it["stream"] = f"images/stream/{iid}.mp4"
+            continue
+        print(f"stream {i}/{total} {iid}", flush=True)
+        process_video_file(src, dest)
+        it["stream"] = f"images/stream/{iid}.mp4"
+        n += 1
+    write_stream_index()
+    return n
 
 
 def strip_secrets_item(it: dict) -> dict:
@@ -876,6 +918,10 @@ def main() -> int:
         print(f"Copying original video {src.name} to {out_name}...")
         shutil.copy2(src, out_path)
         size = (0, 0)
+        stream_path = STREAM_DIR / f"{iid}.mp4"
+        print(f"Encoding stream {stream_path.name}...")
+        process_video_file(out_path, stream_path)
+        write_stream_index()
     else:
         out_name = f"{iid}.jpg"
         out_path = IMG / out_name
@@ -894,6 +940,7 @@ def main() -> int:
     }
     if src.suffix.lower() == ".mp4":
         ensure_item_poster(item)
+        item["stream"] = f"images/stream/{iid}.mp4"
     if args.cdn:
         item["cdn"] = args.cdn
     if args.best:

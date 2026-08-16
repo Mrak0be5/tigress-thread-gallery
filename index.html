@@ -596,6 +596,7 @@
     <img id="lb-img" alt="" />
   </div>
 
+    <script src="stream-index.js"></script>
     <script>
     const IS_LOCAL = (function () {
       const host = (location.hostname || "").toLowerCase();
@@ -861,9 +862,12 @@
       return "watch.html?id=" + encodeURIComponent(id);
     }
     function playUrl(id) {
+      const it = findItem(id);
+      if (it && it.stream) return it.stream;
       if (window.STREAM_IDS && window.STREAM_IDS[id]) {
         return "images/stream/" + encodeURIComponent(id) + ".mp4";
       }
+      if (it && it.file) return it.file;
       return "images/" + encodeURIComponent(id) + ".mp4";
     }
     function prefetchPlayUrl(id) {

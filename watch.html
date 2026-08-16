@@ -458,6 +458,17 @@
         root.innerHTML = `<p class="err">В URL нет id ролика. <a href="index.html">Галерея</a></p>`;
         return;
       }
+      const manifestName = IS_LOCAL ? "manifest.json" : "manifest-public.json";
+      let res = await fetch(manifestName);
+      if (!res.ok && !IS_LOCAL) res = await fetch("manifest.json");
+      if (!res.ok) throw new Error("manifest HTTP " + res.status);
+      const data = await res.json();
+      const item = (data.items || []).find((it) => String(it.id) === String(id));
+      if (!item) {
+        document.getElementById("title").textContent = "Не найдено";
+        root.innerHTML = `<p class="err">Ролик <code>${escapeHtml(id)}</code> не найден. <a href="index.html">Галерея</a></p>`;
+        return;
+      }
       mountPlayer(id, item);
       fillMeta(item);
     }

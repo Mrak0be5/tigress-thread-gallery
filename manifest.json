@@ -2,9 +2,189 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-17T03:37+04:00",
+  "updated": "2026-08-17T03:47+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "krol-bike-anus-v2-low",
+      "file": "images/krol-bike-anus-v2-low.jpg",
+      "source": "s05_low.png",
+      "title": "Krol bike anus v2 low",
+      "category": "scene",
+      "model": "ComfyUI Pony KROLL_BEST",
+      "note": "KROLL_BEST close crop on anus + Exercise Bike Pony 0.90/0.85. ThroughWall off.",
+      "date": "2026-08-17 03:47",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/krol-bike-anus-v2/1786924026908-8d0x6ntytjm.png",
+      "prompt": "exercise bike, sitting on the saddle, bent over, extreme close-up from behind, buttocks fill the frame, anus large in the center, tail lifted aside, nude, no clothes, bottomless, anus visible, spread anus, pussy visible, crop at hips, no head in frame, low close camera at the anus, anus dominant, cheeks left and right, bike seat below,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2, portrait of nude fur red ginger rabbit furry female nude, yellow fur, small black detailed eyes, tigermovie, brown hair, long hair, rabbit face, animal, sexual fur body,extreme detailed black eyes, 2d style, WtPrabbit, anthro, female, rabbit, ginger fur, rabbit ears, bunny, pube hair, pussy red hair, white fur breats, yellow fur fingers, fur ass, fur legs, detailed fur, realistic fur, 1girl, 2boy",
+      "prompt_file": "prompts/krol-bike-anus-v2-low.txt",
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.6
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Krol"
+      ]
+    },
+    {
+      "id": "krol-bike-anus-v2-saddle",
+      "file": "images/krol-bike-anus-v2-saddle.jpg",
+      "source": "s04_saddle.png",
+      "title": "Krol bike anus v2 saddle",
+      "category": "scene",
+      "model": "ComfyUI Pony KROLL_BEST",
+      "note": "KROLL_BEST close crop on anus + Exercise Bike Pony 0.90/0.85. ThroughWall off.",
+      "date": "2026-08-17 03:47",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/krol-bike-anus-v2/1786924025112-4tgg9l4bypa.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, sitting on the saddle, pedaling, extreme close-up from behind, buttocks fill the frame, anus large in the center, tail lifted aside, nude, no clothes, bottomless, anus visible, spread anus, crop at hips, camera inches from the anus above the bike saddle, anus in focus, buttocks filling the frame, exercise bike,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2, portrait of nude fur red ginger rabbit furry female nude, yellow fur, small black detailed eyes, tigermovie, brown hair, long hair, rabbit face, animal, sexual fur body,extreme detailed black eyes, 2d style, WtPrabbit, anthro, female, rabbit, ginger fur, rabbit ears, bunny, pube hair, pussy red hair, white fur breats, yellow fur fingers, fur ass, fur legs, detailed fur, realistic fur, 1girl, 2boy",
+      "prompt_file": "prompts/krol-bike-anus-v2-saddle.txt",
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.6
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Krol"
+      ]
+    },
+    {
+      "id": "krol-bike-anus-v2-spread",
+      "file": "images/krol-bike-anus-v2-spread.jpg",
+      "source": "s03_spread.png",
+      "title": "Krol bike anus v2 spread",
+      "category": "scene",
+      "model": "ComfyUI Pony KROLL_BEST",
+      "note": "KROLL_BEST close crop on anus + Exercise Bike Pony 0.90/0.85. ThroughWall off.",
+      "date": "2026-08-17 03:47",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/krol-bike-anus-v2/1786924023393-j9kv78kaun.png",
+      "prompt": "exercise bike, sitting on the saddle, bent over, extreme close-up from behind, buttocks fill the frame, anus large in the center, tail lifted aside, nude, no clothes, bottomless, anus visible, spread anus, pussy visible, crop at hips, no head in frame, close rear, thighs apart, ass spread, anus huge in frame, no head,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2, portrait of nude fur red ginger rabbit furry female nude, yellow fur, small black detailed eyes, tigermovie, brown hair, long hair, rabbit face, animal, sexual fur body,extreme detailed black eyes, 2d style, WtPrabbit, anthro, female, rabbit, ginger fur, rabbit ears, bunny, pube hair, pussy red hair, white fur breats, yellow fur fingers, fur ass, fur legs, detailed fur, realistic fur, 1girl, 2boy",
+      "prompt_file": "prompts/krol-bike-anus-v2-spread.txt",
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.6
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Krol"
+      ]
+    },
+    {
+      "id": "krol-bike-anus-v2-tight",
+      "file": "images/krol-bike-anus-v2-tight.jpg",
+      "source": "s02_tight.png",
+      "title": "Krol bike anus v2 tight",
+      "category": "scene",
+      "model": "ComfyUI Pony KROLL_BEST",
+      "note": "KROLL_BEST close crop on anus + Exercise Bike Pony 0.90/0.85. ThroughWall off.",
+      "date": "2026-08-17 03:47",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/krol-bike-anus-v2/1786924021145-z0cwmi3wu1a.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, sitting on the saddle, pedaling, extreme close-up from behind, buttocks fill the frame, anus large in the center, tail lifted aside, nude, no clothes, bottomless, anus visible, spread anus, crop at hips, tight crop from lower back to thighs, anus large in center, black bike saddle under the ass, exercise bike,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2, portrait of nude fur red ginger rabbit furry female nude, yellow fur, small black detailed eyes, tigermovie, brown hair, long hair, rabbit face, animal, sexual fur body,extreme detailed black eyes, 2d style, WtPrabbit, anthro, female, rabbit, ginger fur, rabbit ears, bunny, pube hair, pussy red hair, white fur breats, yellow fur fingers, fur ass, fur legs, detailed fur, realistic fur, 1girl, 2boy",
+      "prompt_file": "prompts/krol-bike-anus-v2-tight.txt",
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.6
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Krol"
+      ]
+    },
+    {
+      "id": "krol-bike-anus-v2-macro",
+      "file": "images/krol-bike-anus-v2-macro.jpg",
+      "source": "s01_macro.png",
+      "title": "Krol bike anus v2 macro",
+      "category": "scene",
+      "model": "ComfyUI Pony KROLL_BEST",
+      "note": "KROLL_BEST close crop on anus + Exercise Bike Pony 0.90/0.85. ThroughWall off.",
+      "date": "2026-08-17 03:47",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/krol-bike-anus-v2/1786924018095-5r0zgl6pyon.png",
+      "prompt": "exercise bike, sitting on the saddle, bent over, extreme close-up from behind, buttocks fill the frame, anus large in the center, tail lifted aside, nude, no clothes, bottomless, anus visible, spread anus, pussy visible, crop at hips, no head in frame, extreme close-up of anus, anus fills the center, cheeks fill the frame, puckered anus,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2, portrait of nude fur red ginger rabbit furry female nude, yellow fur, small black detailed eyes, tigermovie, brown hair, long hair, rabbit face, animal, sexual fur body,extreme detailed black eyes, 2d style, WtPrabbit, anthro, female, rabbit, ginger fur, rabbit ears, bunny, pube hair, pussy red hair, white fur breats, yellow fur fingers, fur ass, fur legs, detailed fur, realistic fur, 1girl, 2boy",
+      "prompt_file": "prompts/krol-bike-anus-v2-macro.txt",
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.6
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Krol"
+      ]
+    },
     {
       "id": "krol-bike-anus-v1-threeq",
       "file": "images/krol-bike-anus-v1-threeq.jpg",

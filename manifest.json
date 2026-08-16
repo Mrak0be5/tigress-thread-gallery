@@ -2,9 +2,53 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-16T05:46+04:00",
+  "updated": "2026-08-16T05:48+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "gym-full-recap-gpt-image-2",
+      "file": "images/gym-full-recap-gpt-image-2.jpg",
+      "source": "gym-full-recap-gpt-image-2.png",
+      "title": "Ночная смена — полный синопсис (GPT Image 2)",
+      "category": "scene",
+      "model": "gpt-image-2",
+      "note": "Одетый рекап всей ночи. Промпт чинит 5 слотов/Алёкл/голое III. 3 рефа: каркас, лист Тигры, одетый лист Винны.",
+      "date": "2026-08-16 05:48",
+      "pixels": "1672x941",
+      "cdn": "https://tempfile.aiquickdraw.com/images/chatgpt/file_00000000604081fd845d3cebb4bcef16.png",
+      "prompt": "Create a NEW 16:9 recap poster. Clean digital illustration. Neutral white-balance light, not yellow-orange.\n\nEveryone is FULLY CLOTHED in every region, including all six tiny bottom panels. Both women: black cheer crop-top and short pleated skirt with cyan-magenta musical notes. All four men: black gym tank. No nudity, no breasts, no genitals, no sex, no steam-shower bodies, no towels slipping.\n\nIMAGE ROLES:\nImage 1 is LAYOUT SKELETON only: gym lighting, poster grid, left column + center gym + six bottom panels. Image 1 is WRONG in these ways — do not copy the mistakes:\n- it has FIVE nameplates; you must draw SIX\n- names are misspelled; use only the quoted spellings below\n- tiny panels show nudity; yours stay clothed\n- extra captions and title typos; use only the quoted strings\nImage 2 is TIGRA identity lock. Copy orange fur, black stripes, WHITE bob, green vertical slit pupils, athletic body, choker, cheer uniform.\nImage 3 is VINNA species/face/outfit lock. OVERRIDE her body: Image 3 is too ripped. Draw a SOFT thick anthro BEAR baker: cream belly, no six-pack, round bear muzzle, round bear ears, small fluffy round bear tail, long wavy blonde hair, amber eyes, shy blush. ZERO black tiger stripes. ZERO lion mane. ZERO white bob.\n\nLEFT COLUMN — six stacked bust portraits, count 1-2-3-4-5-6, each with a bold black Russian nameplate:\n1 \"ТИГРА\" = Image 2 tigress, white bob, green slit pupils, orange and black stripes\n2 \"ВИННА\" = soft bear override, blonde waves, blushing, eyes down\n3 \"КРИС\" = human man, dark hair, short dark beard, black tank, no animal ears\n4 \"АЛЕКС\" = exact letters А, Л, Е, К, С. Black man, dark skin, dense muscular, black tank. Never write Алёкл or Alek\n5 \"МАЙКЛ\" = huge tall heavy pale man, kind face, black tank. Mandatory sixth portrait. Image 1 forgot him\n6 \"ДЖОРДЖ\" = reddish ginger hair at the roots, black tank\n\nCENTER: bright commercial gym, large windows, weights. All six people together, clothed.\nTigra from Image 2 holds shy Vinna's paw and leads her. Vinna blushes, bear ears back, looks at the floor.\nChris at a tripod camera, tablet screen text exactly \"ВИП ГОСТЕВОЙ\".\nBehind them three distinct men: Alex dark-skinned, Michael huge pale, George ginger.\n\nTitle, large bold Russian: \"НОЧНАЯ СМЕНА — ОТ ПРОЛОГА ДО AFTERCARE\"\nSubtitle: \"Фейковая Школа. Гостевой сертификат. Камера. Долг. VIP.\"\n\nBOTTOM — six equal panels, one caption line each, no extra words:\n1 Chris talks to Tigra about needing a girl who truly blushes. Caption: \"ПРОЛОГ — нужна та, кто краснеет\"\n2 two paper guest certificates in hands. Caption: \"АКТ I — два сертификата\"\n3 Warrior yoga, both women in cheer uniform. A glass plug has fallen on the mat at VINNA's feet, not Tigra's. Tigra's plug stays. Caption: \"АКТ II — прокачка и долг\"\n4 locker room, Vinna still in crop and skirt, hugging herself, shy, wants to leave. No nudes. Caption: \"АКТ III — хочу домой\"\n5 Chris films, three VIP men watch, both women in uniform. Caption: \"АКТ IV — закрытие VIP\"\n6 cashier tablet shows \"3800\", both women still in uniform. Caption: \"AFTERCARE — касса, долг 3800\"\n\nDo not mix Tigra and Vinna. Tigra never has long blonde hair. Vinna never has tiger stripes or a white bob.\nDo not invent extra labels. Do not copy Image 1's five-name column.",
+      "prompt_file": "prompts/gym-full-recap-gpt-image-2.txt",
+      "refs": [
+        {
+          "label": "Layout recap",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/gpt-image-2-full-recap/1786844549233-su0gdcfhr6g.jpg",
+          "file": "images/refs/gym-full-recap-gpt-image-2/01-layout-recap.jpg"
+        },
+        {
+          "label": "Tigra sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/gpt-image-2-full-recap/1786844545746-3eys2gly6mb.png",
+          "file": "images/refs/gym-full-recap-gpt-image-2/02-tigra-sheet.jpg"
+        },
+        {
+          "label": "Vinna sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/gpt-image-2-full-recap/1786844547308-iouoqfta6is.png",
+          "file": "images/refs/gym-full-recap-gpt-image-2/03-vinna-sheet.jpg"
+        }
+      ],
+      "service": "Kie GPT Image 2",
+      "service_url": "https://kie.ai",
+      "service_model_url": "https://kie.ai",
+      "api_key": "f267669997d0cfbb669b6882b8fdc5e4",
+      "key_name": "KIE_API_KEY",
+      "characters": [
+        "Tigra",
+        "Vinna",
+        "Chris",
+        "Alex",
+        "Michael",
+        "George"
+      ]
+    },
     {
       "id": "krol-poker-anal-15s-v12-wan-3-0",
       "file": "images/krol-poker-anal-15s-v12-wan-3-0.mp4",
@@ -19016,6 +19060,13 @@
       "name": "xAI Grok Imagine",
       "url": "https://docs.x.ai/developers/model-capabilities/imagine",
       "api": "https://api.x.ai/v1"
+    },
+    "kie-gpt-image-2": {
+      "name": "Kie GPT Image 2",
+      "url": "https://kie.ai",
+      "model_url": "https://kie.ai",
+      "api_key": "f267669997d0cfbb669b6882b8fdc5e4",
+      "key_name": "KIE_API_KEY"
     }
   },
   "howto": {

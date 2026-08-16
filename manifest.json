@@ -2,9 +2,47 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-16T05:11+04:00",
+  "updated": "2026-08-16T05:27+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "gym-full-recap-nb2",
+      "file": "images/gym-full-recap-nb2.jpg",
+      "source": "gym-full-recap-nb2.png",
+      "title": "Ночная смена — полный синопсис (Nano Banana 2)",
+      "category": "scene",
+      "model": "nano-banana-2",
+      "note": "Одетый рекап всей ночи. 3 рефа: каркас, лист Тигры, одетый лист Винны.",
+      "date": "2026-08-16 05:27",
+      "pixels": "1800x1004",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/nb2-full-recap/1786843631912-wsyupfcj5i.png",
+      "prompt": "Clean digital illustration recap poster, 16:9, everyone fully clothed in cheer uniforms and gym tanks. No nudity.\n\nImage 1 is the LAYOUT to keep: left portraits, gym group, six bottom story panels, Russian text.\nImage 2 is TIGRA identity lock: orange tigress, black stripes, WHITE bob, green vertical slit pupils, athletic, black cheer crop and short pleated skirt with cyan-magenta musical notes.\nImage 3 is VINNA identity lock: honey-tan anthro BEAR, long wavy blonde hair, round bear ears, amber eyes, ZERO tiger stripes, soft thicker body, cream belly, no six-pack, same cheer crop and short skirt, shy blush.\n\nSix portraits with exact Russian names, six different people:\nТИГРА from Image 2\nВИННА from Image 3\nКРИС — human, dark hair, short dark beard, black tank, no animal ears\nАЛЕКС — Black man, dark skin, muscular, black tank\nМАЙКЛ — huge tall heavy white man, kind face, black tank\nДЖОРДЖ — reddish ginger hair, black tank\n\nCenter: bright gym from Image 1. All six together. Tigra leads shy Vinna. Chris at camera. Alex, Michael, George behind. Tablet text \"ВИП ГОСТЕВОЙ\".\n\nTitle: \"НОЧНАЯ СМЕНА — ОТ ПРОЛОГА ДО AFTERCARE\"\nSubtitle: \"Фейковая Школа. Гостевой сертификат. Камера. Долг. VIP.\"\n\nSix bottom panels:\n1 \"ПРОЛОГ — нужна та, кто краснеет\"\n2 \"АКТ I — два сертификата\"\n3 \"АКТ II — прокачка и долг\"\n4 \"АКТ III — хочу домой\"\n5 \"АКТ IV — закрытие VIP\"\n6 \"AFTERCARE — касса, долг 3800\"\n\nAll on-image text in Russian. Do not mix Tigra and Vinna.",
+      "prompt_file": "prompts/gym-full-recap-nb2.txt",
+      "refs": [
+        {
+          "label": "Layout recap",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/grok20-full-recap/gym-full-recap-seedream.png",
+          "file": "images/refs/gym-full-recap-nb2/01-layout-recap.jpg"
+        },
+        {
+          "label": "Tigra sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/grok20-full-recap/act1-ref-tigra-sheet.png",
+          "file": "images/refs/gym-full-recap-nb2/02-tigra-sheet.jpg"
+        },
+        {
+          "label": "Vinna sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/grok20-full-recap/act1-ref-vinna-sheet.png",
+          "file": "images/refs/gym-full-recap-nb2/03-vinna-sheet.jpg"
+        }
+      ],
+      "service": "Kie Nano Banana 2",
+      "service_url": "https://kie.ai",
+      "characters": [
+        "Tigra",
+        "Vinna",
+        "Chris"
+      ]
+    },
     {
       "id": "apipod-wan30-vinna-cowboy-poker-15s-v19",
       "file": "images/apipod-wan30-vinna-cowboy-poker-15s-v19.mp4",

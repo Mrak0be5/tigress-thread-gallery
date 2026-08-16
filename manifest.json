@@ -2,9 +2,49 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-16T04:11+04:00",
+  "updated": "2026-08-16T04:47+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "gym-full-recap-grok20",
+      "file": "images/gym-full-recap-grok20.jpg",
+      "source": "gym-full-recap-grok20-xai.png",
+      "title": "Ночная смена — полный синопсис (Grok 2.0)",
+      "category": "scene",
+      "model": "grok-imagine-image-2.0",
+      "note": "Одетый рекап всей ночи. 6 персонажей. Рефы: лист Тигры, одетый лист Винны, каркас рекапа. Без голых кадров.",
+      "date": "2026-08-16 04:47",
+      "pixels": "1800x1012",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/grok20-full-recap/1786841231031-96ms0sgqadt.png",
+      "prompt": "Revise Image 0 into a 16:9 recap poster. EVERYONE CLOTHED. Cheer uniforms and gym tanks only. No nudity. No sex.\n\nKeep the recap layout of Image 0: portraits, gym group, six bottom panels, Russian text.\n\nTIGRA everywhere = Image 1: orange tigress, black stripes, WHITE bob, green slit pupils, athletic, black cheer crop and short pleated skirt with musical notes.\n\nVINNA everywhere = Image 2: honey-tan BEAR, long wavy blonde hair, round bear ears, amber eyes, ZERO stripes. Soft thicker body, no six-pack. Same cheer crop and short skirt. Shy blush.\n\nSIX portraits, correct names:\nТИГРА\nВИННА\nКРИС — human man, dark hair, short dark beard, black tank. Not blonde. No animal ears.\nАЛЕКС — Black man, dark skin, muscular, black tank.\nМАЙКЛ — huge tall heavy white man, kind face, black tank.\nДЖОРДЖ — reddish ginger hair, black tank.\n\nCenter: all six in the bright gym from Image 0. Tigra leads shy Vinna. Chris at camera. Alex, Michael, George behind. Tablet ВИП ГОСТЕВОЙ.\n\nTitle: НОЧНАЯ СМЕНА — ОТ ПРОЛОГА ДО AFTERCARE\nPanels: ПРОЛОГ, АКТ I, АКТ II, АКТ III, АКТ IV, AFTERCARE — касса 3800\n\nAll text Russian. Do not mix Tigra and Vinna.",
+      "prompt_file": "prompts/gym-full-recap-grok20.txt",
+      "refs": [
+        {
+          "label": "Tigra sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/grok20-full-recap/act1-ref-tigra-sheet.png",
+          "file": "images/refs/gym-full-recap-grok20/01-tigra-sheet.jpg"
+        },
+        {
+          "label": "Vinna sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/grok20-full-recap/act1-ref-vinna-sheet.png",
+          "file": "images/refs/gym-full-recap-grok20/02-vinna-sheet.jpg"
+        },
+        {
+          "label": "Layout recap",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/grok20-full-recap/gym-full-recap-seedream.png",
+          "file": "images/refs/gym-full-recap-grok20/03-layout-recap.jpg"
+        }
+      ],
+      "service": "xAI Grok Imagine 2.0",
+      "service_url": "https://docs.x.ai/docs/guides/image-generation",
+      "api": "https://api.x.ai/v1",
+      "key_name": "Cursor",
+      "characters": [
+        "Tigra",
+        "Vinna",
+        "Chris"
+      ]
+    },
     {
       "id": "gym-full-recap-seedream",
       "file": "images/gym-full-recap-seedream.jpg",

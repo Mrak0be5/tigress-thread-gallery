@@ -275,6 +275,34 @@
       border-width: 10px 0 10px 16px;
       border-color: transparent transparent transparent #fff;
     }
+    .copy-img {
+      position: absolute;
+      top: 0.5rem;
+      left: 0.5rem;
+      z-index: 4;
+      border: 1px solid rgba(255,255,255,0.28);
+      background: rgba(0,0,0,0.72);
+      color: #fff;
+      border-radius: 999px;
+      padding: 0.22rem 0.55rem;
+      font-size: 0.72rem;
+      font-family: inherit;
+      cursor: pointer;
+      backdrop-filter: blur(8px);
+    }
+    .copy-img:hover { border-color: var(--accent); background: rgba(124,156,255,0.28); }
+    .refs figure { position: relative; }
+    .refs .copy-img {
+      top: 0.2rem;
+      left: 0.2rem;
+      padding: 0.12rem 0.35rem;
+      font-size: 0.62rem;
+    }
+    .lb .copy-img {
+      position: fixed;
+      top: 1rem;
+      left: 1rem;
+    }
     .more-btn {
       display: block;
       margin: 1.25rem auto 0;
@@ -564,6 +592,7 @@
 
   <div class="lb" id="lb" aria-hidden="true">
     <button class="close" id="lb-close" type="button" aria-label="Close">×</button>
+    <button type="button" class="copy-img" id="lb-copy">Ссылка</button>
     <img id="lb-img" alt="" />
   </div>
 
@@ -784,6 +813,49 @@
       const path = location.pathname.replace(/\/index\.html$/i, "/");
       const base = location.origin + (path.endsWith("/") ? path : path + "/");
       return base + "#" + encodeURIComponent(id);
+    }
+    const PUBLIC_SITE = "https://mrak0be5.github.io/tigress-thread-gallery/";
+    function galleryBaseUrl() {
+      if (location.protocol === "file:" || location.hostname === "localhost" || location.hostname === "127.0.0.1") {
+        return PUBLIC_SITE;
+      }
+      const path = location.pathname.replace(/\/index\.html$/i, "/").replace(/\/watch\.html$/i, "/");
+      const dir = path.endsWith("/") ? path : path.replace(/[^/]+$/, "");
+      return location.origin + dir;
+    }
+    function absSiteUrl(path) {
+      const p = String(path || "").trim();
+      if (!p || p.startsWith("blob:")) return "";
+      if (/^https?:\/\//i.test(p)) return p;
+      return galleryBaseUrl().replace(/\/?$/, "/") + p.replace(/^\.\//, "").replace(/^\//, "");
+    }
+    function itemAttachUrl(item, mode) {
+      if (!item || item.uploaded) return "";
+      const src = (mode === "pose" && item.pose) ? item.pose : item.file;
+      if (src && !/^https?:\/\//i.test(src) && !String(src).startsWith("blob:")) {
+        return absSiteUrl(src);
+      }
+      if (src && /^https:\/\//i.test(src)) return src;
+      if (item.cdn && /^https:\/\//i.test(item.cdn)) return item.cdn;
+      return "";
+    }
+    async function copyText(text, btn, idleLabel) {
+      if (!text) {
+        window.alert("Публичной ссылки нет (локальная загрузка / blob)");
+        return false;
+      }
+      try {
+        await navigator.clipboard.writeText(text);
+        if (btn) {
+          const prev = idleLabel || btn.textContent;
+          btn.textContent = "Скопировано";
+          setTimeout(() => { btn.textContent = prev; }, 1500);
+        }
+        return true;
+      } catch (err) {
+        window.prompt("Ссылка", text);
+        return false;
+      }
     }
     function watchUrl(id) {
       return "watch.html?id=" + encodeURIComponent(id);
@@ -1055,7 +1127,9 @@
       return `<details class="refs-box"><summary>Рефы (${refs.length})</summary><div class="refs">${refs.map((r) => {
         const rsrc = r.file || r.source || r.url || "";
         if (!rsrc) return "";
-        return `<figure><img class="ref-thumb" src="${escapeHtml(rsrc)}" alt="${escapeHtml(r.label || "ref")}" title="${escapeHtml(r.label || "")}" data-src="${escapeHtml(rsrc)}" loading="lazy" decoding="async" /><figcaption>${escapeHtml(r.label || "")}</figcaption></figure>`;
+        const copyUrl = absSiteUrl(rsrc);
+        const copyBtn = copyUrl ? `<button type="button" class="copy-img copy-link" data-copy-img="${escapeHtml(copyUrl)}">Ссылка</button>` : "";
+        return `<figure>${copyBtn}<img class="ref-thumb" src="${escapeHtml(rsrc)}" alt="${escapeHtml(r.label || "ref")}" title="${escapeHtml(r.label || "")}" data-src="${escapeHtml(rsrc)}" loading="lazy" decoding="async" /><figcaption>${escapeHtml(r.label || "")}</figcaption></figure>`;
       }).join("")}</div></details>`;
     }
     function cardHtml(item) {
@@ -1070,9 +1144,13 @@
       const isVideo = isVideoItem(item);
       const srcIsVideo = isVideo && mode !== "pose";
       const net = netKind(item);
+      const attachUrl = itemAttachUrl(item, mode);
       const mediaHtml = srcIsVideo
         ? videoThumbHtml(item)
         : `<img class="card-img" src="${escapeHtml(src)}" alt="${escapeHtml(item.title)}" loading="lazy" decoding="async" />`;
+      const copyOnThumb = (!srcIsVideo && attachUrl)
+        ? `<button type="button" class="copy-img copy-link" data-copy-img="${escapeHtml(attachUrl)}">Ссылка</button>`
+        : "";
       const clickAction = srcIsVideo ? "" : `data-src="${escapeHtml(src)}" title="Open full size"`;
       const refsHtml = refsBoxHtml(item);
       const promptHtml = promptBoxHtml(item);
@@ -1105,6 +1183,7 @@
         <article class="card ${best ? "best" : ""} ${isVideo ? "video-card" : ""}" data-id="${escapeHtml(item.id)}" data-file="${escapeHtml(item.file)}" data-pose="${escapeHtml(item.pose || "")}" data-poster="${escapeHtml(posterOf(item))}" data-chars="${escapeHtml(charsLabel)}">
           <div class="thumb" ${clickAction}>
             ${mediaHtml}
+            ${copyOnThumb}
             <span class="view-badge">${escapeHtml(badge)}</span>
             <span class="mark-net net-${escapeHtml(net.id)}">${NET_SVG}${escapeHtml(net.label)}</span>
             <span class="mark-type ${isVideo ? "is-video" : "is-still"}">${isVideo ? "Видео" : "Статика"}</span>
@@ -1125,7 +1204,7 @@
             <div class="row">
               ${isVideo ? `<a class="btn expand-link" href="${escapeHtml(watchUrl(item.id))}">Развернуть</a>` : ""}
               <a class="btn open-link" href="${escapeHtml(src)}" target="_blank" rel="noopener">Open</a>
-              <button type="button" class="btn copy-link" data-copy-id="${escapeHtml(item.id)}">Ссылка</button>
+              <button type="button" class="btn copy-link" ${attachUrl ? `data-copy-img="${escapeHtml(attachUrl)}"` : `data-copy-id="${escapeHtml(item.id)}"`}>Ссылка</button>
               ${downloadBtnHtml(item, src)}
               ${likeBtnHtml(item.id)}
               ${item.uploaded ? `<button type="button" class="btn del-upload" data-del-id="${escapeHtml(item.id)}">Удалить</button>` : ""}
@@ -1152,6 +1231,8 @@
       else if (mediaEl) mediaEl.outerHTML = mediaHtml;
       const badge = card.querySelector(".view-badge");
       const open = card.querySelector(".open-link");
+      const copyBtns = card.querySelectorAll(".copy-link");
+      const attachUrl = src && !String(src).startsWith("blob:") ? absSiteUrl(src) : "";
       if (thumb) {
         if (isVideo) {
           thumb.removeAttribute("data-src");
@@ -1165,6 +1246,12 @@
       }
       if (badge) badge.textContent = mode === "pose" ? "Поза (реф)" : (card.dataset.chars || "Тигрица");
       if (open) open.href = isVideo ? watchUrl(id) : src;
+      copyBtns.forEach((btn) => {
+        if (attachUrl) {
+          btn.dataset.copyImg = attachUrl;
+          btn.removeAttribute("data-copy-id");
+        }
+      });
       card.querySelectorAll(".toggle button").forEach(b => {
         b.classList.toggle("active", b.dataset.mode === mode);
       });
@@ -1252,7 +1339,8 @@
       }
 
       main.querySelectorAll(".thumb[data-src]").forEach(el => {
-        el.addEventListener("click", () => {
+        el.addEventListener("click", (e) => {
+          if (e.target.closest(".copy-img, .copy-link")) return;
           if (el.dataset.src) openLb(el.dataset.src);
         });
       });
@@ -1330,17 +1418,18 @@
         btn.addEventListener("click", async (e) => {
           e.preventDefault();
           e.stopPropagation();
+          const imgUrl = btn.dataset.copyImg || "";
+          if (imgUrl) {
+            await copyText(imgUrl, btn, "Ссылка");
+            return;
+          }
           const id = btn.dataset.copyId;
           if (!id) return;
-          const url = itemPermalink(id);
-          history.replaceState(null, "", "#" + encodeURIComponent(id));
-          try {
-            await navigator.clipboard.writeText(url);
-            btn.textContent = "Скопировано";
-            setTimeout(() => { btn.textContent = "Ссылка"; }, 1500);
-          } catch (err) {
-            window.prompt("Ссылка на ролик", url);
-          }
+          const item = findItem(id);
+          const attach = itemAttachUrl(item, viewState.get(id) || "tigress");
+          const url = attach || itemPermalink(id);
+          if (attach) history.replaceState(null, "", "#" + encodeURIComponent(id));
+          await copyText(url, btn, "Ссылка");
         });
       });
     }
@@ -1512,8 +1601,18 @@
 
     const lb = document.getElementById("lb");
     const lbImg = document.getElementById("lb-img");
+    const lbCopy = document.getElementById("lb-copy");
     function openLb(src) {
       lbImg.src = src;
+      const url = absSiteUrl(src);
+      if (url) {
+        lbCopy.dataset.copyImg = url;
+        lbCopy.hidden = false;
+        lbCopy.textContent = "Ссылка";
+      } else {
+        lbCopy.hidden = true;
+        lbCopy.removeAttribute("data-copy-img");
+      }
       lb.classList.add("open");
       lb.setAttribute("aria-hidden", "false");
     }
@@ -1523,6 +1622,10 @@
       lbImg.removeAttribute("src");
     }
     document.getElementById("lb-close").addEventListener("click", (e) => { e.stopPropagation(); closeLb(); });
+    lbCopy.addEventListener("click", async (e) => {
+      e.stopPropagation();
+      await copyText(lbCopy.dataset.copyImg || "", lbCopy, "Ссылка");
+    });
     lb.addEventListener("click", closeLb);
     lbImg.addEventListener("click", (e) => e.stopPropagation());
     window.addEventListener("hashchange", () => {

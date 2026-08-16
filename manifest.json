@@ -2,9 +2,47 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-16T03:58+04:00",
+  "updated": "2026-08-16T04:11+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "gym-full-recap-seedream",
+      "file": "images/gym-full-recap-seedream.jpg",
+      "source": "gym-full-recap-seedream.png",
+      "title": "Ночная смена — полный синопсис",
+      "category": "scene",
+      "model": "Seedream 5 Pro",
+      "note": "Рекап всей ночи: пролог–aftercare. 6 персонажей. Рефы: лист Тигры, тело Винны, стиль рекапа Акта I.",
+      "date": "2026-08-16 04:11",
+      "pixels": "1800x1012",
+      "cdn": "https://tempfile.aiquickdraw.com/seedream5pro/1786838730011-f5r3h2zx19l.png",
+      "prompt": "Keep Image 1 as the recap poster format: 16:9, left character portraits, big gym scene, bottom story panels, clean digital illustration, Russian text only.\n\nCHANGE the story from Act I only to the FULL night: prologue through aftercare. Keep the same gym (windows, fluorescents, benches, camera).\n\nSIX portraits, six different people, Russian labels, never merge:\nТИГРА = Image 2 exactly. Orange tigress, bold black stripes, WHITE bob, green vertical slit pupils, athletic, black cheer crop and short pleated skirt with cyan-magenta musical notes, black choker.\nВИННА = Image 3 exactly. Honey-tan anthro BEAR, cream belly, SOFT thick body, NO six-pack, long wavy blonde hair, round bear ears, small round bear tail, four-finger paws, amber eyes. ZERO tiger stripes. Same black cheer crop and short skirt on THIS soft body. Shy blush.\nКРИС — human, dark hair, short beard, black tank, tablet КАССА.\nАЛЕКС — Black man, dark skin, thick muscle, confident smirk. Same man as in Image 1 background.\nМАЙКЛ — huge tall heavy white man, kind face. Same man as in Image 1.\nДЖОРДЖ — lazy eyes, reddish ginger hair. Same man as in Image 1. Do not label him Майкл.\n\nCenter: ALL SIX together in the gym. Tigra (orange, white bob) leads shy Vinna (blonde bear, no stripes). Chris at the camera and tablet. Alex, Michael, George stand as VIP guests. Two glass toys on a towel. Certificates ВИП and ГОСТЕВОЙ.\n\nBottom SIX panels, short Russian captions, Tigra and Vinna never swap bodies:\n\n1 ПРОЛОГ — нужна та, кто краснеет\nTigra and Chris plan a fake School. Vinna is the bait.\n\n2 АКТ I — два сертификата\nSMS, black door, cheer uniform, glass plug, camera, VIP greeting.\n\n3 АКТ II — прокачка и долг\nWeights, exercise bike, corridor, guest owes Tigra.\n\n4 АКТ III — хочу домой\nShower, Vinna tries to leave, they keep her with debt and the School lie.\n\n5 АКТ IV — закрытие VIP\nBench press, team finale, camera still rolling.\n\n6 AFTERCARE — касса\nTablet sums, Tigra pays, Vinna now owes Tigra 3800.\n\nSmall synopsis strip under the title: Фейковая ночная Школа. Гостевой сертификат. Камера. Долг. VIP.\n\nALL on-image text Russian. Do not merge Tigra and Vinna. Do not put stripes on the bear.",
+      "prompt_file": "prompts/gym-full-recap-seedream.txt",
+      "refs": [
+        {
+          "label": "Tigra sheet",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/act-full-recap/1786838515640-gehqxltzxwj.png",
+          "file": "images/refs/gym-full-recap-seedream/01-tigra-sheet.jpg"
+        },
+        {
+          "label": "Vinna body",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/act-full-recap/1786838517450-7w3ptsz908o.png",
+          "file": "images/refs/gym-full-recap-seedream/02-vinna-body.jpg"
+        },
+        {
+          "label": "Act I recap style",
+          "source": "https://tempfile.redpandaai.co/kieai/1335989/act-full-recap/1786838519769-urd5lqjgq7.png",
+          "file": "images/refs/gym-full-recap-seedream/03-act-i-recap-style.jpg"
+        }
+      ],
+      "service": "Kie Seedream 5 Pro",
+      "service_url": "https://kie.ai",
+      "characters": [
+        "Tigra",
+        "Vinna",
+        "Chris"
+      ]
+    },
     {
       "id": "krol-poker-anal-15s-v10-wan-3-0",
       "file": "images/krol-poker-anal-15s-v10-wan-3-0.mp4",

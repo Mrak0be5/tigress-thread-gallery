@@ -103,6 +103,35 @@
       align-items: center;
     }
     nav a.howto-nav:hover { color: #fff; }
+    nav button#upload-btn {
+      border-color: var(--ok);
+      color: var(--ok);
+      margin-left: auto;
+    }
+    nav button#upload-btn:hover {
+      background: rgba(62, 207, 142, 0.12);
+      color: #fff;
+    }
+    button.btn.del-upload:hover {
+      border-color: #ff6b7a;
+      color: #ff6b7a;
+    }
+    .mark-net.net-upload { color: var(--ok); }
+    .drop-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 80;
+      background: rgba(13, 15, 18, 0.72);
+      border: 2px dashed var(--ok);
+      color: var(--ok);
+      font-size: 1.15rem;
+      font-weight: 650;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+    }
+    .drop-overlay.on { display: flex; }
     .filter-bar {
       max-width: 1280px;
       margin: 0 auto;
@@ -518,7 +547,10 @@
     <button type="button" data-cat="story">Рассказы</button>
     <button type="button" data-cat="liked">Лайки</button>
     <button type="button" data-cat="best">Best</button>
+    <button type="button" id="upload-btn">Загрузить картинку</button>
+    <input id="upload-input" type="file" accept="image/png,image/jpeg,image/webp,image/gif,image/bmp" multiple hidden />
   </nav>
+  <div class="drop-overlay" id="drop-overlay">Отпустите картинку</div>
   <div class="filter-bar" id="model-bar"></div>
   <div class="filter-bar" id="char-bar"></div>
 
@@ -550,7 +582,7 @@
     const FILTER_KEY = "tigress-gallery-filter";
     const FILTER_IDS = ["all", "images", "video", "story", "liked", "best"];
     const OLD_IMAGE_CATS = ["sheet", "scene", "identity", "bunny"];
-    const MODEL_ORDER = ["MiniMax", "Wan", "Seedream", "Pony / Comfy", "Qwen", "HappyHorse", "Другое"];
+    const MODEL_ORDER = ["Загрузка", "MiniMax", "Wan", "Seedream", "Pony / Comfy", "Qwen", "HappyHorse", "Другое"];
     let DATA = null;
     let filter = "all";
     /** per-card view: "tigress" | "pose" */
@@ -572,9 +604,13 @@
     };
     const CHAR_ORDER = ["Tigra", "Vinna", "Krol", "Bunny", "Male", "Terry Crews", "Black man"];
     const HASH_CATS = { story: "story", stories: "story", video: "video", images: "images", "2d": "images" };
+    const UPLOAD_DB = "tigress-gallery-uploads";
+    const UPLOAD_STORE = "files";
+    const UPLOAD_MAX = 40 * 1024 * 1024;
     let likes = new Set();
     let modelFilter = "";
     let charFilter = "";
+    const uploadUrls = new Map();
 
     function loadLikes() {
       try {
@@ -586,6 +622,150 @@
     }
     function saveLikes() {
       localStorage.setItem(LIKES_KEY, JSON.stringify([...likes]));
+    }
+    function openUploadDb() {
+      return new Promise((resolve, reject) => {
+        const req = indexedDB.open(UPLOAD_DB, 1);
+        req.onupgradeneeded = () => {
+          const db = req.result;
+          if (!db.objectStoreNames.contains(UPLOAD_STORE)) {
+            db.createObjectStore(UPLOAD_STORE, { keyPath: "id" });
+          }
+        };
+        req.onsuccess = () => resolve(req.result);
+        req.onerror = () => reject(req.error);
+      });
+    }
+    function idbReq(req) {
+      return new Promise((resolve, reject) => {
+        req.onsuccess = () => resolve(req.result);
+        req.onerror = () => reject(req.error);
+      });
+    }
+    async function listUploads() {
+      const db = await openUploadDb();
+      try {
+        return await idbReq(db.transaction(UPLOAD_STORE, "readonly").objectStore(UPLOAD_STORE).getAll()) || [];
+      } finally {
+        db.close();
+      }
+    }
+    async function putUpload(rec) {
+      const db = await openUploadDb();
+      try {
+        await idbReq(db.transaction(UPLOAD_STORE, "readwrite").objectStore(UPLOAD_STORE).put(rec));
+      } finally {
+        db.close();
+      }
+    }
+    async function deleteUpload(id) {
+      const db = await openUploadDb();
+      try {
+        await idbReq(db.transaction(UPLOAD_STORE, "readwrite").objectStore(UPLOAD_STORE).delete(id));
+      } finally {
+        db.close();
+      }
+    }
+    function revokeUploads() {
+      uploadUrls.forEach((url) => URL.revokeObjectURL(url));
+      uploadUrls.clear();
+    }
+    function recToItem(rec) {
+      const url = URL.createObjectURL(rec.blob);
+      uploadUrls.set(rec.id, url);
+      return {
+        id: rec.id,
+        file: url,
+        title: rec.title || rec.name || "Загрузка",
+        category: "scene",
+        model: "Загрузка",
+        note: rec.name ? "Загружено · " + rec.name : "Загружено вручную",
+        date: rec.date,
+        ms: rec.ms,
+        uploaded: true,
+        source: rec.name || ""
+      };
+    }
+    async function mergeUploads() {
+      revokeUploads();
+      if (!DATA) DATA = { items: [] };
+      if (!Array.isArray(DATA.items)) DATA.items = [];
+      DATA.items = DATA.items.filter((it) => !it.uploaded);
+      const recs = await listUploads();
+      const extra = recs.map(recToItem);
+      DATA.items = extra.concat(DATA.items);
+    }
+    function pad2(n) {
+      return String(n).padStart(2, "0");
+    }
+    function nowStamp() {
+      const d = new Date();
+      return d.getFullYear() + "-" + pad2(d.getMonth() + 1) + "-" + pad2(d.getDate()) + " " + pad2(d.getHours()) + ":" + pad2(d.getMinutes());
+    }
+    function titleFromName(name) {
+      return String(name || "картинка").replace(/\.[^.]+$/, "").replace(/[_-]+/g, " ").trim() || "картинка";
+    }
+    function refreshCountBadge() {
+      const all = DATA.items || [];
+      const nStory = all.filter(isStory).length;
+      const media = all.filter((it) => !isStory(it));
+      const nVideo = media.filter(isVideoItem).length;
+      const nStill = media.length - nVideo;
+      const nPose = all.filter((it) => it.pose).length;
+      const nUp = all.filter((it) => it.uploaded).length;
+      document.getElementById("count-badge").textContent = nStill + " 2D · " + nVideo + " video · " + nPose + " with pose ref" + (nStory ? " · " + nStory + " story" : "") + (nUp ? " · " + nUp + " upload" : "");
+    }
+    function showUploadsFilter() {
+      if (filter === "video" || filter === "story") {
+        filter = "images";
+        saveFilter();
+        document.querySelectorAll("#nav button").forEach((b) => b.classList.toggle("active", b.dataset.cat === filter));
+      }
+      shown = PAGE;
+    }
+    async function ingestFiles(fileList) {
+      const files = [...fileList].filter((f) => /^image\//i.test(f.type) || /\.(png|jpe?g|webp|gif|bmp)$/i.test(f.name));
+      if (!files.length) return;
+      const added = [];
+      for (const file of files) {
+        if (file.size > UPLOAD_MAX) {
+          window.alert(file.name + " больше 40 МБ");
+          continue;
+        }
+        const rec = {
+          id: "upload-" + Date.now() + "-" + Math.random().toString(36).slice(2, 8),
+          title: titleFromName(file.name),
+          name: file.name,
+          type: file.type || "image/png",
+          date: nowStamp(),
+          ms: Date.now(),
+          blob: file
+        };
+        await putUpload(rec);
+        added.push(recToItem(rec));
+      }
+      if (!added.length || !DATA) return;
+      DATA.items = added.concat(DATA.items.filter((it) => !added.some((a) => a.id === it.id)));
+      showUploadsFilter();
+      refreshCountBadge();
+      renderFilterBars();
+      render();
+    }
+    async function removeUploaded(id) {
+      await deleteUpload(id);
+      const url = uploadUrls.get(id);
+      if (url) {
+        URL.revokeObjectURL(url);
+        uploadUrls.delete(id);
+      }
+      if (DATA && Array.isArray(DATA.items)) {
+        DATA.items = DATA.items.filter((it) => it.id !== id);
+      }
+      likes.delete(String(id));
+      saveLikes();
+      refreshCountBadge();
+      renderFilterBars();
+      render();
     }
     function hashRaw() {
       return decodeURIComponent((location.hash || "").replace(/^#/, "")).trim();
@@ -711,6 +891,7 @@
       if (/qwen/.test(blob)) return { id: "qwen", label: "Qwen" };
       if (/pony|boleromix|comfy/.test(blob)) return { id: "pony", label: "Pony / Comfy" };
       if (/happyhorse/.test(blob)) return { id: "happyhorse", label: "HappyHorse" };
+      if (it.uploaded || /загрузк/.test(blob)) return { id: "upload", label: "Загрузка" };
       return { id: "other", label: "Другое" };
     }
     function itemModelGroup(it) {
@@ -810,6 +991,7 @@
     }
 
     function itemTime(it) {
+      if (it.ms) return Number(it.ms) || 0;
       const raw = it.date || it.created || "";
       const t = Date.parse(String(raw).replace(" ", "T"));
       return Number.isFinite(t) ? t : 0;
@@ -946,6 +1128,7 @@
               <button type="button" class="btn copy-link" data-copy-id="${escapeHtml(item.id)}">Ссылка</button>
               ${downloadBtnHtml(item, src)}
               ${likeBtnHtml(item.id)}
+              ${item.uploaded ? `<button type="button" class="btn del-upload" data-del-id="${escapeHtml(item.id)}">Удалить</button>` : ""}
             </div>
           </div>
         </article>`;
@@ -1091,6 +1274,7 @@
       bindDownloadButtons(main);
       bindCopyButtons(main);
       bindPromptBoxes(main);
+      bindUploadDeletes(main);
       main.querySelectorAll(".video-card").forEach((card) => {
         card.addEventListener("pointerenter", () => prefetchPlayUrl(card.dataset.id), { once: true });
       });
@@ -1113,6 +1297,17 @@
       });
     }
 
+    function bindUploadDeletes(root) {
+      root.querySelectorAll(".del-upload").forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const id = btn.dataset.delId;
+          if (!id) return;
+          removeUploaded(id);
+        });
+      });
+    }
     function bindLikeButtons(root) {
       root.querySelectorAll(".like-btn").forEach((btn) => {
         btn.addEventListener("click", (e) => {
@@ -1236,13 +1431,8 @@
           delete it.key_name;
         });
       }
-      const all = DATA.items || [];
-      const nStory = all.filter(isStory).length;
-      const media = all.filter((it) => !isStory(it));
-      const nVideo = media.filter(isVideoItem).length;
-      const nStill = media.length - nVideo;
-      const nPose = all.filter(it => it.pose).length;
-      document.getElementById("count-badge").textContent = nStill + " 2D · " + nVideo + " video · " + nPose + " with pose ref" + (nStory ? " · " + nStory + " story" : "");
+      await mergeUploads();
+      refreshCountBadge();
       document.getElementById("updated-badge").textContent = "updated " + (DATA.updated || DATA.created || "");
       document.title = DATA.title || "Tigress thread gallery";
       document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("active", b.dataset.cat === filter));
@@ -1287,6 +1477,7 @@
     }
 
     document.getElementById("nav").addEventListener("click", (e) => {
+      if (e.target.closest("#upload-btn")) return;
       const btn = e.target.closest("button[data-cat]");
       if (!btn) return;
       filter = btn.dataset.cat;
@@ -1353,6 +1544,45 @@
       }
     });
     window.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLb(); });
+    const uploadBtn = document.getElementById("upload-btn");
+    const uploadInput = document.getElementById("upload-input");
+    const dropOverlay = document.getElementById("drop-overlay");
+    uploadBtn.addEventListener("click", () => uploadInput.click());
+    uploadInput.addEventListener("change", async () => {
+      const files = uploadInput.files;
+      if (files && files.length) await ingestFiles(files);
+      uploadInput.value = "";
+    });
+    let dragDepth = 0;
+    function hasFiles(e) {
+      const dt = e.dataTransfer;
+      if (!dt) return false;
+      if (dt.types && [...dt.types].includes("Files")) return true;
+      return dt.files && dt.files.length > 0;
+    }
+    window.addEventListener("dragenter", (e) => {
+      if (!hasFiles(e)) return;
+      e.preventDefault();
+      dragDepth += 1;
+      dropOverlay.classList.add("on");
+    });
+    window.addEventListener("dragover", (e) => {
+      if (!hasFiles(e)) return;
+      e.preventDefault();
+      e.dataTransfer.dropEffect = "copy";
+    });
+    window.addEventListener("dragleave", (e) => {
+      if (!hasFiles(e)) return;
+      dragDepth = Math.max(0, dragDepth - 1);
+      if (!dragDepth) dropOverlay.classList.remove("on");
+    });
+    window.addEventListener("drop", async (e) => {
+      if (!hasFiles(e)) return;
+      e.preventDefault();
+      dragDepth = 0;
+      dropOverlay.classList.remove("on");
+      await ingestFiles(e.dataTransfer.files);
+    });
     setInterval(() => {
       document.querySelectorAll(".ago[data-ms]").forEach((el) => {
         const ms = Number(el.dataset.ms);

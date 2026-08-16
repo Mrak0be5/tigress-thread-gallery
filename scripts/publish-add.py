@@ -241,7 +241,7 @@ def process_video_file(src: Path, dest: Path) -> None:
         "-preset",
         "veryfast",
         "-crf",
-        "34",
+        "26",
         "-pix_fmt",
         "yuv420p",
         "-vf",

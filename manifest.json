@@ -2,9 +2,43 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-18T02:07+04:00",
+  "updated": "2026-08-18T02:15+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "seedream5pro-tigra-gape-huge-cock-v1",
+      "file": "images/seedream5pro-tigra-gape-huge-cock-v1.jpg",
+      "source": "seedream5pro-tigra-gape-huge-cock-v1b.png",
+      "title": "Tigra gym gape Image-2 cock Seedream 5 Pro",
+      "category": "scene",
+      "model": "Seedream 5.0 Pro",
+      "note": "i2i 1:1 high strength 0.65. Same 2 refs as Wan v4. Kept B, clearer insert. task cb220d76.",
+      "date": "2026-08-18 02:15",
+      "pixels": "1800x1800",
+      "prompt": "Use the SAME tigress from Image 1. Do not redesign her.\nPreserve from Image 1: orange fur, sharp black stripes, white bob, white muzzle and underbelly, feline muzzle, philtrum, inverted-V mouth, NO fleshy human lips, rounded tiger ears, muscular athletic body, looking back over her right shoulder with the same surprised open mouth, bent over the black gym bench, legs spread, striped tail raised, rear to camera, same gym, same crop, same lighting.\n\nImage 2 is penis LOOK only. Copy that cock: huge thick tan-pink flesh shaft, heavy branching veins, large smooth exposed glans with a clear corona, glossy wet skin, tight wrinkled scrotum, large balls. Do not copy Image 2 white studio background.\n\nChange ONLY: the Image 2 cock is fully inserted in her anus. Camera from behind, low three-quarter, occupied hole filling lower center of frame. The pink anal ring grips the veined Image 2 shaft. Balls flush to her cheeks. Not a dildo. Not her own penis. Not lying on the bench.\n\nEnd state: Image 1 gym pose, Image 2 flesh penis buried in her ass, vulva empty below. Match Image 1 2D anthro style. Bright overhead gym light. 1:1. No watermark.",
+      "prompt_file": "prompts/seedream5pro-tigra-gape-huge-cock-v1.txt",
+      "refs": [
+        {
+          "label": "Image 1 anus after gape",
+          "source": "https://mrak0be5.github.io/tigress-thread-gallery/images/refs/wan30-tigra-r2v-20s-cheer-stretch-anal-v31/04-image-4-anus-after-gape.jpg",
+          "file": "images/refs/seedream5pro-tigra-gape-huge-cock-v1/01-image-1-anus-after-gape.jpg"
+        },
+        {
+          "label": "Image 2 penis look",
+          "source": "https://mrak0be5.github.io/tigress-thread-gallery/images/refs/krol-poker-hang-throat-5s-v5-wan-3-0/02-image-3-penis.jpg",
+          "file": "images/refs/seedream5pro-tigra-gape-huge-cock-v1/02-image-2-penis-look.jpg"
+        }
+      ],
+      "service": "Kie Seedream 5 Pro",
+      "service_url": "https://kie.ai",
+      "service_model_url": "https://kie.ai/seedream-5-0",
+      "api": "https://api.kie.ai",
+      "api_key": "f267669997d0cfbb669b6882b8fdc5e4",
+      "key_name": "KIE_API_KEY",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "wan27-image-pro-tigra-gape-huge-cock-v4",
       "file": "images/wan27-image-pro-tigra-gape-huge-cock-v4.jpg",
@@ -23252,6 +23286,14 @@
       "name": "Kie Wan 2.7 Image Pro",
       "url": "https://kie.ai",
       "model_url": "https://kie.ai/wan-2-7-image",
+      "api": "https://api.kie.ai",
+      "api_key": "f267669997d0cfbb669b6882b8fdc5e4",
+      "key_name": "KIE_API_KEY"
+    },
+    "kie-seedream-5-pro": {
+      "name": "Kie Seedream 5 Pro",
+      "url": "https://kie.ai",
+      "model_url": "https://kie.ai/seedream-5-0",
       "api": "https://api.kie.ai",
       "api_key": "f267669997d0cfbb669b6882b8fdc5e4",
       "key_name": "KIE_API_KEY"

@@ -2,9 +2,224 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-17T03:47+04:00",
+  "updated": "2026-08-17T04:14+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "bike-anus-v8-low",
+      "file": "images/bike-anus-v8-low.jpg",
+      "source": "s05_low.png",
+      "title": "Bike anus v8 low",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST close crop on anus + Exercise Bike Pony 0.90/0.85. Same framing as Krol v2.",
+      "date": "2026-08-17 04:14",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-anus-v8/1786925645809-d8eom5jh4kc.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, sitting on the saddle, pedaling, extreme close-up from behind, buttocks fill the frame, anus large in the center, tail lifted aside, nude, no clothes, bottomless, anus visible, spread anus, pussy visible, vulva, crop at hips, no head in frame, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, low close camera at the anus, anus dominant, cheeks left and right, bike seat below, exercise bike,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-anus-v8-low.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-anus-v8-low/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-anus-v8-saddle",
+      "file": "images/bike-anus-v8-saddle.jpg",
+      "source": "s04_saddle.png",
+      "title": "Bike anus v8 saddle",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST close crop on anus + Exercise Bike Pony 0.90/0.85. Same framing as Krol v2.",
+      "date": "2026-08-17 04:14",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-anus-v8/1786925644059-uolidrgukuc.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, sitting on the saddle, pedaling, extreme close-up from behind, buttocks fill the frame, anus large in the center, tail lifted aside, nude, no clothes, bottomless, anus visible, spread anus, pussy visible, vulva, crop at hips, no head in frame, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, camera inches from the anus above the bike saddle, anus in focus, buttocks filling the frame, exercise bike,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-anus-v8-saddle.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-anus-v8-saddle/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-anus-v8-spread",
+      "file": "images/bike-anus-v8-spread.jpg",
+      "source": "s03_spread.png",
+      "title": "Bike anus v8 spread",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST close crop on anus + Exercise Bike Pony 0.90/0.85. Same framing as Krol v2.",
+      "date": "2026-08-17 04:14",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-anus-v8/1786925641991-4oq3v00n6re.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, sitting on the saddle, pedaling, extreme close-up from behind, buttocks fill the frame, anus large in the center, tail lifted aside, nude, no clothes, bottomless, anus visible, spread anus, pussy visible, vulva, crop at hips, no head in frame, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, close rear, thighs apart, ass spread, anus huge in frame, no head, exercise bike,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-anus-v8-spread.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-anus-v8-spread/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-anus-v8-tight",
+      "file": "images/bike-anus-v8-tight.jpg",
+      "source": "s02_tight.png",
+      "title": "Bike anus v8 tight",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST close crop on anus + Exercise Bike Pony 0.90/0.85. Same framing as Krol v2.",
+      "date": "2026-08-17 04:14",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-anus-v8/1786925639831-3uq4yxynkzb.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, sitting on the saddle, pedaling, extreme close-up from behind, buttocks fill the frame, anus large in the center, tail lifted aside, nude, no clothes, bottomless, anus visible, spread anus, pussy visible, vulva, crop at hips, no head in frame, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, tight crop from lower back to thighs, anus large in center, black bike saddle under the ass, exercise bike,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-anus-v8-tight.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-anus-v8-tight/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "bike-anus-v8-macro",
+      "file": "images/bike-anus-v8-macro.jpg",
+      "source": "s01_macro.png",
+      "title": "Bike anus v8 macro",
+      "category": "scene",
+      "model": "ComfyUI Pony TIGRA_BEST",
+      "note": "TIGRA_BEST close crop on anus + Exercise Bike Pony 0.90/0.85. Same framing as Krol v2.",
+      "date": "2026-08-17 04:14",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/tigra-bike-anus-v8/1786925636108-f6h0wv2hlpk.png",
+      "prompt": "exercise bike, bike, sitting, bent over, exercise machine, exercising, sitting on the saddle, pedaling, extreme close-up from behind, buttocks fill the frame, anus large in the center, tail lifted aside, nude, no clothes, bottomless, anus visible, spread anus, pussy visible, vulva, crop at hips, no head in frame, furred muzzle, short feline muzzle, philtrum, inverted v mouth, thin mouth line, extreme close-up of anus, anus fills the center, cheeks fill the frame, puckered anus, exercise bike,\n\nscore_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2,((extreme detailed tiger woman face)), portrait of nude, tiger paws, fur red tigger furry female nude, white bob cut, yellow fur, small black eyes, pads on paw, paws, tiger paws, 5fingers on the paws, tigermovie, white hair, short hair, tiger face, animal, sexual fur body, athletic fitness pumped up body, extreme detailed black eyes, 2d style, anthro, female, tiger, fur, tiger ears, pube hair, pussy, white fur breats, fur fingers, fur ass, fur legs, tiger long tail, bold tail, tall body, detailed fur, realistic fur, 1girl, 1boy",
+      "prompt_file": "prompts/bike-anus-v8-macro.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\id-sheet-final.jpg",
+          "file": "images/refs/bike-anus-v8-macro/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.25
+        },
+        {
+          "name": "Anthro_Tiger_Mk_2",
+          "url": "local",
+          "strength": 0.5
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "krol-bike-anus-v2-low",
       "file": "images/krol-bike-anus-v2-low.jpg",

@@ -6,6 +6,221 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "vinna-bike-anus-v1-low",
+      "file": "images/vinna-bike-anus-v1-low.jpg",
+      "source": "s05_low.png",
+      "title": "Vinna bike anus v1 low",
+      "category": "scene",
+      "model": "ComfyUI Pony Winna_NEW_BEST",
+      "note": "Winna_NEW_BEST CHAR + Bear 0.7 + Exercise Bike Pony 0.90/0.85. Close crop on anus.",
+      "date": "2026-08-17 04:19",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/vinna-bike-anus-v1/1786925952599-iutf12fzp3d.png",
+      "prompt": "score_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2, 2d style, anthro, female, bear, exercise bike, bike, sitting, bent over, exercise machine, exercising, sitting on the saddle, pedaling, extreme close-up from behind, buttocks fill the frame, anus large in the center, tail lifted aside, nude, no clothes, bottomless, anus visible, spread anus, pussy visible, vulva, crop at hips, no head in frame, low close camera at the anus, anus dominant, cheeks left and right, bike seat below, exercise bike,\n\nportrait of nude, detailed BLACK eyes, CURVED BODY, big furry ass, bear face,\nvery fur, FURRY BREASTS, detailed yellow blonde bear female, bear paw, long hair, bear yellow ears, fur, lots of fur, furry pussy, yellow fur, yellow furry, very hair pussy, fur breasts, fur pussy, 1girl, fur yellow face, detailed fur, realistic fur, 1boy",
+      "prompt_file": "prompts/vinna-bike-anus-v1-low.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\refs\\kie-seedance25-vinna-cowboy-poker-20s-v29\\01-image-1-vinna-identity.jpg",
+          "file": "images/refs/vinna-bike-anus-v1-low/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.51
+        },
+        {
+          "name": "Bear",
+          "url": "local",
+          "strength": 0.7
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Vinna"
+      ]
+    },
+    {
+      "id": "vinna-bike-anus-v1-saddle",
+      "file": "images/vinna-bike-anus-v1-saddle.jpg",
+      "source": "s04_saddle.png",
+      "title": "Vinna bike anus v1 saddle",
+      "category": "scene",
+      "model": "ComfyUI Pony Winna_NEW_BEST",
+      "note": "Winna_NEW_BEST CHAR + Bear 0.7 + Exercise Bike Pony 0.90/0.85. Close crop on anus.",
+      "date": "2026-08-17 04:19",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/vinna-bike-anus-v1/1786925950188-apb3p1tdctr.png",
+      "prompt": "score_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2, 2d style, anthro, female, bear, exercise bike, bike, sitting, bent over, exercise machine, exercising, sitting on the saddle, pedaling, extreme close-up from behind, buttocks fill the frame, anus large in the center, tail lifted aside, nude, no clothes, bottomless, anus visible, spread anus, pussy visible, vulva, crop at hips, no head in frame, camera inches from the anus above the bike saddle, anus in focus, buttocks filling the frame, exercise bike,\n\nportrait of nude, detailed BLACK eyes, CURVED BODY, big furry ass, bear face,\nvery fur, FURRY BREASTS, detailed yellow blonde bear female, bear paw, long hair, bear yellow ears, fur, lots of fur, furry pussy, yellow fur, yellow furry, very hair pussy, fur breasts, fur pussy, 1girl, fur yellow face, detailed fur, realistic fur, 1boy",
+      "prompt_file": "prompts/vinna-bike-anus-v1-saddle.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\refs\\kie-seedance25-vinna-cowboy-poker-20s-v29\\01-image-1-vinna-identity.jpg",
+          "file": "images/refs/vinna-bike-anus-v1-saddle/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.51
+        },
+        {
+          "name": "Bear",
+          "url": "local",
+          "strength": 0.7
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Vinna"
+      ]
+    },
+    {
+      "id": "vinna-bike-anus-v1-spread",
+      "file": "images/vinna-bike-anus-v1-spread.jpg",
+      "source": "s03_spread.png",
+      "title": "Vinna bike anus v1 spread",
+      "category": "scene",
+      "model": "ComfyUI Pony Winna_NEW_BEST",
+      "note": "Winna_NEW_BEST CHAR + Bear 0.7 + Exercise Bike Pony 0.90/0.85. Close crop on anus.",
+      "date": "2026-08-17 04:19",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/vinna-bike-anus-v1/1786925948562-jii54es7dm9.png",
+      "prompt": "score_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2, 2d style, anthro, female, bear, exercise bike, bike, sitting, bent over, exercise machine, exercising, sitting on the saddle, pedaling, extreme close-up from behind, buttocks fill the frame, anus large in the center, tail lifted aside, nude, no clothes, bottomless, anus visible, spread anus, pussy visible, vulva, crop at hips, no head in frame, close rear, thighs apart, ass spread, anus huge in frame, no head, exercise bike,\n\nportrait of nude, detailed BLACK eyes, CURVED BODY, big furry ass, bear face,\nvery fur, FURRY BREASTS, detailed yellow blonde bear female, bear paw, long hair, bear yellow ears, fur, lots of fur, furry pussy, yellow fur, yellow furry, very hair pussy, fur breasts, fur pussy, 1girl, fur yellow face, detailed fur, realistic fur, 1boy",
+      "prompt_file": "prompts/vinna-bike-anus-v1-spread.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\refs\\kie-seedance25-vinna-cowboy-poker-20s-v29\\01-image-1-vinna-identity.jpg",
+          "file": "images/refs/vinna-bike-anus-v1-spread/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.51
+        },
+        {
+          "name": "Bear",
+          "url": "local",
+          "strength": 0.7
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Vinna"
+      ]
+    },
+    {
+      "id": "vinna-bike-anus-v1-tight",
+      "file": "images/vinna-bike-anus-v1-tight.jpg",
+      "source": "s02_tight.png",
+      "title": "Vinna bike anus v1 tight",
+      "category": "scene",
+      "model": "ComfyUI Pony Winna_NEW_BEST",
+      "note": "Winna_NEW_BEST CHAR + Bear 0.7 + Exercise Bike Pony 0.90/0.85. Close crop on anus.",
+      "date": "2026-08-17 04:19",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/vinna-bike-anus-v1/1786925946636-62vzxx98tw.png",
+      "prompt": "score_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2, 2d style, anthro, female, bear, exercise bike, bike, sitting, bent over, exercise machine, exercising, sitting on the saddle, pedaling, extreme close-up from behind, buttocks fill the frame, anus large in the center, tail lifted aside, nude, no clothes, bottomless, anus visible, spread anus, pussy visible, vulva, crop at hips, no head in frame, tight crop from lower back to thighs, anus large in center, black bike saddle under the ass, exercise bike,\n\nportrait of nude, detailed BLACK eyes, CURVED BODY, big furry ass, bear face,\nvery fur, FURRY BREASTS, detailed yellow blonde bear female, bear paw, long hair, bear yellow ears, fur, lots of fur, furry pussy, yellow fur, yellow furry, very hair pussy, fur breasts, fur pussy, 1girl, fur yellow face, detailed fur, realistic fur, 1boy",
+      "prompt_file": "prompts/vinna-bike-anus-v1-tight.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\refs\\kie-seedance25-vinna-cowboy-poker-20s-v29\\01-image-1-vinna-identity.jpg",
+          "file": "images/refs/vinna-bike-anus-v1-tight/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.51
+        },
+        {
+          "name": "Bear",
+          "url": "local",
+          "strength": 0.7
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Vinna"
+      ]
+    },
+    {
+      "id": "vinna-bike-anus-v1-macro",
+      "file": "images/vinna-bike-anus-v1-macro.jpg",
+      "source": "s01_macro.png",
+      "title": "Vinna bike anus v1 macro",
+      "category": "scene",
+      "model": "ComfyUI Pony Winna_NEW_BEST",
+      "note": "Winna_NEW_BEST CHAR + Bear 0.7 + Exercise Bike Pony 0.90/0.85. Close crop on anus.",
+      "date": "2026-08-17 04:19",
+      "pixels": "1024x1024",
+      "cdn": "https://tempfile.redpandaai.co/kieai/1335989/vinna-bike-anus-v1/1786925944589-posuvnm5a4.png",
+      "prompt": "score_9, score_8_up, score_9, score_8_up, score_7_up, score_6_up, illustration of wnw2, 2d style, anthro, female, bear, exercise bike, bike, sitting, bent over, exercise machine, exercising, sitting on the saddle, pedaling, extreme close-up from behind, buttocks fill the frame, anus large in the center, tail lifted aside, nude, no clothes, bottomless, anus visible, spread anus, pussy visible, vulva, crop at hips, no head in frame, extreme close-up of anus, anus fills the center, cheeks fill the frame, puckered anus, exercise bike,\n\nportrait of nude, detailed BLACK eyes, CURVED BODY, big furry ass, bear face,\nvery fur, FURRY BREASTS, detailed yellow blonde bear female, bear paw, long hair, bear yellow ears, fur, lots of fur, furry pussy, yellow fur, yellow furry, very hair pussy, fur breasts, fur pussy, 1girl, fur yellow face, detailed fur, realistic fur, 1boy",
+      "prompt_file": "prompts/vinna-bike-anus-v1-macro.txt",
+      "refs": [
+        {
+          "label": "Identity sheet",
+          "source": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery\\images\\refs\\kie-seedance25-vinna-cowboy-poker-20s-v29\\01-image-1-vinna-identity.jpg",
+          "file": "images/refs/vinna-bike-anus-v1-macro/01-identity-sheet.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "WtP_Style_-_TTM",
+          "url": "local",
+          "strength": 0.51
+        },
+        {
+          "name": "Bear",
+          "url": "local",
+          "strength": 0.7
+        },
+        {
+          "name": "exercise-bike-ponyxl-lora-nochekaiser",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 0.9
+        }
+      ],
+      "service": "ComfyUI local",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Vinna"
+      ]
+    },
+    {
       "id": "krol-poker-anal-20s-v15-wan-3-0",
       "file": "images/krol-poker-anal-20s-v15-wan-3-0.mp4",
       "source": "krol-poker-anal-20s-v15.mp4",

@@ -2,9 +2,25 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-19T05:41+04:00",
+  "updated": "2026-08-19T07:46+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "story-switch-lara-mario",
+      "file": "stories/STORY-switch-lara-mario.md",
+      "html": "story-switch-lara-mario.html",
+      "source": "STORY-switch-lara-mario.md",
+      "title": "Лара, Марио и игра на желания",
+      "category": "story",
+      "model": "проза",
+      "note": "Стрим на Switch: Лара, Марио, игра на желания. Волк, Конь, Слон. NSFW 18+.",
+      "version": "1.0",
+      "date": "2026-08-19 07:46",
+      "latest": false,
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "story-gym-night-shift",
       "file": "stories/STORY-gym-4acts-v8.71.md",

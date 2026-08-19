@@ -501,7 +501,7 @@ def extract_story_meta(text: str, src: Path, title_arg: str) -> tuple[str, str]:
     return title, ver
 
 
-def write_story_page(title: str, version: str, md_rel: str, body_html: str) -> None:
+def write_story_page(title: str, version: str, md_rel: str, body_html: str, dest: Path | None = None) -> Path:
     ver_label = f"Версия {html.escape(version)}" if version else "Рассказ"
     page = f"""<!DOCTYPE html>
 <html lang="ru">
@@ -616,7 +616,9 @@ def write_story_page(title: str, version: str, md_rel: str, body_html: str) -> N
 </body>
 </html>
 """
-    STORY_HTML.write_text(page, encoding="utf-8")
+    out = dest or STORY_HTML
+    out.write_text(page, encoding="utf-8")
+    return out
 
 
 def publish_story(src: Path, args: argparse.Namespace, data: dict) -> dict:
@@ -627,13 +629,14 @@ def publish_story(src: Path, args: argparse.Namespace, data: dict) -> dict:
     dest = STORIES / dest_name
     shutil.copy2(src, dest)
     md_rel = f"stories/{dest_name}"
-    write_story_page(title, version, md_rel, md_to_html(text))
     iid = args.id or "story-gym-night-shift"
+    html_name = "story.html" if iid == "story-gym-night-shift" else f"{iid}.html"
+    write_story_page(title, version, md_rel, md_to_html(text), GAL / html_name)
     data["items"] = [it for it in data.get("items") or [] if it.get("id") != iid]
     item = {
         "id": iid,
         "file": md_rel,
-        "html": "story.html",
+        "html": html_name,
         "source": src.name,
         "title": title,
         "category": "story",
@@ -641,7 +644,8 @@ def publish_story(src: Path, args: argparse.Namespace, data: dict) -> dict:
         "note": args.note or "Последняя версия рассказа",
         "version": version,
         "date": datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "latest": True,
+        "latest": iid == "story-gym-night-shift",
+        "characters": ["Tigra"],
     }
     data["items"].insert(0, item)
     return item

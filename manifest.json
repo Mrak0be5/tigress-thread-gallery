@@ -2,9 +2,26 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-19T07:46+04:00",
+  "updated": "2026-08-20T17:17+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "mageflow-redhead-nude",
+      "file": "images/mageflow-redhead-nude.jpg",
+      "source": "mageflow_redhead_nude_00001_.png",
+      "title": "Redhead nude Mage-Flow",
+      "category": "scene",
+      "model": "Mage-Flow-4B-Base + Qwen3-VL-4B Heretic",
+      "note": "Local ComfyUI. Photoreal adult redhead, freckles, fully nude, bedroom.",
+      "date": "2026-08-20 17:17",
+      "pixels": "1024x1280",
+      "prompt": "Photorealistic nude adult woman, 25 years old, long wavy copper-red hair, fair skin with light freckles on the face and shoulders, green eyes, standing fully naked in a sunlit bedroom, bare breasts, nipples visible, completely nude, no clothes, natural body, slim waist, full hips, looking at the camera, 85mm lens, shallow depth of field, detailed skin texture, cinematic lighting.",
+      "prompt_file": "prompts/mageflow-redhead-nude.txt",
+      "service": "ComfyUI local",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "story-switch-lara-mario",
       "file": "stories/STORY-switch-lara-mario.md",

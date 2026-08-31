@@ -2,9 +2,55 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-31T23:12+04:00",
+  "updated": "2026-08-31T23:37+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "gym-anal-15s-dialectical",
+      "file": "images/gym-anal-15s-dialectical.mp4",
+      "source": "eros-15s-dialectical-anal.mp4",
+      "title": "Gym anal 15s Dialectical love LoRA",
+      "category": "video",
+      "model": "MiniMax H3 Eros Max + Dialectical love I2V + VBVR",
+      "note": "768x768 15s. HMNSFW replaced with Dialectical love I2V @0.8. Same plot: insert, wince, scold, потерпи, arms cross no lean, harder, pullout leak.",
+      "date": "2026-08-31 23:37",
+      "pixels": "0x0",
+      "poster": "images/posters/gym-anal-15s-dialectical.jpg",
+      "stream": "images/stream/gym-anal-15s-dialectical.mp4",
+      "pose": "images/poses/pose-tigra-handstand-ref-f917a1e369e3.jpg",
+      "prompt": "subject_definitions:\n<Picture 1> is the locked camera, framing, gym, and bent-over pose for the adult anthropomorphic tigress: orange-and-black striped fur, white bob, white muzzle, yellow eyes, round tiger ears, long ringed tail, muscular nude body, white chest fur, bent over the black gym bench on all fours, rump toward camera-left, the round pink anus clearly visible above the vaginal slit.\n<Subject 1> is that tigress, identical to <Picture 1>.\n<Picture 2> is the identity of the adult human man: messy dark-brown hair, large brown eyes, light stubble, slim athletic nude body, tan skin.\n<Subject 2> is that man from <Picture 2>.\n<Picture 3> is the penis shape for <Subject 2>: glossy pink-tan shaft, prominent glans, visible veins, rendered twice as thick and long as in <Picture 3>.\n<Picture 4> is a close crop of <Subject 1>'s rump from the same gym body: the target hole is the round puckered anus high on the rump, not the vertical vaginal slit below it.\n<Picture 5> is a rear anatomy lock: round pink anus above, vertical vaginal slit below, so the two holes stay distinct.\n\nsummary:\n[reference generation] Square gym anal sex video. Static locked tripod identical to <Picture 1> — no zoom until nothing; no zoom at all. <Subject 2> walks in from the left and inserts into the round upper anus. She winces on every thrust, yells, he answers, she crosses her arms on her chest without changing pose, he fucks harder, then pulls out and a little semen leaks.\n\nretention_analysis:\n<Picture 1> is fully_preserved for camera, framing, and <Subject 1>'s bent-over body: same rump height, spine angle, hip height, knee placement. The crop never tightens.\n<Subject 1> is fully_preserved and does not sit up, stand, lean, or lower her torso.\n<Picture 2> is fully_preserved for <Subject 2> face, hair, body.\n<Subject 2> is fully_preserved throughout.\n<Picture 3> is attribute_transfer for penis color and glans; size is twice as large.\n<Picture 4> is attribute_transfer only for the anus as the insertion target; it does not change the camera.\n<Picture 5> is attribute_transfer only so anus and vagina stay two separate holes; it does not change the camera.\n\ndetailed_description: Glossy anime 3D. Static locked tripod copied from <Picture 1>: same three-quarter rear gym angle, same distance, same bench, barbell, windows, and floor. No zoom, no push-in, no dolly, no recrop. <Subject 1> from <Picture 1> stays bent over on all fours, rump high, tail up. Spine angle and rump height stay frozen to Picture 1. <Subject 2> from <Picture 2> is added on the left. Insertion lock: the oversized penis from <Picture 3> goes into the round puckered anus from <Picture 4> and <Picture 5> — the upper circular hole. After entry the pink anal rim is a ring around the shaft. The vertical vaginal slit below stays empty. Not the glute, not the perineum, not vaginal. Every thrust stays anal only.\n[Shot 1] He steps in from the left and inserts into that anus in one clean push. He thrusts at a steady pace. On every thrust she winces: grimace, eyes tightening, muzzle wrinkling, a small pained sound, ears twitching, tail-tip flick. Camera locked.\n[Shot 2] At 00:03.500, still bent over, anal ring around the shaft, she turns only her head and yells <d>[Russian] Что ты себе позволяешь??</d> She still winces on each thrust. Camera locked.\n[Shot 3] At 00:07.000, <Subject 2> (S2) answers while thrusting <d>[Russian] Я быстро, потерпи.</d>\n[Shot 4] At 00:08.500, she sulkily turns only her head away toward the windows and simply crosses her arms over her chest. Nothing else moves. She does not lean, slump, drop her chest onto the pad, sit up, or crawl. Rump height stays identical to <Picture 1>. He starts fucking harder and deeper, still in the anus. Sharper winces, a hiss, fingers clutching.\n[Shot 5] At 00:12.500, he drives in to the hilt, balls flush, freezes a beat, then pulls the glistening shaft all the way out of her anus. A small trickle of white semen leaks from the gaped anal ring. She stays bent over in the Picture 1 stance, sulky, arms crossed on her chest, face turned away. No vaginal, no sitting up, no on-screen text, no zoom.\n\noverall_soundscape: A clean wet slide on first anal insertion, a wince on every thrust, her shouted scolding, his reply, louder slaps, a wet pop on pull-out, a drip, gym HVAC.\n\nnon_diegetic_music: N/A",
+      "prompt_file": "prompts/gym-anal-15s-dialectical.txt",
+      "refs": [
+        {
+          "label": "Tigra gym",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\tigra_handstand_ref.png",
+          "file": "images/refs/gym-anal-15s-dialectical/01-tigra-gym.jpg"
+        },
+        {
+          "label": "Man identity",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\man_identity_ref.jpg",
+          "file": "images/refs/gym-anal-15s-dialectical/02-man-identity.jpg"
+        },
+        {
+          "label": "Penis shape",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\penis_shape_ref.jpg",
+          "file": "images/refs/gym-anal-15s-dialectical/03-penis-shape.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Dialectical-love-I2V-H3",
+          "strength": 0.8
+        },
+        {
+          "name": "VBVR_H3_attn_only",
+          "strength": 1.0
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "gym-anal-30s-nolean-armcross",
       "file": "images/gym-anal-30s-nolean-armcross.mp4",

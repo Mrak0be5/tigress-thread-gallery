@@ -1,0 +1,11 @@
+# 15s gym anal v2 — 10s I2VA already-in + AddGuide pose + 5s FL2VA hole CU no penis
+
+Fixes vs v1: face stays on camera through the hilt freeze (hard wince); arms-cross without sit-up (prompt + AddGuide first frame); zoom last-frame is a crop of the leak with no penis.
+
+Stack: MiniMax H3 Eros Max + Dialectical love I2V @0.8 + VBVR attn-only @1.0. Euler/simple 8. Sigma 12/7. 768x768. Seeds 202608319110 / 202608319120.
+
+## Part 1 I2VA 243f first=tigra_anal_in_first.png + AddGuide same image frame 0
+See prompt_anal_15s_deepfreeze_v2_p1.txt
+
+## Part 2 FL2VA 124f first=part1 last, last=anus_leak_cu_nopenis.png
+See prompt_anal_15s_deepfreeze_v2_p2.txt

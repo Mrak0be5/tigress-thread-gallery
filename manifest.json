@@ -2,9 +2,52 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-01T01:11+04:00",
+  "updated": "2026-09-01T03:10+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "gym-anal-15s-deepfreeze-v2",
+      "file": "images/gym-anal-15s-deepfreeze-v2.mp4",
+      "source": "eros-15s-deepfreeze-v2-anal.mp4",
+      "title": "Gym anal 15s deep freeze v2 (wince + leak CU)",
+      "category": "video",
+      "model": "MiniMax H3 Eros Max + Dialectical love I2V + VBVR",
+      "note": "v2: face stays on camera for hilt freeze wince; AddGuide first-frame pose; zoom last-frame is leak CU with no penis. 10s I2VA already-in + 5s FL2VA.",
+      "date": "2026-09-01 03:10",
+      "pixels": "0x0",
+      "poster": "images/posters/gym-anal-15s-deepfreeze-v2.jpg",
+      "stream": "images/stream/gym-anal-15s-deepfreeze-v2.mp4",
+      "pose": "images/poses/pose-tigra-anal-in-first-2140e298455b.jpg",
+      "prompt": "# 15s gym anal v2 — 10s I2VA already-in + AddGuide pose + 5s FL2VA hole CU no penis\n\nFixes vs v1: face stays on camera through the hilt freeze (hard wince); arms-cross without sit-up (prompt + AddGuide first frame); zoom last-frame is a crop of the leak with no penis.\n\nStack: MiniMax H3 Eros Max + Dialectical love I2V @0.8 + VBVR attn-only @1.0. Euler/simple 8. Sigma 12/7. 768x768. Seeds 202608319110 / 202608319120.\n\n## Part 1 I2VA 243f first=tigra_anal_in_first.png + AddGuide same image frame 0\nSee prompt_anal_15s_deepfreeze_v2_p1.txt\n\n## Part 2 FL2VA 124f first=part1 last, last=anus_leak_cu_nopenis.png\nSee prompt_anal_15s_deepfreeze_v2_p2.txt",
+      "prompt_file": "prompts/gym-anal-15s-deepfreeze-v2.txt",
+      "refs": [
+        {
+          "label": "First frame already in",
+          "source": "C:\\Users\\hebp\\Downloads\\Minimax H3 Nude\\tigra_anal_in_first.png",
+          "file": "images/refs/gym-anal-15s-deepfreeze-v2/01-first-frame-already-in.jpg"
+        },
+        {
+          "label": "Anus leak CU no penis",
+          "source": "C:\\Users\\hebp\\Downloads\\Minimax H3 Nude\\anus_leak_cu_nopenis.png",
+          "file": "images/refs/gym-anal-15s-deepfreeze-v2/02-anus-leak-cu-no-penis.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Dialectical-love-I2V-H3",
+          "url": "https://civitai.red/models/2864913/dialectical-love-i2v-minimax-h3-nsfw-sex-lora?modelVersionId=3236496",
+          "strength": 0.8
+        },
+        {
+          "name": "VBVR_H3_attn_only",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 1.0
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "gym-anal-15s-deepfreeze",
       "file": "images/gym-anal-15s-deepfreeze.mp4",

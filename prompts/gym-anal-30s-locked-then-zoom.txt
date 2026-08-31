@@ -1,0 +1,17 @@
+# 30s v3 — 15s locked Ref2VA + 10s locked I2VA pullout + 5s FL2VA zoom only
+
+Fix vs v2: last-frame close-up was pulling the whole second half into a zoom. Zoom is now a separate 5s clip after pull-out is already visible in the wide shot.
+
+## Part 1 Ref2VA 768 362f seed 202608315010 + AddGuide frame 0 original gym
+prompt_anal_30s_v3_part1_ref2va.txt
+refs: gym camera, man, penis, gym anus crop, rear anatomy
+
+## Part 2 I2VA 768 243f seed 202608315020 first=part1 last, NO last-frame
+prompt_anal_30s_v3_part2_i2va.txt
+harder, cum, pull-out, leak, stay wide
+
+## Part 3 FL2VA 768 124f seed 202608315030 first=part2 last, last=anus_gape_leak_last.png
+prompt_anal_30s_v3_part3_fl2va.txt
+slow push-in only
+
+Stack: Eros Max + HMNSFW AIO V2.5 @0.8 + VBVR @1.0. Euler/simple 8. Sigma 12/7.

@@ -2,9 +2,70 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-31T20:20+04:00",
+  "updated": "2026-08-31T22:00+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "gym-anal-30s-locked-then-zoom",
+      "file": "images/gym-anal-30s-locked-then-zoom.mp4",
+      "source": "eros-30s-v3-locked-then-zoom.mp4",
+      "title": "Gym anal 30s locked then zoom leak",
+      "category": "video",
+      "model": "MiniMax H3 Eros Max + HMNSFW AIO V2.5 + VBVR",
+      "note": "768x768 ~30.4s. 15s lock + 10s wide pullout/leak + 5s zoom only. AddGuide frame0 original gym. Extra anus refs.",
+      "date": "2026-08-31 22:00",
+      "pixels": "0x0",
+      "poster": "images/posters/gym-anal-30s-locked-then-zoom.jpg",
+      "stream": "images/stream/gym-anal-30s-locked-then-zoom.mp4",
+      "pose": "images/poses/pose-tigra-handstand-ref-f917a1e369e3.jpg",
+      "prompt": "# 30s v3 — 15s locked Ref2VA + 10s locked I2VA pullout + 5s FL2VA zoom only\n\nFix vs v2: last-frame close-up was pulling the whole second half into a zoom. Zoom is now a separate 5s clip after pull-out is already visible in the wide shot.\n\n## Part 1 Ref2VA 768 362f seed 202608315010 + AddGuide frame 0 original gym\nprompt_anal_30s_v3_part1_ref2va.txt\nrefs: gym camera, man, penis, gym anus crop, rear anatomy\n\n## Part 2 I2VA 768 243f seed 202608315020 first=part1 last, NO last-frame\nprompt_anal_30s_v3_part2_i2va.txt\nharder, cum, pull-out, leak, stay wide\n\n## Part 3 FL2VA 768 124f seed 202608315030 first=part2 last, last=anus_gape_leak_last.png\nprompt_anal_30s_v3_part3_fl2va.txt\nslow push-in only\n\nStack: Eros Max + HMNSFW AIO V2.5 @0.8 + VBVR @1.0. Euler/simple 8. Sigma 12/7.",
+      "prompt_file": "prompts/gym-anal-30s-locked-then-zoom.txt",
+      "refs": [
+        {
+          "label": "Tigra gym camera lock",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\tigra_handstand_ref.png",
+          "file": "images/refs/gym-anal-30s-locked-then-zoom/01-tigra-gym-camera-lock.jpg"
+        },
+        {
+          "label": "Man identity",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\man_identity_ref.jpg",
+          "file": "images/refs/gym-anal-30s-locked-then-zoom/02-man-identity.jpg"
+        },
+        {
+          "label": "Penis shape",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\penis_shape_ref.jpg",
+          "file": "images/refs/gym-anal-30s-locked-then-zoom/03-penis-shape.jpg"
+        },
+        {
+          "label": "Gym anus crop",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\tigra_gym_anus_crop.png",
+          "file": "images/refs/gym-anal-30s-locked-then-zoom/04-gym-anus-crop.jpg"
+        },
+        {
+          "label": "Anus anatomy",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\tigra_anus_anatomy_ref.png",
+          "file": "images/refs/gym-anal-30s-locked-then-zoom/05-anus-anatomy.jpg"
+        },
+        {
+          "label": "Gape leak last frame",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\anus_gape_leak_last.png",
+          "file": "images/refs/gym-anal-30s-locked-then-zoom/06-gape-leak-last-frame.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "HMNSFW-AIO-V2.5",
+          "strength": 0.8
+        },
+        {
+          "name": "VBVR_H3_attn_only",
+          "strength": 1.0
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "gym-anal-30s-locked-cam-zoomleak",
       "file": "images/gym-anal-30s-locked-cam-zoomleak.mp4",

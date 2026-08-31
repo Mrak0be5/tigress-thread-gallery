@@ -1,0 +1,13 @@
+# 30s v2 locked-camera gym anal — Ref2VA 15s + FL2VA 15s
+
+Camera locked to original gym still for as long as possible. Extra refs: gym anus crop + rear anatomy (pucker vs vagina). Zoom only after pull-out, landing on gape+leak close-up.
+
+## Part 1 Ref2VA 768x768 362f seed 202608314110
+refs: tigra_handstand_ref.png, man_identity_ref.jpg, penis_shape_ref.jpg, tigra_gym_anus_crop.png, tigra_anus_anatomy_ref.png
+See prompt_anal_30s_v2_part1_ref2va.txt
+
+## Part 2 FL2VA 768x768 362f seed 202608314120
+first=last frame of part 1; last=anus_gape_leak_last.png
+See prompt_anal_30s_v2_part2_fl2va.txt
+
+Stack: MiniMax H3 Eros Max + HMNSFW AIO V2.5 @0.8 + VBVR attn-only @1.0. Euler/simple 8. Sigma 12/7. Kitchen attention.

@@ -1,0 +1,27 @@
+# 30s stretched gym anal — two native 15s H3 clips concatenated
+
+## Part 1 — Ref2VA 768x768 362f seed 202608313010
+(from prompt_anal_30s_part1_ref2va.txt)
+
+subject_definitions:
+<Picture 1> is the appearance and gym-pose lock for the adult anthropomorphic tigress: orange-and-black striped fur, white bob, white muzzle, yellow eyes, round tiger ears, long ringed tail, muscular nude body, white chest fur, bent over the black gym bench, rump to camera, anus clearly visible.
+<Subject 1> is that tigress, identical to <Picture 1>.
+<Picture 2> is the identity of the adult human man: messy dark-brown hair, large brown eyes, light stubble, slim athletic nude body, tan skin.
+<Subject 2> is that man from <Picture 2>.
+<Picture 3> is the penis shape for <Subject 2>: glossy pink-tan shaft, prominent glans, visible veins, rendered twice as thick and long as in <Picture 3>.
+
+summary:
+[reference generation] Square gym video, first half of a slow 30-second scene. <Subject 1> stays bent over, anus on camera. <Subject 2> walks in from the left, inserts smoothly, she winces on every thrust, she yells, he answers. He does not fuck harder yet, does not pull out, does not finish. Clip ends with him still inside, mid-thrust.
+
+## Part 2 — I2VA 768x768 362f seed 202608313020 from last frame of part 1
+(from prompt_anal_30s_part2_i2va.txt)
+
+For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.
+
+integrated_multimodal_description: Continuation of the same square gym shot. Keep Picture 1's camera, gym, bench, lighting, and identities. The adult anthropomorphic tigress stays bent over the black gym bench on all fours, rump high, tail up, anus visible as a ring around the man's penis. The adult human man stays on the left, already inside her anus at the opening frame. She never sits up, never stands, never hides the anus. Slow unhurried pacing, then a late climax.
+[Shot 1] From 00:00.000 to 00:04.000 he keeps the same slow steady anal thrusts as the previous clip. On every thrust she winces.
+[Shot 2] At 00:04.000 he fucks harder and deeper.
+[Shot 3] At 00:10.000 he drives in to the hilt, balls flush, freezes a long beat.
+[Shot 4] At 00:12.000 he slowly pulls the glistening shaft all the way out. A small trickle of white semen leaks from her gaped anus.
+
+Stack: MiniMax H3 Eros Max + HMNSFW AIO V2.5 @0.8 + VBVR attn-only @1.0. Euler/simple 8. Sigma 12/7. Kitchen attention.

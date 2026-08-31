@@ -1,0 +1,5 @@
+# 30s v4 — no lean when crossing arms
+
+Same 15+10+5 split as v3. Prompt change: do not fold forearms on the pad under the chest (that made her slump). Cross arms on chest only; spine/rump frozen to Picture 1.
+
+Seeds: 202608316010 / 202608316020 / 202608316030

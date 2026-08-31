@@ -2,9 +2,55 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-08-31T22:00+04:00",
+  "updated": "2026-08-31T23:12+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "gym-anal-30s-nolean-armcross",
+      "file": "images/gym-anal-30s-nolean-armcross.mp4",
+      "source": "eros-30s-v4-nolean-then-zoom.mp4",
+      "title": "Gym anal 30s no-lean arm cross",
+      "category": "video",
+      "model": "MiniMax H3 Eros Max + HMNSFW AIO V2.5 + VBVR",
+      "note": "768x768 ~30.4s. Cross arms on chest only, no slump onto the pad. 15s lock + 10s wide pullout + 5s zoom.",
+      "date": "2026-08-31 23:12",
+      "pixels": "0x0",
+      "poster": "images/posters/gym-anal-30s-nolean-armcross.jpg",
+      "stream": "images/stream/gym-anal-30s-nolean-armcross.mp4",
+      "pose": "images/poses/pose-tigra-handstand-ref-f917a1e369e3.jpg",
+      "prompt": "# 30s v4 — no lean when crossing arms\n\nSame 15+10+5 split as v3. Prompt change: do not fold forearms on the pad under the chest (that made her slump). Cross arms on chest only; spine/rump frozen to Picture 1.\n\nSeeds: 202608316010 / 202608316020 / 202608316030",
+      "prompt_file": "prompts/gym-anal-30s-nolean-armcross.txt",
+      "refs": [
+        {
+          "label": "Tigra gym camera lock",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\tigra_handstand_ref.png",
+          "file": "images/refs/gym-anal-30s-nolean-armcross/01-tigra-gym-camera-lock.jpg"
+        },
+        {
+          "label": "Man identity",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\man_identity_ref.jpg",
+          "file": "images/refs/gym-anal-30s-nolean-armcross/02-man-identity.jpg"
+        },
+        {
+          "label": "Penis shape",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\\input\\penis_shape_ref.jpg",
+          "file": "images/refs/gym-anal-30s-nolean-armcross/03-penis-shape.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "HMNSFW-AIO-V2.5",
+          "strength": 0.8
+        },
+        {
+          "name": "VBVR_H3_attn_only",
+          "strength": 1.0
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "gym-anal-30s-locked-then-zoom",
       "file": "images/gym-anal-30s-locked-then-zoom.mp4",

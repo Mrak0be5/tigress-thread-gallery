@@ -2,9 +2,47 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-01T21:12+04:00",
+  "updated": "2026-09-01T23:14+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "bear-anal-30s-exact-lines",
+      "file": "images/bear-anal-30s-exact-lines.mp4",
+      "source": "eros-30s-bear-anal-v2.mp4",
+      "title": "Furry bear 30s exact four lines + leak",
+      "category": "video",
+      "model": "MiniMax H3 Eros Max + Dialectical love I2V + VBVR",
+      "note": "30s. Lines: Ну сколько ещё ты будешь трахать мою жопу? / Я скоро, потерпи. / Только не в меня! / Поздно! Then freeze, disgusted, pull-out leak. 720x1280.",
+      "date": "2026-09-01 23:14",
+      "pixels": "0x0",
+      "poster": "images/posters/bear-anal-30s-exact-lines.jpg",
+      "stream": "images/stream/bear-anal-30s-exact-lines.mp4",
+      "pose": "images/poses/pose-bear-anal-in-first-49d136831ce5.jpg",
+      "prompt": "# 30s furry bear anal v2 — exact four lines\n\n1. She: Ну сколько ещё ты будешь трахать мою жопу?\n2. He: Я скоро, потерпи.\n3. She: Только не в меня!\n4. He: Поздно!\n\nThen max-depth freeze, disgusted face, pull-out, stretched anus leaking. No clit/breast.\n\nSeeds 202609011110 / 202609011120. 736x1280 -> 720x1280. Dialectical 0.8 + VBVR 1.0.\n\nSee prompt_bear_anal_30s_v2_p1.txt and prompt_bear_anal_30s_v2_p2.txt",
+      "prompt_file": "prompts/bear-anal-30s-exact-lines.txt",
+      "refs": [
+        {
+          "label": "First frame already in",
+          "source": "C:\\Users\\hebp\\Downloads\\Minimax H3 Nude\\bear_anal_in_first.png",
+          "file": "images/refs/bear-anal-30s-exact-lines/01-first-frame-already-in.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "Dialectical-love-I2V-H3",
+          "url": "https://civitai.red/models/2864913/dialectical-love-i2v-minimax-h3-nsfw-sex-lora?modelVersionId=3236496",
+          "strength": 0.8
+        },
+        {
+          "name": "VBVR_H3_attn_only",
+          "url": "https://civitai.com/models/1009039?modelVersionId=1130925",
+          "strength": 1.0
+        }
+      ],
+      "characters": [
+        "Bear"
+      ]
+    },
     {
       "id": "bear-anal-30s-pozdno-creampie",
       "file": "images/bear-anal-30s-pozdno-creampie.mp4",

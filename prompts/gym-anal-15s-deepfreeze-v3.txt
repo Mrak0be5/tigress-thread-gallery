@@ -1,0 +1,11 @@
+# 15s gym anal v3 — furry tigress + arm-cross AND straighten spine
+
+Fixes vs v2: she is an adult furry tigress with a full tiger pelt (orange/black stripes, white muzzle/chest/rump fur). At 00:06 she both crosses her arms and straightens her spine. Freeze wince still face-on. Zoom last-frame is leak CU with no penis.
+
+Stack: MiniMax H3 Eros Max + Dialectical love I2V @0.8 + VBVR attn-only @1.0. Euler/simple 8. Sigma 12/7. 768x768. Seeds 202608319210 / 202608319220.
+
+## Part 1 I2VA 243f first=tigra_anal_in_first.png + AddGuide same image frame 0
+See prompt_anal_15s_deepfreeze_v3_p1.txt
+
+## Part 2 FL2VA 124f first=part1 last, last=anus_leak_cu_nopenis.png
+See prompt_anal_15s_deepfreeze_v3_p2.txt

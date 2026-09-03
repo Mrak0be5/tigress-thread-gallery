@@ -2,9 +2,23 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-03T05:02+04:00",
+  "updated": "2026-09-03T07:25+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "tigra-owl-floor-comic",
+      "file": "images/tigra-owl-floor-comic.jpg",
+      "source": "tigra_owl_floor_comic.png",
+      "title": "Тигрица и сова моют пол",
+      "category": "scene",
+      "model": "Qwen Image Edit 2511",
+      "note": "4 панели, русский текст. Рефы: tigress sheet + owl sheet. LoRA: Comic-Koma, AnimeStyle, Furry Enhancer V3.9, NSFW.",
+      "date": "2026-09-03 07:25",
+      "pixels": "1549x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "butcher-night-15s-v6-16x9",
       "file": "images/butcher-night-15s-v6-16x9.mp4",

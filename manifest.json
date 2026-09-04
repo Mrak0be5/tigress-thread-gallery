@@ -2,9 +2,39 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-05T02:21+04:00",
+  "updated": "2026-09-05T02:37+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "bear-walk-bed-anal-15s-v1",
+      "file": "images/bear-walk-bed-anal-15s-v1.mp4",
+      "source": "eros-15s-bear-walk-bed-anal-v1.mp4",
+      "title": "Furry bear 15s v1 — stand, walk to bed, anal",
+      "category": "video",
+      "model": "MiniMax H3 Eros Max Ref2VA",
+      "note": "v1 Ref2VA. Sheet identity standing in bedroom, walks, lies legs-up, anal insert. Dialectical 0.8 + VBVR 1.0. Seed 202609050230.",
+      "date": "2026-09-05 02:37",
+      "pixels": "0x0",
+      "poster": "images/posters/bear-walk-bed-anal-15s-v1.jpg",
+      "stream": "images/stream/bear-walk-bed-anal-15s-v1.mp4",
+      "cdn": "https://files.catbox.moe/undq9h.mp4",
+      "prompt": "subject_definitions:\n<Subject 1> is the unique adult furry anthropomorphic bear woman whose appearance comes from <Picture 1>: golden-tan fur, cream belly and inner thighs, round bear ears, long wavy blonde hair, amber eyes, black bear nose, muzzle, large bare breasts, nude, black claws, plantigrade bear feet. Exactly one bear woman. <Picture 1> is a front-and-back character sheet of that same single woman, not two people.\n<Subject 2> is the unique dark-skinned adult human man whose body, hips, and penis come from <Picture 2>: brown skin, adult male, erect penis. Exactly one man. His face may stay out of frame.\n<Subject 3> is the wooden bedroom from <Picture 2>: dark wood headboard, white sheets, nightstand lamp, indoor bedroom, not a white void.\n<Picture 1> is the front-and-back character sheet used only as identity for <Subject 1>, never as a split-screen or white-studio first frame.\n<Picture 2> is the storyboard target for the bed pose and anal insertion in later shots: <Subject 1> on her back, legs raised, furred hands gripping her thighs, <Subject 2>'s penis inside her anus.\n\nsummary:\n[reference generation] A single continuous 15-second glossy anime-3D bedroom shot. <Subject 1> from <Picture 1> stands nude in the middle of <Subject 3>, walks to the bed, lies on her back and raises her legs into the pose of <Picture 2>, then <Subject 2> from <Picture 2> steps in and inserts his penis into her anus and fucks her. Exactly one bear woman. No white studio. No split front-and-back view on screen.\n\nretention_analysis:\n<Subject 1> (appears in [Shot 1] through [Shot 5]): fully_preserved - golden-tan fur, cream belly, blonde hair, round bear ears, muzzle, nude body from <Picture 1>; she starts standing, then lies down; never becomes a human woman; exactly one.\n<Subject 2> (appears from [Shot 4]): fully_preserved - dark-skinned adult man and penis from <Picture 2>; absent while she stands and walks; enters for insertion.\n<Subject 3> (appears in [Shot 1] through [Shot 5]): fully_preserved - wooden headboard, white sheets, lamp from <Picture 2>; the room is present from the first frame.\n<Picture 1> (identity only): attribute_transfer - face, fur, body, ears, hair transferred onto <Subject 1>; the white background and dual turnaround layout are discarded.\n<Picture 2> ([Shot 5] pose target): partially_preserved - bed, raised-leg hold, anal penetration, man and penis; the Telegram UI is discarded; sailor uniform is not required, she stays nude like <Picture 1>.\n\ndetailed_description:\nThe target video is glossy anime 3D matching <Picture 1> and <Picture 2>: painted fur, warm bedroom light, no live-action, no photoreal skin, no on-screen text.\n[Shot 1] At 0.00 seconds a medium-wide shot inside <Subject 3>, the wooden bedroom. <Subject 1> from <Picture 1> stands fully nude in the middle of the room on the floor, facing the camera, full body visible: golden-tan fur, cream belly, bare breasts, round bear ears, long blonde hair, plantigrade bear feet. Exactly one woman. No bed-sex pose yet. No man on screen. The camera holds.\nFrom 00:00.000 to 00:02.400 she stands, shifts her weight, glances toward the bed.\n[Shot 2] At 00:02.500 the camera follows as she walks across the bedroom to the bed with the dark wood headboard. Nude. One bear woman. She reaches the mattress.\n[Shot 3] At 00:05.200 she sits, then lies on her back on the white sheets. She raises both legs, spreads them, and grips her own furred thighs with both hands — four fingers on the outer thighs, thumbs on the inner thighs — matching the pose of <Picture 2>. Bored-to-eager face, amber eyes. Still no penetration. The vertical pink vaginal slit and the lower round anus are both visible. The camera settles into a medium shot from between her legs, similar angle to <Picture 2>.\n[Shot 4] At 00:08.200 <Subject 2> from <Picture 2> steps between her raised legs. His dark-skinned hips and erect penis enter frame from the bottom. He lines the penis up with her anus — the lower round hole only — and pushes it inside that anus. The vertical pink vaginal slit above stays empty. She keeps both hands on her thighs. She winces on the first push.\n[Shot 5] At 00:10.500 the camera holds that medium shot matching <Picture 2>: <Subject 1> on her back, legs up, hands on thighs, penis buried in the anus only. He fucks that anus with several hard deep thrusts until 00:15.080. She stays on her back. No vaginal sex. No pull-out. No on-screen text.\n\noverall_soundscape:\nQuiet bedroom air and floor creak as she walks. Mattress settle. A low male breath. Wet anal insertion and thrusting slaps. Her small wince on the first push. No crowd, no music stingers.\n\nnon_diegetic_music: N/A",
+      "prompt_file": "prompts/bear-walk-bed-anal-15s-v1.txt",
+      "loras": [
+        {
+          "name": "Dialectical Love I2V",
+          "url": "https://civitai.red/models/2864913",
+          "strength": 0.8
+        },
+        {
+          "name": "VBVR H3 attn-only",
+          "strength": 1.0
+        }
+      ],
+      "characters": [
+        "Bear"
+      ]
+    },
     {
       "id": "butcher-night-15s-v7-boards",
       "file": "images/butcher-night-15s-v7-boards.mp4",

@@ -2,9 +2,39 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-05T02:37+04:00",
+  "updated": "2026-09-05T04:33+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "bear-walk-bed-anal-15s-v2",
+      "file": "images/bear-walk-bed-anal-15s-v2.mp4",
+      "source": "eros-15s-bear-walk-bed-anal-v2.mp4",
+      "title": "Furry bear 15s v2 — sailor uniform, walk to bed, anal",
+      "category": "video",
+      "model": "MiniMax H3 Eros Max Ref2VA",
+      "note": "v2. Pose-ref first for painted style + sailor from frame 0. Sheet front for face only. Seed 202609050331.",
+      "date": "2026-09-05 04:33",
+      "pixels": "0x0",
+      "poster": "images/posters/bear-walk-bed-anal-15s-v2.jpg",
+      "stream": "images/stream/bear-walk-bed-anal-15s-v2.mp4",
+      "cdn": "https://files.catbox.moe/97gpk0.mp4",
+      "prompt": "subject_definitions:\n<Subject 1> is the unique adult furry anthropomorphic bear woman. Face, ears, muzzle, blonde hair and golden-tan fur colors come from <Picture 2>. Outfit, body rendering, and bedroom look come from <Picture 1>: open white sailor shirt, red bow, blue ruffled skirt bunched at the waist, bare breasts, painted fur with ink outlines. Exactly one bear woman.\n<Subject 2> is the unique dark-skinned adult human man whose hips and penis come from <Picture 1>. Exactly one man. His face may stay out of frame.\n<Subject 3> is the wooden bedroom from <Picture 1>: dark wood headboard, white sheets, nightstand lamp.\n<Picture 1> is the painted bedroom sex illustration: sailor outfit, bed, raised-leg pose, anal insertion, and the visual style for every shot.\n<Picture 2> is a front character portrait used only for <Subject 1>'s face, ears, and fur colors. Its white studio lighting and smooth plastic-sheet shading are discarded.\n\nsummary:\n[reference generation] A single continuous 15-second painted-anime bedroom shot in the exact illustration style of <Picture 1>. <Subject 1> already wears the open sailor uniform from <Picture 1> while standing in the middle of <Subject 3>, walks to the bed, lies down and raises her legs into the pose of <Picture 1>, then <Subject 2> inserts his penis into her anus and fucks her. No nude standing. No plastic 3D. No white studio.\n\nretention_analysis:\n<Subject 1> (appears in [Shot 1] through [Shot 5]): fully_preserved - sailor outfit from <Picture 1> from the first frame; face and ears from <Picture 2>; painted fur, ink outlines; never nude; never a human woman; exactly one.\n<Subject 2> (appears from [Shot 4]): fully_preserved - dark-skinned man and penis from <Picture 1>; absent while she stands and walks.\n<Subject 3> (appears in [Shot 1] through [Shot 5]): fully_preserved - wooden headboard, white sheets, lamp from <Picture 1> from the first frame.\n<Picture 1> (style, clothes, room, [Shot 5] pose): fully_preserved - brushwork, sailor uniform, bedroom, raised-leg anal pose.\n<Picture 2> (identity only): attribute_transfer - muzzle, round ears, blonde hair, golden fur colors only; white background and plastic-sheet shading discarded.\n\ndetailed_description:\nThe target video is a 2D painted anime illustration matching <Picture 1> from the first frame: visible ink outlines, painted fur clumps, warm lamp light, paper-like shading. Not 3D CGI. Not plastic toy skin. Not a character-sheet turnaround. Not a white void.\n[Shot 1] At 0.00 seconds a medium-wide shot inside <Subject 3>. <Subject 1> stands in the middle of the bedroom, full body, facing the camera. She already wears the same clothes as <Picture 1>: unbuttoned white sailor shirt, red bow at the collar, blue ruffled skirt bunched at the waist, bare breasts, golden-tan furred legs and arms, plantigrade bear feet. Face from <Picture 2>: round bear ears, blonde hair, muzzle, amber eyes. Exactly one woman. No man. The camera holds.\nFrom 00:00.000 to 00:02.400 she stands in that sailor outfit, shifts her weight, glances toward the bed.\n[Shot 2] At 00:02.500 the camera follows as she walks to the bed in the same open sailor shirt, red bow, and blue skirt. One bear woman. She reaches the mattress.\n[Shot 3] At 00:05.200 she sits, then lies on her back on the white sheets, still in the sailor outfit. She raises both legs, spreads them, and grips her furred thighs with both hands matching <Picture 1>. The blue skirt bunches at her waist. The vertical pink vaginal slit and the lower round anus are visible. Still no penetration. The camera settles to a medium shot from between her legs, same angle as <Picture 1>.\n[Shot 4] At 00:08.200 <Subject 2> from <Picture 1> steps between her raised legs. His dark-skinned hips and erect penis enter from the bottom. He pushes the penis into her anus — the lower round hole only. The vaginal slit above stays empty. Hands stay on her thighs. She winces on the first push. Sailor shirt and red bow stay on.\n[Shot 5] At 00:10.500 the camera holds the medium shot matching <Picture 1>: on her back, legs up, hands on thighs, open sailor uniform, penis buried in the anus only. He fucks that anus with several hard deep thrusts until 00:15.080. No vaginal sex. No pull-out. No on-screen text.\n\noverall_soundscape:\nQuiet bedroom air and floor creak as she walks. Mattress settle. A low male breath. Wet anal insertion and thrusting slaps. Her small wince on the first push.\n\nnon_diegetic_music: N/A",
+      "prompt_file": "prompts/bear-walk-bed-anal-15s-v2.txt",
+      "loras": [
+        {
+          "name": "Dialectical Love I2V",
+          "url": "https://civitai.red/models/2864913",
+          "strength": 0.8
+        },
+        {
+          "name": "VBVR H3 attn-only",
+          "strength": 1.0
+        }
+      ],
+      "characters": [
+        "Bear"
+      ]
+    },
     {
       "id": "bear-walk-bed-anal-15s-v1",
       "file": "images/bear-walk-bed-anal-15s-v1.mp4",

@@ -1,0 +1,31 @@
+subject_definitions:
+<Subject 1> is the unique adult furry bear woman from <Picture 1>: 2D anime illustration, black ink outlines, matte painted golden-tan fur, cream belly, round bear ears, long blonde hair, amber eyes, open white sailor shirt, red bow, blue ruffled skirt at the waist, bare breasts. Exactly one. Same illustrator as <Picture 1>, never a 3D model.
+<Subject 2> is the unique dark-skinned adult black man and penis from <Picture 1>. Exactly one man. Face may stay out of frame.
+<Subject 3> is the painted bedroom from <Picture 1>: flat illustrated wood headboard, white sheets, one lamp.
+<Picture 1> is the 2D illustration that defines style, clothes, face, fur, the bed pose (legs up, hands on thighs, anus visible), and the man/penis. Every frame must look painted by the same illustrator.
+<Picture 2> is a second copy of that same illustration, used only to reinforce the 2D painted style.
+
+summary:
+[reference generation] A single continuous 15-second 2D anime illustration matching <Picture 1>. <Subject 1> runs through a forest, runs into a house, jumps onto the bed in <Subject 3>, takes the legs-up pose of <Picture 1>, says трахни меня в жопу, then <Subject 2> fucks her anus while she rolls her eyes in pleasure. Matte paint, ink lines, no CGI.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1] through [Shot 6]): fully_preserved - 2D painted fur, ink outlines, sailor outfit from <Picture 1> on every frame including the forest; never a 3D render; exactly one.
+<Subject 2> (appears from [Shot 5]): fully_preserved - black man and penis from <Picture 1>; absent in the forest and while she runs inside.
+<Subject 3> (appears from [Shot 3]): fully_preserved - painted bedroom of <Picture 1>.
+<Picture 1> (style all shots; pose target [Shot 4]–[Shot 6]): fully_preserved - 2D illustration look; legs-up anal pose from 00:06.500.
+<Picture 2> (style reinforce): fully_preserved - same 2D illustration style.
+
+detailed_description:
+The target video is a 2D digital anime painting in the exact hand of <Picture 1>: black lineart, cel-shaded flats, matte fur, soft illustration lighting. Not 3D CGI. Not Blender. Not glossy plastic. Not photoreal wood.
+[Shot 1] At 0.00 seconds a medium-wide 2D illustration: <Subject 1> in the sailor uniform from <Picture 1> sprints through a painted forest, trees and dirt path, hair bouncing, bear feet running. Full body. Exactly one woman. No man. Camera tracks with her.
+From 00:00.000 to 00:02.600 she keeps running through the forest.
+[Shot 2] At 00:02.700 she bursts through a wooden house doorway at a run, still in the open sailor shirt, red bow, and blue skirt. 2D paint, ink outlines. The interior ahead is <Subject 3>.
+[Shot 3] At 00:04.400 she reaches the bed and JUMPS onto the white sheets, landing on her back on the mattress in <Subject 3>, the painted bedroom of <Picture 1>.
+[Shot 4] At 00:06.200 she immediately raises both legs and grips her thighs with both hands — the exact pose of <Picture 1>. Blue skirt bunched at the waist. Vaginal slit and lower round anus visible. No penetration yet. The adult furry bear woman with a breathy eager voice (S1) says: <d>[Russian] Трахни меня в жопу!</d>
+[Shot 5] At 00:08.200 <Subject 2> from <Picture 1>, a dark-skinned black man, steps between her raised legs. His hips and erect penis enter from the bottom. He pushes the penis into her anus — the lower round hole only. The vaginal slit above stays empty. Hands stay on her thighs. Sailor shirt and red bow stay on.
+[Shot 6] At 00:10.400 the camera holds the medium shot matching <Picture 1>: on her back, legs up, hands on thighs, penis buried in the anus only. He fucks that anus with hard deep thrusts. She rolls her eyes upward in pleasure, lids fluttering, mouth open, a happy moan, until 00:15.080. No vaginal sex. No pull-out. No on-screen text.
+
+overall_soundscape:
+Forest run: footfalls, breath, leaves. Door bang. Mattress bounce. Her line. Wet anal insertion and thrusting slaps. Pleasure moans and an eye-roll gasp.
+
+non_diegetic_music: N/A

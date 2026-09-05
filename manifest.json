@@ -2,9 +2,40 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-06T02:03+04:00",
+  "updated": "2026-09-06T02:16+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "lena-voss-harvester-storyboard-7s-v2",
+      "file": "images/lena-voss-harvester-storyboard-7s-v2.jpg",
+      "source": "storyboard-9.jpg",
+      "title": "Lena Voss — 7s storyboard v2 (all fours)",
+      "category": "sheet",
+      "model": "Grok Imagine",
+      "note": "v2: первые 3с на четвереньках, таз к камере, сварка харвестера. Дальше голем, прыжок в люк, FPS, кран вверх.",
+      "date": "2026-09-06 02:16",
+      "pixels": "1800x1207",
+      "refs": [
+        {
+          "label": "Lena Voss sheet",
+          "source": "C:\\Users\\hebp\\Downloads\\grok-auto\\lena-harvester-sb\\refs\\lena-back.png",
+          "file": "images/refs/lena-voss-harvester-storyboard-7s-v2/01-lena-voss-sheet.jpg"
+        },
+        {
+          "label": "Harvester 3D",
+          "source": "C:\\Users\\hebp\\Downloads\\grok-auto\\lena-harvester-sb\\refs\\harvester-closed-34.png",
+          "file": "images/refs/lena-voss-harvester-storyboard-7s-v2/02-harvester-3d.jpg"
+        },
+        {
+          "label": "Game isometric",
+          "source": "C:\\Users\\hebp\\Downloads\\grok-auto\\lena-harvester-sb\\refs\\game-iso.png",
+          "file": "images/refs/lena-voss-harvester-storyboard-7s-v2/03-game-isometric.jpg"
+        }
+      ],
+      "characters": [
+        "Lena Voss"
+      ]
+    },
     {
       "id": "lena-voss-harvester-storyboard-7s",
       "file": "images/lena-voss-harvester-storyboard-7s.jpg",

@@ -2,9 +2,39 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-06T21:29+04:00",
+  "updated": "2026-09-06T21:41+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "bunny-kitchen-anal-15s-v3",
+      "file": "images/bunny-kitchen-anal-15s-v3.mp4",
+      "source": "eros-15s-bunny-kitchen-anal-v3.mp4",
+      "title": "Furry bunny 15s v3 — hilted anal, wince each thrust",
+      "category": "video",
+      "model": "MiniMax H3 Eros Max I2VA",
+      "note": "v3 I2VA from pose still. Hilted balls-deep in upper anus every thrust, she winces looking back each slam. Seed 202609060030.",
+      "date": "2026-09-06 21:41",
+      "pixels": "0x0",
+      "poster": "images/posters/bunny-kitchen-anal-15s-v3.jpg",
+      "stream": "images/stream/bunny-kitchen-anal-15s-v3.mp4",
+      "cdn": "https://files.catbox.moe/nufuhm.mp4",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] 2D anime illustration matching <Picture 1>: black ink outlines, matte painted tan fur, cel-shaded, not 3D CGI. A three-quarter rear shot identical to <Picture 1>: the adult furry rabbit woman bent over the wooden kitchen counter, looking back over her left shoulder so her muzzle is on camera, blue apron bow, white cottontail up, hanging breasts, warm window light. Two holes as in <Picture 1>: the UPPER round anus under the cottontail, and the LOWER puffy vaginal slit below it. An adult man's penis is already buried to the hilt in that UPPER round anus only — hips flush against her furred rump, balls pressed to her ass, the whole shaft gone, only the base visible. The lower vaginal slit stays empty and hanging below the buried shaft. Not vaginal. Anal only. Camera holds.\nFrom 00:00.000 to 00:12.500 he fucks that same upper anus with hard, very deep thrusts. Every single thrust slams all the way in — hilted, balls slap her rump, no long shaft left outside. On every thrust she winces hard while still looking back: eyes squeezing shut, muzzle wrinkling, nostrils tight, teeth clenched, ears pinning, shoulders flinch, fingers clutching the counter, a small pained grunt. The wince resets between thrusts so each new hilt makes her grimace again. Empty pussy stays visible under the penis. Matte painted fur, ink outlines.\n[Shot 2] At 00:12.600 he slams in as deep as he can — hilted, hips locked flush, the entire penis buried in her anus — and holds that depth until 00:15.080. She winces the hardest: eyes shut, muzzle crumpled, a sharp hiss, ears flat. No pull-out. No vaginal sex. No on-screen text.\n\noverall_soundscape: Wet hilted anal slaps on every thrust, balls against fur, her pained wince-grunt on each impact, a harder hiss on the last slam, quiet kitchen.\n\nnon_diegetic_music: N/A",
+      "prompt_file": "prompts/bunny-kitchen-anal-15s-v3.txt",
+      "loras": [
+        {
+          "name": "Dialectical Love I2V",
+          "url": "https://civitai.red/models/2864913",
+          "strength": 0.55
+        },
+        {
+          "name": "VBVR H3 attn-only",
+          "strength": 0.7
+        }
+      ],
+      "characters": [
+        "Bunny"
+      ]
+    },
     {
       "id": "lena-voss-harvester-sd20-v4",
       "file": "images/lena-voss-harvester-sd20-v4.mp4",

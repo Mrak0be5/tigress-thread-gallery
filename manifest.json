@@ -2,9 +2,39 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-07T21:32+04:00",
+  "updated": "2026-09-07T22:48+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "tigra-gym-anal-focus-15s-v1",
+      "file": "images/tigra-gym-anal-focus-15s-v1.mp4",
+      "source": "eros-15s-tigra-gym-anal-focus-v1.mp4",
+      "title": "Tigra 15s gym — close anus+dildo, end bench gape pose",
+      "category": "video",
+      "model": "MiniMax H3 Eros Max FL2VA",
+      "note": "FL2VA 15s. First=sit dildo still. Last=anus pose ref (pose+gape only). Camera on anus and toy, then stand to bench. Seed 202609072220. 768x768.",
+      "date": "2026-09-07 22:48",
+      "pixels": "0x0",
+      "poster": "images/posters/tigra-gym-anal-focus-15s-v1.jpg",
+      "stream": "images/stream/tigra-gym-anal-focus-15s-v1.mp4",
+      "cdn": "https://files.catbox.moe/4xx3z5.mp4",
+      "prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 15.08-second mark of the target video.\n\nintegrated_multimodal_description: [Shot 1] 2D anime illustration matching <Picture 1>: black ink outlines, cel-shaded orange tiger fur, not 3D CGI. Start from <Picture 1>: the adult white-haired tigress squatting in the gym on the pink dildo on the hard black \"202\" pad. The camera pushes in with large amplitude at slow speed onto her rump — the frame is filled by her ANUS and the thick pink dildo buried in that anus, not the vagina. Empty puffy vaginal slit hangs in front of the shaft. She rides: hips rise and drop, the stretched anal ring gripping the toy, shaft appearing then swallowed to the hilt on the rigid pad that does not sag. Keep the shot tight on anus-plus-dildo. The adult tigress (S1) says, voice off-screen while her muzzle is mostly out of frame: <d>[Russian] В конце тренировки я всегда тренирую свой анус.</d> [Shot 2] At 00:09.500 she stands up off the dildo — wet pop, toy stays on the hard pad. She turns and leans on the gym bench. By 00:15.080 the pose and the stretched anus match <Picture 2> only: rear three-quarter, tail high, white rump, hands on the bench, looking back, a round dilated wet pink-red anal gape. Do not copy extra scene clutter from <Picture 2>; keep this gym. No vaginal sex. No on-screen text.\n\noverall_soundscape: Wet close-up anal riding on a firm pad, a wet pop standing off the dildo, footsteps to the bench, a small exhale as she presents the gape.\n\nnon_diegetic_music: N/A",
+      "prompt_file": "prompts/tigra-gym-anal-focus-15s-v1.txt",
+      "loras": [
+        {
+          "name": "Dialectical Love I2V",
+          "url": "https://civitai.red/models/2864913",
+          "strength": 0.55
+        },
+        {
+          "name": "VBVR H3 attn-only",
+          "strength": 0.7
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "tigra-gym-anal-dildo-30s-v2",
       "file": "images/tigra-gym-anal-dildo-30s-v2.mp4",

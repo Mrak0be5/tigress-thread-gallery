@@ -1,0 +1,14 @@
+subject_definitions:
+<Subject 1> is the adult furry tigress Tigra from <Picture 1> (character sheet): short white bob, orange fur with black tiger stripes, cream muzzle/chest/belly, brown eyes, black nose, muscular anthro body, digitigrade paw-feet with black claws and pink pads, long striped tail with black rings and a dark tip. Palette locked to the sheet swatches. Always 2D ink, never 3D CGI.
+<Picture 1> is the turnaround sheet used only as identity, not as a pose to copy.
+<Picture 2> is the last-frame pose: nude squat on a thick pink dildo on a rigid black pad labeled "202", looking back, toy buried in the anus under the tail, empty slit in front of the shaft.
+
+summary: [reference generation + keyframe completion] 15s Ref2VA. <Subject 1> identity from <Picture 1>. She undresses, talks, sits the dildo in her anus, stands, turns her back, sits again. The 15.08s mark matches <Picture 2>.
+
+retention_analysis: Keep <Subject 1> face, stripe map, paw-feet, and tail rings from <Picture 1> for the whole shot. Do not copy the sheet T-pose. <Picture 2> is fully referenced only at 00:15.080 as the final seated anal pose. Clothing exists only at the start and is fully removed before the first sit.
+
+detailed_description: [Shot 1] Hand-painted 2D animation cels, visible black ink outlines, flat cel shading, hard shadow shapes, no subsurface, no 3D CGI, painted gym not a photograph. Static medium shot. <Subject 1> starts facing camera in a short orange gym skirt and a tight cream crop-top, same stripe map as <Picture 1> on uncovered fur. She pulls the skirt down over her hips and steps out of it (hold, smear, hold — no face morphing). She peels the crop-top up and off, breasts free, clothes drop on the floor. She plants her paws, fists on hips, chest out, standing nude. The adult tigress (S1) says: <d>[Russian] Класс, сегодня я классно потренировалась.</d> Mouth articulates, then a short proud hold. Behind her a thick pink dildo stands upright on a HARD rigid black pad labeled "202" that does not sag. [Shot 2] At 00:05.000 she turns a quarter, squats slowly and carefully, and sits the dildo into her ANUS under the tail, not the vagina. Empty puffy slit stays in front of the shaft. Hips drop with weight, rim drags, a small careful wince, no slam. [Shot 3] At 00:08.500 she rises off the toy just as slowly, wet drag, dildo stays upright on the unbent pad. She turns her back to camera, tail aside, white rump toward us. At 00:11.500 she squats again, slow and careful, and sits the same dildo back into her anus. By 00:15.080 the pose matches <Picture 2>: looking back over the shoulder, pink toy buried in the anus on the "202" pad. Same stripe map as the sheet. No vaginal sex. No on-screen text.
+
+overall_soundscape: Quiet gym room tone, fabric rustle, her voice, then two slow careful anal sits on silicone, a wet drag standing off, a small grunt on each hilt.
+
+non_diegetic_music: N/A

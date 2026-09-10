@@ -2,9 +2,43 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-11T03:02+04:00",
+  "updated": "2026-09-11T03:21+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "professor-strip-handstand-15s-768-v1",
+      "file": "images/professor-strip-handstand-15s-768-v1.mp4",
+      "source": "eros-15s-professor-strip-handstand.mp4",
+      "title": "Professor 15s — striptease, handstand, pussy/anus CU",
+      "category": "video",
+      "model": "MiniMax H3 Eros Max I2VA 768x768",
+      "note": "I2VA from user still. 768x768 16 steps. First frame padded square. Seed 202609110304.",
+      "date": "2026-09-11 03:21",
+      "pixels": "0x0",
+      "poster": "images/posters/professor-strip-handstand-15s-768-v1.jpg",
+      "stream": "images/stream/professor-strip-handstand-15s-768-v1.mp4",
+      "cdn": "https://files.catbox.moe/w8uaa9.mp4",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] 2D illustration, clean ink outlines, flat cel shading, pale mint studio backdrop, no 3D CGI. <Picture 1> is the first frame: an adult woman, short black bob with bangs, gold glasses, blue eyes, stern face, huge chest in a black blazer over an unbuttoned white shirt, tight black mini-skirt, standing facing camera, hands at her sides. Identity locked to <Picture 1>. She begins a slow striptease: unbuttons the blazer and slides it off the shoulders, then the white shirt, then the mini-skirt, then underwear, until she is fully nude. Same face, glasses stay on, same black bob. Dance is slow and controlled, hips and shoulders, no face morphing. Clothes drop to the floor. [Shot 2] At 00:07.000 she is naked. She plants both palms on the floor and kicks up into a handstand, body inverted, legs together first. [Shot 3] At 00:10.000 she opens her legs into a wide straddle in the handstand. Camera pushes in and holds a close-up on her exposed vagina and anus between the spread thighs, labia and anal ring clearly visible, no clothing. Hold that crotch close-up until 00:15.080. Same woman as <Picture 1>. No on-screen text. No extra people.\n\noverall_soundscape: Soft studio room tone, fabric sliding off, skin, a breath as she kicks into the handstand, then quiet hold.\n\nnon_diegetic_music: N/A",
+      "prompt_file": "prompts/professor-strip-handstand-15s-768-v1.txt",
+      "loras": [
+        {
+          "name": "MysticXXX MMH3 V4 Ref2VA",
+          "strength": 0.8
+        },
+        {
+          "name": "Dialectical Love I2V",
+          "url": "https://civitai.red/models/2864913",
+          "strength": 0.25
+        },
+        {
+          "name": "VBVR H3 attn-only",
+          "strength": 0.7
+        }
+      ],
+      "characters": [
+        "Professor"
+      ]
+    },
     {
       "id": "tigra-gym-anal-stretch-480p-10s",
       "file": "images/tigra-gym-anal-stretch-480p-10s.mp4",

@@ -2,9 +2,39 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-10T03:18+04:00",
+  "updated": "2026-09-11T01:03+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "tigra-gym-dance-handstand-480p-10s",
+      "file": "images/tigra-gym-dance-handstand-480p-10s.mp4",
+      "source": "tigra-gym-dance-handstand-480p-10s.mp4",
+      "title": "Tigra 10s gym — dance then handstand",
+      "category": "video",
+      "model": "Wan 3.0 I2V 480P reAPI",
+      "note": "reAPI wan3.0-video I2V first-frame. 640x640 10s 30fps AAC. Dance on gym floor then kick-up handstand. 341 credits. Task task_01a08cf8b48d70f8a65c6d45e0b60c54.",
+      "date": "2026-09-11 01:03",
+      "pixels": "0x0",
+      "poster": "images/posters/tigra-gym-dance-handstand-480p-10s.jpg",
+      "stream": "images/stream/tigra-gym-dance-handstand-480p-10s.mp4",
+      "pose": "images/poses/pose-61c8f4a7-076a-4da2-9d1f-2ed98ff48ff0-5caaed5e-12e2-40f0-a3b7-f917a1e369e3.jpg",
+      "prompt": "10 seconds, 1:1, keep the same nude anthro tigress, white bob hair, black-tipped tiger ears, orange fur with black stripes, white muzzle and chest, yellow eyes, long striped tail, gym interior and framing from the first frame. She starts in the first-frame pose leaning on the bench, looking back. 0-1s: small tail flick and a hip shift, still on the bench. 1-6s: she steps off the bench onto the gym floor and dances in place, hip-heavy, weight transferring left-right, tail swinging in rhythm, breasts and fur moving with the steps, feet on the rubber tiles. 6-10s: she plants both palms on the floor, kicks both legs up into a full handstand, holds inverted with the striped tail curling for balance, white-furred legs straight, face toward camera upside down. Camera stays medium-wide in the gym and eases back 10 percent so the handstand fits. Realistic body physics, gym echo, paws on rubber, one grunt on the kick-up. Keep face, hair, stripe pattern, gym, and nudity consistent. No clothes, no extra limbs, no jump cuts, no morphing into a different character.",
+      "prompt_file": "prompts/tigra-gym-dance-handstand-480p-10s.txt",
+      "refs": [
+        {
+          "label": "first frame",
+          "source": "C:\\Users\\hebp\\.t3\\userdata\\attachments\\61c8f4a7-076a-4da2-9d1f-2ed98ff48ff0-5caaed5e-12e2-40f0-a3b7-2dd662f99055.png",
+          "file": "images/refs/tigra-gym-dance-handstand-480p-10s/01-first-frame.jpg"
+        }
+      ],
+      "service": "reAPI",
+      "service_url": "https://reapi.ai",
+      "service_model_url": "https://reapi.ai/models/wan-3-0",
+      "api": "https://reapi.ai/api/v1",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "tigra-gym-undress-anal-15s-480-v1",
       "file": "images/tigra-gym-undress-anal-15s-480-v1.mp4",

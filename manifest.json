@@ -2,9 +2,43 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-11T06:48+04:00",
+  "updated": "2026-09-11T07:07+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "tigra-gym-ballet-anal-480p-20s-v7",
+      "file": "images/tigra-gym-ballet-anal-480p-20s-v7.mp4",
+      "source": "tigra-gym-ballet-anal-480p-20s-v7.mp4",
+      "title": "Tigra 20s gym v7 — no hanging genitals, fold pose",
+      "category": "video",
+      "model": "Wan 3.0 R2V 480P reAPI",
+      "note": "wan-3-prompting skill. Removed slit/hanging genital lines. Task task_01a08e6a98d272b895f485a0c869be2c. 681 credits. Opening still copied tutu from pose ref.",
+      "date": "2026-09-11 07:07",
+      "pixels": "0x0",
+      "poster": "images/posters/tigra-gym-ballet-anal-480p-20s-v7.jpg",
+      "stream": "images/stream/tigra-gym-ballet-anal-480p-20s-v7.mp4",
+      "prompt": "20 seconds, 1:1. Image1 is Tigra, adult female anthro tigress, gym, rigid 202 pad, pink dildo already planted upright in the pad. Image2 is pose only: fold-over, legs wide, head down looking at camera between the legs, hands on the floor, thoughtful face. Do not copy Image2 human skin, leotard, tutu, pointe shoes, or text.\nShe is female. Smooth fur between the legs. No penis. No scrotum. No hanging genitals. No extra dangling flesh. The only pink toy is the planted dildo on the pad.\nGym, daylight from windows. Camera: static, locked-off, medium-wide, same framing the whole clip. No cuts.\nFrom 0:00 Image1's tigress is already in Image2's fold-over pose, thoughtful, and the planted dildo is already in frame. Hands never touch the dildo.\n0-5s: she holds the fold-over pose, then notices the camera, blush, ears dip. [Tigress, shy]: \"Я хорошо потренировалась, но теперь нужна растяжка.\"\n5-12s: she stands out of the fold, two small steps to the pad, then lowers her anus onto the planted dildo very slowly, very carefully, with strain and pain, especially the first centimeters. Anus under the tail. She winces, eyes squeezed. Stops halfway down the shaft. [Tigress, strained]: \"Да я анальная шлюха.\"\n12-20s: she keeps lowering slowly until the dildo is fully in to the toy base. She stays seated, pleased smile, shrugs. [Tigress, pleased]: \"Обожаю анал!\"\nAudio. Foreground: three Russian lines, strained anal stretch, pained grunts on first entry. Bed: quiet gym. Background: distant HVAC.\nKeep four paws only. No extra limbs. No hanging genitals. No hands on the dildo.",
+      "prompt_file": "prompts/tigra-gym-ballet-anal-480p-20s-v7.txt",
+      "refs": [
+        {
+          "label": "tigra sit",
+          "source": "C:\\Users\\hebp\\.t3\\userdata\\attachments\\61c8f4a7-076a-4da2-9d1f-2ed98ff48ff0-c1b6964a-93f4-45d7-8d50-5aed42bb335d.png",
+          "file": "images/refs/tigra-gym-ballet-anal-480p-20s-v7/01-tigra-sit.jpg"
+        },
+        {
+          "label": "fold pose",
+          "source": "C:\\Users\\hebp\\.t3\\userdata\\attachments\\61c8f4a7-076a-4da2-9d1f-2ed98ff48ff0-88bf4e86-2c3a-4449-8cb9-39ef53befb27.jpg",
+          "file": "images/refs/tigra-gym-ballet-anal-480p-20s-v7/02-fold-pose.jpg"
+        }
+      ],
+      "service": "reAPI",
+      "service_url": "https://reapi.ai",
+      "service_model_url": "https://reapi.ai/models/wan-3-0",
+      "api": "https://reapi.ai/api/v1",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "tigra-gym-ballet-anal-480p-20s-v6",
       "file": "images/tigra-gym-ballet-anal-480p-20s-v6.mp4",

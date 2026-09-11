@@ -2,9 +2,47 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-11T10:18+04:00",
+  "updated": "2026-09-11T10:21+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "professor-strip-handstand-15s-768x1344-v2",
+      "file": "images/professor-strip-handstand-15s-768x1344-v2.mp4",
+      "source": "eros-15s-professor-strip-handstand-9x16_00001_.mp4",
+      "title": "Professor 15s 9:16 — striptease, handstand, pussy/anus CU",
+      "category": "video",
+      "model": "MiniMax H3 FL2VA INT8 I2VA 768x1344",
+      "note": "Official FL2VA, 768x1344, 20 res_multistep/simple. LoRAs: HMNSFW-AIO 0.7 + HMInnie 0.85. First frame professor.jpg. Seed 202609110845.",
+      "date": "2026-09-11 10:21",
+      "pixels": "0x0",
+      "poster": "images/posters/professor-strip-handstand-15s-768x1344-v2.jpg",
+      "stream": "images/stream/professor-strip-handstand-15s-768x1344-v2.mp4",
+      "cdn": "https://files.catbox.moe/6sexq0.mp4",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] 2D illustration, clean black ink outlines, flat cel shading, pale mint studio, no 3D CGI. Vertical full-body. <Picture 1> is the first frame at 0.00s: adult woman, short black bob with bangs, gold rectangular glasses, blue eyes, stern face, huge chest, black blazer, white shirt unbuttoned at the chest, tight black mini-skirt, bare thighs, standing facing camera, arms at her sides. Identity, glasses, bob, and body locked to <Picture 1>. Slow striptease, one garment at a time, each piece fully off before the next starts. Hold, smear, hold — no face morphing, glasses stay on. 00:00.000–00:02.200 she unbuttons the blazer, slides it off both shoulders, pulls the sleeves off, and drops the blazer on the floor to her left. Shirt and skirt still on. 00:02.200–00:04.400 she unbuttons the remaining shirt buttons, peels the white shirt off the arms, and drops it on the pile. Mini-skirt still on, breasts bare. 00:04.400–00:06.200 she hooks the mini-skirt at the hips, pushes it down the thighs, steps out of it, and drops it on the pile. Underwear still on. 00:06.200–00:07.400 she slides the underwear down and off one foot, now fully nude, clothes in a pile on the floor. [Shot 2] 00:07.400–00:10.200 she bends, plants both palms flat on the floor, fingers spread, then kicks both legs up into a stable handstand. Body inverted, legs together first, weight on the hands, no sliding. [Shot 3] 00:10.200–00:15.080 still inverted, she opens the legs into a wide straddle. Camera pushes in and holds a close-up between the thighs: vagina and anus both fully visible, labia and anal ring in focus. Hold that crotch close-up until 00:15.080. Same woman as <Picture 1>. No extra people. No on-screen text.\n\noverall_soundscape: Quiet studio, one garment hitting the floor at a time, skin, a breath as the legs kick up, then silence on the hold.\n\nnon_diegetic_music: N/A",
+      "prompt_file": "prompts/professor-strip-handstand-15s-768x1344-v2.txt",
+      "refs": [
+        {
+          "label": "Picture 1",
+          "source": "https://files.catbox.moe/hpk1c7.jpg",
+          "file": "images/refs/professor-strip-handstand-15s-768x1344-v2/01-picture-1.jpg"
+        }
+      ],
+      "loras": [
+        {
+          "name": "HMNSFW-AIO V2.5",
+          "url": "https://civitai.red/models/2834417",
+          "strength": 0.7
+        },
+        {
+          "name": "HMInnie",
+          "url": "https://civitai.red/models/2853405",
+          "strength": 0.85
+        }
+      ],
+      "characters": [
+        "Professor"
+      ]
+    },
     {
       "id": "tigra-gym-fold-anal-480p-10s-v18",
       "file": "images/tigra-gym-fold-anal-480p-10s-v18.mp4",

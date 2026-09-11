@@ -2,9 +2,43 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-11T10:56+04:00",
+  "updated": "2026-09-11T10:57+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "tigra-poker-kneesit-5s-v2-wan-3-0",
+      "file": "images/tigra-poker-kneesit-5s-v2-wan-3-0.mp4",
+      "source": "tigra-poker-kneesit-5s-v2-wan-3-0.mp4",
+      "title": "Tigra poker kneesit 5s v2 Wan 3.0",
+      "category": "video",
+      "model": "Wan 3.0 R2V 480P reAPI",
+      "note": "Tigra sheet + rabbit pose skeleton. v1 copied rabbit, rerun. Task task_01a08f3beeb373b7aea264a034ebcf3d. 171 credits.",
+      "date": "2026-09-11 10:57",
+      "pixels": "0x0",
+      "poster": "images/posters/tigra-poker-kneesit-5s-v2-wan-3-0.jpg",
+      "stream": "images/stream/tigra-poker-kneesit-5s-v2-wan-3-0.mp4",
+      "prompt": "5 seconds, 16:9, 480p.\nONE UNBROKEN CONTINUOUS SHOT. Camera: static, locked-off. No cuts. No zoom. No punch-in.\n\nImage1 is Tigra. Image1 is the ONLY character. Adult female anthro tigress. Short WHITE bob. Small round black-tipped TIGER ears. Orange fur with black stripes. Cream belly. Orange-gold eyes. Athletic nude body. Modest athletic ass. Paw-hands. Paw-feet with pink pads. ONE long striped orange tail with black rings and a dark tip, attached at the tail-base.\nIgnore Image1 T-pose, white void, Russian text, palette, extra cutout head/paws/tail as a collage. Put this tigress into the room.\n\nImage2 is the OPENING POSE SKELETON AND ROOM ONLY. Copy from Image2 ONLY: dim poker room, hanging lamp, round wooden table, green felt, cards, chips, drink, round wooden stool; kneel on the stool, both knees on the seat, shins flat, chest and forearms on the table, rear toward camera-right, head turned looking back over the shoulder.\nAfter applying that skeleton, STOP using Image2.\nDo not copy ANYTHING else from Image2: not the rabbit, not rabbit ears, not brown hair, not the tan-cream rabbit fur, not the white puff tail, not the green dress, not the huge ass, not the dripping genitals, not semen, not the rabbit face.\n\nWRONG if the character is a rabbit. WRONG if the ears are long. WRONG if the hair is brown. WRONG if there is a white puff tail. WRONG if she wears a green dress.\n\nFROM FRAME 1 the nude Image1 tigress already holds Image2's kneel in that poker room.\nWhite bob. Small tiger ears. Orange stripes. Cream belly. Long striped tail only. Clean athletic ass, no semen. Looking back.\n\nHold that kneel all 5 seconds. Breathing. The striped tail sways once. No second person. No penis. No standing.\n\nCamera: medium full-body, three-quarter from her right rear, Image2's framing, locked.\nAudio. Foreground: breath, tail fur, stool creak. Bed: smoky poker room. Background: distant chairs.\nNo rabbit. No brown hair. No puff tail. No cum. No character sheet. No extra people. No jump cuts. No watermark. No subtitles.",
+      "prompt_file": "prompts/tigra-poker-kneesit-5s-v2-wan-3-0.txt",
+      "refs": [
+        {
+          "label": "Image1 tigra sheet",
+          "source": "https://files.catbox.moe/a6osva.png",
+          "file": "images/refs/tigra-poker-kneesit-5s-v2-wan-3-0/01-image1-tigra-sheet.jpg"
+        },
+        {
+          "label": "Image2 kneesit pose",
+          "source": "https://files.catbox.moe/3gmcjn.png",
+          "file": "images/refs/tigra-poker-kneesit-5s-v2-wan-3-0/02-image2-kneesit-pose.jpg"
+        }
+      ],
+      "service": "reAPI",
+      "service_url": "https://reapi.ai",
+      "service_model_url": "https://reapi.ai/models/wan-3-0",
+      "api": "https://reapi.ai/api/v1",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "tigra-gym-bike-anal-480p-10s-v19",
       "file": "images/tigra-gym-bike-anal-480p-10s-v19.mp4",

@@ -2,9 +2,34 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-14T23:24+04:00",
+  "updated": "2026-09-14T23:45+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "purple-dress-pull-down-topless",
+      "file": "images/purple-dress-pull-down-topless.mp4",
+      "source": "hf_wan30_topless_2bb8cbe9.mp4",
+      "title": "Purple dress pull-down topless",
+      "category": "video",
+      "model": "Higgsfield Wan 3.0",
+      "note": "5s 720p 3:4 I2V, dress down, bare breasts, credits not free gens",
+      "date": "2026-09-14 23:45",
+      "pixels": "0x0",
+      "poster": "images/posters/purple-dress-pull-down-topless.jpg",
+      "stream": "images/stream/purple-dress-pull-down-topless.mp4",
+      "prompt": "Image 1 is the character. Keep the exact same adult woman: identical face, dark wavy black hair, purple lipstick, purple drop earrings, teal studio background, 2D illustration style. She starts in the deep-purple long-sleeve plunging V-neck dress. She pulls the dress down off her shoulders and arms, going topless, then holds the fabric at her waist and proudly shows off her uncovered chest to camera, chest forward, smug smile, slight bounce. Keep the same face and body. No extra people.",
+      "prompt_file": "prompts/purple-dress-pull-down-topless.txt",
+      "refs": [
+        {
+          "label": "Character sheet",
+          "source": "C:\\Users\\hebp\\Downloads\\Minimax H3 Nude\\hf_char_ref.png",
+          "file": "images/refs/purple-dress-pull-down-topless/01-character-sheet.jpg"
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "purple-dress-handstand-split",
       "file": "images/purple-dress-handstand-split.mp4",

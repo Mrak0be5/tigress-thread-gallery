@@ -2,9 +2,34 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-12T00:40+04:00",
+  "updated": "2026-09-14T23:24+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "purple-dress-handstand-split",
+      "file": "images/purple-dress-handstand-split.mp4",
+      "source": "hf_seedance_handstand_7e7332ef.mp4",
+      "title": "Purple dress handstand split",
+      "category": "video",
+      "model": "Higgsfield Seedance 2.0 Fast",
+      "note": "8s 720p 3:4 free gen, character ref uncropped, kick-up handstand then straddle",
+      "date": "2026-09-14 23:24",
+      "pixels": "0x0",
+      "poster": "images/posters/purple-dress-handstand-split.jpg",
+      "stream": "images/stream/purple-dress-handstand-split.mp4",
+      "prompt": "Keep the exact same adult woman from the reference image: identical face, dark wavy black hair, purple lipstick, purple drop earrings, deep-purple long-sleeve plunging V-neck dress, large bust, teal studio background, 2D illustration style. She plants both hands on the floor, kicks up into a clean handstand, then slowly splits her legs wide apart while inverted and holds the straddle handstand. Full body in frame, smooth continuous motion, no cut, no morphing, no extra people.",
+      "prompt_file": "prompts/purple-dress-handstand-split.txt",
+      "refs": [
+        {
+          "label": "Character sheet",
+          "source": "C:\\Users\\hebp\\Downloads\\Minimax H3 Nude\\hf_char_ref.png",
+          "file": "images/refs/purple-dress-handstand-split/01-character-sheet.jpg"
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "2b-street-blogger-anal-480p-30s-v32",
       "file": "images/2b-street-blogger-anal-480p-30s-v32.mp4",

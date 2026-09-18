@@ -2,9 +2,54 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-16T21:07+04:00",
+  "updated": "2026-09-19T02:35+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "chloe-ethan-massage-step07-ref2va-768x1344-v1",
+      "file": "images/chloe-ethan-massage-step07-ref2va-768x1344-v1.mp4",
+      "source": "step07-chloe-ethan-massage-15s-768x1344_00001_.mp4",
+      "title": "Chloe + Ethan spa massage 15s 9:16 Ref2VA",
+      "category": "video",
+      "model": "MiniMax H3 Ref2VA INT8 768x1344 30 steps",
+      "note": "Official Ref2VA, 768x1344, 362 frames, 30 res_multistep/simple. 7 user refs from step_07. Prompt executed 01:22:05. No LoRA.",
+      "date": "2026-09-19 02:35",
+      "pixels": "0x0",
+      "stream": "images/stream/chloe-ethan-massage-step07-ref2va-768x1344-v1.mp4",
+      "cdn": "https://files.catbox.moe/0u8z07.mp4",
+      "prompt": "# MiniMax H3 Ref2VA rewrite of prompt_seedance.txt\n# Asset map (upload order):\n# <Picture 1> chloe.jpg — two-view identity sheet\n# <Picture 2> chloe_render.png — face, hair, oiled 3D-cartoon skin (ignore halter, ignore crop-as-person)\n# <Picture 3> chloe_pussy_down.jpg — target prone pose only\n# <Picture 4> ethan.jpg — masseur identity and clothes\n# <Picture 5> massage_room.png — spa set\n# <Picture 6> massage_room_01.png — spa set, extra shelves\n# <Picture 7> massage_room_02.png — spa set, door and bathrobe\n# Canvas: 768x1344, 15.08s, 24 fps, one continuous shot. No on-screen text, no speech, no score.\n\nsubject_definitions:\n<Subject 1> is Chloe, one adult woman only, appearance from <Picture 1> and face-and-skin quality from <Picture 2>: short copper-red bob with straight bangs, blue eyes, light freckles, a small beauty mark, slim waist, perky breasts, round full ass, shaved vulva, fully nude, oiled Disney-3D cartoon skin. One head, two arms, two legs. Camera-aware, teasing. She is the same single person in every frame.\n<Subject 2> is Ethan, the young adult masseur from <Picture 4>: messy dark-brown hair, amber-brown eyes, light stubble, slim-athletic build, white v-neck t-shirt, black shorts with a drawstring. Young face. Not bald, not older, not photoreal.\n<Subject 3> is the warm wood spa from <Picture 5>, <Picture 6>, and <Picture 7>: cream padded massage table, headrest pillow, wooden shelves, rolled towels, oil bottles, floor lamp, botanical prints, cream bathrobe on a hook, honey lamplight, light wood floor.\n<Picture 1> is a two-view character sheet of the same <Subject 1> (front standing, back standing). Identity only. It is not two women and must never appear as a split-screen in the room.\n<Picture 2> is a close-up of <Subject 1>'s face, hair, eye makeup, and oiled 3D-cartoon skin. It supplies material quality, not pose. Ignore the halter strap. Do not copy that crop as a second person.\n<Picture 3> is the target prone pose for <Subject 1> after the roll: on her stomach, ass raised toward camera, knees apart, empty anus and empty vulva visible, looking back over her left shoulder. Transfer that pose onto the cream table in <Subject 3>. Discard the green tile floor and black cables.\n<Picture 4> is identity and wardrobe for <Subject 2> only.\n<Picture 5>, <Picture 6>, and <Picture 7> are empty-room environment references for <Subject 3>. Do not leave the room empty once the two people are in shot.\n\nsummary: [reference generation] 15.08-second MiniMax H3 Ref2VA, one locked-camera shot, Disney 3D feature-film illustration matching the stills, not live-action. Unique beat from the Seedance brief: <Subject 1> starts on her back on the cream table in <Subject 3>, then rolls onto her stomach. 00:00.000–00:03.000 she rolls; 00:03.000–00:09.000 she holds the ass-up over-shoulder pose of <Picture 3> while <Subject 2> massages her lower back in the clothes from <Picture 4>; 00:09.000–00:15.080 hold. One woman, one man. No text, no dialogue, no subtitles, no music.\n\nretention_analysis:\n<Subject 1> (appears in [Shot 1]): fully_preserved - red bob, bangs, blue eyes, freckles, beauty mark, nude oiled body, and cartoon proportions stay locked to <Picture 1> and <Picture 2> for the whole 15.08s. Pose changes from supine to the <Picture 3> prone hold; identity does not.\n<Subject 2> (appears in [Shot 1]): fully_preserved - young brown-haired face, white v-neck, and black shorts stay locked to <Picture 4>. Clothes stay on.\n<Subject 3> (appears in [Shot 1]): partially_preserved - keep the warm wood spa, cream table, lamps, and towels from <Picture 5>–<Picture 7>; the table is occupied.\n<Picture 1>: attribute_transfer - front/back sheet supplies body identity only; never shown as two bodies or as a split panel in the spa.\n<Picture 2>: attribute_transfer - face, hair, oil, and 3D-cartoon skin quality only; the close crop and any strap are not copied as a person or as wardrobe.\n<Picture 3> ([Shot 1] pose target after 00:03.000): partially_preserved - prone ass-up over-shoulder pose and empty holes transfer onto the cream table; green tiles and cables are not used.\n<Picture 4>: fully_preserved - Ethan identity and outfit.\n<Picture 5> (environment): fully_preserved - spa architecture and honey lamplight.\n<Picture 6> (environment): weak_reference - extra shelf and head-on table layout inform the set.\n<Picture 7> (environment): weak_reference - door, bathrobe, and side table inform the set.\n\ndetailed_description: The target video is Disney 3D feature-film animation: clean stylized volumes, saturated copper hair, painterly spa lighting, visible outlines on bottles and shelves, cartoon skin with oil highlights. Not live-action, not muddy photoreal, not a second art style.\n[Shot 1] Locked camera at the foot of the cream massage table in <Subject 3>, slightly high, 768x1344 vertical, both people fully readable in frame. Warm lamps, wooden shelves with towels and bottles, botanical prints. No green tiles. No on-screen text.\n00:00.000–00:03.000 Opening: <Subject 1> lies on her back on the cream table, fully nude, towel already gone, identity from <Picture 1> and face-and-skin from <Picture 2>. Blue eyes open, looking toward the lens past her own breasts. One head, two arms, two legs. <Subject 2> kneels beyond her head in the white v-neck and black shorts from <Picture 4>, young brown hair visible, oiled palms ready. She rolls toward camera-left onto her stomach in one continuous motion: shoulders, then hips, then legs. Nothing extra grows. No second head. No second woman. Soft pad compression and a short breath as she turns.\n00:03.000–00:09.000 The action. She finishes the roll and settles into the pose of <Picture 3> on the table, not on the floor: belly on the pad, knees bent and apart, round ass lifted toward the lens, empty anus and empty shaved vulva aimed at camera, looking back over her left shoulder with a teasing half-open mouth, blue eye and red bangs readable. Holes stay empty. No finger, no penis, no toy. <Subject 2> leans in from the far side of the table, still the same young man, and kneads her lower back and the upper curve of her ass with both oiled palms in slow circular strokes. His face stays the <Picture 4> face; hair stays brown; clothes stay on. Her ass stays up. She holds the over-shoulder look at camera. Skin glistens. Palms slide on oiled skin. No extra limbs.\n00:09.000–00:15.080 Hold. Same two adults. Same spa. Ass toward camera, face still looking back over the left shoulder, masseur's hands resting on her lower back with a last slow stroke that settles. No cut, no empty room, no captions, no subtitles, no speech.\n\noverall_soundscape: Quiet spa room tone and a low lamp hum throughout. Pad compressing as she rolls, oil on skin, palms sliding on her back, her soft breath and a short pleased exhale. No speech.\n\nnon_diegetic_music: N/A",
+      "prompt_file": "prompts/chloe-ethan-massage-step07-ref2va-768x1344-v1.txt",
+      "refs": [
+        {
+          "label": "Picture 1",
+          "source": "https://files.catbox.moe/963teq.jpg",
+          "file": "images/refs/chloe-ethan-massage-step07-ref2va-768x1344-v1/01-picture-1.jpg"
+        },
+        {
+          "label": "Picture 2",
+          "source": "https://files.catbox.moe/vauonk.png",
+          "file": "images/refs/chloe-ethan-massage-step07-ref2va-768x1344-v1/02-picture-2.jpg"
+        },
+        {
+          "label": "Picture 3",
+          "source": "https://files.catbox.moe/ydoveb.jpg",
+          "file": "images/refs/chloe-ethan-massage-step07-ref2va-768x1344-v1/03-picture-3.jpg"
+        },
+        {
+          "label": "Picture 4",
+          "source": "https://files.catbox.moe/1fcc69.jpg",
+          "file": "images/refs/chloe-ethan-massage-step07-ref2va-768x1344-v1/04-picture-4.jpg"
+        },
+        {
+          "label": "Picture 5",
+          "source": "https://files.catbox.moe/gz437h.png",
+          "file": "images/refs/chloe-ethan-massage-step07-ref2va-768x1344-v1/05-picture-5.jpg"
+        }
+      ],
+      "characters": [
+        "Chloe"
+      ]
+    },
     {
       "id": "tigra-gym-handstand-seedance20fast",
       "file": "images/tigra-gym-handstand-seedance20fast.mp4",

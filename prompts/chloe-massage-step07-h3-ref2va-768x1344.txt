@@ -1,0 +1,34 @@
+subject_definitions:
+<Subject 1> is Chloe, one adult woman only, identity from <Picture 1> and face from <Picture 2>: short copper-red bob with straight bangs, blue eyes, light freckles, a small beauty mark, slim waist, perky breasts, round full ass, shaved vulva, fully nude, oiled cartoon skin. She is the same single person in every frame.
+<Subject 2> is Ethan, the young adult masseur from <Picture 4>: messy dark-brown hair, amber-brown eyes, light stubble, slim-athletic build, white v-neck t-shirt, black shorts with a drawstring. Young face, not bald, not older, not photoreal.
+<Subject 3> is the warm wood spa massage room from <Picture 5>, <Picture 6>, and <Picture 7>: cream padded table, headrest pillow, wooden shelves, rolled towels, oil bottles, floor lamp, botanical prints, cream bathrobe on a hook, honey lamplight, light wood floor.
+<Picture 1> is a two-view character sheet of the same <Subject 1> (front standing, back standing). It is identity only. It is not two women. Do not place both panels in the room.
+<Picture 2> is a close-up of <Subject 1>'s face, hair, eye makeup, and stylized 3D-cartoon skin. Ignore the halter strap. Do not copy that crop as a second person.
+<Picture 3> is the target prone pose for <Subject 1> only: on her stomach, ass raised toward camera, knees apart, empty anus and empty vulva visible, looking back over her left shoulder. Transfer that pose onto the cream massage table. Discard the green tile floor and black cables.
+<Picture 4> is identity and wardrobe for <Subject 2> only.
+<Picture 5>, <Picture 6>, and <Picture 7> are environment references for <Subject 3>. They are empty rooms; do not keep them empty once the two people are in shot.
+
+summary: [reference generation] 15.08-second MiniMax H3 Ref2VA, one continuous shot, Disney 3D feature-film illustration matching the reference stills, not live-action, not photoreal CGI. <Subject 1> starts on her back on the spa table in <Subject 3>, rolls onto her stomach, and holds the ass-up over-shoulder pose of <Picture 3>. <Subject 2> kneels on the table behind her in the clothes from <Picture 4> and massages her lower back with both hands. One woman, one man, two arms and two legs each. No text, no dialogue, no subtitles.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - red bob, bangs, blue eyes, freckles, beauty mark, nude oiled body, and cartoon proportions stay locked to <Picture 1> and <Picture 2> for the whole 15.08s.
+<Subject 2> (appears in [Shot 1]): fully_preserved - young brown-haired face and white v-neck plus black shorts stay locked to <Picture 4>.
+<Subject 3> (appears in [Shot 1]): partially_preserved - keep the warm wood spa, cream table, lamps, and towels from <Picture 5>–<Picture 7>; the table is occupied.
+<Picture 1>: attribute_transfer - front/back sheet supplies body identity only; never shown as a split-screen or as two bodies.
+<Picture 2>: attribute_transfer - face, hair, and material quality only.
+<Picture 3> ([Shot 1] pose target after the roll): partially_preserved - prone ass-up over-shoulder pose and empty holes transfer onto the cream table; green tiles are not used.
+<Picture 4>: fully_preserved - Ethan identity and outfit.
+<Picture 5> (environment): fully_preserved - spa architecture and lighting.
+<Picture 6> (environment): weak_reference - extra shelf and head-on table layout inform the set.
+<Picture 7> (environment): weak_reference - door, bathrobe, and side table inform the set.
+
+detailed_description: The target video is Disney 3D feature-film animation: clean stylized forms, saturated copper hair, painterly spa lighting, visible outlines on props, cartoon skin with oil highlights. Not live-action, not muddy photoreal, not a second art style.
+[Shot 1] Locked camera at the foot of the cream massage table in <Subject 3>, slightly high, 768x1344 vertical, both people fully readable. Warm lamps, wooden shelves with towels and bottles, botanical prints, no green tiles.
+00:00.000–00:03.200 <Subject 1> lies on her back on the cream table, fully nude, red bob and bangs from <Picture 1> and <Picture 2>, blue eyes open, looking toward camera past her own breasts. One head, two arms, two legs. <Subject 2> kneels beyond her head in the white v-neck and black shorts from <Picture 4>, young brown hair visible, hands ready with oil. She rolls toward camera-left onto her stomach in one continuous motion: shoulders, then hips, then legs; the towel is already gone; nothing extra grows.
+00:03.200–00:07.000 she finishes the roll and settles into the pose of <Picture 3> on the table, not on the floor: belly on the pad, knees bent and apart, round ass lifted toward the lens, empty anus and empty shaved vulva aimed at camera, looking back over her left shoulder with a teasing half-open mouth, blue eye and red bangs readable. Holes stay empty. No finger, no penis, no toy.
+00:07.000–00:11.500 <Subject 2> leans in from the far side of the table, still the same young man, and kneads her lower back and the upper curve of her ass with both oiled palms in slow circular strokes. His face stays the <Picture 4> face; hair stays brown; clothes stay on. Her ass stays up. She holds the over-shoulder look at camera. Skin glistens. No extra limbs, no second woman, no duplicate head.
+00:11.500–00:15.080 hold. Same two adults. Same spa. Ass toward camera, face still looking back, masseur's hands on her back. No cut, no empty room, no on-screen text, no captions, no subtitles.
+
+overall_soundscape: Quiet spa room tone, a low lamp hum, oil on skin, palms sliding on her back, the pad compressing as she rolls, her soft breath and a short pleased exhale. No speech.
+
+non_diegetic_music: none

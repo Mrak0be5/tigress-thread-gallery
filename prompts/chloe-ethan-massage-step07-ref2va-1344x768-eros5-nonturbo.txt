@@ -1,0 +1,40 @@
+# MiniMax H3 Ref2VA — non-turbo Eros hybrid beta5
+# Picture 1 = chloe.jpg (two-view identity sheet — NOT two people)
+# Picture 2 = chloe_render.png (face/skin)
+# Picture 3 = chloe_pussy_down.jpg (prone pose)
+# Picture 4 = ethan.jpg
+# Picture 5 = massage_room.png
+# Picture 6 = massage_room_02.png
+
+subject_definitions:
+<Subject 1> is Chloe, one adult woman, one body. Body identity from <Picture 1>, face, bangs, oil and 3D-cartoon skin from <Picture 2>: short copper-red bob, blue eyes, freckles, beauty mark, slim waist, perky breasts, round ass, shaved vulva, fully nude. Exactly one head, two arms, two hands, two legs, two thighs, two knees, two calves, two feet. No third leg. No extra thigh. No extra pair of hands.
+<Subject 2> is Ethan from <Picture 4>: messy dark-brown hair, amber-brown eyes, light stubble, slim-athletic, white v-neck t-shirt, black shorts with drawstring. Young. Clothes stay on. Exactly two arms and two hands — he never grows a second pair of hands.
+<Subject 3> is the warm wood spa from <Picture 5> and <Picture 6>: cream padded massage table, wooden shelves, rolled towels, oil bottles, floor lamp, botanical prints, cream bathrobe on a hook, honey lamplight, light wood floor. No swimming pool. No green tiles.
+<Picture 1> is a two-view character sheet of the SAME woman (front standing left, back standing right). Use it only to remember hair, face, breasts, ass. Never composite both stances into one body. Never spawn a third leg from the back-view hip. Never show two Chloes.
+<Picture 2> is a close-up of Chloe's face, hair, makeup and oiled cartoon skin. Quality only. Ignore any halter strap. Do not copy that crop as a second person.
+<Picture 3> is the target pose after the roll: one woman on her stomach on a surface, ass raised toward camera, two knees bent and apart, empty anus and empty vulva visible, looking back over her left shoulder. Transfer that pose onto the cream table. Discard green tiles and cables.
+<Picture 4> is Ethan identity and wardrobe.
+<Picture 5> and <Picture 6> are empty-room set dressing.
+
+summary: [reference generation] 15.08s Ref2VA, one locked 1344x768 widescreen shot, Disney 3D stills. Chloe starts on her back, rolls onto her stomach, then holds the two-leg ass-up pose of <Picture 3> while Ethan massages her lower back with two hands only. No text, no speech, no music.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - red bob, blue eyes, nude oiled cartoon body, two legs only for 15.08s.
+<Subject 2> (appears in [Shot 1]): fully_preserved - young brown hair, white v-neck, black shorts, two hands only.
+<Subject 3> (appears in [Shot 1]): partially_preserved - wood spa kept, table occupied, no pool.
+<Picture 1>: attribute_transfer - identity sheet only, never two bodies, never a third leg.
+<Picture 2>: attribute_transfer - face and skin quality only.
+<Picture 3> ([Shot 1] after 00:03.000): partially_preserved - prone ass-up over-shoulder with two knees.
+<Picture 4>: fully_preserved.
+<Picture 5> (environment): fully_preserved.
+<Picture 6> (environment): weak_reference.
+
+detailed_description: Disney 3D feature-film look matching the stills. Not photoreal. Not a second style.
+[Shot 1] Locked camera at the foot of the cream table, slightly high, 1344x768. Chloe's whole body readable: one torso, two legs. Ethan readable behind her with two hands. Wood spa, no pool, no split-screen, no on-screen text.
+00:00.000–00:03.000 Chloe lies on her back on the table, nude, two legs, two arms, one head, face from <Picture 2>, body from <Picture 1>. Eyes toward camera. Ethan kneels beyond her head, white shirt, black shorts, two oiled palms on the table edge. She rolls toward camera-left onto her stomach: shoulders, hips, LEFT LEG, RIGHT LEG. Count two legs every frame. No third thigh. No extra foot. Pad compresses. A short breath.
+00:03.000–00:09.000 She settles into <Picture 3> on the table: belly down, ass up toward the lens, left knee bent, right knee bent, gap between two thighs only, empty anus and empty vulva, looking back over her left shoulder. Two feet. Ethan massages her lower back with his LEFT HAND and RIGHT HAND only — two palms, not four. Clothes stay on. Holes stay empty. No extra limb from the hip, from the sheet, or from the over-shoulder twist.
+00:09.000–00:15.080 Hold that same pose. Same two adults. Ass toward camera. Two legs. Ethan still has exactly two hands resting on her lower back. No extra hands appearing on her ass. No cut. No captions. No speech.
+
+overall_soundscape: Quiet spa, lamp hum, pad, oil, two palms on skin, her breath. No speech.
+
+non_diegetic_music: N/A

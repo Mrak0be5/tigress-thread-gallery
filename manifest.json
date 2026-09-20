@@ -2,9 +2,23 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-21T02:30+04:00",
+  "updated": "2026-09-21T03:34+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "qwen21-red-anal-comic-6p",
+      "file": "images/qwen21-red-anal-comic-6p.jpg",
+      "source": "qwen21-red-anal-comic-6p-rgba.png",
+      "title": "Ryzhaya 6-panel anal comic — Qwen-Image-2.1 edit",
+      "category": "scene",
+      "model": "Qwen-Image-2.1 i2i",
+      "note": "HF Space peguero/qwen-image-2-1-demo edit, 16 steps, 1792x992, RU bubbles",
+      "date": "2026-09-21 03:34",
+      "pixels": "1792x992",
+      "characters": [
+        "Ryzhaya"
+      ]
+    },
     {
       "id": "gold-penis-badge-grok-imagine-2",
       "file": "images/gold-penis-badge-grok-imagine-2.jpg",

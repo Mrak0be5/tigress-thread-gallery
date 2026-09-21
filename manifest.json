@@ -2,9 +2,24 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-21T03:34+04:00",
+  "updated": "2026-09-21T04:09+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "qwen3pro-red-anal-comic-6p",
+      "file": "images/qwen3pro-red-anal-comic-6p.jpg",
+      "source": "qwen3pro-red-anal-comic-6p-nope-s23.png",
+      "title": "Ryzhaya 6-panel anal comic — Qwen Image 3.0 Pro i2i",
+      "category": "scene",
+      "model": "Qwen Image 3.0 Pro i2i (Kie)",
+      "note": "2K 2688x1536, prompt_extend off, seed 23, nsfw_checker false",
+      "date": "2026-09-21 04:09",
+      "pixels": "1799x1028",
+      "cdn": "https://tempfile.aiquickdraw.com/qwen3/1789949308868-lc1beyb92r.png",
+      "characters": [
+        "Ryzhaya"
+      ]
+    },
     {
       "id": "qwen21-red-anal-comic-6p",
       "file": "images/qwen21-red-anal-comic-6p.jpg",

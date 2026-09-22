@@ -2,9 +2,41 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-23T01:00+04:00",
+  "updated": "2026-09-23T02:34+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "stage-sing-15s-v1-wan-3-0",
+      "file": "images/stage-sing-15s-v1-wan-3-0.mp4",
+      "source": "stage-sing-15s-v1-wan-3-0.mp4",
+      "title": "Stage sing 15s v1",
+      "category": "video",
+      "model": "Wan 3.0",
+      "note": "15s 480p 16:9. She stands on a club stage in the sheet look and sings the attached track. Mic stand, spotlight, audience silhouettes.",
+      "date": "2026-09-23 02:34",
+      "pixels": "0x0",
+      "poster": "images/posters/stage-sing-15s-v1-wan-3-0.jpg",
+      "stream": "images/stream/stage-sing-15s-v1-wan-3-0.mp4",
+      "cdn": "https://files.catbox.moe/gy2yjh.mp4",
+      "prompt": "15 seconds, 16:9. One unbroken continuous shot. Illustrated anime, the same rendering as Image1: clean linework, soft cel shading. Not photoreal. Not 3D Disney. Not a character-sheet grid. Not a white studio.\n\nIdentity lock, every frame: one adult woman, short messy red hair, green eyes, silver hoop earrings, black choker, black arm warmers, fishnet thigh-highs, black platform boots, bare breasts, no skirt.\n\nImage1 is identity only. Copy her face, short messy red hair, green eyes, hoop earrings, black choker, black arm warmers, fishnet thigh-highs, black platform boots, and anime rendering. Do not paste Image1 as a collage. Do not copy the white background, the T-pose, the side turnaround, the all-fours pose, or the legs-up pose. Do not copy the tongue-out portrait as a frozen expression.\n\nAudio 1 is the song. She sings Audio 1. Her mouth shapes follow Audio 1 for the whole clip. The soundtrack is Audio 1 and nothing else. No second melody. No added dialogue. No voiceover over the song.\n\nShe STANDS center stage for all 15 seconds. Both platform boots stay on the floor. She faces the audience. A microphone on a stand is in front of her mouth. Her hands stay at her sides, black nails visible. She does not walk off, sit, kneel, or lie down. She does not dance across the stage. One small weight shift and a slight sway while she sings.\n\nSet: small club stage at night. One warm spotlight on her. Dark audience silhouettes in front of the stage. No readable signs. No logos. No children.\n\nCamera, all 15 seconds: one locked medium-full from the front, slightly low, so her face, boots, and the microphone all stay in frame. No cuts. No push that crops her boots. No rear view.\n\n0.0–14.4s. She is already standing and singing Audio 1 into the microphone. Mouth moves with the song. Eyes stay on the audience. Hair shifts once in the stage light. The song is the only sound.\n14.4–15.0s. Audio 1 has ended. She holds the last standing pose, mouth closing, still on stage. No new action.\n\nOne woman. Two arms. Two legs. Two boots. One microphone stand. Adults only. No extra limbs. No sheet layout. No text. No watermark. No jump cuts. Wrong if she is not standing. Wrong if the song is replaced.",
+      "prompt_file": "prompts/stage-sing-15s-v1-wan-3-0.txt",
+      "refs": [
+        {
+          "label": "sheet",
+          "source": "https://files.catbox.moe/azufme.jpg",
+          "file": "images/refs/stage-sing-15s-v1-wan-3-0/01-sheet.jpg"
+        },
+        {
+          "label": "song",
+          "source": "https://files.catbox.moe/lg6d2z.mp3",
+          "file": "https://files.catbox.moe/lg6d2z.mp3"
+        }
+      ],
+      "service": "reAPI",
+      "characters": [
+        "stage-redhead"
+      ]
+    },
     {
       "id": "hayes-pool-pulldown-15s-1344x768-h3-eros-turbo-pbr-v4",
       "file": "images/hayes-pool-pulldown-15s-1344x768-h3-eros-turbo-pbr-v4.mp4",

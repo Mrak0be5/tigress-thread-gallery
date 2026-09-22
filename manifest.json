@@ -2,9 +2,41 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-23T02:34+04:00",
+  "updated": "2026-09-23T03:43+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "stage-sing-15s-seedance20-480p",
+      "file": "images/stage-sing-15s-seedance20-480p.mp4",
+      "source": "stage-sing-15s-seedance20-480p.mp4",
+      "title": "Stage sing Seedance 2.0 15s",
+      "category": "video",
+      "model": "Seedance 2.0",
+      "note": "15s 480p 16:9 Atlas reference-to-video. Same sheet and song as the Wan clip. She stands and sings; mouth opens and closes. Output audio is generated, not the source mp3 (envelope correlation 0.34).",
+      "date": "2026-09-23 03:42",
+      "pixels": "0x0",
+      "poster": "images/posters/stage-sing-15s-seedance20-480p.jpg",
+      "stream": "images/stream/stage-sing-15s-seedance20-480p.mp4",
+      "cdn": "https://files.catbox.moe/5hxtsj.mp4",
+      "prompt": "15 seconds, 16:9. The woman from image 1 stands center stage and sings audio 1. Lip-sync her mouth to audio 1, phoneme by phoneme, for the whole song. The soundtrack is audio 1. Do not replace the song.\n\nIdentity from image 1 only: one adult woman, short messy red hair, green eyes, silver hoop earrings, black choker, black arm warmers, fishnet thigh-highs, black platform boots, bare breasts, no skirt. Do not paste image 1 as a character-sheet grid. Do not copy the white background, the T-pose, the all-fours pose, or the legs-up pose. Do not freeze the tongue-out portrait.\n\nShe STANDS for all 15 seconds. Both platform boots stay on the floor. She faces the audience. A microphone on a stand is at her mouth. Her hands stay at her sides. She does not walk off, sit, kneel, or lie down. One small sway while she sings.\n\nSet: small club stage at night, one warm spotlight, dark audience silhouettes. No readable signs. No logos. No children.\n\nCamera: one locked medium-full from the front, slightly low, head and boots both in frame. No cuts.\n\nOne woman. Two arms. Two legs. Two boots. One microphone stand. No extra limbs. No text. No watermark.",
+      "prompt_file": "prompts/stage-sing-15s-seedance20-480p.txt",
+      "refs": [
+        {
+          "label": "sheet",
+          "source": "https://files.catbox.moe/azufme.jpg",
+          "file": "images/refs/stage-sing-15s-seedance20-480p/01-sheet.jpg"
+        },
+        {
+          "label": "song",
+          "source": "https://files.catbox.moe/lg6d2z.mp3",
+          "file": "https://files.catbox.moe/lg6d2z.mp3"
+        }
+      ],
+      "service": "Atlas Cloud",
+      "characters": [
+        "stage-redhead"
+      ]
+    },
     {
       "id": "stage-sing-15s-v1-wan-3-0",
       "file": "images/stage-sing-15s-v1-wan-3-0.mp4",

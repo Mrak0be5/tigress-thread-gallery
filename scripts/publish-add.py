@@ -144,39 +144,93 @@ def poster_rel(iid: str) -> str:
     return f"images/posters/{iid}.jpg"
 
 
-def extract_poster(video_path: Path, dest: Path) -> tuple[int, int]:
-    import cv2
+_CREATE_NO_WINDOW = getattr(subprocess, "CREATE_NO_WINDOW", 0)
 
-    cap = cv2.VideoCapture(str(video_path))
-    if not cap.isOpened():
-        raise RuntimeError(f"cannot open {video_path}")
-    frame = None
-    for msec in (0, 400, 1200):
-        if msec:
-            cap.set(cv2.CAP_PROP_POS_MSEC, float(msec))
-        ok, raw = cap.read()
-        if not ok or raw is None or not getattr(raw, "size", 0):
+
+def poster_mean(path: Path) -> float:
+    with Image.open(path) as im:
+        im = im.convert("RGB")
+        w, h = im.size
+        if w < 64 or h < 64:
+            return -1.0
+        small = im.resize((24, 24))
+        px = list(small.getdata())
+    if not px:
+        return -1.0
+    return sum(sum(p) for p in px) / (len(px) * 3)
+
+
+def poster_is_valid(path: Path) -> bool:
+    if not path.is_file() or path.stat().st_size < 4000:
+        return False
+    if path.read_bytes()[:3] != b"\xff\xd8\xff":
+        return False
+    try:
+        return poster_mean(path) > 8
+    except Exception:
+        return False
+
+
+def extract_poster(video_path: Path, dest: Path) -> tuple[int, int]:
+    """Grab a real JPEG frame with ffmpeg. A publish is not allowed to keep a broken poster."""
+    ff = ffmpeg_exe()
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    best_tmp: Path | None = None
+    best_mean = -1.0
+    tries: list[Path] = []
+    for sec in (0.4, 1.2, 0.0, 2.5):
+        tmp = dest.with_name(f"{dest.stem}-t{int(sec * 10)}.jpg")
+        tries.append(tmp)
+        cmd = [
+            ff,
+            "-y",
+            "-hide_banner",
+            "-loglevel",
+            "error",
+            "-ss",
+            f"{sec:.1f}",
+            "-i",
+            str(video_path),
+            "-frames:v",
+            "1",
+            "-vf",
+            f"scale='min({POSTER_MAX_SIDE},iw)':-2",
+            "-q:v",
+            "3",
+            str(tmp),
+        ]
+        subprocess.run(cmd, check=False, creationflags=_CREATE_NO_WINDOW)
+        if not tmp.is_file() or tmp.stat().st_size < 2000:
             continue
-        mean = float(raw.mean())
-        if frame is None or mean > 8:
-            frame = raw
+        try:
+            mean = poster_mean(tmp)
+        except Exception:
+            continue
+        if mean > best_mean:
+            best_mean = mean
+            best_tmp = tmp
         if mean > 8:
             break
-    cap.release()
-    if frame is None:
-        raise RuntimeError(f"no frame from {video_path}")
-    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-    im = Image.fromarray(rgb)
-    w, h = im.size
-    scale = min(1.0, POSTER_MAX_SIDE / max(w, h))
-    if scale < 1.0:
-        im = im.resize((int(w * scale), int(h * scale)), Image.Resampling.LANCZOS)
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    im.save(dest, "JPEG", quality=POSTER_QUALITY, optimize=True, progressive=True)
-    return im.size
+    if best_tmp is None or best_mean <= 8:
+        for tmp in tries:
+            tmp.unlink(missing_ok=True)
+        raise RuntimeError(f"no usable poster frame from {video_path}")
+    if dest.exists():
+        dest.unlink()
+    best_tmp.replace(dest)
+    for tmp in tries:
+        if tmp.exists() and tmp != dest:
+            tmp.unlink(missing_ok=True)
+    with Image.open(dest) as im:
+        rgb = im.convert("RGB")
+        w, h = rgb.size
+        rgb.save(dest, "JPEG", quality=POSTER_QUALITY, optimize=True, progressive=True)
+    if not poster_is_valid(dest):
+        raise RuntimeError(f"poster failed validation {dest}")
+    return w, h
 
 
-def ensure_item_poster(item: dict, force: bool = False) -> bool:
+def ensure_item_poster(item: dict, force: bool = False, required: bool = False) -> bool:
     if not is_video_item(item):
         return False
     iid = str(item.get("id") or "")
@@ -185,22 +239,31 @@ def ensure_item_poster(item: dict, force: bool = False) -> bool:
     src = GAL / str(item.get("file") or "")
     dest = POSTER_DIR / f"{iid}.jpg"
     rel = poster_rel(iid)
-    if dest.is_file() and dest.stat().st_size > 0 and not force:
-        if item.get("poster") != rel:
+    if dest.is_file() and poster_is_valid(dest) and not force:
+        changed = item.get("poster") != rel
+        if changed:
             item["poster"] = rel
-            return True
-        return False
+        return changed
     if not src.is_file():
         print("skip poster, missing video", src, file=sys.stderr)
+        if required:
+            raise RuntimeError(f"video missing for poster {iid}: {src}")
         return False
     try:
         extract_poster(src, dest)
-        item["poster"] = rel
-        print("Poster", iid, "->", dest)
-        return True
     except Exception as e:
         print("poster fail", iid, e, file=sys.stderr)
+        if required:
+            raise
         return False
+    if not poster_is_valid(dest):
+        print("poster invalid", iid, dest, file=sys.stderr)
+        if required:
+            raise RuntimeError(f"poster invalid {iid}")
+        return False
+    item["poster"] = rel
+    print("Poster", iid, "->", dest)
+    return True
 
 
 def extract_all_posters(data: dict, force: bool = False) -> int:
@@ -221,6 +284,10 @@ def ffmpeg_exe() -> str:
     exe = shutil.which("ffmpeg")
     if exe:
         return exe
+    root = Path(os.environ.get("LOCALAPPDATA", "")) / "Microsoft" / "WinGet" / "Packages"
+    hits = sorted(root.glob("Gyan.FFmpeg*/ffmpeg-*/bin/ffmpeg.exe")) if root.is_dir() else []
+    if hits:
+        return str(hits[-1])
     raise RuntimeError("ffmpeg not found")
 
 
@@ -943,7 +1010,13 @@ def main() -> int:
         "pixels": f"{size[0]}x{size[1]}",
     }
     if src.suffix.lower() == ".mp4":
-        ensure_item_poster(item)
+        try:
+            ensure_item_poster(item, required=True)
+        except Exception as e:
+            print("Refusing to publish a video without a valid poster:", e, file=sys.stderr)
+            out_path.unlink(missing_ok=True)
+            stream_path.unlink(missing_ok=True)
+            return 1
         item["stream"] = f"images/stream/{iid}.mp4"
     if args.cdn:
         item["cdn"] = args.cdn

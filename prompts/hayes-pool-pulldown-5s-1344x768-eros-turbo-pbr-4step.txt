@@ -1,0 +1,32 @@
+# MiniMax H3 Ref2VA — Hayes pool pulldown, 5.17s
+# UNET 10Eros TURBO-hybrid beta5 INT8 + PBRStyle 0.65
+# euler/simple/4, shift 12/3, 1344x768, length 124
+# Picture 1 hayes sheet, Picture 2 bikini, Picture 3 pool, Video 1 action. Discard floating balcony.
+
+subject_definitions:
+<Subject 1> is Hayes, one adult woman. Face, hair, tan cartoon skin, breasts and ass from <Picture 1>. Outfit from <Picture 2>: tiny glossy purple vinyl triangle bikini. Exactly one head, two arms, two hands, two legs. Never two Hayeses. Never a third leg from the sheet.
+<Subject 2> is the golden-hour pool estate from <Picture 3>: stone patio, blue pool, timber-and-stone house, trees, sun on the left. No floating glass balcony. No steel railing in the sky.
+<Picture 1> is a two-view sheet of the same woman. Identity only. Never composite both stances.
+<Picture 2> is the purple micro bikini. Transfer it as glossy vinyl. Ignore the mint backdrop.
+<Picture 3> is empty set dressing.
+<Video 1> supplies the low-angle look and the yank. Discard its floating balcony, watermarks, and any live-action look.
+
+summary: [reference generation] 5.17s Ref2VA widescreen. Hayes stands at the pool, yanks the purple bikini top down, breasts bounce out, then she holds. One woman. No text, no speech, no music.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved for 5.17s. One body, two legs, two arms.
+<Subject 2> (appears in [Shot 1]): fully_preserved pool estate.
+<Picture 1>: attribute_transfer - identity only.
+<Picture 2>: attribute_transfer - purple vinyl top starts on, then bunches under the breasts. It does not turn red.
+<Picture 3>: fully_preserved environment.
+<Video 1> ([Shot 1]): attribute_transfer - low angle, yank, bounce. Discard the balcony glitch.
+
+detailed_description: Disney 3D PBR look matching the stills and <Video 1>. Not photoreal. Widescreen, low camera looking up. Face and huge breasts fill the frame. Pool estate behind her.
+[Shot 1] One continuous 5.17s take. No cut.
+00:00.000-00:01.200 Low angle. Purple vinyl triangles still on, sharp and glossy. She smiles down into the lens. Two arms, two legs.
+00:01.200-00:02.800 Both hands grab the purple cups and tug them down.
+00:02.800-00:04.200 She yanks the top down. Both breasts spill out and bounce. Wide pale areolas and thick nipples. Purple vinyl stays as a band under the breasts.
+00:04.200-00:05.170 She holds the breasts toward the camera, then one hand slides to her chest and the other to her hip. Top stays down. Bottoms stay on. No second person. No cut.
+
+overall_soundscape: Pool water, fabric tug, a breath. No speech.
+non_diegetic_music: N/A

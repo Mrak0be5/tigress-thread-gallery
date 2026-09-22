@@ -2,9 +2,35 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-22T08:07+04:00",
+  "updated": "2026-09-22T08:13+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "hayes-pool-pulldown-5s-1344x768-eros-turbo-pbr-4step",
+      "file": "images/hayes-pool-pulldown-5s-1344x768-eros-turbo-pbr-4step.mp4",
+      "source": "hayes-pool-pulldown-5s-1344x768-eros-turbo-pbr-4step_00001_.mp4",
+      "title": "Hayes pool pulldown 5s Eros TURBO 4-step + PBR",
+      "category": "video",
+      "model": "MiniMax H3 Eros Max TURBO-hybrid beta5 + PBRStyle",
+      "note": "5.17s 1344x768 24fps 124 frames. euler/simple/4, PBR 0.65, seed 202609220745. QC: bikini yank reads, one woman, pool estate, no balcony. End-frame hair smears outward.",
+      "date": "2026-09-22 08:12",
+      "pixels": "0x0",
+      "stream": "images/stream/hayes-pool-pulldown-5s-1344x768-eros-turbo-pbr-4step.mp4",
+      "prompt": "# MiniMax H3 Ref2VA — Hayes pool pulldown, 5.17s\n# UNET 10Eros TURBO-hybrid beta5 INT8 + PBRStyle 0.65\n# euler/simple/4, shift 12/3, 1344x768, length 124\n# Picture 1 hayes sheet, Picture 2 bikini, Picture 3 pool, Video 1 action. Discard floating balcony.\n\nsubject_definitions:\n<Subject 1> is Hayes, one adult woman. Face, hair, tan cartoon skin, breasts and ass from <Picture 1>. Outfit from <Picture 2>: tiny glossy purple vinyl triangle bikini. Exactly one head, two arms, two hands, two legs. Never two Hayeses. Never a third leg from the sheet.\n<Subject 2> is the golden-hour pool estate from <Picture 3>: stone patio, blue pool, timber-and-stone house, trees, sun on the left. No floating glass balcony. No steel railing in the sky.\n<Picture 1> is a two-view sheet of the same woman. Identity only. Never composite both stances.\n<Picture 2> is the purple micro bikini. Transfer it as glossy vinyl. Ignore the mint backdrop.\n<Picture 3> is empty set dressing.\n<Video 1> supplies the low-angle look and the yank. Discard its floating balcony, watermarks, and any live-action look.\n\nsummary: [reference generation] 5.17s Ref2VA widescreen. Hayes stands at the pool, yanks the purple bikini top down, breasts bounce out, then she holds. One woman. No text, no speech, no music.\n\nretention_analysis:\n<Subject 1> (appears in [Shot 1]): fully_preserved for 5.17s. One body, two legs, two arms.\n<Subject 2> (appears in [Shot 1]): fully_preserved pool estate.\n<Picture 1>: attribute_transfer - identity only.\n<Picture 2>: attribute_transfer - purple vinyl top starts on, then bunches under the breasts. It does not turn red.\n<Picture 3>: fully_preserved environment.\n<Video 1> ([Shot 1]): attribute_transfer - low angle, yank, bounce. Discard the balcony glitch.\n\ndetailed_description: Disney 3D PBR look matching the stills and <Video 1>. Not photoreal. Widescreen, low camera looking up. Face and huge breasts fill the frame. Pool estate behind her.\n[Shot 1] One continuous 5.17s take. No cut.\n00:00.000-00:01.200 Low angle. Purple vinyl triangles still on, sharp and glossy. She smiles down into the lens. Two arms, two legs.\n00:01.200-00:02.800 Both hands grab the purple cups and tug them down.\n00:02.800-00:04.200 She yanks the top down. Both breasts spill out and bounce. Wide pale areolas and thick nipples. Purple vinyl stays as a band under the breasts.\n00:04.200-00:05.170 She holds the breasts toward the camera, then one hand slides to her chest and the other to her hip. Top stays down. Bottoms stay on. No second person. No cut.\n\noverall_soundscape: Pool water, fabric tug, a breath. No speech.\nnon_diegetic_music: N/A",
+      "prompt_file": "prompts/hayes-pool-pulldown-5s-1344x768-eros-turbo-pbr-4step.txt",
+      "loras": [
+        {
+          "name": "MiniMaxH3_Ref2V_PBRStyle_v1.0",
+          "strength": 0.65
+        }
+      ],
+      "service": "ComfyUI-H3-Stable",
+      "service_url": "http://127.0.0.1:8188",
+      "characters": [
+        "Hayes"
+      ],
+      "poster": "images/posters/hayes-pool-pulldown-5s-1344x768-eros-turbo-pbr-4step.jpg"
+    },
     {
       "id": "test14-hood-anal-10s-v4-wan-3-0",
       "file": "images/test14-hood-anal-10s-v4-wan-3-0.mp4",

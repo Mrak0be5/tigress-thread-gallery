@@ -6,6 +6,33 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "chloe-studio-dont-blink-grok-video-6s",
+      "file": "images/chloe-studio-dont-blink-grok-video-6s.mp4",
+      "source": "1.mp4",
+      "title": "Chloe studio — Don't blink",
+      "category": "video",
+      "model": "Grok Imagine video",
+      "note": "6s 16:9 720p, voice eve, English line: Don't blink. First frame Chloe studio still.",
+      "date": "2026-09-23 03:45",
+      "pixels": "0x0",
+      "poster": "images/posters/chloe-studio-dont-blink-grok-video-6s.jpg",
+      "stream": "images/stream/chloe-studio-dont-blink-grok-video-6s.mp4",
+      "prompt": "The woman from the reference stays the same person in the photography studio: short red bob, blue eyes, deep-red plunging halter gown. She takes two slow steps from the wooden stool toward the camera, silk catching the key light, then looks into the lens and says in English: \"Don't blink.\" Slow dolly-in, one continuous shot. Voice: eve. 16:9, 6s, 720p. First frame: Chloe_20260609_144658 studio still.",
+      "prompt_file": "prompts/chloe-studio-dont-blink-grok-video-6s.txt",
+      "refs": [
+        {
+          "label": "Chloe studio still",
+          "source": "C:\\Users\\hebp\\.grok-t3\\tmp\\intro-drive\\chloe\\Chloe_20260609_144658_1_thumb.jpg",
+          "file": "images/refs/chloe-studio-dont-blink-grok-video-6s/01-chloe-studio-still.jpg"
+        }
+      ],
+      "service": "Grok Imagine",
+      "service_url": "https://grok.com/imagine",
+      "characters": [
+        "Chloe"
+      ]
+    },
+    {
       "id": "stage-sing-15s-seedance25-480p",
       "file": "images/stage-sing-15s-seedance25-480p.mp4",
       "source": "stage-sing-15s-seedance25-480p.mp4",

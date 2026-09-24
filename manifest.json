@@ -2,9 +2,57 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-23T03:45+04:00",
+  "updated": "2026-09-24T11:47+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "pearl-sauna-heat",
+      "file": "images/pearl-sauna-heat.jpg",
+      "source": "pearl-sauna-heat.png",
+      "title": "Pearl sauna heat",
+      "category": "scene",
+      "model": "Grok Imagine Image 2.0",
+      "note": "Pearl room concept: sauna temperature",
+      "date": "2026-09-24 11:47",
+      "pixels": "1792x1008",
+      "prompt": "Widescreen 16:9 in-game screenshot from a dark luxury spa visual novel, photoreal, cinematic lighting. Glass UI panels sit over the room, gold headings, teal names, purple rounded buttons, short crisp numbers. The interface is part of the scene, not a photograph of a monitor.\n\nA cedar sauna full of soft steam and amber light. A 40-year-old blonde woman with a low bun sits on the wooden bench wrapped in a white towel, modest, adult, calm expression. The hero of the screen is a tall glass thermometer marked 70, 80, 85 and 90, the glowing level stopped at 88. Colored bands run up the tube: green BASE, gold, orange RARE, and a violet JACKPOT mark exactly at 90. Three small wooden cards float beside it showing +6, +7 and +5. Two large purple buttons read HIT and STAND. Three small patience dots, two of them lit. The title reads HEAT. Top left glass card reads GRANT.",
+      "prompt_file": "prompts/pearl-sauna-heat.txt",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "pearl-pool-cards",
+      "file": "images/pearl-pool-cards.jpg",
+      "source": "pearl-pool-cards.png",
+      "title": "Pearl pool three cards",
+      "category": "scene",
+      "model": "Grok Imagine Image 2.0",
+      "note": "Pearl room concept: pool three cards",
+      "date": "2026-09-24 11:47",
+      "pixels": "1792x1008",
+      "prompt": "Widescreen 16:9 in-game screenshot, dark luxury indoor pool at night, teal water, warm edge lights, photoreal. A 40-year-old blonde woman with a low bun sits on the pool edge wrapped in a white towel. Glass game UI over the scene: three large cards titled THREE CARDS. Left card reads WATER 20%. Middle card reads SWIM 20%. Right card is gold and reads JACKPOT 70%. A plate reads STAGE 4. Top left reads GRANT. Purple buttons, gold headings.",
+      "prompt_file": "prompts/pearl-pool-cards.txt",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "pearl-massage-wheel",
+      "file": "images/pearl-massage-wheel.jpg",
+      "source": "pearl-massage-wheel.png",
+      "title": "Pearl massage wheel",
+      "category": "scene",
+      "model": "Grok Imagine Image 2.0",
+      "note": "Pearl room concept: massage wheel",
+      "date": "2026-09-24 11:47",
+      "pixels": "1792x1008",
+      "prompt": "Widescreen 16:9 in-game screenshot from a dark luxury spa visual novel, photoreal, cinematic lighting. Glass UI panels sit over the room, gold headings, teal names, purple rounded buttons, short crisp English labels. The interface is part of the scene, not a photograph of a monitor.\n\nA massage room in warm low light, dark wood and stone. A 40-year-old blonde woman with a low bun lies face down on a massage table, modestly covered by a white towel. The hero of the screen is a large brass and violet prize wheel titled WHEEL. Wedges read BACK, HANDS, THIGHS, and a red wedge FAIL. A gold pointer rests on THIGHS. A small plate reads STAGE 3 and 50%. Along the bottom, three purple buttons read TAKE, SPIN, REROLL. Top left glass card reads GRANT. Top right reads REP +3.",
+      "prompt_file": "prompts/pearl-massage-wheel.txt",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "chloe-studio-dont-blink-grok-video-6s",
       "file": "images/chloe-studio-dont-blink-grok-video-6s.mp4",

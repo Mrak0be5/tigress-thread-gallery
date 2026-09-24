@@ -2,9 +2,57 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-24T11:47+04:00",
+  "updated": "2026-09-24T15:54+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "pearl-sauna-collins",
+      "file": "images/pearl-sauna-collins.jpg",
+      "source": "pearl-sauna-collins.png",
+      "title": "Pearl sauna heat — Collins",
+      "category": "scene",
+      "model": "Grok Imagine Image 2.0",
+      "note": "Pearl concept, Mrs Collins from current game art",
+      "date": "2026-09-24 15:54",
+      "pixels": "1792x1008",
+      "prompt": "Widescreen 16:9 anime visual-novel game screenshot, clean line art and soft shading. Mrs Collins, a mature woman about 50 with silver-grey hair in a neat bun, bright blue eyes, smile lines and a small pearl earring, sits on a cedar sauna bench wrapped in a white towel, soft steam. Glass HUD titled HEAT. Tall thermometer: green BASE at 70, gold at 80, orange RARE with the level at 88, violet JACKPOT mark only at 90. Wooden cards +6, +7, +5. Purple buttons HIT and STAND. Top left name plate COLLINS. Three patience dots, two lit.",
+      "prompt_file": "prompts/pearl-sauna-collins.txt",
+      "characters": [
+        "Collins"
+      ]
+    },
+    {
+      "id": "pearl-pool-megan",
+      "file": "images/pearl-pool-megan.jpg",
+      "source": "pearl-pool-megan.png",
+      "title": "Pearl pool three cards — Megan",
+      "category": "scene",
+      "model": "Grok Imagine Image 2.0",
+      "note": "Pearl concept, Megan from current game art",
+      "date": "2026-09-24 15:54",
+      "pixels": "1792x1008",
+      "prompt": "Widescreen 16:9 anime visual-novel game screenshot, clean line art and soft shading. Megan, a 22-year-old woman with long brown hair in two high twin tails tied with white bands, large hazel eyes and a light blush, sits on the marble edge of a dark indoor pool at night, teal water, wrapped in a white towel, twin tails still up. Glass HUD titled THREE CARDS. Left card WATER 20%. Middle card SWIM 20%. Right gold card JACKPOT 80%. Small plate STAGE 4. Top left name plate MEGAN. The three cards are the choice.",
+      "prompt_file": "prompts/pearl-pool-megan.txt",
+      "characters": [
+        "Megan"
+      ]
+    },
+    {
+      "id": "pearl-massage-grant",
+      "file": "images/pearl-massage-grant.jpg",
+      "source": "pearl-massage-grant.png",
+      "title": "Pearl massage wheel — Grant",
+      "category": "scene",
+      "model": "Grok Imagine Image 2.0",
+      "note": "Pearl concept, Ms Grant from current game art",
+      "date": "2026-09-24 15:54",
+      "pixels": "1792x1008",
+      "prompt": "Widescreen 16:9 anime visual-novel game screenshot, clean line art and soft shading like a premium spa game. Ms Grant, a woman of about 40 with a short glossy black bob and bangs, thin rectangular glasses, sharp blue eyes, and a confident smirk, is propped on her elbows on a dark wood massage table so her face and glasses stay visible, modestly covered by a white towel. Glass HUD: a brass and violet prize wheel titled WHEEL, wedges BACK, HANDS, THIGHS, and a red FAIL wedge filling half the wheel, gold pointer on THIGHS. Plate reads STAGE 3 and 50%. Purple buttons TAKE, SPIN, REROLL. Top left name plate GRANT. Top right REP +3.",
+      "prompt_file": "prompts/pearl-massage-grant.txt",
+      "characters": [
+        "Grant"
+      ]
+    },
     {
       "id": "pearl-sauna-heat",
       "file": "images/pearl-sauna-heat.jpg",

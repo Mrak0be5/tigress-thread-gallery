@@ -1,0 +1,1 @@
+Retexture body (text prompt), rig 24 bones, weights transferred to clothes, axe on RightHand, pose test

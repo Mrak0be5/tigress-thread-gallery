@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "claude-code-casual-chat",
+      "file": "images/claude-code-casual-chat.jpg",
+      "source": "claude-code-casual-chat.png",
+      "title": "Claude Code casual chat",
+      "category": "scene",
+      "model": "Grok Imagine 2.0",
+      "note": "",
+      "date": "2026-09-26 03:12",
+      "pixels": "1792x1008",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "claude-code-casual-home",
       "file": "images/claude-code-casual-home.jpg",
       "source": "claude-code-casual-home.png",

@@ -297,6 +297,8 @@
     }
     let QUALITY = "stream";
     let URLS = { stream: "", orig: "" };
+    let UNPACKED = "";
+    let UNPACKING = false;
 
     function playUrl(id, item) {
       const orig = (item && item.file) || ("images/" + encodeURIComponent(id) + ".mp4");
@@ -304,27 +306,80 @@
         || ((window.STREAM_IDS && window.STREAM_IDS[id]) ? ("images/stream/" + encodeURIComponent(id) + ".mp4") : "");
       URLS.orig = orig;
       URLS.stream = stream || window.__VIDEO_SRC || "";
-      if (QUALITY === "orig") return URLS.orig;
-      return URLS.stream || URLS.orig;
+      if (QUALITY === "orig") return UNPACKED || "";
+      return URLS.stream || "";
     }
-    function setQuality(q) {
-      if (q === QUALITY) return;
-      const video = document.getElementById("player");
-      const t = video ? video.currentTime : 0;
-      const paused = video ? video.paused : true;
-      QUALITY = q;
-      const src = (q === "orig" ? URLS.orig : (URLS.stream || URLS.orig));
-      if (!src || !video) return;
-      const hint = document.getElementById("load-hint");
-      const bar = document.getElementById("loadbar");
-      if (hint) hint.classList.remove("hide");
-      if (bar) bar.classList.remove("hide");
-      video.src = src;
-      video.currentTime = t;
-      if (!paused) video.play().catch(() => {});
+    function markQuality(q) {
       document.querySelectorAll(".q-bar button[data-q]").forEach((b) => {
         b.classList.toggle("active", b.dataset.q === q);
       });
+    }
+    function setHint(text, ratio) {
+      const hint = document.getElementById("load-hint");
+      const bar = document.getElementById("loadbar");
+      const fill = bar ? bar.querySelector("i") : null;
+      if (hint) {
+        hint.classList.remove("hide");
+        hint.textContent = text;
+      }
+      if (bar) bar.classList.remove("hide");
+      if (fill && ratio != null) fill.style.width = Math.min(100, Math.round(ratio * 100)) + "%";
+    }
+    async function unpackOriginal(video) {
+      if (!URLS.orig || !video || UNPACKING) return;
+      if (UNPACKED) {
+        video.src = UNPACKED;
+        video.play().catch(() => {});
+        return;
+      }
+      UNPACKING = true;
+      const btn = document.querySelector('.q-bar button[data-q="orig"]');
+      if (btn) btn.disabled = true;
+      try {
+        const packed = window.GALLERY
+          ? await window.GALLERY.fetchPacked(URLS.orig, (state) => {
+              if (state.phase === "unpack") {
+                setHint("сборка ролика…", 1);
+                return;
+              }
+              const pct = state.total ? Math.round(state.ratio * 100) : 0;
+              const mb = (state.got / 1024 / 1024).toFixed(1);
+              setHint(state.total ? ("скачивание… " + pct + "%") : ("скачивание… " + mb + " МБ"), state.total ? state.ratio : null);
+            })
+          : URLS.orig;
+        UNPACKED = packed;
+        if (QUALITY === "orig") {
+          video.src = packed;
+          video.play().catch(() => {});
+        }
+      } catch (err) {
+        setHint("не удалось распаковать", null);
+      } finally {
+        UNPACKING = false;
+        if (btn) btn.disabled = false;
+      }
+    }
+    function setQuality(q) {
+      const video = document.getElementById("player");
+      if (!video) return;
+      if (q === QUALITY && !(q === "orig" && !UNPACKED)) return;
+      QUALITY = q;
+      markQuality(q);
+      if (q === "orig") {
+        video.pause();
+        unpackOriginal(video);
+        return;
+      }
+      if (!URLS.stream) return;
+      const hint = document.getElementById("load-hint");
+      const bar = document.getElementById("loadbar");
+      if (hint) {
+        hint.classList.remove("hide");
+        hint.textContent = "загрузка…";
+      }
+      if (bar) bar.classList.remove("hide");
+      video.src = URLS.stream;
+      video.play().catch(() => {});
     }
     function bindPlayer(video) {
       const bar = document.getElementById("loadbar");
@@ -346,49 +401,24 @@
         if (bar) bar.classList.add("hide");
       });
       video.addEventListener("error", () => {
-        const src = video.currentSrc || video.src || "";
-        if (src.indexOf("cdn.jsdelivr.net") !== -1 && window.GALLERY && !video.dataset.rawBlob) {
-          if (QUALITY === "stream" && URLS.orig && src.indexOf("/stream/") !== -1 && !video.dataset.triedOrig) {
-            video.dataset.triedOrig = "1";
-            QUALITY = "orig";
-            video.src = URLS.orig;
-            return;
-          }
-          const raw = window.GALLERY.rawFromCdn(src);
-          if (!raw) return;
-          video.dataset.rawBlob = "1";
-          const hint = document.getElementById("load-hint");
-          if (hint) {
-            hint.classList.remove("hide");
-            hint.textContent = "большая версия…";
-          }
-          window.GALLERY.playBlob(video, raw).catch(() => {});
-          return;
-        }
-        if (QUALITY === "stream" && URLS.orig && src.indexOf("/stream/") !== -1) {
-          QUALITY = "orig";
-          URLS.stream = "";
-          video.src = URLS.orig;
-          document.querySelectorAll(".q-bar button[data-q]").forEach((b) => {
-            b.classList.toggle("active", b.dataset.q === "orig");
-          });
-        }
+        if (QUALITY !== "stream") return;
+        setHint("сжатое не открылось — нажмите «Распаковать»", null);
       });
     }
     function mountPlayer(id, item) {
       const src = playUrl(id, item);
       const poster = (item && item.poster) || ("images/posters/" + encodeURIComponent(id) + ".jpg");
-      const hasStream = Boolean(URLS.stream);
+      const hasStream = Boolean(URLS.stream && src);
       document.getElementById("root").innerHTML = `
         <div class="stage" id="stage">
-          <video id="player" src="${escapeHtml(src)}" poster="${escapeHtml(poster)}" controls playsinline loop preload="auto"></video>
+          <video id="player" ${src ? `src="${escapeHtml(src)}"` : ""} poster="${escapeHtml(poster)}" controls playsinline loop preload="${src ? "auto" : "none"}"></video>
           <div class="loadbar" id="loadbar"><i></i></div>
-          <span class="load-hint" id="load-hint">загрузка…</span>
+          <span class="load-hint" id="load-hint">${src ? "загрузка…" : "оригинал по кнопке «Распаковать»"}</span>
         </div>
         <div class="q-bar" id="q-bar">
           <span class="lbl">Качество</span>
           <button type="button" class="btn${QUALITY === "stream" ? " active" : ""}" data-q="stream"${hasStream ? "" : " disabled"}>Сжатое</button>
-          <button type="button" class="btn${QUALITY === "orig" ? " active" : ""}" data-q="orig">Оригинал</button>
+          <button type="button" class="btn${QUALITY === "orig" ? " active" : ""}" data-q="orig">Распаковать</button>
         </div>
         <div class="desc" id="desc"></div>`;
       bindPlayer(document.getElementById("player"));

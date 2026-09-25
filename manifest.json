@@ -2,9 +2,77 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-26T01:51+04:00",
+  "updated": "2026-09-26T01:56+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "orc-iso-boots",
+      "file": "images/orc-iso-boots.jpg",
+      "source": "08_iso_boots.png",
+      "title": "Orc — boots isolated from guide",
+      "category": "sheet",
+      "model": "GPT Image 2.5 (4K high)",
+      "note": "",
+      "date": "2026-09-26 01:56",
+      "pixels": "1800x1012",
+      "prompt": "Keep only boots from orc-assembly-guide at exact same pixel position, 4 views",
+      "prompt_file": "prompts/orc-iso-boots.txt",
+      "service": "Higgsfield",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "orc-iso-loincloth",
+      "file": "images/orc-iso-loincloth.jpg",
+      "source": "07_iso_loincloth.png",
+      "title": "Orc — loincloth isolated from guide",
+      "category": "sheet",
+      "model": "GPT Image 2.5 (4K high)",
+      "note": "",
+      "date": "2026-09-26 01:56",
+      "pixels": "1800x1012",
+      "prompt": "Keep only this item from orc-assembly-guide at exact same pixel position, 4 views",
+      "prompt_file": "prompts/orc-iso-loincloth.txt",
+      "service": "Higgsfield",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "orc-iso-belt-pouch",
+      "file": "images/orc-iso-belt-pouch.jpg",
+      "source": "06_iso_belt_pouch.png",
+      "title": "Orc — belt + pouch isolated from guide",
+      "category": "sheet",
+      "model": "GPT Image 2.5 (4K high)",
+      "note": "",
+      "date": "2026-09-26 01:56",
+      "pixels": "1800x1012",
+      "prompt": "Keep only this item from orc-assembly-guide at exact same pixel position, 4 views",
+      "prompt_file": "prompts/orc-iso-belt-pouch.txt",
+      "service": "Higgsfield",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "orc-iso-tunic",
+      "file": "images/orc-iso-tunic.jpg",
+      "source": "05_iso_tunic.png",
+      "title": "Orc — tunic isolated from guide",
+      "category": "sheet",
+      "model": "GPT Image 2.5 (4K high)",
+      "note": "",
+      "date": "2026-09-26 01:56",
+      "pixels": "1800x1012",
+      "prompt": "Keep only this item from orc-assembly-guide at exact same pixel position, 4 views",
+      "prompt_file": "prompts/orc-iso-tunic.txt",
+      "service": "Higgsfield",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "orc-items-axe-head",
       "file": "images/orc-items-axe-head.jpg",

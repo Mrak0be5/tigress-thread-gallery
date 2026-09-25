@@ -2,9 +2,37 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-24T15:54+04:00",
+  "updated": "2026-09-25T04:28+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "tf2-front-back-gpt25",
+      "file": "images/tf2-front-back-gpt25.jpg",
+      "source": "tf2-front-back-gpt25.png",
+      "title": "TF2 front and back",
+      "category": "sheet",
+      "model": "GPT Image 2.5 Flare Edit",
+      "note": "Face reference only. Nude sheet blocked by the image safety filter, so the result is clothed.",
+      "date": "2026-09-25 04:28",
+      "pixels": "1536x1024",
+      "cdn": "https://atlas-media.oss-us-west-1.aliyuncs.com/assetd-history/v1/a-477c9b07724c3cf518970d73d68985eb8789efef1880e96ede4e689ea597f565/u-ecaabb97997e20805bff7e2a4a8fe2b9385849df42cb3591ae380a89ae92e478/s-e2f7234513d493206feab43297053fe636311b4fcce464ced126df8f6762c208/a7dd5624488e4ff286138010b44ae667-244c659e3a2baad8.png",
+      "prompt": "Using this face as the identity reference, draw the same adult woman as official Team Fortress 2 illustrated class art, painterly Valve poster style: chunky visible brushwork, warm rim light, bold shapes, slightly caricatured proportions, creamy illustrated skin. Not anime, not a 3D game screenshot, not a photograph. Keep her face: short messy auburn-red bob, green eyes, light freckles, silver hoop earrings, black choker. Clothed outfit: a red mercenary jacket over a black shirt, black shorts, long black fingerless arm warmers, black tights, and black platform combat boots. Composition: two full-body standing figures only, on a plain warm off-white background. Left figure is a straight front view. Right figure is a straight back view of the same woman in the same clothes. Both the same height, feet fully visible, arms relaxed at her sides. No extra people, no text, no logo, no watermark, no border.",
+      "prompt_file": "prompts/tf2-front-back-gpt25.txt",
+      "refs": [
+        {
+          "label": "face",
+          "source": "C:\\Users\\hebp\\AppData\\Local\\Temp\\tf2face_c.jpg",
+          "file": "images/refs/tf2-front-back-gpt25/01-face.jpg"
+        }
+      ],
+      "service": "Atlas Cloud",
+      "service_url": "https://www.atlascloud.ai",
+      "service_model_url": "https://www.atlascloud.ai/models/openai/gpt-image-2.5-flare/edit",
+      "api": "https://api.atlascloud.ai/api/v1/model/generateImage",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "pearl-sauna-collins",
       "file": "images/pearl-sauna-collins.jpg",

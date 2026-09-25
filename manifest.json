@@ -2,9 +2,58 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-25T04:35+04:00",
+  "updated": "2026-09-25T04:54+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "qwen21-redhead-anal-3",
+      "file": "images/qwen21-redhead-anal-3.jpg",
+      "source": "Qwen21_redhead_anal_3_00001_.png",
+      "title": "Qwen 2.1 redhead anal 3",
+      "category": "scene",
+      "model": "Qwen-Image-2.1 int8 + NSFW LoRA",
+      "note": "penis rests above the anus, not inserted",
+      "date": "2026-09-25 04:54",
+      "pixels": "1337x1800",
+      "prompt": "Keep the exact same adult woman from the reference sheet: short messy copper-red bob, green eyes, freckles, pale skin, black choker, hoop earrings, long black fingerless gloves, black diamond fishnet thigh-highs, black platform combat boots. 2D anime illustration, white background. She is on all fours looking back. A muscular adult man behind her, his penis fully inserted balls-deep in her anus, only the base and balls visible, hips flush, empty vulva below. Qwen-Image-2.1 int8, TheseAlpacas NSFW LoRA, er_sde, beta, 40 steps, CFG 1, 1536x2048.",
+      "prompt_file": "prompts/qwen21-redhead-anal-3.txt",
+      "characters": [
+        "Redhead"
+      ]
+    },
+    {
+      "id": "qwen21-redhead-anal-2",
+      "file": "images/qwen21-redhead-anal-2.jpg",
+      "source": "Qwen21_redhead_anal_2_00001_.png",
+      "title": "Qwen 2.1 redhead anal 2",
+      "category": "scene",
+      "model": "Qwen-Image-2.1 int8 + NSFW LoRA",
+      "note": "same pose, contact at the anus, not balls-deep",
+      "date": "2026-09-25 04:54",
+      "pixels": "1337x1800",
+      "prompt": "Keep the exact same adult woman from the reference sheet: short messy copper-red bob, green eyes, freckles, pale skin, black choker, hoop earrings, long black fingerless gloves, black diamond fishnet thigh-highs, black platform combat boots. 2D anime illustration, white background. She is on all fours looking back. A muscular adult man behind her, his penis fully inserted balls-deep in her anus, only the base and balls visible, hips flush, empty vulva below. Qwen-Image-2.1 int8, TheseAlpacas NSFW LoRA, er_sde, beta, 40 steps, CFG 1, 1536x2048.",
+      "prompt_file": "prompts/qwen21-redhead-anal-2.txt",
+      "characters": [
+        "Redhead"
+      ]
+    },
+    {
+      "id": "qwen21-redhead-anal-1",
+      "file": "images/qwen21-redhead-anal-1.jpg",
+      "source": "Qwen21_redhead_anal_1_00001_.png",
+      "title": "Qwen 2.1 redhead anal 1",
+      "category": "scene",
+      "model": "Qwen-Image-2.1 int8 + NSFW LoRA",
+      "note": "closest: penis at the anus, shaft still partly outside",
+      "date": "2026-09-25 04:54",
+      "pixels": "1337x1800",
+      "flag": "best",
+      "prompt": "Keep the exact same adult woman from the reference sheet: short messy copper-red bob, green eyes, freckles, pale skin, black choker, hoop earrings, long black fingerless gloves, black diamond fishnet thigh-highs, black platform combat boots. 2D anime illustration, white background. She is on all fours looking back. A muscular adult man behind her, his penis fully inserted balls-deep in her anus, only the base and balls visible, hips flush, empty vulva below. Qwen-Image-2.1 int8, TheseAlpacas NSFW LoRA, er_sde, beta, 40 steps, CFG 1, 1536x2048.",
+      "prompt_file": "prompts/qwen21-redhead-anal-1.txt",
+      "characters": [
+        "Redhead"
+      ]
+    },
     {
       "id": "tf2-sunburst-edit-clothed",
       "file": "images/tf2-sunburst-edit-clothed.jpg",

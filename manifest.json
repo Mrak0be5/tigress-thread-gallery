@@ -2,9 +2,36 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-25T04:28+04:00",
+  "updated": "2026-09-25T04:35+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "tf2-sunburst-edit-clothed",
+      "file": "images/tf2-sunburst-edit-clothed.jpg",
+      "source": "tf2-nude-sunburst-edit.png",
+      "title": "TF2 front and back, clothed",
+      "category": "sheet",
+      "model": "GPT Image 2.5 Sunburst Edit",
+      "note": "Nude prompt was ignored. Front and back came back fully clothed.",
+      "date": "2026-09-25 04:35",
+      "pixels": "1536x1024",
+      "prompt": "Official Team Fortress 2 illustrated class art of this exact adult woman, painterly Valve poster style: chunky brushwork, warm rim light, bold shapes, slightly caricatured proportions. Not anime, not a 3D screenshot, not a photograph. Identity: short messy auburn-red bob, green eyes, light freckles, silver hoop earrings, black choker. She is fully nude. No shirt, no jacket, no shorts, no skirt, no tights, no underwear, no gloves, no boots. Bare breasts, bare hips, bare buttocks, and adult genitals are visible on the front view. Back view shows her bare back and bare buttocks. Composition: two full-body standing figures only on a plain warm off-white background. Left is a straight front view. Right is a straight back view. Same woman, same height, feet fully visible, arms relaxed at her sides. No extra people, no text, no logo, no watermark.",
+      "prompt_file": "prompts/tf2-sunburst-edit-clothed.txt",
+      "refs": [
+        {
+          "label": "face",
+          "source": "C:\\Users\\hebp\\AppData\\Local\\Temp\\tf2face_c.jpg",
+          "file": "images/refs/tf2-sunburst-edit-clothed/01-face.jpg"
+        }
+      ],
+      "service": "Atlas Cloud",
+      "service_url": "https://www.atlascloud.ai",
+      "service_model_url": "https://www.atlascloud.ai/models/openai/gpt-image-2.5-sunburst/edit",
+      "api": "https://api.atlascloud.ai/api/v1/model/generateImage",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "tf2-front-back-gpt25",
       "file": "images/tf2-front-back-gpt25.jpg",

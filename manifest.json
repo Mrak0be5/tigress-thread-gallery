@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "claude-code-review-gate",
+      "file": "images/claude-code-review-gate.jpg",
+      "source": "claude-code-review-gate.png",
+      "title": "Claude Code review gate",
+      "category": "scene",
+      "model": "Grok Imagine 2.0",
+      "note": "",
+      "date": "2026-09-26 03:08",
+      "pixels": "1792x1008",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "claude-code-agent-board",
       "file": "images/claude-code-agent-board.jpg",
       "source": "claude-code-agent-board.png",

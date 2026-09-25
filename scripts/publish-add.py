@@ -411,6 +411,15 @@ def save_manifest(data: dict) -> None:
 
 
 def git_push(message: str) -> None:
+    branch = subprocess.run(
+        ["git", "rev-parse", "--abbrev-ref", "HEAD"],
+        cwd=GAL, capture_output=True, text=True, check=True,
+    ).stdout.strip()
+    if branch != "master":
+        raise SystemExit(
+            f"refusing to publish from {branch}; pictures go to master only, "
+            "gh-pages is the HTML shell and must not receive the media tree"
+        )
     subprocess.run(["git", "add", "-A"], cwd=GAL, check=True)
     st = subprocess.run(["git", "status", "--porcelain"], cwd=GAL, capture_output=True, text=True)
     if not st.stdout.strip():
@@ -418,7 +427,7 @@ def git_push(message: str) -> None:
         return
     subprocess.run(["git", "commit", "-m", message], cwd=GAL, check=True)
     subprocess.run(["git", "push", "-u", "origin", "HEAD"], cwd=GAL, check=True)
-    print("Pushed. The new file is on git; GitHub Pages is not rebuilt for a picture or video.")
+    print("Pushed to master. Pages was not rebuilt; the file is served from git.")
 
 
 def parse_ref_spec(spec: str, index: int) -> tuple[str, str]:

@@ -2,9 +2,26 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-26T02:18+04:00",
+  "updated": "2026-09-26T02:26+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "orc-assembled-v1",
+      "file": "images/orc-assembled-v1.jpg",
+      "source": "assembled_sheet.png",
+      "title": "Orc — assembled from separate parts (Blender, v1)",
+      "category": "sheet",
+      "model": "Meshy parts + Blender assembly",
+      "note": "",
+      "date": "2026-09-26 02:26",
+      "pixels": "1800x960",
+      "prompt": "Headless Blender assembly: silhouette yaw search, sheet-based fit, push-out, belt radial wrap, boot mask",
+      "prompt_file": "prompts/orc-assembled-v1.txt",
+      "service": "Higgsfield",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "orc-items-3d-meshy",
       "file": "images/orc-items-3d-meshy.jpg",

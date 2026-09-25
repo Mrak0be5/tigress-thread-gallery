@@ -1,0 +1,1 @@
+Headless Blender assembly: silhouette yaw search, sheet-based fit, push-out, belt radial wrap, boot mask

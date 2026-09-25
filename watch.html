@@ -218,8 +218,12 @@
       var q = new URLSearchParams(location.search).get("id");
       if (!q) return;
       var id = q.trim();
-      window.__VIDEO_ORIG = "images/" + encodeURIComponent(id) + ".mp4";
-      window.__VIDEO_SRC = "images/stream/" + encodeURIComponent(id) + ".mp4";
+      var host = (location.hostname || "").toLowerCase();
+      var onGh = host.endsWith("github.io") || host.endsWith("github.com");
+      var cdn = onGh ? "https://cdn.jsdelivr.net/gh/Mrak0be5/tigress-thread-gallery@master/" : "";
+      var raw = onGh ? "https://raw.githubusercontent.com/Mrak0be5/tigress-thread-gallery/master/" : "";
+      window.__VIDEO_ORIG = cdn + "images/" + encodeURIComponent(id) + ".mp4";
+      window.__VIDEO_SRC = cdn + "images/stream/" + encodeURIComponent(id) + ".mp4";
       var v = document.createElement("link");
       v.rel = "preload";
       v.as = "video";
@@ -228,7 +232,7 @@
       var p = document.createElement("link");
       p.rel = "preload";
       p.as = "image";
-      p.href = "images/posters/" + encodeURIComponent(id) + ".jpg";
+      p.href = raw + "images/posters/" + encodeURIComponent(id) + ".jpg";
       document.head.appendChild(p);
     })();
   </script>
@@ -243,6 +247,7 @@
     <div id="root"></div>
   </div>
   <footer>NSFW 18+ · noindex</footer>
+  <script src="site.js"></script>
   <script src="stream-index.js"></script>
   <script>
     const IS_LOCAL = (function () {
@@ -341,7 +346,26 @@
         if (bar) bar.classList.add("hide");
       });
       video.addEventListener("error", () => {
-        if (QUALITY === "stream" && URLS.orig && video.src.indexOf("/stream/") !== -1) {
+        const src = video.currentSrc || video.src || "";
+        if (src.indexOf("cdn.jsdelivr.net") !== -1 && window.GALLERY && !video.dataset.rawBlob) {
+          if (QUALITY === "stream" && URLS.orig && src.indexOf("/stream/") !== -1 && !video.dataset.triedOrig) {
+            video.dataset.triedOrig = "1";
+            QUALITY = "orig";
+            video.src = URLS.orig;
+            return;
+          }
+          const raw = window.GALLERY.rawFromCdn(src);
+          if (!raw) return;
+          video.dataset.rawBlob = "1";
+          const hint = document.getElementById("load-hint");
+          if (hint) {
+            hint.classList.remove("hide");
+            hint.textContent = "большая версия…";
+          }
+          window.GALLERY.playBlob(video, raw).catch(() => {});
+          return;
+        }
+        if (QUALITY === "stream" && URLS.orig && src.indexOf("/stream/") !== -1) {
           QUALITY = "orig";
           URLS.stream = "";
           video.src = URLS.orig;
@@ -458,11 +482,11 @@
         root.innerHTML = `<p class="err">В URL нет id ролика. <a href="index.html">Галерея</a></p>`;
         return;
       }
-      const manifestName = IS_LOCAL ? "manifest.json" : "manifest-public.json";
-      let res = await fetch(manifestName);
-      if (!res.ok && !IS_LOCAL) res = await fetch("manifest.json");
+      const manifestName = window.GALLERY ? window.GALLERY.manifestUrl() : (IS_LOCAL ? "manifest.json" : "manifest-public.json");
+      let res = await fetch(manifestName, { cache: "no-store" });
+      if (!res.ok && !IS_LOCAL) res = await fetch("manifest.json", { cache: "no-store" });
       if (!res.ok) throw new Error("manifest HTTP " + res.status);
-      const data = await res.json();
+      const data = window.GALLERY ? window.GALLERY.rewriteData(await res.json()) : await res.json();
       const item = (data.items || []).find((it) => String(it.id) === String(id));
       if (!item) {
         document.getElementById("title").textContent = "Не найдено";

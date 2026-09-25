@@ -418,7 +418,7 @@ def git_push(message: str) -> None:
         return
     subprocess.run(["git", "commit", "-m", message], cwd=GAL, check=True)
     subprocess.run(["git", "push", "-u", "origin", "HEAD"], cwd=GAL, check=True)
-    print("Pushed.")
+    print("Pushed. The new file is on git; GitHub Pages is not rebuilt for a picture or video.")
 
 
 def parse_ref_spec(spec: str, index: int) -> tuple[str, str]:

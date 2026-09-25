@@ -596,6 +596,7 @@
     <img id="lb-img" alt="" />
   </div>
 
+    <script src="site.js"></script>
     <script src="stream-index.js"></script>
     <script>
     const IS_LOCAL = (function () {
@@ -1506,13 +1507,14 @@
     async function load() {
       loadLikes();
       loadNets();
-      const manifestName = IS_LOCAL ? "manifest.json" : "manifest-public.json";
-      let res = await fetch(manifestName);
+      const manifestName = window.GALLERY ? window.GALLERY.manifestUrl() : (IS_LOCAL ? "manifest.json" : "manifest-public.json");
+      let res = await fetch(manifestName, { cache: "no-store" });
       if (!res.ok && !IS_LOCAL) {
-        res = await fetch("manifest.json");
+        res = await fetch("manifest.json", { cache: "no-store" });
       }
       if (!res.ok) throw new Error("manifest HTTP " + res.status);
       DATA = await res.json();
+      if (window.GALLERY) DATA = window.GALLERY.rewriteData(DATA);
       filter = loadFilter();
       prepareHashItem();
       if (!IS_LOCAL) {

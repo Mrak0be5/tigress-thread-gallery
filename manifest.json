@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "flash-orc-standing-1",
+      "file": "images/flash-orc-standing-1.jpg",
+      "source": "flash-orc-standing.png",
+      "title": "Flash orc standing first",
+      "category": "scene",
+      "model": "Seedream 5.0 Flash",
+      "note": "",
+      "date": "2026-09-26 17:47",
+      "pixels": "1350x1799",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "flash-orc-cowgirl-1",
       "file": "images/flash-orc-cowgirl-1.jpg",
       "source": "flash-orc-cowgirl.png",

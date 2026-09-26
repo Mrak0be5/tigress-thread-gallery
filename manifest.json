@@ -2,9 +2,23 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-26T08:00+04:00",
+  "updated": "2026-09-26T09:54+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "orc-sword-tripo31",
+      "file": "images/orc-sword-tripo31.jpg",
+      "source": "preview.png",
+      "title": "Orc sword, Tripo 3.1",
+      "category": "scene",
+      "model": "Tripo v3.1",
+      "note": "rigged; idle, run, slash, flip",
+      "date": "2026-09-26 09:54",
+      "pixels": "512x512",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "orc-v3-final",
       "file": "images/orc-v3-final.jpg",

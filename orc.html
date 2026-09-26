@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Орк — 3D</title>
+  <style>
+    :root {
+      --bg: #0d0f12;
+      --panel: #161a20;
+      --border: #2a313c;
+      --text: #e8ecf1;
+      --muted: #9aa3b2;
+      --accent: #7c9cff;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text); }
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+      background: rgba(13,15,18,0.94);
+    }
+    header a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.85rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 650;
+      letter-spacing: -0.02em;
+    }
+    header p { margin: 0; color: var(--muted); font-size: 0.78rem; }
+    #stage { position: relative; flex: 1; min-height: 0; }
+    canvas { display: block; width: 100%; height: 100%; }
+    .bar {
+      position: absolute;
+      left: 0; right: 0; bottom: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      align-items: center;
+      padding: 0.75rem 1rem 1rem;
+      background: linear-gradient(transparent, rgba(13,15,18,0.92) 28%);
+    }
+    button, .label {
+      color: var(--text);
+      background: rgba(22,26,32,0.86);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.4rem 0.85rem;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+    button.active { border-color: var(--accent); color: #fff; }
+    .label { cursor: default; color: var(--muted); }
+    input[type="range"] { width: 7rem; accent-color: var(--accent); }
+    #status {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    #status.hidden { display: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">Галерея</a>
+    <h1>Орк</h1>
+    <p>PBR: цвет, нормали, металл и шероховатость. Свет — студийное окружение.</p>
+  </header>
+  <div id="stage">
+    <div id="status">Загрузка модели…</div>
+    <div class="bar">
+      <button type="button" data-clip="" class="active">Модель</button>
+      <button type="button" data-clip="idle">Стойка</button>
+      <button type="button" data-clip="run">Бег</button>
+      <button type="button" data-clip="slash">Удар</button>
+      <button type="button" data-clip="flip">Кувырок</button>
+      <span class="label">Экспозиция</span>
+      <input id="exposure" type="range" min="0.4" max="2.2" step="0.02" value="1.05" />
+    </div>
+  </div>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module">
+    import * as THREE from "three";
+    import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+    import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+    import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
+
+    const statusEl = document.getElementById("status");
+    const stage = document.getElementById("stage");
+    const onPages = location.hostname.endsWith("github.io");
+    const SRC = onPages
+      ? "https://media.githubusercontent.com/media/Mrak0be5/tigress-thread-gallery/master/models/orc-preview.glb"
+      : "models/orc-preview.glb";
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.05;
+    renderer.shadowMap.enabled = true;
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+    stage.insertBefore(renderer.domElement, stage.firstChild);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0d0f12);
+
+    const camera = new THREE.PerspectiveCamera(30, 1, 0.05, 80);
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.target.set(0, 0.9, 0);
+
+    const pmrem = new THREE.PMREMGenerator(renderer);
+    scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+
+    const key = new THREE.DirectionalLight(0xfff2e4, 2.4);
+    key.position.set(2.4, 4.2, 3.2);
+    key.castShadow = true;
+    key.shadow.mapSize.set(2048, 2048);
+    key.shadow.camera.near = 0.5;
+    key.shadow.camera.far = 12;
+    key.shadow.camera.left = -2.2;
+    key.shadow.camera.right = 2.2;
+    key.shadow.camera.top = 2.8;
+    key.shadow.camera.bottom = -0.2;
+    key.shadow.bias = -0.0004;
+    scene.add(key);
+    const rim = new THREE.DirectionalLight(0xb7c6ff, 0.85);
+    rim.position.set(-3.2, 2.4, -2.2);
+    scene.add(rim);
+
+    const ground = new THREE.Mesh(
+      new THREE.CircleGeometry(1.8, 64),
+      new THREE.ShadowMaterial({ opacity: 0.38 })
+    );
+    ground.rotation.x = -Math.PI / 2;
+    ground.receiveShadow = true;
+    scene.add(ground);
+
+    const clock = new THREE.Clock();
+    let mixer = null;
+    let model = null;
+    let rootBone = null;
+    let current = null;
+    const actions = new Map();
+
+    function resize() {
+      const w = stage.clientWidth;
+      const h = stage.clientHeight;
+      camera.aspect = w / Math.max(h, 1);
+      camera.updateProjectionMatrix();
+      renderer.setSize(w, h, false);
+    }
+    window.addEventListener("resize", resize);
+    resize();
+
+    document.getElementById("exposure").addEventListener("input", (event) => {
+      renderer.toneMappingExposure = Number(event.target.value);
+    });
+
+    function showModel() {
+      if (current) current.fadeOut(0.2);
+      current = null;
+      if (!model) return;
+      model.traverse((obj) => {
+        if (obj.isSkinnedMesh && obj.skeleton) obj.skeleton.pose();
+      });
+    }
+
+    function play(name) {
+      const next = actions.get(name);
+      if (!next) return;
+      if (current && current !== next) current.fadeOut(0.2);
+      next.reset().fadeIn(0.2).play();
+      current = next;
+    }
+
+    document.querySelector(".bar").addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-clip]");
+      if (!button) return;
+      document.querySelectorAll(".bar button").forEach((el) => el.classList.toggle("active", el === button));
+      if (button.dataset.clip) play(button.dataset.clip);
+      else showModel();
+    });
+
+    function frame(object) {
+      const box = new THREE.Box3().setFromObject(object);
+      const size = box.getSize(new THREE.Vector3());
+      const center = box.getCenter(new THREE.Vector3());
+      object.position.x -= center.x;
+      object.position.z -= center.z;
+      object.position.y -= box.min.y;
+      const height = size.y || 1.7;
+      controls.target.set(0, height * 0.46, 0);
+      camera.position.set(height * 0.55, height * 0.52, height * 1.45);
+      controls.update();
+    }
+
+    function holdInPlace() {
+      if (!rootBone) return;
+      rootBone.position.x = 0;
+      rootBone.position.z = 0;
+    }
+
+    let running = true;
+    function loop() {
+      if (!running) return;
+      requestAnimationFrame(loop);
+      const dt = Math.min(clock.getDelta(), 0.05);
+      if (mixer && current) mixer.update(dt);
+      holdInPlace();
+      controls.update();
+      renderer.render(scene, camera);
+    }
+    document.addEventListener("visibilitychange", () => {
+      running = document.visibilityState === "visible";
+      if (running) {
+        clock.getDelta();
+        loop();
+      }
+    });
+
+    async function load() {
+      statusEl.textContent = "Загрузка модели…";
+      const response = await fetch(SRC);
+      if (!response.ok) throw new Error("HTTP " + response.status);
+      const total = Number(response.headers.get("content-length")) || 0;
+      const reader = response.body.getReader();
+      const chunks = [];
+      let received = 0;
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        chunks.push(value);
+        received += value.byteLength;
+        if (total) statusEl.textContent = "Загрузка " + Math.round((received / total) * 100) + "%";
+      }
+      const buffer = new Uint8Array(received);
+      let offset = 0;
+      for (const chunk of chunks) {
+        buffer.set(chunk, offset);
+        offset += chunk.byteLength;
+      }
+      statusEl.textContent = "Сборка сцены…";
+      const gltf = await new GLTFLoader().parseAsync(buffer.buffer, "");
+      model = gltf.scene;
+      model.traverse((obj) => {
+        if (!obj.isMesh) return;
+        obj.castShadow = true;
+        obj.receiveShadow = true;
+        const materials = Array.isArray(obj.material) ? obj.material : [obj.material];
+        for (const material of materials) {
+          if (!material) continue;
+          material.envMapIntensity = 1.2;
+          material.needsUpdate = true;
+        }
+      });
+      scene.add(model);
+      mixer = new THREE.AnimationMixer(model);
+      for (const clip of gltf.animations) {
+        const action = mixer.clipAction(clip);
+        action.setLoop(THREE.LoopRepeat, Infinity);
+        actions.set(clip.name, action);
+      }
+      rootBone = model.getObjectByName("Root") || model.getObjectByName("Hip");
+      frame(model);
+      showModel();
+      statusEl.classList.add("hidden");
+      loop();
+    }
+
+    load().catch((error) => {
+      statusEl.textContent = "Не удалось открыть модель: " + error.message;
+    });
+  </script>
+</body>
+</html>

@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "mage-orc-standing",
+      "file": "images/mage-orc-standing.jpg",
+      "source": "mage-orc-standing.png",
+      "title": "Mage orc standing",
+      "category": "scene",
+      "model": "Seedream 5.0 Pro",
+      "note": "",
+      "date": "2026-09-26 13:19",
+      "pixels": "1350x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "mage-orc-cowgirl",
       "file": "images/mage-orc-cowgirl.jpg",
       "source": "mage-orc-cowgirl.png",

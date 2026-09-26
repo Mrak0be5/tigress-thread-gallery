@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Орк по частям — 3D</title>
+  <style>
+    :root {
+      --bg: #0d0f12;
+      --panel: #161a20;
+      --border: #2a313c;
+      --text: #e8ecf1;
+      --muted: #9aa3b2;
+      --accent: #7c9cff;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text); }
+    body { font-family: "Segoe UI", system-ui, sans-serif; display: flex; flex-direction: column; min-height: 100%; }
+    header {
+      display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;
+      padding: 0.75rem 1rem; border-bottom: 1px solid var(--border); background: rgba(13,15,18,0.94);
+    }
+    header a { color: var(--accent); text-decoration: none; font-size: 0.85rem; }
+    header h1 { margin: 0; font-size: 1rem; font-weight: 650; letter-spacing: -0.02em; }
+    header p { margin: 0; color: var(--muted); font-size: 0.78rem; }
+    #stage { position: relative; flex: 1; min-height: 0; }
+    canvas { display: block; width: 100%; height: 100%; }
+    #poster {
+      position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain;
+      opacity: 0.35; filter: blur(1px); pointer-events: none; transition: opacity 0.4s;
+    }
+    #poster.hidden { opacity: 0; }
+    .parts {
+      position: absolute; top: 0.75rem; left: 0.75rem;
+      display: flex; flex-direction: column; gap: 0.3rem;
+    }
+    .bar {
+      position: absolute; left: 0; right: 0; bottom: 0;
+      display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center;
+      padding: 0.75rem 1rem 1rem;
+      background: linear-gradient(transparent, rgba(13,15,18,0.92) 28%);
+    }
+    button, .label {
+      color: var(--text); background: rgba(22,26,32,0.86);
+      border: 1px solid var(--border); border-radius: 999px;
+      padding: 0.4rem 0.85rem; font-size: 0.85rem; cursor: pointer; text-align: left;
+    }
+    button.active { border-color: var(--accent); color: #fff; }
+    button.off { color: var(--muted); text-decoration: line-through; opacity: 0.7; }
+    .parts button { display: flex; align-items: center; gap: 0.45rem; min-width: 8.5rem; }
+    .dot { width: 0.6rem; height: 0.6rem; border-radius: 50%; flex: none; }
+    .label { cursor: default; color: var(--muted); }
+    input[type="range"] { width: 8rem; accent-color: var(--accent); }
+    #status {
+      position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+      pointer-events: none; color: var(--muted); font-size: 0.95rem;
+    }
+    #status.hidden { display: none; }
+    @media (max-width: 560px) {
+      .parts { top: auto; bottom: 5.2rem; flex-direction: row; flex-wrap: wrap; right: 0.75rem; }
+      .parts button { min-width: 0; padding: 0.3rem 0.6rem; font-size: 0.78rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">Галерея</a>
+    <h1>Орк по частям</h1>
+    <p>Одна одетая модель, разрезанная на отдельные объекты. Риг из 24 костей, топор на кости правой кисти.</p>
+  </header>
+  <div id="stage">
+    <img id="poster" alt="" src="https://raw.githubusercontent.com/Mrak0be5/tigress-thread-gallery/master/images/orc-v3-final.jpg" />
+    <div id="status">Загрузка модели (≈20 МБ)…</div>
+    <div class="parts" id="parts"></div>
+    <div class="bar">
+      <span class="label">Разнос</span>
+      <input id="explode" type="range" min="0" max="1" step="0.01" value="0" />
+      <button type="button" id="pose">Поза</button>
+      <button type="button" id="colors">Цвета частей</button>
+      <button type="button" id="spin">Вращение</button>
+    </div>
+  </div>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module">
+    import * as THREE from "three";
+    import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+    import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+    import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
+
+    const MODEL = (location.protocol === "file:" || ["localhost", "127.0.0.1"].includes(location.hostname))
+      ? "models/orc-v3-parts.glb"
+      : "https://raw.githubusercontent.com/Mrak0be5/tigress-thread-gallery/master/models/orc-v3-parts.glb";
+
+    // part name -> label, debug colour, exploded offset (metres)
+    const PARTS = {
+      Body:      ["Тело",       "#8bc34a", [0, 0, 0]],
+      Hair:      ["Волосы",     "#5d4037", [0, 0.45, 0]],
+      Tunic:     ["Рубаха",     "#e53935", [1.0, 0.1, 0]],
+      Belt:      ["Ремень",     "#ffb300", [1.85, 0.0, 0]],
+      Loincloth: ["Набедренник","#ab47bc", [-1.0, -0.1, 0]],
+      Boots:     ["Сапоги",     "#29b6f6", [0, -0.05, 0.75]],
+      Axe:       ["Топор",      "#bdbdbd", [-1.55, 0, 0]],
+    };
+
+    const stage = document.getElementById("stage");
+    const status = document.getElementById("status");
+    const poster = document.getElementById("poster");
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.05;
+    stage.prepend(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0d0f12);
+    const pmrem = new THREE.PMREMGenerator(renderer);
+    scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+    const key = new THREE.DirectionalLight(0xffffff, 1.4); key.position.set(-2, 3, 3); scene.add(key);
+    const rim = new THREE.DirectionalLight(0xbfd4ff, 1.0); rim.position.set(1, 2.5, -3); scene.add(rim);
+    const floor = new THREE.Mesh(new THREE.CircleGeometry(1.6, 64), new THREE.MeshStandardMaterial({ color: 0x1b2028, roughness: 1 }));
+    floor.rotation.x = -Math.PI / 2; scene.add(floor);
+
+    const camera = new THREE.PerspectiveCamera(35, 1, 0.05, 100);
+    camera.position.set(-1.6, 1.5, 5.2);
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.target.set(0, 1.0, 0); controls.enableDamping = true; controls.minDistance = 1; controls.maxDistance = 12;
+
+    function resize() {
+      const r = stage.getBoundingClientRect();
+      renderer.setSize(r.width, r.height, false);
+      camera.aspect = r.width / Math.max(r.height, 1); camera.updateProjectionMatrix();
+    }
+    addEventListener("resize", resize); resize();
+
+    const groups = {};          // part -> [meshes]
+    const home = new Map();     // object -> original position
+    const origMat = new Map();  // mesh -> original material
+    let bones = {};
+    let exploded = 0, posing = false, colored = false, spin = false;
+
+    new GLTFLoader().load(MODEL, (gltf) => {
+      const root = gltf.scene;
+      root.traverse((o) => {
+        if (o.isBone) bones[o.name] = { bone: o, rest: o.quaternion.clone() };
+        if (!o.isMesh) return;
+        // find the named part this mesh belongs to (node name or an ancestor's)
+        let p = o, part = null;
+        while (p && !part) { if (PARTS[p.name]) part = p.name; p = p.parent; }
+        if (!part) part = "Body";
+        (groups[part] ||= []).push(o);
+        origMat.set(o, o.material);
+        if (o.isSkinnedMesh) o.bindMode = THREE.DetachedBindMode;   // lets us offset skinned parts for the exploded view
+        o.frustumCulled = false;
+      });
+      scene.add(root);
+      for (const part of Object.keys(groups)) for (const m of groups[part]) home.set(m, m.position.clone());
+      buildPartButtons();
+      status.classList.add("hidden"); poster.classList.add("hidden");
+    }, (e) => {
+      if (e.total) status.textContent = `Загрузка модели… ${Math.round(e.loaded / e.total * 100)}%`;
+    }, (err) => { status.textContent = "Не удалось загрузить модель"; console.error(err); });
+
+    function buildPartButtons() {
+      const box = document.getElementById("parts");
+      for (const [name, [label, color]] of Object.entries(PARTS)) {
+        if (!groups[name]) continue;
+        const b = document.createElement("button");
+        b.type = "button";
+        b.innerHTML = `<span class="dot" style="background:${color}"></span>${label}`;
+        b.title = "Клик — скрыть/показать, двойной клик — только эта часть";
+        b.onclick = () => { const vis = !groups[name][0].visible; groups[name].forEach(m => m.visible = vis); b.classList.toggle("off", !vis); };
+        b.ondblclick = () => {
+          for (const [n, ms] of Object.entries(groups)) ms.forEach(m => m.visible = n === name);
+          box.querySelectorAll("button").forEach(x => x.classList.add("off")); b.classList.remove("off");
+        };
+        box.appendChild(b);
+      }
+    }
+
+    function applyExplode() {
+      for (const [name, ms] of Object.entries(groups)) {
+        const off = PARTS[name]?.[2] || [0, 0, 0];
+        for (const m of ms) {
+          const h = home.get(m);
+          // meshes parented to bones (the axe) live in bone space; offset them in world space instead
+          const worldOff = new THREE.Vector3(...off).multiplyScalar(exploded);
+          if (m.parent && m.parent.isBone) {
+            m.parent.updateWorldMatrix(true, false);
+            const p0 = m.parent.getWorldPosition(new THREE.Vector3());
+            const a = m.parent.worldToLocal(p0.clone());
+            const b = m.parent.worldToLocal(p0.clone().add(worldOff));
+            m.position.copy(h).add(b.sub(a));
+          } else {
+            m.position.copy(h).add(worldOff);
+          }
+        }
+      }
+    }
+    document.getElementById("explode").oninput = (e) => { exploded = +e.target.value; applyExplode(); };
+
+    const poseBtn = document.getElementById("pose");
+    poseBtn.onclick = () => {
+      posing = !posing; poseBtn.classList.toggle("active", posing);
+      if (!posing) for (const b of Object.values(bones)) b.bone.quaternion.copy(b.rest);
+    };
+    const colBtn = document.getElementById("colors");
+    colBtn.onclick = () => {
+      colored = !colored; colBtn.classList.toggle("active", colored);
+      for (const [name, ms] of Object.entries(groups)) for (const m of ms) {
+        m.material = colored ? new THREE.MeshStandardMaterial({ color: PARTS[name]?.[1] || "#888", roughness: 0.7 }) : origMat.get(m);
+      }
+    };
+    const spinBtn = document.getElementById("spin");
+    spinBtn.onclick = () => { spin = !spin; spinBtn.classList.toggle("active", spin); controls.autoRotate = spin; };
+
+    function bend(name, axis, rad) {
+      const b = bones[name]; if (!b) return;
+      b.bone.quaternion.copy(b.rest).multiply(new THREE.Quaternion().setFromAxisAngle(axis, rad));
+    }
+    const X = new THREE.Vector3(1, 0, 0), Z = new THREE.Vector3(0, 0, 1);
+    const clock = new THREE.Clock();
+    renderer.setAnimationLoop(() => {
+      const t = clock.getElapsedTime();
+      if (posing) {
+        const s = Math.sin(t * 2.2);
+        bend("RightArm", X, -0.6 - 0.35 * s);
+        bend("RightForeArm", X, -0.4);
+        bend("LeftArm", X, 0.35 * s);
+        bend("LeftUpLeg", X, -0.45 * s);
+        bend("RightUpLeg", X, 0.45 * s);
+        bend("LeftLeg", X, 0.35 * Math.max(0, s));
+        bend("RightLeg", X, 0.35 * Math.max(0, -s));
+        bend("Spine", Z, 0.08 * s);
+      }
+      controls.update();
+      renderer.render(scene, camera);
+    });
+  </script>
+</body>
+</html>

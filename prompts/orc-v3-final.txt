@@ -1,0 +1,1 @@
+Dressed A-pose mesh split by texture colour and height into Body/Hair/Tunic/Belt/Loincloth/Boots + Axe on RightHand

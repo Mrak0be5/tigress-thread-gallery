@@ -2,9 +2,60 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-26T03:51+04:00",
+  "updated": "2026-09-26T08:00+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "orc-v3-final",
+      "file": "images/orc-v3-final.jpg",
+      "source": "final_sheet.png",
+      "title": "Orc v3 — one dressed mesh split into parts, rigged (rest, exploded, pose)",
+      "category": "sheet",
+      "model": "Meshy multi-view + Meshy rig + Blender split",
+      "note": "",
+      "date": "2026-09-26 08:00",
+      "pixels": "1800x1200",
+      "prompt": "Dressed A-pose mesh split by texture colour and height into Body/Hair/Tunic/Belt/Loincloth/Boots + Axe on RightHand",
+      "prompt_file": "prompts/orc-v3-final.txt",
+      "service": "Higgsfield",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "orc-v3-apose-dressed",
+      "file": "images/orc-v3-apose-dressed.jpg",
+      "source": "a_dressed_sheet.png",
+      "title": "Orc v3 — A-pose dressed sheet",
+      "category": "sheet",
+      "model": "GPT Image 2.5 (4K high)",
+      "note": "",
+      "date": "2026-09-26 08:00",
+      "pixels": "1800x1012",
+      "prompt": "Same A-pose layout, dressed in concept clothing, fitted",
+      "prompt_file": "prompts/orc-v3-apose-dressed.txt",
+      "service": "Higgsfield",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "orc-v3-apose-body",
+      "file": "images/orc-v3-apose-body.jpg",
+      "source": "a_body_sheet.png",
+      "title": "Orc v3 — A-pose body sheet",
+      "category": "sheet",
+      "model": "GPT Image 2.5 (4K high)",
+      "note": "",
+      "date": "2026-09-26 08:00",
+      "pixels": "1800x1012",
+      "prompt": "Same orc turnaround redrawn in strict A-pose",
+      "prompt_file": "prompts/orc-v3-apose-body.txt",
+      "service": "Higgsfield",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "multicode-clear-ui",
       "file": "images/multicode-clear-ui.jpg",

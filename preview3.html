@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Три модели — PBR</title>
+  <style>
+    :root {
+      --bg: #0c0e12;
+      --panel: #171b22;
+      --border: #2c3440;
+      --text: #f2f5f8;
+      --muted: #9aa6b6;
+      --accent: #e7c27a;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text); }
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+      background: rgba(12,14,18,0.94);
+    }
+    header a { color: var(--accent); text-decoration: none; font-size: 0.85rem; }
+    header h1 { margin: 0; font-size: 1rem; font-weight: 650; }
+    header p { margin: 0; color: var(--muted); font-size: 0.78rem; }
+    #stage { position: relative; flex: 1; min-height: 0; }
+    canvas { display: block; width: 100%; height: 100%; }
+    .bar, .stats {
+      position: absolute;
+      left: 0; right: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      align-items: center;
+      padding: 0.85rem 1rem;
+    }
+    .bar { bottom: 0; background: linear-gradient(transparent, rgba(8,10,14,0.92) 30%); }
+    .stats { top: 0; pointer-events: none; }
+    button, .pill {
+      color: var(--text);
+      background: rgba(20,24,31,0.88);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.45rem 0.9rem;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+    button.active { border-color: var(--accent); color: #fff; }
+    .pill { cursor: default; color: var(--accent); }
+    .label { color: var(--muted); font-size: 0.78rem; }
+    input[type="range"] { width: 7rem; accent-color: var(--accent); }
+    #status {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+      color: var(--muted);
+    }
+    #status.hidden { display: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="orc.html">Орк</a>
+    <h1>Три модели</h1>
+    <p>PBR: цвет, нормали, металл, шероховатость. Камеру можно крутить.</p>
+  </header>
+  <div id="stage">
+    <div id="status">Загрузка модели…</div>
+    <div class="stats">
+      <span class="pill" id="poly">Полигоны —</span>
+      <span class="label" id="mesh-name"></span>
+    </div>
+    <div class="bar">
+      <button type="button" data-model="0">Компактная · 98 262</button>
+      <button type="button" data-model="1">Плотная · 1 914 815</button>
+      <button type="button" data-model="2" class="active">Максимум · 1 927 111</button>
+      <span class="label">Экспозиция</span>
+      <input id="exposure" type="range" min="0.45" max="1.8" step="0.02" value="1.05" />
+    </div>
+  </div>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module">
+    import * as THREE from "three";
+    import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+    import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+    import { DRACOLoader } from "three/addons/loaders/DRACOLoader.js";
+    import { RGBELoader } from "three/addons/loaders/RGBELoader.js";
+    import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
+
+    const BASE = "https://raw.githubusercontent.com/Mrak0be5/tigress-thread-gallery/master/models/preview3/";
+    const MODELS = [
+      { title: "Компактная", url: BASE + "compact.glb" },
+      { title: "Плотная", url: BASE + "dense.glb" },
+      { title: "Максимум", url: BASE + "max.glb" }
+    ];
+
+    const statusEl = document.getElementById("status");
+    const polyEl = document.getElementById("poly");
+    const nameEl = document.getElementById("mesh-name");
+    const stage = document.getElementById("stage");
+    const formatCount = new Intl.NumberFormat("ru-RU");
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.05;
+    renderer.shadowMap.enabled = true;
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+    stage.insertBefore(renderer.domElement, stage.firstChild);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x101318);
+    scene.environmentIntensity = 1.05;
+
+    const camera = new THREE.PerspectiveCamera(28, 1, 0.05, 80);
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.target.set(0, 0.95, 0);
+    controls.minDistance = 0.6;
+    controls.maxDistance = 8;
+
+    const pmrem = new THREE.PMREMGenerator(renderer);
+    try {
+      const hdr = await new RGBELoader().loadAsync("https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/studio_small_08_1k.hdr");
+      scene.environment = pmrem.fromEquirectangular(hdr).texture;
+      hdr.dispose();
+    } catch (error) {
+      scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+    }
+
+    const key = new THREE.DirectionalLight(0xfff1df, 2.6);
+    key.position.set(2.2, 4.4, 3.1);
+    key.castShadow = true;
+    key.shadow.mapSize.set(2048, 2048);
+    key.shadow.camera.near = 0.4;
+    key.shadow.camera.far = 14;
+    key.shadow.camera.left = -2.4;
+    key.shadow.camera.right = 2.4;
+    key.shadow.camera.top = 3;
+    key.shadow.camera.bottom = -0.4;
+    key.shadow.bias = -0.00035;
+    scene.add(key);
+    const fill = new THREE.DirectionalLight(0xc5d4ff, 0.55);
+    fill.position.set(-3.2, 1.6, 1.4);
+    scene.add(fill);
+    const rim = new THREE.DirectionalLight(0xffe0bf, 1.15);
+    rim.position.set(-1.5, 2.8, -3.4);
+    scene.add(rim);
+
+    const ground = new THREE.Mesh(
+      new THREE.CircleGeometry(2.2, 80),
+      new THREE.ShadowMaterial({ opacity: 0.42 })
+    );
+    ground.rotation.x = -Math.PI / 2;
+    ground.receiveShadow = true;
+    scene.add(ground);
+
+    const loader = new GLTFLoader();
+    const draco = new DRACOLoader();
+    draco.setDecoderPath("https://www.gstatic.com/draco/versioned/decoders/1.5.7/");
+    loader.setDRACOLoader(draco);
+    const cache = new Map();
+    let current = null;
+    let token = 0;
+
+    function resize() {
+      const w = stage.clientWidth;
+      const h = stage.clientHeight;
+      camera.aspect = w / Math.max(h, 1);
+      camera.updateProjectionMatrix();
+      renderer.setSize(w, h, false);
+    }
+    window.addEventListener("resize", resize);
+    resize();
+
+    document.getElementById("exposure").addEventListener("input", (event) => {
+      renderer.toneMappingExposure = Number(event.target.value);
+    });
+
+    function countTris(root) {
+      let tris = 0;
+      root.traverse((obj) => {
+        if (!obj.isMesh || !obj.geometry) return;
+        const geo = obj.geometry;
+        tris += geo.index ? geo.index.count / 3 : (geo.attributes.position ? geo.attributes.position.count / 3 : 0);
+      });
+      return Math.round(tris);
+    }
+
+    function tune(root) {
+      root.traverse((obj) => {
+        if (!obj.isMesh) return;
+        obj.castShadow = true;
+        obj.receiveShadow = true;
+        const materials = Array.isArray(obj.material) ? obj.material : [obj.material];
+        for (const material of materials) {
+          if (!material) continue;
+          material.envMapIntensity = 1.25;
+          if (material.map) material.map.anisotropy = 8;
+          material.needsUpdate = true;
+        }
+      });
+    }
+
+    function frame(object) {
+      const box = new THREE.Box3().setFromObject(object);
+      const size = box.getSize(new THREE.Vector3());
+      const center = box.getCenter(new THREE.Vector3());
+      object.position.x -= center.x;
+      object.position.z -= center.z;
+      object.position.y -= box.min.y;
+      const height = size.y || 1.7;
+      controls.target.set(0, height * 0.48, 0);
+      camera.position.set(height * 0.15, height * 0.62, height * 1.55);
+      controls.update();
+    }
+
+    function show(root) {
+      if (current && current !== root) current.visible = false;
+      root.visible = true;
+      current = root;
+      if (!root.userData.framed) {
+        frame(root);
+        root.userData.framed = true;
+      }
+    }
+
+    async function loadModel(index) {
+      const mine = ++token;
+      const spec = MODELS[index];
+      nameEl.textContent = spec.title;
+      if (cache.has(index)) {
+        const hit = cache.get(index);
+        polyEl.textContent = "Полигоны " + formatCount.format(hit.tris);
+        show(hit.root);
+        statusEl.classList.add("hidden");
+        return;
+      }
+      statusEl.classList.remove("hidden");
+      statusEl.textContent = "Загрузка «" + spec.title + "»…";
+      polyEl.textContent = "Полигоны считаются…";
+      const gltf = await loader.loadAsync(spec.url);
+      if (mine !== token) return;
+      const root = gltf.scene;
+      tune(root);
+      if (mine !== token) return;
+      const tris = countTris(root);
+      root.userData.framed = false;
+      scene.add(root);
+      cache.set(index, { root, tris });
+      polyEl.textContent = "Полигоны " + formatCount.format(tris);
+      show(root);
+      statusEl.classList.add("hidden");
+    }
+
+    document.querySelector(".bar").addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-model]");
+      if (!button) return;
+      document.querySelectorAll(".bar button").forEach((el) => el.classList.toggle("active", el === button));
+      loadModel(Number(button.dataset.model)).catch((error) => {
+        statusEl.textContent = "Не удалось открыть модель: " + error.message;
+      });
+    });
+
+    let running = true;
+    function loop() {
+      if (!running) return;
+      requestAnimationFrame(loop);
+      controls.update();
+      renderer.render(scene, camera);
+    }
+    document.addEventListener("visibilitychange", () => {
+      running = document.visibilityState === "visible";
+      if (running) loop();
+    });
+    loop();
+    loadModel(2).catch((error) => {
+      statusEl.textContent = "Не удалось открыть модель: " + error.message;
+    });
+  </script>
+</body>
+</html>

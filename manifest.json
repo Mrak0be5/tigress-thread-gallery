@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "flash-banana",
+      "file": "images/flash-banana.jpg",
+      "source": "flash2-banana.png",
+      "title": "Flash banana",
+      "category": "scene",
+      "model": "Seedream 5.0 Flash",
+      "note": "",
+      "date": "2026-09-26 17:47",
+      "pixels": "1350x1799",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "flash-orc-standing",
       "file": "images/flash-orc-standing.jpg",
       "source": "flash2-orc-standing.png",

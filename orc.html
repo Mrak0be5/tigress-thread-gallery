@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex, nofollow" />
-  <title>╨Ю╤А╨║ тАФ 3D</title>
+  <title>Орк — 3D</title>
   <style>
     :root {
       --bg: #0d0f12;
@@ -81,19 +81,19 @@
 </head>
 <body>
   <header>
-    <a href="index.html">╨У╨░╨╗╨╡╤А╨╡╤П</a>
-    <h1>╨Ю╤А╨║</h1>
-    <p>PBR: ╤Ж╨▓╨╡╤В, ╨╜╨╛╤А╨╝╨░╨╗╨╕, ╨╝╨╡╤В╨░╨╗╨╗ ╨╕ ╤И╨╡╤А╨╛╤Е╨╛╨▓╨░╤В╨╛╤Б╤В╤М. ╨б╨▓╨╡╤В тАФ ╤Б╤В╤Г╨┤╨╕╨╣╨╜╨╛╨╡ ╨╛╨║╤А╤Г╨╢╨╡╨╜╨╕╨╡.</p>
+    <a href="index.html">Галерея</a>
+    <h1>Орк</h1>
+    <p>PBR: цвет, нормали, металл и шероховатость. Свет — студийное окружение.</p>
   </header>
   <div id="stage">
-    <div id="status">╨Ч╨░╨│╤А╤Г╨╖╨║╨░ ╨╝╨╛╨┤╨╡╨╗╨╕тАж</div>
+    <div id="status">Загрузка модели…</div>
     <div class="bar">
-      <button type="button" data-clip="" class="active">╨Ь╨╛╨┤╨╡╨╗╤М</button>
-      <button type="button" data-clip="idle">╨б╤В╨╛╨╣╨║╨░</button>
-      <button type="button" data-clip="run">╨С╨╡╨│</button>
-      <button type="button" data-clip="slash">╨г╨┤╨░╤А</button>
-      <button type="button" data-clip="flip">╨Ъ╤Г╨▓╤Л╤А╨╛╨║</button>
-      <span class="label">╨н╨║╤Б╨┐╨╛╨╖╨╕╤Ж╨╕╤П</span>
+      <button type="button" data-clip="" class="active">Модель</button>
+      <button type="button" data-clip="idle">Стойка</button>
+      <button type="button" data-clip="run">Бег</button>
+      <button type="button" data-clip="slash">Удар</button>
+      <button type="button" data-clip="flip">Кувырок</button>
+      <span class="label">Экспозиция</span>
       <input id="exposure" type="range" min="0.4" max="2.2" step="0.02" value="1.05" />
     </div>
   </div>
@@ -115,7 +115,7 @@
     const stage = document.getElementById("stage");
     const onPages = location.hostname.endsWith("github.io");
     const SRC = onPages
-      ? "https://media.githubusercontent.com/media/Mrak0be5/tigress-thread-gallery/master/models/orc-preview.glb"
+      ? "https://raw.githubusercontent.com/Mrak0be5/tigress-thread-gallery/master/models/orc-preview.glb"
       : "models/orc-preview.glb";
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
@@ -246,7 +246,7 @@
     });
 
     async function load() {
-      statusEl.textContent = "╨Ч╨░╨│╤А╤Г╨╖╨║╨░ ╨╝╨╛╨┤╨╡╨╗╨╕тАж";
+      statusEl.textContent = "Загрузка модели…";
       const response = await fetch(SRC);
       if (!response.ok) throw new Error("HTTP " + response.status);
       const total = Number(response.headers.get("content-length")) || 0;
@@ -258,7 +258,7 @@
         if (done) break;
         chunks.push(value);
         received += value.byteLength;
-        if (total) statusEl.textContent = "╨Ч╨░╨│╤А╤Г╨╖╨║╨░ " + Math.round((received / total) * 100) + "%";
+        if (total) statusEl.textContent = "Загрузка " + Math.round((received / total) * 100) + "%";
       }
       const buffer = new Uint8Array(received);
       let offset = 0;
@@ -266,7 +266,7 @@
         buffer.set(chunk, offset);
         offset += chunk.byteLength;
       }
-      statusEl.textContent = "╨б╨▒╨╛╤А╨║╨░ ╤Б╤Ж╨╡╨╜╤ЛтАж";
+      statusEl.textContent = "Сборка сцены…";
       const gltf = await new GLTFLoader().parseAsync(buffer.buffer, "");
       model = gltf.scene;
       model.traverse((obj) => {
@@ -295,7 +295,7 @@
     }
 
     load().catch((error) => {
-      statusEl.textContent = "╨Э╨╡ ╤Г╨┤╨░╨╗╨╛╤Б╤М ╨╛╤В╨║╤А╤Л╤В╤М ╨╝╨╛╨┤╨╡╨╗╤М: " + error.message;
+      statusEl.textContent = "Не удалось открыть модель: " + error.message;
     });
   </script>
 </body>

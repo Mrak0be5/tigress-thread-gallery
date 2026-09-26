@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "mage-back-nude",
+      "file": "images/mage-back-nude.jpg",
+      "source": "mage-back.png",
+      "title": "Mage back nude",
+      "category": "scene",
+      "model": "Seedream 5.0 Pro",
+      "note": "",
+      "date": "2026-09-26 13:04",
+      "pixels": "1200x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "mage-front-nude",
       "file": "images/mage-front-nude.jpg",
       "source": "mage-front.png",

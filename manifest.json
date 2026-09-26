@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "flash-orc-cowgirl",
+      "file": "images/flash-orc-cowgirl.jpg",
+      "source": "flash2-orc-cowgirl.png",
+      "title": "Flash orc cowgirl",
+      "category": "scene",
+      "model": "Seedream 5.0 Flash",
+      "note": "",
+      "date": "2026-09-26 17:47",
+      "pixels": "1350x1799",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "flash-orc-allfours",
       "file": "images/flash-orc-allfours.jpg",
       "source": "flash2-orc-allfours.png",

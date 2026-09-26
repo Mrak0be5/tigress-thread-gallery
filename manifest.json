@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "flash-orc-allfours-1",
+      "file": "images/flash-orc-allfours-1.jpg",
+      "source": "flash-orc-allfours.png",
+      "title": "Flash orc all fours first",
+      "category": "scene",
+      "model": "Seedream 5.0 Flash",
+      "note": "",
+      "date": "2026-09-26 17:47",
+      "pixels": "1350x1799",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "flash-banana",
       "file": "images/flash-banana.jpg",
       "source": "flash2-banana.png",

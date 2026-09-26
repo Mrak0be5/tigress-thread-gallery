@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "mage-allfours-rear",
+      "file": "images/mage-allfours-rear.jpg",
+      "source": "mage-allfours.png",
+      "title": "Mage all fours rear",
+      "category": "scene",
+      "model": "Seedream 5.0 Pro",
+      "note": "",
+      "date": "2026-09-26 13:04",
+      "pixels": "1350x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "mage-back-nude",
       "file": "images/mage-back-nude.jpg",
       "source": "mage-back.png",

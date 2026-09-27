@@ -2,9 +2,107 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-27T11:49+04:00",
+  "updated": "2026-09-27T14:08+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "orc-warrior-clean-base-body-bald-front-left-back",
+      "file": "images/orc-warrior-clean-base-body-bald-front-left-back.jpg",
+      "source": "12-body-clean.png",
+      "title": "Orc warrior - clean base body, bald (front/left/back)",
+      "category": "sheet",
+      "model": "GPT Image 2.5 Sunburst",
+      "note": "Tripo reference, orc body/head/hair stage",
+      "date": "2026-09-27 14:08",
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "orc-warrior-hair-on-mannequin-front-left-back",
+      "file": "images/orc-warrior-hair-on-mannequin-front-left-back.jpg",
+      "source": "11-hair.png",
+      "title": "Orc warrior - hair on mannequin (front/left/back)",
+      "category": "sheet",
+      "model": "GPT Image 2.5 Sunburst",
+      "note": "Tripo reference, orc body/head/hair stage",
+      "date": "2026-09-27 14:08",
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "orc-warrior-bald-head-for-tripo-front-left-back",
+      "file": "images/orc-warrior-bald-head-for-tripo-front-left-back.jpg",
+      "source": "10-head-bald.png",
+      "title": "Orc warrior - bald head for Tripo (front/left/back)",
+      "category": "sheet",
+      "model": "GPT Image 2.5 Sunburst",
+      "note": "Tripo reference, orc body/head/hair stage",
+      "date": "2026-09-27 14:08",
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "orc-warrior-belt-tabard-fur-skirt-item",
+      "file": "images/orc-warrior-belt-tabard-fur-skirt-item.jpg",
+      "source": "09-belt.png",
+      "title": "Orc warrior - belt + tabard + fur skirt item",
+      "category": "sheet",
+      "model": "GPT Image 2.5 Sunburst",
+      "note": "Tripo reference, modular orc pipeline",
+      "date": "2026-09-27 12:48",
+      "pixels": "1800x1202",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "orc-warrior-boots-item",
+      "file": "images/orc-warrior-boots-item.jpg",
+      "source": "08-boots.png",
+      "title": "Orc warrior - boots item",
+      "category": "sheet",
+      "model": "GPT Image 2.5 Sunburst",
+      "note": "Tripo reference, modular orc pipeline",
+      "date": "2026-09-27 12:48",
+      "pixels": "1800x1202",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "orc-warrior-bare-hand-back-palm",
+      "file": "images/orc-warrior-bare-hand-back-palm.jpg",
+      "source": "07-hand-bare.png",
+      "title": "Orc warrior - bare hand (back/palm)",
+      "category": "sheet",
+      "model": "GPT Image 2.5 Sunburst",
+      "note": "Tripo reference, modular orc pipeline",
+      "date": "2026-09-27 12:48",
+      "pixels": "1800x1202",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "orc-warrior-base-body-no-gear-front-back",
+      "file": "images/orc-warrior-base-body-no-gear-front-back.jpg",
+      "source": "06-base-body.png",
+      "title": "Orc warrior - base body, no gear (front/back)",
+      "category": "sheet",
+      "model": "GPT Image 2.5 Sunburst",
+      "note": "Tripo reference, modular orc pipeline",
+      "date": "2026-09-27 12:48",
+      "pixels": "1800x1202",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "orc-warrior-sword-scabbard",
       "file": "images/orc-warrior-sword-scabbard.jpg",

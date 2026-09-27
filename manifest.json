@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "orc-warrior-head-front-profile",
+      "file": "images/orc-warrior-head-front-profile.jpg",
+      "source": "02-head.png",
+      "title": "Orc warrior - head (front/profile)",
+      "category": "sheet",
+      "model": "GPT Image 2.5 Sunburst",
+      "note": "Tripo reference, stage 1 of orc 3D pipeline",
+      "date": "2026-09-27 11:49",
+      "pixels": "1800x1202",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "orc-warrior-body-a-pose-front-back",
       "file": "images/orc-warrior-body-a-pose-front-back.jpg",
       "source": "01-body.png",

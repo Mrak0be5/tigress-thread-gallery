@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "orc-warrior-sword-scabbard",
+      "file": "images/orc-warrior-sword-scabbard.jpg",
+      "source": "05-sword.png",
+      "title": "Orc warrior - sword + scabbard",
+      "category": "sheet",
+      "model": "GPT Image 2.5 Sunburst",
+      "note": "Tripo reference, stage 1 of orc 3D pipeline",
+      "date": "2026-09-27 11:49",
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "orc-warrior-pauldron-front-side",
       "file": "images/orc-warrior-pauldron-front-side.jpg",
       "source": "04-pauldron.png",

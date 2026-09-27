@@ -2,9 +2,23 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-27T14:08+04:00",
+  "updated": "2026-09-27T14:19+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "orc-warrior-hair-only-no-head-front-left-back",
+      "file": "images/orc-warrior-hair-only-no-head-front-left-back.jpg",
+      "source": "13-hair-only.png",
+      "title": "Orc warrior - hair only, no head (front/left/back)",
+      "category": "sheet",
+      "model": "GPT Image 2.5 Sunburst",
+      "note": "Tripo reference, orc body/head/hair stage",
+      "date": "2026-09-27 14:19",
+      "pixels": "1800x1012",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "orc-warrior-clean-base-body-bald-front-left-back",
       "file": "images/orc-warrior-clean-base-body-bald-front-left-back.jpg",

@@ -1,0 +1,3 @@
+﻿Turbo LoRA krea2_turbo_distill_r128, 10 steps, cfg 1, euler simple, denoise 1.
+Edit checkpoint Krea2 turbo uncensored edit.
+Only the upper hole is repainted. Pixels at y>=180 stay the original frame.

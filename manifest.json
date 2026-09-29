@@ -2,9 +2,61 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-29T20:30+04:00",
+  "updated": "2026-09-29T20:36+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "krea2-rawgirl-maid-pixar",
+      "file": "images/krea2-rawgirl-maid-pixar.jpg",
+      "source": "krea2_rawgirl_maid_pixar_00003_.png",
+      "title": "RawGirl maid Pixar",
+      "category": "scene",
+      "model": "RawGirl Krea 2",
+      "note": "32 steps, CFG 2.2, 1024x1536, gape 0.48",
+      "date": "2026-09-29 20:36",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "Pixar Disney 3D Style",
+          "url": "https://civitai.red/models/2831766",
+          "strength": 0.9
+        },
+        {
+          "name": "anal gape krea 2",
+          "url": "https://civitai.com/models/anal-gape",
+          "strength": 0.48
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
+    {
+      "id": "krea2-rawgirl-maid-disney",
+      "file": "images/krea2-rawgirl-maid-disney.jpg",
+      "source": "krea2_rawgirl_maid_disney_00003_.png",
+      "title": "RawGirl maid Disney",
+      "category": "scene",
+      "model": "RawGirl Krea 2",
+      "note": "32 steps, CFG 2.2, 1024x1536, gape 0.48",
+      "date": "2026-09-29 20:36",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "Disney Animation Style Krea2",
+          "url": "https://civitai.red/models/2840506",
+          "strength": 0.82
+        },
+        {
+          "name": "anal gape krea 2",
+          "url": "https://civitai.com/models/anal-gape",
+          "strength": 0.48
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
     {
       "id": "wan30-orc-two-marks-20s",
       "file": "images/wan30-orc-two-marks-20s.mp4",

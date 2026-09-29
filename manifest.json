@@ -2,9 +2,123 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-29T18:41+04:00",
+  "updated": "2026-09-29T19:20+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "krea2-nun-pixar-plug",
+      "file": "images/krea2-nun-pixar-plug.jpg",
+      "source": "krea2_nun_pixar_plug_00001_.png",
+      "title": "Pixar nun, glass plug",
+      "category": "scene",
+      "model": "Krea 2",
+      "note": "",
+      "date": "2026-09-29 19:20",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "Pixar Disney 3D Style",
+          "url": "https://civitai.red/models/2831766/pixar-disney-3d-style?modelVersionId=3195430",
+          "strength": 0.9
+        },
+        {
+          "name": "Anal Gape",
+          "url": "https://civitai.red/models/2819768/anal-gape?modelVersionId=3180724",
+          "strength": 0.45
+        },
+        {
+          "name": "Anal Helper",
+          "url": "https://civitai.red/models/2759414/anal-helper-krea2",
+          "strength": 0.65
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
+    {
+      "id": "krea2-nun-pixar-cross",
+      "file": "images/krea2-nun-pixar-cross.jpg",
+      "source": "krea2_nun_pixar_cross_00001_.png",
+      "title": "Pixar nun, crucifix",
+      "category": "scene",
+      "model": "Krea 2",
+      "note": "",
+      "date": "2026-09-29 19:20",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "Pixar Disney 3D Style",
+          "url": "https://civitai.red/models/2831766/pixar-disney-3d-style?modelVersionId=3195430",
+          "strength": 0.9
+        },
+        {
+          "name": "Anal Gape",
+          "url": "https://civitai.red/models/2819768/anal-gape?modelVersionId=3180724",
+          "strength": 0.45
+        },
+        {
+          "name": "Anal Helper",
+          "url": "https://civitai.red/models/2759414/anal-helper-krea2",
+          "strength": 0.65
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
+    {
+      "id": "krea2-nun-pixar-gape",
+      "file": "images/krea2-nun-pixar-gape.jpg",
+      "source": "krea2_nun_pixar_gape_00001_.png",
+      "title": "Pixar nun, wide open",
+      "category": "scene",
+      "model": "Krea 2",
+      "note": "",
+      "date": "2026-09-29 19:20",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "Pixar Disney 3D Style",
+          "url": "https://civitai.red/models/2831766/pixar-disney-3d-style?modelVersionId=3195430",
+          "strength": 0.9
+        },
+        {
+          "name": "Anal Gape",
+          "url": "https://civitai.red/models/2819768/anal-gape?modelVersionId=3180724",
+          "strength": 0.82
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
+    {
+      "id": "krea2-nun-pixar-slight",
+      "file": "images/krea2-nun-pixar-slight.jpg",
+      "source": "krea2_nun_pixar_slight_00001_.png",
+      "title": "Pixar nun, slightly open",
+      "category": "scene",
+      "model": "Krea 2",
+      "note": "",
+      "date": "2026-09-29 19:20",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "Pixar Disney 3D Style",
+          "url": "https://civitai.red/models/2831766/pixar-disney-3d-style?modelVersionId=3195430",
+          "strength": 0.9
+        },
+        {
+          "name": "Anal Gape",
+          "url": "https://civitai.red/models/2819768/anal-gape?modelVersionId=3180724",
+          "strength": 0.42
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
     {
       "id": "krea2-nun-disney-plug",
       "file": "images/krea2-nun-disney-plug.jpg",

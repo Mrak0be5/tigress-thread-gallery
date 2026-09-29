@@ -2,9 +2,35 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-29T19:20+04:00",
+  "updated": "2026-09-29T19:28+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "krea2-red-prom-bottle",
+      "file": "images/krea2-red-prom-bottle.jpg",
+      "source": "krea2_red_prom_bottle_00002_.png",
+      "title": "Prom hall, champagne neck",
+      "category": "scene",
+      "model": "Krea 2",
+      "note": "",
+      "date": "2026-09-29 19:28",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "Anal Gape",
+          "url": "https://civitai.red/models/2819768/anal-gape?modelVersionId=3180724",
+          "strength": 0.62
+        },
+        {
+          "name": "Anal Helper",
+          "url": "https://civitai.red/models/2759414/anal-helper-krea2",
+          "strength": 0.9
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
     {
       "id": "krea2-nun-pixar-plug",
       "file": "images/krea2-nun-pixar-plug.jpg",

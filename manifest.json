@@ -2,9 +2,139 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-29T17:27+04:00",
+  "updated": "2026-09-29T17:53+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "krea2-disney-gape-bench",
+      "file": "images/krea2-disney-gape-bench.jpg",
+      "source": "krea2_red_disney_gape_5_00001_.png",
+      "title": "Disney, widest, on the bench",
+      "category": "scene",
+      "model": "Krea 2",
+      "note": "disney_animation_style + g4pe",
+      "date": "2026-09-29 17:53",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "Disney Animation Style",
+          "url": "https://civitai.com/models/2840506",
+          "strength": 0.82
+        },
+        {
+          "name": "Anal Gape",
+          "url": "https://civitai.com/models/2819768",
+          "strength": 0.95
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
+    {
+      "id": "krea2-disney-gape-allfours",
+      "file": "images/krea2-disney-gape-allfours.jpg",
+      "source": "krea2_red_disney_gape_4b_00001_.png",
+      "title": "Disney, wide open, all fours",
+      "category": "scene",
+      "model": "Krea 2",
+      "note": "disney_animation_style + g4pe",
+      "date": "2026-09-29 17:53",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "Disney Animation Style",
+          "url": "https://civitai.com/models/2840506",
+          "strength": 0.82
+        },
+        {
+          "name": "Anal Gape",
+          "url": "https://civitai.com/models/2819768",
+          "strength": 0.85
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
+    {
+      "id": "krea2-disney-gape-kitchen",
+      "file": "images/krea2-disney-gape-kitchen.jpg",
+      "source": "krea2_red_disney_gape_3_00001_.png",
+      "title": "Disney, open, kitchen",
+      "category": "scene",
+      "model": "Krea 2",
+      "note": "disney_animation_style + g4pe",
+      "date": "2026-09-29 17:53",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "Disney Animation Style",
+          "url": "https://civitai.com/models/2840506",
+          "strength": 0.82
+        },
+        {
+          "name": "Anal Gape",
+          "url": "https://civitai.com/models/2819768",
+          "strength": 0.75
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
+    {
+      "id": "krea2-disney-gape-bed",
+      "file": "images/krea2-disney-gape-bed.jpg",
+      "source": "krea2_red_disney_gape_2_00001_.png",
+      "title": "Disney, open, kneeling on the bed",
+      "category": "scene",
+      "model": "Krea 2",
+      "note": "disney_animation_style + g4pe",
+      "date": "2026-09-29 17:53",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "Disney Animation Style",
+          "url": "https://civitai.com/models/2840506",
+          "strength": 0.82
+        },
+        {
+          "name": "Anal Gape",
+          "url": "https://civitai.com/models/2819768",
+          "strength": 0.65
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
+    {
+      "id": "krea2-disney-gape-bedroom",
+      "file": "images/krea2-disney-gape-bedroom.jpg",
+      "source": "krea2_red_disney_gape_1_00001_.png",
+      "title": "Disney, slightly open, bedroom",
+      "category": "scene",
+      "model": "Krea 2",
+      "note": "disney_animation_style + g4pe",
+      "date": "2026-09-29 17:53",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "Disney Animation Style",
+          "url": "https://civitai.com/models/2840506",
+          "strength": 0.82
+        },
+        {
+          "name": "Anal Gape",
+          "url": "https://civitai.com/models/2819768",
+          "strength": 0.5
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
     {
       "id": "wan30-orc-alt-russian-20s",
       "file": "images/wan30-orc-alt-russian-20s.mp4",

@@ -6,6 +6,22 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "wan30-bench-reject-drift-15s",
+      "file": "images/wan30-bench-reject-drift-15s.mp4",
+      "source": "wan30-reject-drift.mp4",
+      "title": "Wan 3.0 bench reject drift 15s",
+      "category": "video",
+      "model": "Wan 3.0 480p",
+      "note": "",
+      "date": "2026-09-29 12:12",
+      "pixels": "0x0",
+      "poster": "images/posters/wan30-bench-reject-drift-15s.jpg",
+      "stream": "images/stream/wan30-bench-reject-drift-15s.mp4",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "wan30-bench-reject-liquid-15s",
       "file": "images/wan30-bench-reject-liquid-15s.mp4",
       "source": "wan30-reject-liquid.mp4",

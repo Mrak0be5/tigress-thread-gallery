@@ -2,9 +2,25 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-29T23:03+04:00",
+  "updated": "2026-09-29T23:17+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "krea2-onlyhole-1",
+      "file": "images/krea2-onlyhole-1.jpg",
+      "source": "krea2-onlyhole-1.png",
+      "title": "Krea2 only hole 1",
+      "category": "scene",
+      "model": "Krea 2 Turbo",
+      "note": "",
+      "date": "2026-09-29 23:17",
+      "pixels": "774x528",
+      "prompt": "Masked inpaint on end-anus-by-skirt.jpg. Only the upper hole. g4pe, wider round dark opening. Face, pose, and penis pixels outside the mask are the original frame.\nLoRAs: anal_gape_krea_2_v1, assgape_woman_krea2_epoch_20, anal_helper_krea2_loraholic.",
+      "prompt_file": "prompts/krea2-onlyhole-1.txt",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "krea2-turbo-holeb-3",
       "file": "images/krea2-turbo-holeb-3.jpg",

@@ -2,9 +2,91 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-30T00:33+04:00",
+  "updated": "2026-09-30T01:18+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "krea2-rawgirl-bench-cuck-03",
+      "file": "images/krea2-rawgirl-bench-cuck-03.jpg",
+      "source": "bench03-plain-max-78003.png",
+      "title": "Bench phone cuckold",
+      "category": "scene",
+      "model": "RawGirl Krea 2",
+      "note": "MAX quality, 52 steps, CFG 3.5, identity LoRA 1.0, ref_boost 0.56. Penis stays outside the anus.",
+      "date": "2026-09-30 01:18",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "krea2 identity edit v1.2",
+          "url": "1.0"
+        },
+        {
+          "name": "anal helper krea2",
+          "url": "0.90"
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
+    {
+      "id": "krea2-rawgirl-bench-cuck-04",
+      "file": "images/krea2-rawgirl-bench-cuck-04.jpg",
+      "source": "bench04-disney-max-78004.png",
+      "title": "Bench phone cuckold Disney 2",
+      "category": "scene",
+      "model": "RawGirl Krea 2",
+      "note": "MAX quality, 52 steps, CFG 3.5, identity LoRA 1.0, ref_boost 0.56. Penis stays outside the anus.",
+      "date": "2026-09-30 01:18",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "krea2 identity edit v1.2",
+          "url": "1.0"
+        },
+        {
+          "name": "Disney Animation Style Krea2",
+          "url": "https://civitai.red/models/2840506",
+          "strength": 0.7
+        },
+        {
+          "name": "anal helper krea2",
+          "url": "0.92"
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
+    {
+      "id": "krea2-rawgirl-bench-cuck-06",
+      "file": "images/krea2-rawgirl-bench-cuck-06.jpg",
+      "source": "bench06-disney-max-78006.png",
+      "title": "Bench phone cuckold Disney",
+      "category": "scene",
+      "model": "RawGirl Krea 2",
+      "note": "MAX quality, 52 steps, CFG 3.5, identity LoRA 1.0, ref_boost 0.56. Penis stays outside the anus.",
+      "date": "2026-09-30 01:18",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "krea2 identity edit v1.2",
+          "url": "1.0"
+        },
+        {
+          "name": "Disney Animation Style Krea2",
+          "url": "https://civitai.red/models/2840506",
+          "strength": 0.82
+        },
+        {
+          "name": "anal helper krea2",
+          "url": "0.88"
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
     {
       "id": "krea2-empty-hands",
       "file": "images/krea2-empty-hands.jpg",

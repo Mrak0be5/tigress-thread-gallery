@@ -6,6 +6,29 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "krea2-x2-gape-2",
+      "file": "images/krea2-x2-gape-2.jpg",
+      "source": "krea2-x2-gape-2.png",
+      "title": "anal gape 2x 2",
+      "category": "scene",
+      "model": "Krea 2 Turbo",
+      "note": "upper hole about 2x, turbo lora, 10 steps",
+      "date": "2026-09-30 00:03",
+      "pixels": "774x528",
+      "prompt": "﻿Upper hole about twice the original on end-anus-by-skirt.jpg.\nTurbo LoRA, 10 steps, cfg 1. One hole LoRA per trio.\nPixels at y>=180 stay the original frame.\nSpread anal strength 0.55 so the opening stays open.",
+      "prompt_file": "prompts/krea2-x2-gape-2.txt",
+      "loras": [
+        {
+          "name": "anal_gape_krea_2_v1",
+          "url": "https://civitai.com",
+          "strength": 1.0
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "krea2-x2-gape-1",
       "file": "images/krea2-x2-gape-1.jpg",
       "source": "krea2-x2-gape-1.png",

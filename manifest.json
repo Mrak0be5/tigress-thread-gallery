@@ -2,9 +2,32 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-29T23:38+04:00",
+  "updated": "2026-09-29T23:46+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "krea2-max-gape-1",
+      "file": "images/krea2-max-gape-1.jpg",
+      "source": "krea2-max-gape-1.png",
+      "title": "anal gape 1",
+      "category": "scene",
+      "model": "Krea 2 Turbo",
+      "note": "upper hole only, turbo lora, 10 steps",
+      "date": "2026-09-29 23:46",
+      "pixels": "774x528",
+      "prompt": "﻿Turbo LoRA krea2_turbo_distill_r128, 10 steps, cfg 1, euler simple, denoise 1.\nEdit checkpoint Krea2 turbo uncensored edit.\nOnly the upper hole is repainted. Pixels at y>=180 stay the original frame.",
+      "prompt_file": "prompts/krea2-max-gape-1.txt",
+      "loras": [
+        {
+          "name": "anal_gape_krea_2_v1",
+          "url": "https://civitai.com",
+          "strength": 1.0
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "krea2-rawgirl-maid-edit-plain",
       "file": "images/krea2-rawgirl-maid-edit-plain.jpg",

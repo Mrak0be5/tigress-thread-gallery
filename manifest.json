@@ -2,9 +2,33 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-30T21:35+04:00",
+  "updated": "2026-10-01T00:19+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "gragyriss-mobile-main-screen-concept-3d-low-poly-side-view",
+      "file": "images/gragyriss-mobile-main-screen-concept-3d-low-poly-side-view.jpg",
+      "source": "main-screen-v1.png",
+      "title": "Gragyriss mobile - main screen concept (3D low-poly, side view)",
+      "category": "scene",
+      "model": "GPT Image 2.5 Sunburst (edit)",
+      "note": "Main gameplay screen concept for the Gragyriss mobile F2P GDD: farm on the cliff top, princess rooms and treasure cave in cross-section, dragon vs knights at the lair entrance, HUD and ability bar. Portrait 1440x3120, quality max; layout from a flat blocking sketch.",
+      "date": "2026-10-01 00:19",
+      "pixels": "830x1799",
+      "prompt": "Use: a finished, polished in-game screenshot of the main screen of a casual mobile idle game (portrait phone screen), for a game pitch concept. The game is fully 3D low-poly, but the camera is a strict side view of a cliff seen in cross-section, like a cozy diorama, with only a very slight downward tilt so the top of the grassy plateau is visible.\n\nImage 1 is only a rough flat-color blocking sketch of the layout. Follow its zones, proportions and positions from top to bottom, but do not copy its flat shapes or colors: render every element as finished stylized 3D low-poly art.\n\nLayout from top to bottom:\n1. Top HUD bar: at the top left a gold counter with a coin icon reading \"1.2M\"; next to it a gem counter with a blue gem icon reading \"340\"; two small round icon buttons (a quest scroll and a gear); at the top right a big round orange button with a folded treasure-map icon and the label \"MAP\".\n2. Sky: bright morning sky with soft faceted low-poly clouds; far in the background low-poly blue mountains and a small grey enemy castle with flags on a hill.\n3. Farm on top of the cliff: on the left a pasture of chunky low-poly grass tufts in rows with a few fresh hay bundles and fluffy blocky white sheep with black faces; in the middle a small wooden fenced sheep pen full of sheep; on the right a rocky wolf den mound with a dark cave where red eyes glow, two grey wolves beside it, and a big curly-horned ram standing on a small wooden catapult; on the far right edge an apple tree with red apples leaning over the cliff.\n4. The cliff face below is cut open like a cross-section, showing four cozy rooms carved into the rock with warm light inside, arranged two by two: top left an elf greenhouse with plants and a green-skinned elf princess in a leaf dress; top right a study with bookshelves, a desk and small stacks of gold where a blonde princess in a blue gown reads a ledger; bottom left a small dwarf forge with an anvil and a red-haired dwarf princess in light armor; bottom right a sealed round stone door with a glowing crest (a locked room).\n5. Below the rooms, a big treasure cave glowing with a huge mountain of gold coins, chests, crowns and colorful gems.\n6. At the bottom the lair opens onto a grassy meadow with a dirt road. A big red low-poly dragon with dark horns and folded wings stands proudly in front of the dark lair entrance on the left, facing right, breathing a small burst of orange fire. From the right a row of small low-poly knights with blue shields and an elf archer march along the road toward the dragon.\n7. Bottom UI panel: a red health bar with a gold level badge showing \"24\", and below it a row of four big round ability buttons with icons (fire breath flame, wing gust, roar, falling meteor) plus two round princess portrait buttons on the right (the green elf and the blonde princess).\n\nStyle: 3D low-poly with flat-shaded facets and soft ambient occlusion, smooth gradients in the sky, bright saturated yet harmonious colors (warm reds and golds for the dragon and the treasure, fresh greens for the farm, cool blues for the sky), cute chunky proportions and clear readable silhouettes, a casual mobile game look, crisp high-quality render. All characters are cute and friendly; the princesses are fully and modestly dressed with stylized chibi-like proportions.\n\nConstraints: portrait screen composition that fills the whole image edge to edge, no phone frame or bezel. Render only this text, each exactly once: \"1.2M\", \"340\", \"MAP\", \"24\". No other text, no letters, no watermark, no logo.",
+      "prompt_file": "prompts/gragyriss-mobile-main-screen-concept-3d-low-poly-side-view.txt",
+      "refs": [
+        {
+          "label": "Layout guide",
+          "source": "C:\\Users\\hebp\\Desktop\\multicode test\\gragyriss-mobile\\concept-art\\main-screen-layout-guide.png",
+          "file": "images/refs/gragyriss-mobile-main-screen-concept-3d-low-poly-side-view/01-layout-guide.jpg"
+        }
+      ],
+      "service": "Atlas Cloud",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "disney-comic-page-3",
       "file": "images/disney-comic-page-3.jpg",

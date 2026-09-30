@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "disney-comic-v2-page-2",
+      "file": "images/disney-comic-v2-page-2.jpg",
+      "source": "disney-comic-page-2.jpg",
+      "title": "Disney comic page 2 biker",
+      "category": "scene",
+      "model": "Krea 2 Raw Disney",
+      "note": "",
+      "date": "2026-10-01 01:58",
+      "pixels": "730x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "disney-comic-v2-page-1",
       "file": "images/disney-comic-v2-page-1.jpg",
       "source": "disney-comic-page-1.jpg",

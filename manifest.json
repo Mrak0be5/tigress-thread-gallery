@@ -2,9 +2,267 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-01T01:59+04:00",
+  "updated": "2026-10-01T03:16+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "krea2-frigid-jaina-comic",
+      "file": "images/krea2-frigid-jaina-comic.jpg",
+      "source": "frigid-jaina-comic.jpg",
+      "title": "Фригидная Джайна — комикс 9 панелей",
+      "category": "scene",
+      "model": "Krea2 Raw (rawgirlKrea2_v10) + krea2_identity_edit_v1_2, local ComfyUI",
+      "note": "9 панелей Krea2 Raw MAX (52 steps, cfg 3.5, 1280px + RealESRGAN x2), русские реплики наложены PIL. Промпты панелей — в карточках krea2-frigid-jaina-p1..p9.",
+      "date": "2026-10-01 03:16",
+      "pixels": "1689x1800",
+      "refs": [
+        {
+          "label": "reference",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI-Qwen21\\input\\comic_laundry_ref_trio.png",
+          "file": "images/refs/krea2-frigid-jaina-comic/01-reference.jpg"
+        }
+      ],
+      "service": "ComfyUI (local)",
+      "characters": [
+        "Jaina",
+        "Lilith",
+        "Violet"
+      ]
+    },
+    {
+      "id": "krea2-frigid-jaina-p9",
+      "file": "images/krea2-frigid-jaina-p9.jpg",
+      "source": "p9_s610009_x2.png",
+      "title": "Фригидная Джайна — Утро: у него теперь стоит",
+      "category": "scene",
+      "model": "Krea2 Raw (rawgirlKrea2_v10) + krea2_identity_edit_v1_2, local ComfyUI",
+      "note": "Комикс «Фригидная Джайна», панель 9. 52 steps, cfg 3.5, euler/simple, 1280px + RealESRGAN anime x2. Seed в имени файла: p9_s610009.",
+      "date": "2026-10-01 03:15",
+      "pixels": "1800x1800",
+      "prompt": "One single comic book panel showing one scene, not a character sheet, not a turnaround, not several views of the same woman, no duplicates. No text, no letters, no speech bubbles, no captions. Same stylized 2D fantasy game art as the reference: bold dark outlines, clean cel shading, rich saturated colors, highly detailed illustration with intricate linework, detailed fabric, hair strands and props, soft rim light, sharp focus. Curvy adult women with big expressive cartoon faces and exaggerated comedic expressions. Leave plain empty background space above their heads. Morning in the same tavern bedroom, sunlight through the window, melting ice and puddles everywhere. On the bed lies SIR GAVIN, a handsome muscular adult human paladin in his thirties with short brown hair, a square jaw and a neat short beard, frozen solid inside a clear block of ice with a blissful dopey smile; the frozen sheet over his hips forms a huge stiff frozen tent at his crotch. In front JAINA, the adult frost mage in the middle of the reference: long wavy warm yellow-golden blonde hair exactly like the reference (sunny golden blonde, never white, never grey, never silver) with a thick side braid, round human ears, violet-blue eyes, red lips sits wrapped in a fluffy white blanket, glowing, radiant and happy, sipping a steaming cup of tea. Behind her LILITH, the adult succubus on the left of the reference: long glossy dark purple hair, curled red-brown ram horns, pointed ears, purple eyes, red lips, big dark bat wings with red membranes, a thin red devil tail with a spade tip and VIOLET, the adult sorceress on the right of the reference: long wavy golden-blonde hair, blue eyes, a deep purple hood with gold trim stand wrapped only in towels, shivering, blue-lipped, dripping with meltwater, staring at the frozen tent. Medium-wide shot.",
+      "prompt_file": "prompts/krea2-frigid-jaina-p9.txt",
+      "refs": [
+        {
+          "label": "reference",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI-Qwen21\\input\\comic_laundry_ref_trio.png",
+          "file": "images/refs/krea2-frigid-jaina-p9/01-reference.jpg"
+        }
+      ],
+      "service": "ComfyUI (local)",
+      "characters": [
+        "Jaina",
+        "Lilith",
+        "Violet"
+      ]
+    },
+    {
+      "id": "krea2-frigid-jaina-p8",
+      "file": "images/krea2-frigid-jaina-p8.jpg",
+      "source": "p8_s630008_x2.png",
+      "title": "Фригидная Джайна — Ледяной взрыв",
+      "category": "scene",
+      "model": "Krea2 Raw (rawgirlKrea2_v10) + krea2_identity_edit_v1_2, local ComfyUI",
+      "note": "Комикс «Фригидная Джайна», панель 8. 52 steps, cfg 3.5, euler/simple, 1280px + RealESRGAN anime x2. Seed в имени файла: p8_s630008.",
+      "date": "2026-10-01 03:15",
+      "pixels": "1800x1800",
+      "prompt": "One single comic book panel showing one scene, not a character sheet, not a turnaround, not several views of the same woman, no duplicates. No text, no letters, no speech bubbles, no captions. Same stylized 2D fantasy game art as the reference: bold dark outlines, clean cel shading, rich saturated colors, highly detailed illustration with intricate linework, detailed fabric, hair strands and props, soft rim light, sharp focus. Curvy adult women with big expressive cartoon faces and exaggerated comedic expressions. Leave plain empty background space above their heads. A tavern bedroom completely frozen by a massive explosion of frost: thick ice on the walls, huge icicles hanging from the ceiling beams, a blizzard of snowflakes, blue glow. In the center on the frozen bed JAINA, the adult frost mage in the middle of the reference: long wavy warm yellow-golden blonde hair exactly like the reference (sunny golden blonde, never white, never grey, never silver) with a thick side braid, round human ears, violet-blue eyes, red lips arches her back in blissful ecstasy, eyes rolled up, mouth open in a scream of pleasure, glowing blue frost aura around her; her hair stays bright sunny golden-yellow blonde even in the blue light, never brown. Jaina is fully nude: bare breasts with nipples, bare hips, nothing hangs at her hips, no belt, no loincloth, no cloth panel, no hands over her crotch. Her vulva is a short closed slit flat against the body, labia short and tucked. On the left LILITH, the adult succubus on the left of the reference: long glossy dark purple hair, curled red-brown ram horns, pointed ears, purple eyes, red lips, big dark bat wings with red membranes, a thin red devil tail with a spade tip, wearing a brown-red laced leather corset, ragged dark purple shorts, dark red spiked gloves and dark purple thigh-high heeled boots, is frozen solid inside a clear block of ice mid-pose with a shocked face, still holding her wine glass. On the right VIOLET, the adult sorceress on the right of the reference: long wavy golden-blonde hair, blue eyes, a deep purple hood with gold trim, wearing a white-and-gold bikini top, a purple loincloth, wide white-and-purple sleeves, purple fingerless gloves, white thigh-high boots with gold trim, is frozen solid inside a clear block of ice, her fireball frozen in her hand. Wide dynamic shot.",
+      "prompt_file": "prompts/krea2-frigid-jaina-p8.txt",
+      "refs": [
+        {
+          "label": "reference",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI-Qwen21\\input\\comic_laundry_ref_trio.png",
+          "file": "images/refs/krea2-frigid-jaina-p8/01-reference.jpg"
+        }
+      ],
+      "service": "ComfyUI (local)",
+      "characters": [
+        "Jaina",
+        "Lilith",
+        "Violet"
+      ]
+    },
+    {
+      "id": "krea2-frigid-jaina-p7",
+      "file": "images/krea2-frigid-jaina-p7.jpg",
+      "source": "p7_s640007_nx0.6_x2.png",
+      "title": "Фригидная Джайна — Практика: думай о лаве",
+      "category": "scene",
+      "model": "Krea2 Raw (rawgirlKrea2_v10) + krea2_identity_edit_v1_2, local ComfyUI",
+      "note": "Комикс «Фригидная Джайна», панель 7. 52 steps, cfg 3.5, euler/simple, 1280px + RealESRGAN anime x2. Seed в имени файла: p7_s640007_nx0.6. + PornMaster_Uncensored_Krea2_V1 LoRA 0.6.",
+      "date": "2026-10-01 03:15",
+      "pixels": "1800x1800",
+      "prompt": "One single comic book panel showing one scene, not a character sheet, not a turnaround, not several views of the same woman, no duplicates. No text, no letters, no speech bubbles, no captions. Same stylized 2D fantasy game art as the reference: bold dark outlines, clean cel shading, rich saturated colors, highly detailed illustration with intricate linework, detailed fabric, hair strands and props, soft rim light, sharp focus. Curvy adult women with big expressive cartoon faces and exaggerated comedic expressions. Leave plain empty background space above their heads. A candle-lit tavern bedroom. On the big wooden bed lies SIR GAVIN, a handsome muscular adult human paladin in his thirties with short brown hair, a square jaw and a neat short beard, naked on his back, shivering with chattering teeth but smiling happily. JAINA, the adult frost mage in the middle of the reference: long wavy warm yellow-golden blonde hair exactly like the reference (sunny golden blonde, never white, never grey, never silver) with a thick side braid, round human ears, violet-blue eyes, red lips is fully nude and rides him in cowgirl position, sitting down on his hips, vaginal sex: her crotch is pressed flat against his crotch, his penis is buried deep inside her vagina and hidden, no penis visible in front of her belly, her hands on his chest, blushing, biting her lip, concentrating; Jaina's ears are round and human, not pointed; frost crystals creep over the sheets around them and her breath steams. Jaina is fully nude: bare breasts with nipples, bare hips, nothing hangs at her hips, no belt, no loincloth, no cloth panel, no hands over her crotch. Her vulva is a short closed slit flat against the body, labia short and tucked. Beside the bed LILITH, the adult succubus on the left of the reference: long glossy dark purple hair, curled red-brown ram horns, pointed ears, purple eyes, red lips, big dark bat wings with red membranes, a thin red devil tail with a spade tip, wearing a brown-red laced leather corset, ragged dark purple shorts, dark red spiked gloves and dark purple thigh-high heeled boots, sits on a chair with legs crossed and coaches like a sports trainer, holding a notebook, shouting. Behind the bed VIOLET, the adult sorceress on the right of the reference: long wavy golden-blonde hair, blue eyes, a deep purple hood with gold trim, wearing a white-and-gold bikini top, a purple loincloth, wide white-and-purple sleeves, purple fingerless gloves, white thigh-high boots with gold trim, holds a glowing ball of fire magic over them like a heater. Wide shot.",
+      "prompt_file": "prompts/krea2-frigid-jaina-p7.txt",
+      "refs": [
+        {
+          "label": "reference",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI-Qwen21\\input\\comic_laundry_ref_trio.png",
+          "file": "images/refs/krea2-frigid-jaina-p7/01-reference.jpg"
+        }
+      ],
+      "service": "ComfyUI (local)",
+      "characters": [
+        "Jaina",
+        "Lilith",
+        "Violet"
+      ]
+    },
+    {
+      "id": "krea2-frigid-jaina-p6",
+      "file": "images/krea2-frigid-jaina-p6.jpg",
+      "source": "p6_s610006_x2.png",
+      "title": "Фригидная Джайна — Доброволец сэр Гэвин",
+      "category": "scene",
+      "model": "Krea2 Raw (rawgirlKrea2_v10) + krea2_identity_edit_v1_2, local ComfyUI",
+      "note": "Комикс «Фригидная Джайна», панель 6. 52 steps, cfg 3.5, euler/simple, 1280px + RealESRGAN anime x2. Seed в имени файла: p6_s610006.",
+      "date": "2026-10-01 03:15",
+      "pixels": "1800x1800",
+      "prompt": "One single comic book panel showing one scene, not a character sheet, not a turnaround, not several views of the same woman, no duplicates. No text, no letters, no speech bubbles, no captions. Same stylized 2D fantasy game art as the reference: bold dark outlines, clean cel shading, rich saturated colors, highly detailed illustration with intricate linework, detailed fabric, hair strands and props, soft rim light, sharp focus. Curvy adult women with big expressive cartoon faces and exaggerated comedic expressions. Leave plain empty background space above their heads. A candle-lit tavern bedroom with a big wooden bed. VIOLET, the same adult sorceress as the reference: long wavy golden-blonde hair, blue eyes, a deep purple hood with gold trim, wearing a white-and-gold bikini top, a purple loincloth, wide white-and-purple sleeves, purple fingerless gloves, white thigh-high boots with gold trim. Like a game show hostess she presents a volunteer with one arm spread wide, a big grin, sparkles around her. Next to her stands SIR GAVIN, a handsome muscular adult human paladin in his thirties with short brown hair, a square jaw and a neat short beard, wearing only a small white towel around his hips, holding his silver helmet against his chest, bare muscular torso, sweating nervously and blushing. Medium-wide shot.",
+      "prompt_file": "prompts/krea2-frigid-jaina-p6.txt",
+      "refs": [
+        {
+          "label": "reference",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI-Qwen21\\input\\comic_laundry_ref_violet.png",
+          "file": "images/refs/krea2-frigid-jaina-p6/01-reference.jpg"
+        }
+      ],
+      "service": "ComfyUI (local)",
+      "characters": [
+        "Jaina",
+        "Lilith",
+        "Violet"
+      ]
+    },
+    {
+      "id": "krea2-frigid-jaina-p5",
+      "file": "images/krea2-frigid-jaina-p5.jpg",
+      "source": "p5_s610005_x2.png",
+      "title": "Фригидная Джайна — Урок с бананом",
+      "category": "scene",
+      "model": "Krea2 Raw (rawgirlKrea2_v10) + krea2_identity_edit_v1_2, local ComfyUI",
+      "note": "Комикс «Фригидная Джайна», панель 5. 52 steps, cfg 3.5, euler/simple, 1280px + RealESRGAN anime x2. Seed в имени файла: p5_s610005.",
+      "date": "2026-10-01 03:15",
+      "pixels": "1800x1800",
+      "prompt": "One single comic book panel showing one scene, not a character sheet, not a turnaround, not several views of the same woman, no duplicates. No text, no letters, no speech bubbles, no captions. Same stylized 2D fantasy game art as the reference: bold dark outlines, clean cel shading, rich saturated colors, highly detailed illustration with intricate linework, detailed fabric, hair strands and props, soft rim light, sharp focus. Curvy adult women with big expressive cartoon faces and exaggerated comedic expressions. Leave plain empty background space above their heads. A cozy fantasy tavern at night: warm candle light, a heavy wooden table with mugs, wine bottles and a roast chicken, stone walls. On the left LILITH, the adult succubus on the left of the reference: long glossy dark purple hair, curled red-brown ram horns, pointed ears, purple eyes, red lips, big dark bat wings with red membranes, a thin red devil tail with a spade tip, wearing a brown-red laced leather corset, ragged dark purple shorts, dark red spiked gloves and dark purple thigh-high heeled boots, gives a lewd lesson: she holds a big peeled banana and slides it deep into her mouth, cheeks hollowed, eyes half-lidded and seductive, one eyebrow raised. On the right, sitting at the table, JAINA, the adult frost mage in the middle of the reference: long wavy warm yellow-golden blonde hair exactly like the reference (sunny golden blonde, never white, never grey, never silver) with a thick side braid, round human ears, violet-blue eyes, red lips, wearing a blue-and-white mage robe with gold trim and a white fur shoulder mantle, a white corset, a white tabard with a blue anchor, white elbow gloves and white-and-gold thigh-high heeled boots, and VIOLET, the adult sorceress on the right of the reference: long wavy golden-blonde hair, blue eyes, a deep purple hood with gold trim, wearing a white-and-gold bikini top, a purple loincloth, wide white-and-purple sleeves, purple fingerless gloves, white thigh-high boots with gold trim, stare at her wide-eyed and blushing; Jaina scribbles notes with a quill on a parchment, Violet's jaw has dropped. Medium shot.",
+      "prompt_file": "prompts/krea2-frigid-jaina-p5.txt",
+      "refs": [
+        {
+          "label": "reference",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI-Qwen21\\input\\comic_laundry_ref_trio.png",
+          "file": "images/refs/krea2-frigid-jaina-p5/01-reference.jpg"
+        }
+      ],
+      "service": "ComfyUI (local)",
+      "characters": [
+        "Jaina",
+        "Lilith",
+        "Violet"
+      ]
+    },
+    {
+      "id": "krea2-frigid-jaina-p4",
+      "file": "images/krea2-frigid-jaina-p4.jpg",
+      "source": "p4_s610004_x2.png",
+      "title": "Фригидная Джайна — Лилит: урок практической страсти",
+      "category": "scene",
+      "model": "Krea2 Raw (rawgirlKrea2_v10) + krea2_identity_edit_v1_2, local ComfyUI",
+      "note": "Комикс «Фригидная Джайна», панель 4. 52 steps, cfg 3.5, euler/simple, 1280px + RealESRGAN anime x2. Seed в имени файла: p4_s610004.",
+      "date": "2026-10-01 03:15",
+      "pixels": "1800x1800",
+      "prompt": "One single comic book panel showing one scene, not a character sheet, not a turnaround, not several views of the same woman, no duplicates. No text, no letters, no speech bubbles, no captions. Same stylized 2D fantasy game art as the reference: bold dark outlines, clean cel shading, rich saturated colors, highly detailed illustration with intricate linework, detailed fabric, hair strands and props, soft rim light, sharp focus. Curvy adult women with big expressive cartoon faces and exaggerated comedic expressions. Leave plain empty background space above their heads. A cozy fantasy tavern at night: warm candle light, a heavy wooden table with mugs, wine bottles and a roast chicken, stone walls. LILITH, the same adult succubus as the reference: long glossy dark purple hair, curled red-brown ram horns, pointed ears, purple eyes, red lips, big dark bat wings with red membranes, a thin red devil tail with a spade tip, a black choker, wearing a brown-red laced leather corset, ragged dark purple shorts, dark red spiked gloves and dark purple thigh-high heeled boots. She stands on top of the wooden table like a teacher, chest out, one hand on her hip, the other hand pointing a leather riding crop at the viewer, a confident wicked grin and one raised eyebrow. Behind her a small chalkboard leans on the wall with a crude doodle of a heart and arrows. Low-angle full body shot.",
+      "prompt_file": "prompts/krea2-frigid-jaina-p4.txt",
+      "refs": [
+        {
+          "label": "reference",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI-Qwen21\\input\\comic_laundry_ref_lilith.png",
+          "file": "images/refs/krea2-frigid-jaina-p4/01-reference.jpg"
+        }
+      ],
+      "service": "ComfyUI (local)",
+      "characters": [
+        "Jaina",
+        "Lilith",
+        "Violet"
+      ]
+    },
+    {
+      "id": "krea2-frigid-jaina-p3",
+      "file": "images/krea2-frigid-jaina-p3.jpg",
+      "source": "p3_s610003_x2.png",
+      "title": "Фригидная Джайна — Так ты буквально фригидная!",
+      "category": "scene",
+      "model": "Krea2 Raw (rawgirlKrea2_v10) + krea2_identity_edit_v1_2, local ComfyUI",
+      "note": "Комикс «Фригидная Джайна», панель 3. 52 steps, cfg 3.5, euler/simple, 1280px + RealESRGAN anime x2. Seed в имени файла: p3_s610003.",
+      "date": "2026-10-01 03:15",
+      "pixels": "1800x1800",
+      "prompt": "One single comic book panel showing one scene, not a character sheet, not a turnaround, not several views of the same woman, no duplicates. No text, no letters, no speech bubbles, no captions. Same stylized 2D fantasy game art as the reference: bold dark outlines, clean cel shading, rich saturated colors, highly detailed illustration with intricate linework, detailed fabric, hair strands and props, soft rim light, sharp focus. Curvy adult women with big expressive cartoon faces and exaggerated comedic expressions. Leave plain empty background space above their heads. A cozy fantasy tavern at night: warm candle light, a heavy wooden table with mugs, wine bottles and a roast chicken, stone walls. The three adult women at the wooden table, waist-up. On the left LILITH, the adult succubus on the left of the reference: long glossy dark purple hair, curled red-brown ram horns, pointed ears, purple eyes, red lips, big dark bat wings with red membranes, a thin red devil tail with a spade tip, wearing a brown-red laced leather corset, ragged dark purple shorts, dark red spiked gloves and dark purple thigh-high heeled boots, bursts out laughing and sprays a mouthful of red wine across the table. On the right VIOLET, the adult sorceress on the right of the reference: long wavy golden-blonde hair, blue eyes, a deep purple hood with gold trim, wearing a white-and-gold bikini top, a purple loincloth, wide white-and-purple sleeves, purple fingerless gloves, white thigh-high boots with gold trim, laughs so hard she pounds the table with her fist, tears in her eyes. In the middle JAINA, the adult frost mage in the middle of the reference: long wavy warm yellow-golden blonde hair exactly like the reference (sunny golden blonde, never white, never grey, never silver) with a thick side braid, round human ears, violet-blue eyes, red lips, wearing a blue-and-white mage robe with gold trim and a white fur shoulder mantle, a white corset, a white tabard with a blue anchor, white elbow gloves and white-and-gold thigh-high heeled boots, is furious, her face bright red, steam puffing from her ears, fists raised.",
+      "prompt_file": "prompts/krea2-frigid-jaina-p3.txt",
+      "refs": [
+        {
+          "label": "reference",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI-Qwen21\\input\\comic_laundry_ref_trio.png",
+          "file": "images/refs/krea2-frigid-jaina-p3/01-reference.jpg"
+        }
+      ],
+      "service": "ComfyUI (local)",
+      "characters": [
+        "Jaina",
+        "Lilith",
+        "Violet"
+      ]
+    },
+    {
+      "id": "krea2-frigid-jaina-p2",
+      "file": "images/krea2-frigid-jaina-p2.jpg",
+      "source": "p2_s630002_x2.png",
+      "title": "Фригидная Джайна — Флешбэк: ледяной финиш",
+      "category": "scene",
+      "model": "Krea2 Raw (rawgirlKrea2_v10) + krea2_identity_edit_v1_2, local ComfyUI",
+      "note": "Комикс «Фригидная Джайна», панель 2. 52 steps, cfg 3.5, euler/simple, 1280px + RealESRGAN anime x2. Seed в имени файла: p2_s630002.",
+      "date": "2026-10-01 03:15",
+      "pixels": "1800x1800",
+      "prompt": "One single comic book panel showing one scene, not a character sheet, not a turnaround, not several views of the same woman, no duplicates. No text, no letters, no speech bubbles, no captions. Same stylized 2D fantasy game art as the reference: bold dark outlines, clean cel shading, rich saturated colors, highly detailed illustration with intricate linework, detailed fabric, hair strands and props, soft rim light, sharp focus. Curvy adult women with big expressive cartoon faces and exaggerated comedic expressions. Leave plain empty background space above their heads. Flashback scene with a soft dreamy vignette. A moonlit bedroom with a big wooden bed, cool blue night light. JAINA, the same adult frost mage as the reference: long wavy bright golden-yellow blonde hair exactly like the reference (bright sunny golden blonde, never brown, never red, never white, never silver) with a thick side braid, round human ears, violet-blue eyes. Jaina is fully nude: bare breasts with nipples, bare hips, nothing hangs at her hips, no belt, no loincloth, no cloth panel, no hands over her crotch. Her vulva is a short closed slit flat against the body, labia short and tucked. She sits astride a naked adult man lying on his back on the bed, riding him, her head thrown back in ecstasy, mouth open, eyes closed. At that moment a huge burst of blue frost magic explodes out of her body: the bed, the sheets and the man are instantly frozen, the man is encased in a block of clear ice up to his chin with a horrified face, icicles hang from the bedposts, snowflakes fly. Only her white elbow gloves remain on her. Full body shot.",
+      "prompt_file": "prompts/krea2-frigid-jaina-p2.txt",
+      "refs": [
+        {
+          "label": "reference",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI-Qwen21\\input\\comic_laundry_ref_jaina.png",
+          "file": "images/refs/krea2-frigid-jaina-p2/01-reference.jpg"
+        }
+      ],
+      "service": "ComfyUI (local)",
+      "characters": [
+        "Jaina",
+        "Lilith",
+        "Violet"
+      ]
+    },
+    {
+      "id": "krea2-frigid-jaina-p1",
+      "file": "images/krea2-frigid-jaina-p1.jpg",
+      "source": "p1_s620001_x2.png",
+      "title": "Фригидная Джайна — Таверна: Джайну опять бросили",
+      "category": "scene",
+      "model": "Krea2 Raw (rawgirlKrea2_v10) + krea2_identity_edit_v1_2, local ComfyUI",
+      "note": "Комикс «Фригидная Джайна», панель 1. 52 steps, cfg 3.5, euler/simple, 1280px + RealESRGAN anime x2. Seed в имени файла: p1_s620001.",
+      "date": "2026-10-01 03:15",
+      "pixels": "1800x1800",
+      "prompt": "One single comic book panel showing one scene, not a character sheet, not a turnaround, not several views of the same woman, no duplicates. No text, no letters, no speech bubbles, no captions. Same stylized 2D fantasy game art as the reference: bold dark outlines, clean cel shading, rich saturated colors, highly detailed illustration with intricate linework, detailed fabric, hair strands and props, soft rim light, sharp focus. Curvy adult women with big expressive cartoon faces and exaggerated comedic expressions. Leave plain empty background space above their heads. A cozy fantasy tavern at night: warm candle light, a heavy wooden table with mugs, wine bottles and a roast chicken, stone walls. The three adult women sit together at the wooden table, seen from the front, waist-up. In the middle JAINA, the adult frost mage in the middle of the reference: long wavy warm yellow-golden blonde hair exactly like the reference (sunny golden blonde, never white, never grey, never silver) with a thick side braid, round human ears, violet-blue eyes, red lips, wearing a blue-and-white mage robe with gold trim and a white fur shoulder mantle, a white corset, a white tabard with a blue anchor, white elbow gloves and white-and-gold thigh-high heeled boots, slumps over a big beer mug with a gloomy heartbroken face and a dark cloud of sadness over her head. On the left LILITH, the adult succubus on the left of the reference: long glossy dark purple hair, curled red-brown ram horns, pointed ears, purple eyes, red lips, big dark bat wings with red membranes, a thin red devil tail with a spade tip, wearing a brown-red laced leather corset, ragged dark purple shorts, dark red spiked gloves and dark purple thigh-high heeled boots, leans in with a wine glass and a sly teasing smirk. On the right VIOLET, the adult sorceress on the right of the reference: long wavy golden-blonde hair, blue eyes, a deep purple hood with gold trim, wearing a white-and-gold bikini top, a purple loincloth, wide white-and-purple sleeves, purple fingerless gloves, white thigh-high boots with gold trim, props her chin on her hand, curious and sympathetic.",
+      "prompt_file": "prompts/krea2-frigid-jaina-p1.txt",
+      "refs": [
+        {
+          "label": "reference",
+          "source": "C:\\Users\\hebp\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI-Qwen21\\input\\comic_laundry_ref_trio.png",
+          "file": "images/refs/krea2-frigid-jaina-p1/01-reference.jpg"
+        }
+      ],
+      "service": "ComfyUI (local)",
+      "characters": [
+        "Jaina",
+        "Lilith",
+        "Violet"
+      ]
+    },
     {
       "id": "disney-comic-v2-page-3",
       "file": "images/disney-comic-v2-page-3.jpg",

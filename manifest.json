@@ -2,9 +2,86 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-09-30T14:58+04:00",
+  "updated": "2026-09-30T16:04+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "krea2-rawgirl-angle-06",
+      "file": "images/krea2-rawgirl-angle-06.jpg",
+      "source": "angle06-plain-max-78106.png",
+      "title": "Bench low angle",
+      "category": "scene",
+      "model": "RawGirl Krea 2",
+      "note": "MAX, low angle between raised legs. Husband sits beside her and does not hold her hand.",
+      "date": "2026-09-30 16:04",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "krea2 identity edit v1.2",
+          "url": "1.0"
+        },
+        {
+          "name": "anal helper krea2",
+          "url": "0.80"
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
+    {
+      "id": "krea2-rawgirl-angle-05",
+      "file": "images/krea2-rawgirl-angle-05.jpg",
+      "source": "angle05-pixar-max-78105.png",
+      "title": "Bench low angle Pixar",
+      "category": "scene",
+      "model": "RawGirl Krea 2",
+      "note": "MAX, low angle between raised legs. Husband sits beside her and does not hold her hand.",
+      "date": "2026-09-30 16:04",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "krea2 identity edit v1.2",
+          "url": "1.0"
+        },
+        {
+          "name": "Pixar Disney 3D Style",
+          "url": "https://civitai.red/models/2831766",
+          "strength": 0.7
+        },
+        {
+          "name": "anal helper krea2",
+          "url": "0.88"
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
+    {
+      "id": "krea2-rawgirl-angle-03",
+      "file": "images/krea2-rawgirl-angle-03.jpg",
+      "source": "angle03-plain-max-78103.png",
+      "title": "Bench low angle plain",
+      "category": "scene",
+      "model": "RawGirl Krea 2",
+      "note": "MAX, low angle between raised legs. Husband sits beside her and does not hold her hand.",
+      "date": "2026-09-30 16:04",
+      "pixels": "1024x1536",
+      "loras": [
+        {
+          "name": "krea2 identity edit v1.2",
+          "url": "1.0"
+        },
+        {
+          "name": "anal helper krea2",
+          "url": "0.92"
+        }
+      ],
+      "characters": [
+        "Red"
+      ]
+    },
     {
       "id": "wan30-orc-chosen-hole-20s-2",
       "file": "images/wan30-orc-chosen-hole-20s-2.mp4",

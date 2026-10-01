@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "krea2-poker-p07",
+      "file": "images/krea2-poker-p07.jpg",
+      "source": "p07.png",
+      "title": "Poker Comic 7/10 - Bare Hips",
+      "category": "scene",
+      "model": "Krea 2",
+      "note": "",
+      "date": "2026-10-01 11:53",
+      "pixels": "1024x1024",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "krea2-poker-p06",
       "file": "images/krea2-poker-p06.jpg",
       "source": "p06.png",

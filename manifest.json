@@ -2,9 +2,23 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-01T12:08+04:00",
+  "updated": "2026-10-01T13:20+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "sylvanas-windrunner-front-back",
+      "file": "images/sylvanas-windrunner-front-back.jpg",
+      "source": "sylvanas-front-back-sheet.jpg",
+      "title": "Сильвана Ветрокрылая, фронт и спина",
+      "category": "sheet",
+      "model": "Grok",
+      "note": "",
+      "date": "2026-10-01 13:20",
+      "pixels": "1280x720",
+      "characters": [
+        "Sylvanas"
+      ]
+    },
     {
       "id": "krea2-poker-p10",
       "file": "images/krea2-poker-p10.jpg",

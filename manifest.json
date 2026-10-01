@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "krea2-poker-p05",
+      "file": "images/krea2-poker-p05.jpg",
+      "source": "p05.png",
+      "title": "Poker Comic 5/10 - Raise",
+      "category": "scene",
+      "model": "Krea 2",
+      "note": "",
+      "date": "2026-10-01 11:53",
+      "pixels": "1024x1024",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "krea2-poker-p04",
       "file": "images/krea2-poker-p04.jpg",
       "source": "p04.png",

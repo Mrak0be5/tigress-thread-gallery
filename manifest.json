@@ -2,9 +2,23 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-01T08:37+04:00",
+  "updated": "2026-10-01T08:50+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "krea2-mirnyy-dogovor-1",
+      "file": "images/krea2-mirnyy-dogovor-1.jpg",
+      "source": "mirnyy-dogovor.jpg",
+      "title": "Мирный договор (комикс, часть 1)",
+      "category": "scene",
+      "model": "Krea 2 Raw (rawgirlKrea2_v10) + NSFW LoRA",
+      "note": "",
+      "date": "2026-10-01 08:50",
+      "pixels": "1800x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "krea2-comic-gavin-x3",
       "file": "images/krea2-comic-gavin-x3.jpg",

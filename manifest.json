@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "maiev-shadowsong-style-match",
+      "file": "images/maiev-shadowsong-style-match.jpg",
+      "source": "maiev-style-match-v3.jpg",
+      "title": "Маэв, лист в стиле референса",
+      "category": "sheet",
+      "model": "Grok",
+      "note": "",
+      "date": "2026-10-01 13:25",
+      "pixels": "1280x720",
+      "characters": [
+        "Maiev"
+      ]
+    },
+    {
       "id": "sylvanas-windrunner-style-match",
       "file": "images/sylvanas-windrunner-style-match.jpg",
       "source": "sylvanas-style-match-v3.jpg",

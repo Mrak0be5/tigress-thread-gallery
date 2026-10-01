@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "krea2-mirnyy-dogovor-2",
+      "file": "images/krea2-mirnyy-dogovor-2.jpg",
+      "source": "mirnyy-dogovor-2-ratifikaciya.jpg",
+      "title": "Мирный договор 2: Ратификация (комикс)",
+      "category": "scene",
+      "model": "Krea 2 Raw (rawgirlKrea2_v10) + NSFW LoRA",
+      "note": "",
+      "date": "2026-10-01 08:50",
+      "pixels": "1800x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "krea2-mirnyy-dogovor-1",
       "file": "images/krea2-mirnyy-dogovor-1.jpg",
       "source": "mirnyy-dogovor.jpg",

@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "krea2-poker-p03",
+      "file": "images/krea2-poker-p03.jpg",
+      "source": "p03.png",
+      "title": "Poker Comic 3/10 - The Men Arrive",
+      "category": "scene",
+      "model": "Krea 2",
+      "note": "",
+      "date": "2026-10-01 11:53",
+      "pixels": "1024x1024",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "krea2-poker-p02",
       "file": "images/krea2-poker-p02.jpg",
       "source": "p02.png",

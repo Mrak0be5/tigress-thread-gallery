@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "maiev-shadowsong-front-back",
+      "file": "images/maiev-shadowsong-front-back.jpg",
+      "source": "maiev-front-back-sheet.jpg",
+      "title": "Маэв Песнь Теней, фронт и спина",
+      "category": "sheet",
+      "model": "Grok",
+      "note": "",
+      "date": "2026-10-01 13:20",
+      "pixels": "1280x720",
+      "characters": [
+        "Maiev"
+      ]
+    },
+    {
       "id": "sylvanas-windrunner-front-back",
       "file": "images/sylvanas-windrunner-front-back.jpg",
       "source": "sylvanas-front-back-sheet.jpg",

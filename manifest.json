@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "krea2-poker-p02",
+      "file": "images/krea2-poker-p02.jpg",
+      "source": "p02.png",
+      "title": "Poker Comic 2/10 - The Hand",
+      "category": "scene",
+      "model": "Krea 2",
+      "note": "",
+      "date": "2026-10-01 11:53",
+      "pixels": "1024x1024",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "krea2-poker-p01",
       "file": "images/krea2-poker-p01.jpg",
       "source": "p01.png",

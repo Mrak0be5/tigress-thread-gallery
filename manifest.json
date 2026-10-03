@@ -2,9 +2,27 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-03T07:27+04:00",
+  "updated": "2026-10-03T07:39+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "ltx25-hq-thrust-voice",
+      "file": "images/ltx25-hq-thrust-voice.mp4",
+      "source": "hq-thrust-voice_00001_.mp4",
+      "title": "LTX 2.5 thrusts with Russian line",
+      "category": "video",
+      "model": "LTX 2.5",
+      "note": "",
+      "date": "2026-10-03 07:39",
+      "pixels": "0x0",
+      "poster": "images/posters/ltx25-hq-thrust-voice.jpg",
+      "stream": "images/stream/ltx25-hq-thrust-voice.mp4",
+      "prompt": "Sound fix: stage-2 refine was re-noising the audio latent from sigma 0.909 and leaving quiet hiss. This clip decodes the stage-1 audio instead. Dev int8, 50 steps, video CFG 3, audio CFG 7, STG 28, modality 3, insertion LoRA 0.8, 1920x1280. Seeds 19061/19062.\n\nAnal insertion. A static low-angle shot from behind holds on an illustrated adult woman bent over a wooden bench on a sunny city sidewalk, natural daylight, warm shopfront colors, glossy skin and the grid of her fishnet stockings. A large green-skinned orc above her thrusts his huge green penis into her anus in heavy strokes, sinking the shaft deep on each push. On every thrust she winces in pain: brows pulled tight, eyes squeezed shut, mouth opening as she speaks Russian in a strained voice, saying \"Р‘РѕР»СЊРЅРѕ, С…РІР°С‚РёС‚.\" Her short red bob, green eyes, pale skin, fishnet stockings, black combat boots and black arm sleeves stay the same, and her vulva stays a short closed slit flat against the body, labia short and tucked. The camera does not move. Her Russian words stay clear and close, a dull impact lands with each thrust, and quiet shoes on the pavement sit under her voice.",
+      "prompt_file": "prompts/ltx25-hq-thrust-voice.txt",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "ltx25-hq-enter-hold-out",
       "file": "images/ltx25-hq-enter-hold-out.mp4",

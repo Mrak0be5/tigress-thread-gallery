@@ -2,9 +2,27 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-03T10:33+04:00",
+  "updated": "2026-10-03T10:34+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "ltx25-dev-3d-anim-rife",
+      "file": "images/ltx25-dev-3d-anim-rife.mp4",
+      "source": "rife-dev-3d-anim_00001_.mp4",
+      "title": "LTX 2.5 3D anim, RIFE 48fps",
+      "category": "video",
+      "model": "LTX 2.5 / RIFE 4.26",
+      "note": "",
+      "date": "2026-10-03 10:34",
+      "pixels": "0x0",
+      "poster": "images/posters/ltx25-dev-3d-anim-rife.jpg",
+      "stream": "images/stream/ltx25-dev-3d-anim-rife.mp4",
+      "prompt": "RIFE 4.26 heavy, multiplier 2, 48 fps, 1920x1280. Same decoded frames as the source clip, with one interpolated frame between each original frame. Audio kept.",
+      "prompt_file": "prompts/ltx25-dev-3d-anim-rife.txt",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "ltx25-hq-thrust-voice-rife",
       "file": "images/ltx25-hq-thrust-voice-rife.mp4",

@@ -1,0 +1,1 @@
+RIFE 4.26 heavy, multiplier 2, 48 fps, 1920x1280. Same decoded frames as the source clip, with one interpolated frame between each original frame. Audio kept.

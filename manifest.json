@@ -6,6 +6,24 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "ltx25-dist-insertion-rife",
+      "file": "images/ltx25-dist-insertion-rife.mp4",
+      "source": "rife-dist-insertion_00001_.mp4",
+      "title": "LTX 2.5 distilled insertion, RIFE 48fps",
+      "category": "video",
+      "model": "LTX 2.5 / RIFE 4.26",
+      "note": "",
+      "date": "2026-10-03 10:34",
+      "pixels": "0x0",
+      "poster": "images/posters/ltx25-dist-insertion-rife.jpg",
+      "stream": "images/stream/ltx25-dist-insertion-rife.mp4",
+      "prompt": "RIFE 4.26 heavy, multiplier 2, 48 fps, 1920x1280. Same decoded frames as the source clip, with one interpolated frame between each original frame. Audio kept.",
+      "prompt_file": "prompts/ltx25-dist-insertion-rife.txt",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "ltx25-dev-3d-anim-rife",
       "file": "images/ltx25-dev-3d-anim-rife.mp4",
       "source": "rife-dev-3d-anim_00001_.mp4",

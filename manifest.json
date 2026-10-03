@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "krea2-pm4-side",
+      "file": "images/krea2-pm4-side.jpg",
+      "source": "s1303.png",
+      "title": "Pornmaster v4, сбоку",
+      "category": "scene",
+      "model": "pornmasterKrea2 v4 bf16",
+      "note": "edit, ref 0.35, fp8, 8 steps",
+      "date": "2026-10-03 12:20",
+      "pixels": "1024x1280",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "krea2-pm4-back",
       "file": "images/krea2-pm4-back.jpg",
       "source": "s1302.png",

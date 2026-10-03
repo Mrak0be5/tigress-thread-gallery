@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "krea-maid-tavern-sidebook",
+      "file": "images/krea-maid-tavern-sidebook.jpg",
+      "source": "s723.png",
+      "title": "Горничная: с книгой",
+      "category": "scene",
+      "model": "Krea 2 Edit SNOFS Merge v1.0",
+      "note": "",
+      "date": "2026-10-03 16:19",
+      "pixels": "1024x1536",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "krea-maid-tavern-doggy",
       "file": "images/krea-maid-tavern-doggy.jpg",
       "source": "s722.png",

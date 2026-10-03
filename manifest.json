@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "slave-comic-snofs-day3",
+      "file": "images/slave-comic-snofs-day3.jpg",
+      "source": "page3.png",
+      "title": "Рабский комикс. День третий. Таурены и огры. Скука.",
+      "category": "sheet",
+      "model": "Krea 2 Edit SNOFS Merge v1.0",
+      "note": "",
+      "date": "2026-10-03 20:44",
+      "pixels": "1735x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "slave-comic-snofs-inspect2",
       "file": "images/slave-comic-snofs-inspect2.jpg",
       "source": "inspect2.png",

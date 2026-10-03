@@ -2,9 +2,39 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-01T14:57+04:00",
+  "updated": "2026-10-03T04:56+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "ltx25-bench-anal-5s",
+      "file": "images/ltx25-bench-anal-5s.mp4",
+      "source": "anal-test_00001_.mp4",
+      "title": "LTX 2.5 bench anal 5s",
+      "category": "video",
+      "model": "LTX 2.5 dev int8",
+      "note": "",
+      "date": "2026-10-03 04:56",
+      "pixels": "0x0",
+      "poster": "images/posters/ltx25-bench-anal-5s.jpg",
+      "stream": "images/stream/ltx25-bench-anal-5s.mp4",
+      "prompt": "Anal insertion. Hard deep anal thrusting on a sidewalk bench, pained expression. I2V from the supplied still. LTX 2.5 dev int8, DMD hybrid v2 at 1.0, anal insertion lora at 0.8, 121 frames, 24 fps, stage1 768x512 then spatial x2.",
+      "prompt_file": "prompts/ltx25-bench-anal-5s.txt",
+      "loras": [
+        {
+          "name": "LTX2.3 DMD hybrid v2",
+          "url": "https://huggingface.co/TenStrip/LTX2.3_DMD_Lora",
+          "strength": 1.0
+        },
+        {
+          "name": "Anal insertion LTX 2.3",
+          "url": "https://civitai.com/models/2002532",
+          "strength": 0.8
+        }
+      ],
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "wowkrea2-ab-t35-strappado",
       "file": "images/wowkrea2-ab-t35-strappado.jpg",

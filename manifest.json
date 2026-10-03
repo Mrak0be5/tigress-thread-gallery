@@ -2,9 +2,52 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-03T11:21+04:00",
+  "updated": "2026-10-03T11:40+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "wan30-bench-orc-anal-gape-10s",
+      "file": "images/wan30-bench-orc-anal-gape-10s.mp4",
+      "source": "wan30-bench-orc-anal-10s-480p.mp4",
+      "title": "Скамейка: орк, глубокий анал, гейп",
+      "category": "video",
+      "model": "Wan 3.0",
+      "note": "10s 480P 4:3 wan3.0-video",
+      "date": "2026-10-03 11:39",
+      "pixels": "0x0",
+      "poster": "images/posters/wan30-bench-orc-anal-gape-10s.jpg",
+      "stream": "images/stream/wan30-bench-orc-anal-gape-10s.mp4",
+      "prompt": "Image 1 is the pose, the wooden bench, the daytime street, and the locked camera. Image 2 is the orc: green thighs and a thick dark ridged penis. Image 3 is only the woman's identity: short red bob, green eyes, black choker, black arm sleeves, fishnet stockings with solid black bands, black platform boots. Do not reproduce Image 3 as a character sheet. Image 4 is only the open anus after the penis leaves; ignore the cup and the food in that picture.\n\nOne continuous anime scene on a sunny city sidewalk. The woman from Image 3 lies prone on the bench exactly as in Image 1: knees on the wood, hips raised toward the lens, chest down, looking back over her shoulder, both hands empty on the bench. Her vulva is a short closed slit flat against the body, labia short and tucked. Clothed pedestrians stay in the background and keep walking.\n\nShot 1 [0-7s]: static locked-off rear view. The orc from Image 2 fucks her anus deep and steady. Only his green thighs and thick dark penis are in frame, no face. The shaft stays buried to the base, hips flush against her ass, slow hard thrusts. She gasps, blushing.\n\nShot 2 [7-10s]: same locked camera. He draws the penis fully out of her anus and holds it just above her. Her anus stays open, dark, and round like Image 4. The short closed slit stays flat and tucked. Her hands stay empty on the bench, no cup, no food.\n\nAudio. Foreground: wet thrusts, then one slick pull-out. Bed: her short breathy moan. Background: footsteps and distant street talk.\nStyle: the same clean anime rendering as the references, daylight, glossy skin.\nKeep her face, hair, outfit, and the bench framing fixed. No extra limbs, no text, no cup, no food, no orc face, no character-sheet layout.",
+      "prompt_file": "prompts/wan30-bench-orc-anal-gape-10s.txt",
+      "refs": [
+        {
+          "label": "Image 1 pose",
+          "source": "https://files.catbox.moe/lp5zr0.jpg",
+          "file": "images/refs/wan30-bench-orc-anal-gape-10s/01-image-1-pose.jpg"
+        },
+        {
+          "label": "Image 2 orc",
+          "source": "https://files.catbox.moe/5142l3.jpg",
+          "file": "images/refs/wan30-bench-orc-anal-gape-10s/02-image-2-orc.jpg"
+        },
+        {
+          "label": "Image 3 identity",
+          "source": "https://files.catbox.moe/rag9tx.jpg",
+          "file": "images/refs/wan30-bench-orc-anal-gape-10s/03-image-3-identity.jpg"
+        },
+        {
+          "label": "Image 4 gape",
+          "source": "https://files.catbox.moe/fxp80t.jpg",
+          "file": "images/refs/wan30-bench-orc-anal-gape-10s/04-image-4-gape.jpg"
+        }
+      ],
+      "service": "reAPI",
+      "service_url": "https://reapi.ai",
+      "service_model_url": "https://reapi.ai/models/wan-3-0",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "ltx25-dist-pullout-5s",
       "file": "images/ltx25-dist-pullout-5s.mp4",

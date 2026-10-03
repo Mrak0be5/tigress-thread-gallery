@@ -2,9 +2,23 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-03T16:03+04:00",
+  "updated": "2026-10-03T16:15+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "krea2-snofs-raw-max-60",
+      "file": "images/krea2-snofs-raw-max-60.jpg",
+      "source": "s1410.png",
+      "title": "Рыжая, 60 шагов, сырой SNOFS",
+      "category": "scene",
+      "model": "SNOFS Krea 2 Raw v1.4 bf16",
+      "note": "60 steps, cfg 3.5, euler/simple, native bf16, edit ref_boost 0.32",
+      "date": "2026-10-03 16:15",
+      "pixels": "1024x1536",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "wan30-bench-judy-30s",
       "file": "images/wan30-bench-judy-30s.mp4",

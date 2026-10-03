@@ -2,9 +2,27 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-03T06:21+04:00",
+  "updated": "2026-10-03T06:44+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "ltx25-hq-dev-1920",
+      "file": "images/ltx25-hq-dev-1920.mp4",
+      "source": "hq-dev-1920_00001_.mp4",
+      "title": "LTX 2.5 dev HQ 1920x1280",
+      "category": "video",
+      "model": "LTX 2.5",
+      "note": "",
+      "date": "2026-10-03 06:44",
+      "pixels": "0x0",
+      "poster": "images/posters/ltx25-hq-dev-1920.jpg",
+      "stream": "images/stream/ltx25-hq-dev-1920.mp4",
+      "prompt": "HQ. LTX 2.5 dev int8, no DMD. Stage 1 960x640, 30 steps, euler, shift 2.05/0.95 terminal 0.1, video CFG 3, audio CFG 7, STG block 28 scale 1, modality 3. Stage 2 spatial x2 to 1920x1280, sigmas 0.909375, 0.725, 0.421875, 0.0, CFG 1. Insertion LoRA 0.8, better NSFW motion 0.4. Image strength 0.75 then 0.7. Seeds 18421/18422. 121 frames, 24 fps.\n\nAnal insertion. The video depicts a man thrusting his large penis deep and hard into the woman's anus, being penetrated by the man's large p3nis. He helps to guide it in. Fast heavy strokes drive far inside and pull back only to slam in again, while she is bent over a wooden bench on a busy city sidewalk. She winces in pain, eyes tight, brows drawn, mouth open, tears at the corners of her eyes, she finds it unpleasant and it hurts. Same woman throughout: short red bob, green eyes, pale skin, fishnet stockings, black combat boots, black arm sleeves, illustrated style. Her vulva is a short closed slit flat against the body, labia short and tucked. Low camera stays behind her, the large figure above her keeps thrusting, pedestrians stay in the background.",
+      "prompt_file": "prompts/ltx25-hq-dev-1920.txt",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "ltx25-t8-insertion-motion",
       "file": "images/ltx25-t8-insertion-motion.mp4",

@@ -1,0 +1,1 @@
+T0 baseline. LTX 2.5 dev int8, DMD hybrid v2 at 1.0, no content LoRA. Image strength 0.75 then 0.7. 121 frames, 24 fps, 768x512 then spatial x2. euler_ancestral, CFG 1/1.

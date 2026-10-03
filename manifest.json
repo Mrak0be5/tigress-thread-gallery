@@ -2,9 +2,27 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-03T04:56+04:00",
+  "updated": "2026-10-03T06:00+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "ltx25-t0-dmd-baseline",
+      "file": "images/ltx25-t0-dmd-baseline.mp4",
+      "source": "t0-baseline_00001_.mp4",
+      "title": "LTX 2.5 T0 baseline DMD",
+      "category": "video",
+      "model": "LTX 2.5",
+      "note": "",
+      "date": "2026-10-03 06:00",
+      "pixels": "0x0",
+      "poster": "images/posters/ltx25-t0-dmd-baseline.jpg",
+      "stream": "images/stream/ltx25-t0-dmd-baseline.mp4",
+      "prompt": "T0 baseline. LTX 2.5 dev int8, DMD hybrid v2 at 1.0, no content LoRA. Image strength 0.75 then 0.7. 121 frames, 24 fps, 768x512 then spatial x2. euler_ancestral, CFG 1/1.",
+      "prompt_file": "prompts/ltx25-t0-dmd-baseline.txt",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "ltx25-bench-anal-5s",
       "file": "images/ltx25-bench-anal-5s.mp4",

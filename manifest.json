@@ -2,9 +2,27 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-03T08:52+04:00",
+  "updated": "2026-10-03T09:00+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "ltx25-dev-2d-motion",
+      "file": "images/ltx25-dev-2d-motion.mp4",
+      "source": "dev-2d-motion_00001_.mp4",
+      "title": "LTX 2.5 dev 2D NSFW motion",
+      "category": "video",
+      "model": "LTX 2.5",
+      "note": "",
+      "date": "2026-10-03 09:00",
+      "pixels": "0x0",
+      "poster": "images/posters/ltx25-dev-2d-motion.jpg",
+      "stream": "images/stream/ltx25-dev-2d-motion.mp4",
+      "prompt": "2D NSFW motion at 1.0. Checkpoint 50 dev. Same still, same prompt, seeds 19061/19062. Audio from stage 1.\n\nAnal insertion. A static low-angle shot from behind holds on an illustrated adult woman bent over a wooden bench on a sunny city sidewalk, natural daylight, warm shopfront colors, glossy skin and the grid of her fishnet stockings. A large green-skinned orc above her thrusts his huge green penis into her anus in heavy strokes, sinking the shaft deep on each push. On every thrust she winces in pain: brows pulled tight, eyes squeezed shut, mouth opening as she speaks Russian in a strained voice, saying \"Больно, хватит.\" Her short red bob, green eyes, pale skin, fishnet stockings, black combat boots and black arm sleeves stay the same, and her vulva stays a short closed slit flat against the body, labia short and tucked. The camera does not move. Her Russian words stay clear and close, a dull impact lands with each thrust, and quiet shoes on the pavement sit under her voice.",
+      "prompt_file": "prompts/ltx25-dev-2d-motion.txt",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "ltx25-dev-3d-anim",
       "file": "images/ltx25-dev-3d-anim.mp4",

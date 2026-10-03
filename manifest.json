@@ -2,9 +2,23 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-03T15:21+04:00",
+  "updated": "2026-10-03T15:34+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "krea2-snofs-raw-bench-interview",
+      "file": "images/krea2-snofs-raw-bench-interview.jpg",
+      "source": "s1403.png",
+      "title": "Рыжая на скамейке, интервью",
+      "category": "scene",
+      "model": "SNOFS Krea 2 Raw v1.4 bf16",
+      "note": "50 steps, cfg 3.5, euler/simple, edit ref_boost 0.32",
+      "date": "2026-10-03 15:34",
+      "pixels": "1024x1536",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "wan30-bench-reporter-spread-30s",
       "file": "images/wan30-bench-reporter-spread-30s.mp4",

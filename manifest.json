@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "slave-comic-day3-ogres-9",
+      "file": "images/slave-comic-day3-ogres-9.jpg",
+      "source": "page3.png",
+      "title": "Рабский комикс. День 3. Огры",
+      "category": "scene",
+      "model": "Krea 2 Edit SNOFS Merge v1.0",
+      "note": "",
+      "date": "2026-10-04 16:28",
+      "pixels": "1638x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "slave-comic-day2-orcs-9",
       "file": "images/slave-comic-day2-orcs-9.jpg",
       "source": "page2.png",

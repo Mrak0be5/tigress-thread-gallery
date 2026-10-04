@@ -2,9 +2,23 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-04T11:26+04:00",
+  "updated": "2026-10-04T11:33+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "krea2-snofs-raw-park-bench",
+      "file": "images/krea2-snofs-raw-park-bench.jpg",
+      "source": "s1421.png",
+      "title": "Рыжая лежит на скамейке в парке",
+      "category": "scene",
+      "model": "SNOFS Krea 2 Raw v1.4 bf16",
+      "note": "Edit of the standing redhead. 60 steps, cfg 3.5, native bf16, ref_boost 0.18",
+      "date": "2026-10-04 11:33",
+      "pixels": "1024x1536",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "krea-maid-tavern-chicken-50",
       "file": "images/krea-maid-tavern-chicken-50.jpg",

@@ -2,9 +2,23 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-04T22:10+04:00",
+  "updated": "2026-10-04T23:15+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "medivh-library-page1-comic",
+      "file": "images/medivh-library-page1-comic.jpg",
+      "source": "page1-comic.png",
+      "title": "Великая библиотека Медива, страница 1",
+      "category": "sheet",
+      "model": "Krea 2 SNOFS v10",
+      "note": "",
+      "date": "2026-10-04 23:15",
+      "pixels": "1218x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "medivh-library-page1-lora",
       "file": "images/medivh-library-page1-lora.jpg",

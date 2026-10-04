@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "slave-comic-snofs-day3-panel7",
+      "file": "images/slave-comic-snofs-day3-panel7.jpg",
+      "source": "page3-panel7.png",
+      "title": "Рабский комикс. День третий. Кадр 7.",
+      "category": "sheet",
+      "model": "Krea 2 Edit SNOFS Merge v1.0",
+      "note": "",
+      "date": "2026-10-04 11:48",
+      "pixels": "1800x1390",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "slave-comic-snofs-day3b",
       "file": "images/slave-comic-snofs-day3b.jpg",
       "source": "page3.png",

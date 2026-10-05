@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "library-gnome-fours-cel-2753",
+      "file": "images/library-gnome-fours-cel-2753.jpg",
+      "source": "s2753.png",
+      "title": "Alexstrasza on all fours, gnome, cel shade",
+      "category": "scene",
+      "model": "Krea2 turbo",
+      "note": "",
+      "date": "2026-10-05 22:57",
+      "pixels": "768x1152",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "library-goblin-side-cel-2751",
       "file": "images/library-goblin-side-cel-2751.jpg",
       "source": "s2751.png",

@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "library-goblin-fours-disney-2772",
+      "file": "images/library-goblin-fours-disney-2772.jpg",
+      "source": "s2772.png",
+      "title": "Alexstrasza on all fours, green goblin, Disney",
+      "category": "scene",
+      "model": "Krea2 turbo Disney",
+      "note": "",
+      "date": "2026-10-05 23:33",
+      "pixels": "768x1152",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "library-goblin-side-disney-2771",
       "file": "images/library-goblin-side-disney-2771.jpg",
       "source": "s2771.png",

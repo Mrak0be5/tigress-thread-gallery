@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "fineporn-v5-cafe-call-char",
+      "file": "images/fineporn-v5-cafe-call-char.jpg",
+      "source": "cafe-call-comic-char.jpg",
+      "title": "Созвон без трусов, персонаж с референса",
+      "category": "scene",
+      "model": "FinePorn v5",
+      "note": "",
+      "date": "2026-10-05 04:26",
+      "pixels": "1186x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "tavern-cat-gape-s9221",
       "file": "images/tavern-cat-gape-s9221.jpg",
       "source": "tavern_cat_gape2.png",

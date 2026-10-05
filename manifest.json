@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "octo-statue-alone-2062",
+      "file": "images/octo-statue-alone-2062.jpg",
+      "source": "s2062.png",
+      "title": "Large octopus-skull statue in the dungeon",
+      "category": "scene",
+      "model": "FinePorn V5",
+      "note": "",
+      "date": "2026-10-05 09:47",
+      "pixels": "512x768",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "octo-statue-alone-2061",
       "file": "images/octo-statue-alone-2061.jpg",
       "source": "s2061.png",

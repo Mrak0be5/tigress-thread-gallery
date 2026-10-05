@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "fp-dragon-pose-bend",
+      "file": "images/fp-dragon-pose-bend.jpg",
+      "source": "s55121.png",
+      "title": "Дракон, согнувшись",
+      "category": "scene",
+      "model": "FinePorn v5",
+      "note": "",
+      "date": "2026-10-06 02:31",
+      "pixels": "1024x1024",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "fp-dragon-pose-side",
       "file": "images/fp-dragon-pose-side.jpg",
       "source": "s55111.png",

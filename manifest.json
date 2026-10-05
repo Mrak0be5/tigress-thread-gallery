@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "knight-cafe-pose-88023",
+      "file": "images/knight-cafe-pose-88023.jpg",
+      "source": "s88023.png",
+      "title": "Knight cafe pose 88023",
+      "category": "scene",
+      "model": "fineporn V5",
+      "note": "",
+      "date": "2026-10-05 07:59",
+      "pixels": "1024x1536",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "knight-cafe-pose-88021",
       "file": "images/knight-cafe-pose-88021.jpg",
       "source": "s88021.png",

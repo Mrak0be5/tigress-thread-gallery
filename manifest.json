@@ -6,6 +6,22 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "tavern-cat-tail-large-s9312",
+      "file": "images/tavern-cat-tail-large-s9312.jpg",
+      "source": "tavern_cat_tail-large.png",
+      "title": "Tavern cat tail large s9312",
+      "category": "scene",
+      "model": "FinePorn v5 BF16",
+      "note": "",
+      "date": "2026-10-05 06:24",
+      "pixels": "1152x1536",
+      "prompt": "g4pe. The anus beside the tail is a big smooth round open hole. cel-shaded fantasy character art, clean ink outlines, flat colors, short orange fur. The same adult orange tabby cat, same armor, same raised legs pressed together, same one gnome. Orange and cream fur covers her belly and buttocks. Her vulva is a short closed slit lying flat against her body with short tucked labia. Fur surrounds that slit. Exactly two adults. No penis. One tail.",
+      "prompt_file": "prompts/tavern-cat-tail-large-s9312.txt",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "tavern-cat-tail-medium-s9311",
       "file": "images/tavern-cat-tail-medium-s9311.jpg",
       "source": "tavern_cat_tail-medium.png",

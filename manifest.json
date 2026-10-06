@@ -2,9 +2,27 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-06T03:36+04:00",
+  "updated": "2026-10-07T00:50+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "madrimov-spine-survivors-storyboard-4k",
+      "file": "images/madrimov-spine-survivors-storyboard-4k.jpg",
+      "source": "storyboard_4k.png",
+      "title": "Madrimov Spine Survivors - storyboard 3x3 (4K)",
+      "category": "sheet",
+      "model": "GPT Image 2 (high, 2160x3840)",
+      "note": "Storyboard for Seedance 2.0 reel, 9 panels 9:16",
+      "date": "2026-10-07 00:50",
+      "pixels": "1012x1800",
+      "prompt": "Intended use: a production storyboard sheet for a 30-second vertical Instagram Reels ad, to be used as visual reference for an AI video model. One single image containing an exact 3x3 grid of nine equal vertical 9:16 panels, read left to right, top to bottom. Panels are separated by thin straight white gutters, no outer frame, no panel numbers, no captions outside the panels.\n\nVisual style for every panel (identical across all nine): a polished casual mobile game in the style of a \"survivors\"-type arena brawler. Chunky stylized 3D characters with big heads and soft rounded shapes, clean toon shading, saturated bright colors, soft ambient occlusion, crisp readable silhouettes. Camera: high-angle three-quarter top-down game camera looking down at about 55 degrees, the hero always near the center of the frame, the same lens and height in every gameplay panel. Arena floor: a bright city plaza with light paving tiles, small green bushes and lamp posts at the edges. A simple game HUD in every gameplay panel: a rounded red-and-green \"back health\" bar at the top labeled \"СПИНА\", and a small wave counter at the top right.\n\nRecurring characters (keep them exactly the same in all panels):\n- HERO: a young office worker, short brown hair, white shirt with rolled sleeves, loose blue tie, dark trousers, tired face, slightly hunched posture.\n- DOCTOR: a friendly confident man in navy-blue medical scrubs, clean-shaven head, short dark well-groomed beard, calm smile, white sneakers. Stylized cartoon character, not a real person likeness.\n\nPanels:\n1. HOOK. The hero stands hunched in the middle of the plaza staring down at a glowing smartphone, a huge iron weight with the text \"27 КГ\" hangs from his neck, pulling his head down. A red warning icon pulses over his lower back. The health bar is half empty.\n2. WAVE 1. A swarm of angry cartoon office chairs and snapping laptops with angry eyes charge at the hero from all sides. The hero throws white paper airplanes at them, small hit sparks and number pop-ups \"-12\" fly around.\n3. WAVE 2. Small angry toy cars with headlight eyes circle and honk at the hero, cartoon \"БИП!\" speech bubbles above them, dust trails on the tiles. The health bar drops lower, red flashes on the hero's back.\n4. BOSS. A giant smartphone monster with tiny arms and an angry face on its screen towers over the plaza and fires red notification bubbles with \"99+\" at the hero. The hero ducks, the camera stays high and wide.\n5. LOW HEALTH. The hero kneels on one knee, holding his lower back, the screen edges glow red, the health bar is almost empty and blinking. Enemies freeze around him in a ring. Big text in the center of the panel: \"СПИНА НА ПРЕДЕЛЕ\".\n6. LEVEL UP. The game is dimmed behind a \"LEVEL UP!\" banner. Three upgrade cards are shown side by side: a grey card \"ТЕРПЕТЬ\", a grey card \"ОТЛОЖИТЬ\", and a large glowing golden legendary card in the middle \"ДОКТОР МАДРИМОВ\" with a doctor icon. A cartoon finger taps the golden card.\n7. ARRIVAL. A thick golden pillar of light slams down next to the hero, the doctor lands inside it in a heroic pose, a shockwave ring of light pushes all enemies back, golden sparkles everywhere.\n8. SKILLS. The doctor helps the hero stand straight, a gentle hand on his back. Three glowing skill icons orbit them with labels \"ОСМОТР\", \"ПРИЧИНА\", \"ИНДИВИДУАЛЬНЫЙ ПЛАН\". Blue energy waves turn the attacking chairs, laptops and cars into pink hearts and sparkles, the smartphone boss bursts into hearts. The health bar fills up to green.\n9. END CARD. The hero stands upright and smiling next to the doctor on the bright plaza, confetti falling. A clean white rounded panel at the bottom with the text \"ИЛЬЯ МАДРИМОВ\", below it \"ОСТЕОПАТИЯ · МАНУАЛЬНАЯ ТЕРАПИЯ · ДУБАЙ\", and a big green rounded button \"ЗАПИСАТЬСЯ\", with small text under it \"Напиши в Direct\".\n\nText rules: render each quoted text exactly once, verbatim, in bold rounded Cyrillic game font, only in its own panel. No other text, no misspellings, no extra letters.\n\nConstraints: the same hero and the same doctor design in every panel, the same camera angle and art style in every gameplay panel. Family-friendly: no blood, no injuries shown, no bones, no medical instruments, no prices, no logos, no watermark, no signature.",
+      "prompt_file": "prompts/madrimov-spine-survivors-storyboard-4k.txt",
+      "service": "Atlas Cloud",
+      "service_model_url": "https://www.atlascloud.ai/models/openai/gpt-image-2/text-to-image",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "office-comic-povyshenie-snob",
       "file": "images/office-comic-povyshenie-snob.jpg",

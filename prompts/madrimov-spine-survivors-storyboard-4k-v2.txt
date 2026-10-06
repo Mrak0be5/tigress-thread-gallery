@@ -1,0 +1,12 @@
+Two input images. Image 1: a finished 3x3 storyboard sheet for a casual mobile game ad (nine vertical panels). Image 2: real photo reference of the doctor character (identity and outfit reference only).
+
+Edit Image 1: change only the DOCTOR character so he clearly matches the man in Image 2, translated into the same chunky stylized casual 3D game style as the rest of the sheet. The doctor appears in panels 6 (portrait on the golden card), 7, 8 and 9.
+
+New doctor design (identical in every panel where he appears):
+- big, heavyset, stocky man around 45 years old: very broad shoulders, thick strong arms, large round belly, wide torso, clearly much bigger and heavier than the hero;
+- fully shaved bald head, round full face with fleshy cheeks, light skin with a slightly pink tone, small dark eyes under heavy straight brows, calm serious-friendly look;
+- short full beard and moustache, dark brown with visible grey on the chin, neatly trimmed along the cheeks;
+- bright medium-blue crew-neck t-shirt (azure / cornflower blue, not navy, not scrubs top) with a tiny dark-blue logo on the left chest; royal-blue medical scrub trousers; white sneakers;
+- black smartwatch on the left wrist and a thin black bead bracelet; thin black cord necklace.
+
+Keep everything else exactly the same: the same 3x3 layout and panel order, the hero design, enemies, boss, HUD, effects, golden light pillar, hearts, skill icons, colors, lighting, camera angle and composition, and every piece of text exactly as it is ("СПИНА", "ВОЛНА 1", "ВОЛНА 2", "ВОЛНА БОСС", "27 КГ", "-12", "БИП!", "99+", "СПИНА НА ПРЕДЕЛЕ", "LEVEL UP!", "ТЕРПЕТЬ", "ОТЛОЖИТЬ", "ДОКТОР МАДРИМОВ", "ОСМОТР", "ПРИЧИНА", "ИНДИВИДУАЛЬНЫЙ ПЛАН", "ИЛЬЯ МАДРИМОВ", "ОСТЕОПАТИЯ · МАНУАЛЬНАЯ ТЕРАПИЯ · ДУБАЙ", "ЗАПИСАТЬСЯ", "Напиши в Direct"). Do not take the photo background, curtains, patient, caption text or photographic realism from Image 2 — only the man's face, build and outfit. No new text, no watermark.

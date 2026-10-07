@@ -2,9 +2,29 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-07T01:20+04:00",
+  "updated": "2026-10-07T04:06+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "madrimov-spine-survivors-seedance-30s",
+      "file": "images/madrimov-spine-survivors-seedance-30s.mp4",
+      "source": "madrimov-seedance-30s-20261007.mp4",
+      "title": "Madrimov Spine Survivors - Seedance 2.0 30s",
+      "category": "video",
+      "model": "Seedance 2.0 reference-to-video, 480p x2 (15s+15s), upscaled 1080x1920",
+      "note": "Two 15s clips from the 4K storyboard panels, joined",
+      "date": "2026-10-07 04:06",
+      "pixels": "0x0",
+      "poster": "images/posters/madrimov-spine-survivors-seedance-30s.jpg",
+      "stream": "images/stream/madrimov-spine-survivors-seedance-30s.mp4",
+      "prompt": "Image 1 to image 5 are storyboard panels of one casual mobile game ad, in order. Use them for the characters, the chunky stylized 3D game look, the HUD and the high-angle three-quarter top-down game camera. Recreate their scenes as animated gameplay, one shot per panel.\n\nShot 1 (image 1): the hunched office guy stares at his phone, the huge \"27 КГ\" iron ball swings on its chain and drags his head down, a red warning icon pulses on his lower back.\nCut to shot 2 (image 2): angry office chairs and snapping laptops rush in, he throws paper airplanes, hit sparks and \"-12\" numbers pop.\nCut to shot 3 (image 3): angry toy cars circle him honking, dust trails, red flashes on his back, the health bar drops.\nCut to shot 4 (image 4): the giant smartphone boss stomps in and fires red \"99+\" bubbles, he ducks.\nCut to shot 5 (image 5): he drops to one knee holding his back, the screen edges pulse red, the ring of enemies freezes, slow push-in.\n\nThe camera keeps the same high game angle and smoothly follows the hero. Audio: upbeat chiptune game music building in tension, cartoon hit pops, honks, a heavy boss stomp, a low warning alarm in the last shot. No speech.\n\n\n--- CLIP 2 ---\n\nImage 1 to image 4 are storyboard panels of one casual mobile game ad, in order. Use them for the characters, the chunky stylized 3D game look, the HUD and the high-angle three-quarter top-down game camera. The doctor is the big heavyset bald man with a greying beard, bright blue t-shirt and blue trousers; keep him exactly as drawn.\n\nShot 1 (image 1): the game freezes and dims, \"LEVEL UP!\" bounces in, three cards flip in, a finger taps the glowing golden \"ДОКТОР МАДРИМОВ\" card, it bursts with light.\nCut to shot 2 (image 2): a golden pillar of light slams down, the doctor lands in it with a heavy thud, a shockwave ring knocks all enemies back.\nCut to shot 3 (image 3): the doctor puts a calm hand on the hero's back, the three skill icons orbit them, blue waves turn chairs, laptops, cars and the phone boss into pink hearts and sparkles, the health bar fills to green, the hero straightens up.\nCut to shot 4 (image 4): the hero and the doctor stand side by side smiling, confetti falls, the white end panel slides up with the green \"ЗАПИСАТЬСЯ\" button pulsing.\n\nAudio: chiptune game music, a bright level-up fanfare, a deep impact boom on landing, magical sparkle sounds, a victory jingle at the end. No speech.",
+      "prompt_file": "prompts/madrimov-spine-survivors-seedance-30s.txt",
+      "service": "Atlas Cloud",
+      "service_model_url": "https://www.atlascloud.ai/models/bytedance/seedance-2.0/reference-to-video",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "madrimov-spine-survivors-storyboard-4k-v2",
       "file": "images/madrimov-spine-survivors-storyboard-4k-v2.jpg",

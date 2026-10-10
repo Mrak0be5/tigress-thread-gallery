@@ -2,9 +2,460 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-10T03:51+04:00",
+  "updated": "2026-10-10T20:00+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "dnd-v3-page-3",
+      "file": "images/dnd-v3-page-3.jpg",
+      "source": "page-3.png",
+      "title": "D&D v3, страница 3",
+      "category": "sheet",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3 comic page",
+      "date": "2026-10-10 20:00",
+      "pixels": "1353x1800",
+      "characters": [
+        "Rita",
+        "Yana",
+        "Mira",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-page-2",
+      "file": "images/dnd-v3-page-2.jpg",
+      "source": "page-2.png",
+      "title": "D&D v3, страница 2",
+      "category": "sheet",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3 comic page",
+      "date": "2026-10-10 20:00",
+      "pixels": "1353x1800",
+      "characters": [
+        "Rita",
+        "Yana",
+        "Mira",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-page-1",
+      "file": "images/dnd-v3-page-1.jpg",
+      "source": "page-1.png",
+      "title": "D&D v3, страница 1",
+      "category": "sheet",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3 comic page",
+      "date": "2026-10-10 20:00",
+      "pixels": "1353x1800",
+      "characters": [
+        "Rita",
+        "Yana",
+        "Mira",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-p27",
+      "file": "images/dnd-v3-p27.jpg",
+      "source": "p27.png",
+      "title": "«Двадцать.» — «Считай дважды.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Rita",
+        "Yana",
+        "Mira"
+      ]
+    },
+    {
+      "id": "dnd-v3-p26",
+      "file": "images/dnd-v3-p26.jpg",
+      "source": "p26.png",
+      "title": "«Двадцать. Крит. Не дёргайся, я считаю урон.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Rita",
+        "Yana",
+        "Mira",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-p25",
+      "file": "images/dnd-v3-p25.jpg",
+      "source": "p25.png",
+      "title": "«Отойди. Свет закрыл.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Mira",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-p24",
+      "file": "images/dnd-v3-p24.jpg",
+      "source": "p24.png",
+      "title": "«Кость ушла. Не дёргай.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Mira",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-p23",
+      "file": "images/dnd-v3-p23.jpg",
+      "source": "p23.png",
+      "title": "«Кидаю.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Mira"
+      ]
+    },
+    {
+      "id": "dnd-v3-p22",
+      "file": "images/dnd-v3-p22.jpg",
+      "source": "p22.png",
+      "title": "«Не трогай лист. Тут инициатива.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Yana",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-p21",
+      "file": "images/dnd-v3-p21.jpg",
+      "source": "p21.png",
+      "title": "«Ещё хит. Подожди, я пишу.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Rita"
+      ]
+    },
+    {
+      "id": "dnd-v3-p20",
+      "file": "images/dnd-v3-p20.jpg",
+      "source": "p20.png",
+      "title": "«Я уже на клетке. Не толкай.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Yana",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-p19",
+      "file": "images/dnd-v3-p19.jpg",
+      "source": "p19.png",
+      "title": "«В скрытности так нельзя.» — «Можно. Ты правило не читала.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Rita",
+        "Yana",
+        "Mira"
+      ]
+    },
+    {
+      "id": "dnd-v3-p18",
+      "file": "images/dnd-v3-p18.jpg",
+      "source": "p18.png",
+      "title": "«Вынул. Я ещё смотрю кость.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Rita",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-p17",
+      "file": "images/dnd-v3-p17.jpg",
+      "source": "p17.png",
+      "title": "«Миника не сдвинь.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Rita"
+      ]
+    },
+    {
+      "id": "dnd-v3-p16",
+      "file": "images/dnd-v3-p16.jpg",
+      "source": "p16.png",
+      "title": "«Четырнадцать. Попала.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Rita",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-p15",
+      "file": "images/dnd-v3-p15.jpg",
+      "source": "p15.png",
+      "title": "«Мой выстрел. Лишь бы не единица.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Rita"
+      ]
+    },
+    {
+      "id": "dnd-v3-p14",
+      "file": "images/dnd-v3-p14.jpg",
+      "source": "p14.png",
+      "title": "«Двенадцать и четыре. Шестнадцать.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Mira",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-p13",
+      "file": "images/dnd-v3-p13.jpg",
+      "source": "p13.png",
+      "title": "«Не тряси стол. Собьёшь столбик.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Mira"
+      ]
+    },
+    {
+      "id": "dnd-v3-p12",
+      "file": "images/dnd-v3-p12.jpg",
+      "source": "p12.png",
+      "title": "«Ах. Пишу.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Mira",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-p11",
+      "file": "images/dnd-v3-p11.jpg",
+      "source": "p11.png",
+      "title": "«Стою вот тут.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Yana"
+      ]
+    },
+    {
+      "id": "dnd-v3-p10",
+      "file": "images/dnd-v3-p10.jpg",
+      "source": "p10.png",
+      "title": "«Вынул. Я чуть единицу не скинула.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Yana",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-p09",
+      "file": "images/dnd-v3-p09.jpg",
+      "source": "p09.png",
+      "title": "«Вы орёте. Я урон не слышу.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Mira"
+      ]
+    },
+    {
+      "id": "dnd-v3-p08",
+      "file": "images/dnd-v3-p08.jpg",
+      "source": "p08.png",
+      "title": "«Всё. Дай докинуть.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Yana",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-p07",
+      "file": "images/dnd-v3-p07.jpg",
+      "source": "p07.png",
+      "title": "«Встаю сюда. Две клетки.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Yana"
+      ]
+    },
+    {
+      "id": "dnd-v3-p06",
+      "file": "images/dnd-v3-p06.jpg",
+      "source": "p06.png",
+      "title": "«Не сбей клетку. Я считаю.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Yana",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-p05",
+      "file": "images/dnd-v3-p05.jpg",
+      "source": "p05.png",
+      "title": "«Тут дверь. Ломаем?»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Rita",
+        "Yana"
+      ]
+    },
+    {
+      "id": "dnd-v3-p04",
+      "file": "images/dnd-v3-p04.jpg",
+      "source": "p04.png",
+      "title": "«Кидаю ещё. Не дёргай.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Rita",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-p03",
+      "file": "images/dnd-v3-p03.jpg",
+      "source": "p03.png",
+      "title": "«Тише. Я дописываю заклинание.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Rita"
+      ]
+    },
+    {
+      "id": "dnd-v3-p02",
+      "file": "images/dnd-v3-p02.jpg",
+      "source": "p02.png",
+      "title": "«Семнадцать. Больно. Это попадание.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Rita",
+        "Borya"
+      ]
+    },
+    {
+      "id": "dnd-v3-p01",
+      "file": "images/dnd-v3-p01.jpg",
+      "source": "p01.png",
+      "title": "«Мой ход. Бью.»",
+      "category": "scene",
+      "model": "Krea 2 SNOFS",
+      "note": "D&D v3, locked face and costume",
+      "date": "2026-10-10 20:00",
+      "pixels": "1024x1280",
+      "characters": [
+        "Rita",
+        "Borya"
+      ]
+    },
     {
       "id": "dnd-v2-page-3",
       "file": "images/dnd-v2-page-3.jpg",

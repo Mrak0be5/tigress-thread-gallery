@@ -2,9 +2,79 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-24T15:05+04:00",
+  "updated": "2026-10-24T15:12+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "wai-orc-gnome-short-table",
+      "file": "images/wai-orc-gnome-short-table.jpg",
+      "source": "2026-10-24-wai-orc-gnome-short-05-table.png",
+      "title": "Орк и гномиха, стол, низкий рост",
+      "category": "scene",
+      "model": "WAI Illustrious SDXL v17 + Orc_WoW_V2_ILXL + gnome-il-v3",
+      "note": "",
+      "date": "2026-10-24 15:12",
+      "pixels": "1344x1024",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "wai-orc-gnome-short-tent",
+      "file": "images/wai-orc-gnome-short-tent.jpg",
+      "source": "2026-10-24-wai-orc-gnome-short-04-tent.png",
+      "title": "Орк и гномиха, шатёр, низкий рост",
+      "category": "scene",
+      "model": "WAI Illustrious SDXL v17 + Orc_WoW_V2_ILXL + gnome-il-v3",
+      "note": "",
+      "date": "2026-10-24 15:12",
+      "pixels": "1024x1344",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "wai-orc-gnome-short-bed",
+      "file": "images/wai-orc-gnome-short-bed.jpg",
+      "source": "2026-10-24-wai-orc-gnome-short-03-bed.png",
+      "title": "Орк и гномиха, кровать, низкий рост",
+      "category": "scene",
+      "model": "WAI Illustrious SDXL v17 + Orc_WoW_V2_ILXL + gnome-il-v3",
+      "note": "",
+      "date": "2026-10-24 15:12",
+      "pixels": "1344x1024",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "wai-orc-gnome-short-forge",
+      "file": "images/wai-orc-gnome-short-forge.jpg",
+      "source": "2026-10-24-wai-orc-gnome-short-02-forge.png",
+      "title": "Орк и гномиха, кузница, низкий рост",
+      "category": "scene",
+      "model": "WAI Illustrious SDXL v17 + Orc_WoW_V2_ILXL + gnome-il-v3",
+      "note": "",
+      "date": "2026-10-24 15:12",
+      "pixels": "1344x1024",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "wai-orc-gnome-short-tavern",
+      "file": "images/wai-orc-gnome-short-tavern.jpg",
+      "source": "2026-10-24-wai-orc-gnome-short-01-tavern.png",
+      "title": "Орк и гномиха, трактир, низкий рост",
+      "category": "scene",
+      "model": "WAI Illustrious SDXL v17 + Orc_WoW_V2_ILXL + gnome-il-v3",
+      "note": "",
+      "date": "2026-10-24 15:12",
+      "pixels": "1024x1344",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "wai-orc-gnome-notusk-table",
       "file": "images/wai-orc-gnome-notusk-table.jpg",

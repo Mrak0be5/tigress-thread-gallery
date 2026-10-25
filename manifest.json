@@ -2,9 +2,79 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-26T02:40+04:00",
+  "updated": "2026-10-26T03:01+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "wai-tigress-jacket-bench",
+      "file": "images/wai-tigress-jacket-bench.jpg",
+      "source": "2026-10-26-tigress-jacket-bench.png",
+      "title": "Тигрица в куртке, на скамье",
+      "category": "scene",
+      "model": "WAI-Illustrious v1.7, detail tweaker 0.9, detail slider 3.2, tiger lora 0.2",
+      "note": "Короткая морда и куртка. Второй член на животе.",
+      "date": "2026-10-26 03:01",
+      "pixels": "1800x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "wai-tigress-jacket-wall",
+      "file": "images/wai-tigress-jacket-wall.jpg",
+      "source": "2026-10-26-tigress-jacket-wall.png",
+      "title": "Тигрица в куртке, на корточках",
+      "category": "scene",
+      "model": "WAI-Illustrious v1.7, detail tweaker 0.9, detail slider 3.2, tiger lora 0.2",
+      "note": "Короткая морда, куртка и юбка. Член снаружи.",
+      "date": "2026-10-26 03:01",
+      "pixels": "1800x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "wai-tigress-jacket-lap",
+      "file": "images/wai-tigress-jacket-lap.jpg",
+      "source": "2026-10-26-tigress-jacket-lap.png",
+      "title": "Тигрица в куртке, на коленях",
+      "category": "scene",
+      "model": "WAI-Illustrious v1.7, detail tweaker 0.9, detail slider 3.2, tiger lora 0.2",
+      "note": "Самое короткое лицо и самый подробный мех. Куртка и юбка.",
+      "date": "2026-10-26 03:01",
+      "pixels": "1800x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "wai-tigress-jacket-fours",
+      "file": "images/wai-tigress-jacket-fours.jpg",
+      "source": "2026-10-26-tigress-jacket-fours.png",
+      "title": "Тигрица в куртке, на четвереньках",
+      "category": "scene",
+      "model": "WAI-Illustrious v1.7, detail tweaker 0.9, detail slider 3.2, tiger lora 0.2",
+      "note": "Короткая морда, куртка и юбка. Лишняя лапа у земли.",
+      "date": "2026-10-26 03:01",
+      "pixels": "1800x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "wai-tigress-jacket-rail",
+      "file": "images/wai-tigress-jacket-rail.jpg",
+      "source": "2026-10-26-tigress-jacket-rail.png",
+      "title": "Тигрица в куртке, перила",
+      "category": "scene",
+      "model": "WAI-Illustrious v1.7, detail tweaker 0.9, detail slider 3.2, tiger lora 0.2",
+      "note": "Короткая морда, открытая кожаная куртка и миниюбка. Партнёр в коже, без головы волка.",
+      "date": "2026-10-26 03:01",
+      "pixels": "1800x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "wai-tigress-wolf-bench",
       "file": "images/wai-tigress-wolf-bench.jpg",

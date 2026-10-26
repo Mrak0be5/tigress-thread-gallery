@@ -2,9 +2,37 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-26T04:55+04:00",
+  "updated": "2026-10-26T15:02+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "wai-tigress-phone-wing",
+      "file": "images/wai-tigress-phone-wing.jpg",
+      "source": "2026-10-26-tigress-phone-wing.png",
+      "title": "Тигрица в кресле, телефон у лица",
+      "category": "scene",
+      "model": "WAI-Illustrious v1.7, detail tweaker 0.8, detail slider 2.6, tiger lora 0.25",
+      "note": "Белое каре, янтарные глаза, играет в телефон.",
+      "date": "2026-10-26 15:02",
+      "pixels": "1799x1799",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
+      "id": "wai-tigress-phone-chair",
+      "file": "images/wai-tigress-phone-chair.jpg",
+      "source": "2026-10-26-tigress-phone-chair.png",
+      "title": "Тигрица в кресле с телефоном",
+      "category": "scene",
+      "model": "WAI-Illustrious v1.7, detail tweaker 0.8, detail slider 2.6, tiger lora 0.25",
+      "note": "Тот же стиль кресла. Смотрит в телефон. Пальцы на телефоне чуть человеческие.",
+      "date": "2026-10-26 15:02",
+      "pixels": "1799x1799",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "wai-redhead-car",
       "file": "images/wai-redhead-car.jpg",

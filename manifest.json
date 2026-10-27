@@ -6,6 +6,20 @@
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
     {
+      "id": "maid-casino-tiger-table-v2",
+      "file": "images/maid-casino-tiger-table-v2.jpg",
+      "source": "fin-table-s2.png",
+      "title": "Tigress maid casino (table), Tiger_Dancer_V3 + Furry_Anthro",
+      "category": "scene",
+      "model": "waiIllustriousSDXL_v170",
+      "note": "",
+      "date": "2026-10-28 00:34",
+      "pixels": "1799x1799",
+      "characters": [
+        "Tigra"
+      ]
+    },
+    {
       "id": "maid-casino-tiger-upside-v2",
       "file": "images/maid-casino-tiger-upside-v2.jpg",
       "source": "fin-upside-s1.png",

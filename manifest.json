@@ -2,9 +2,23 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-28T00:34+04:00",
+  "updated": "2026-10-28T01:09+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "tiger-lora-compare-sheet",
+      "file": "images/tiger-lora-compare-sheet.jpg",
+      "source": "sheetcmp.jpg",
+      "title": "Tiger_Dancer_V3 (cols 1-2) vs Furry_Anthro (cols 3-4), 5 maid poses",
+      "category": "scene",
+      "model": "waiIllustriousSDXL_v170",
+      "note": "",
+      "date": "2026-10-28 01:09",
+      "pixels": "1440x1800",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "maid-casino-tiger-squat-v2",
       "file": "images/maid-casino-tiger-squat-v2.jpg",

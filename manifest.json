@@ -2,9 +2,23 @@
   "title": "Tigress thread gallery",
   "description": "Все генерации из треда: character sheets, 3-view, cowgirl/doggystyle/pool anal, bunny side.",
   "created": "2026-08-09",
-  "updated": "2026-10-29T05:06+04:00",
+  "updated": "2026-10-29T05:17+04:00",
   "local_path": "C:\\Users\\hebp\\galleries\\tigress-thread-gallery",
   "items": [
+    {
+      "id": "jaina-tavern-identity",
+      "file": "images/jaina-tavern-identity.jpg",
+      "source": "s8402.png",
+      "title": "Jaina tavern, identity LoRA",
+      "category": "scene",
+      "model": "Krea 2 Edit SNOFS v1.5 INT8 + identity v1.2",
+      "note": "",
+      "date": "2026-10-29 05:17",
+      "pixels": "1536x1024",
+      "characters": [
+        "Tigra"
+      ]
+    },
     {
       "id": "jaina-tavern-v15",
       "file": "images/jaina-tavern-v15.jpg",
